@@ -1,18 +1,17 @@
 ## ----- DONE BY PRIYAM PAL AND SUBHAS MUKHERJEE -----
 
 # DEPENDENCIES
-
 import sys
 import logging
 from pathlib import Path
 from datetime import datetime
-
 from config import PROFILE_URL
+from src.logger import LoggerSetup
 from config import LINKEDIN_USERNAME 
 from config import LINKEDIN_PASSWORD
 from config import CHROME_DRIVER_PATH
-from src.logger import LoggerSetup
 from src.web_scraper import SocialMediaScraper
+
 
 # LOGGING SETUP
 main_logger = LoggerSetup(logger_name = "scraper_run.py", log_filename_prefix = "scraper_main").get_logger()
