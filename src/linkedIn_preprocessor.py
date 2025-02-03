@@ -4,11 +4,11 @@ from text_preprocessing import TextPreprocessing
 # Initialize the text preprocessing class
 preprocessor = TextPreprocessing()
 
-input_file  = '../data/linkedin_data/post_data.json'
-output_file = '../data/clean_data/linkedin_data/preprocessed_data.json'
+json_data  = '../data/linkedin_data/post_data.json'
+output_data = '../data/clean_data/linkedin_data/preprocessed_data.json'
 
 try:
-    posts_data = json.load(open(input_file))
+    posts_data = json.load(open(json_data))
 
     preprocessed_data = []
 
@@ -27,16 +27,16 @@ try:
         preprocessed_data.append(processed_post)
 
     # Save preprocessed data to preprocessed_data.json
-    with open(output_file, 'w') as outfile:
+    with open(output_data, 'w') as outfile:
         json.dump(preprocessed_data, outfile, indent=4)
 
-    print(f"Preprocessed data saved to {output_file}")
+    print(f"Preprocessed data saved to {output_data}")
 
 except FileNotFoundError:
-    print(f"Error: The file {input_file} was not found.")
+    print(f"Error: The file {json_data} was not found.")
 
 except json.JSONDecodeError:
-    print(f"Error: Failed to decode JSON from {input_file}.")
+    print(f"Error: Failed to decode JSON from {json_data}.")
 
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
