@@ -9,7 +9,7 @@ from config import INSTAGRAM_IMAGE_DATA_PATH, INSTAGRAM_POST_DATA_PATH, INSTAGRA
 
 instgram_logger = LoggerSetup(logger_name="instagram_scraper", log_filename_prefix="InstagramDataScrapper").get_logger()
 
-class InstagramDataScrapper():
+class InstagramDataScrapper:
     """
     A class to scrape Instagram posts for a given user, download images, extract metadata,
     and save post details in a JSON file.
