@@ -5,8 +5,8 @@ from text_preprocessing import TextPreprocessing
 # Initialize the text preprocessing class
 preprocessor = TextPreprocessing()
 
-a  = './data/linkedin_data/post_data.json'
-b = './data/clean_data/linkedin_preprocessed_data.json'
+a  = '../data/linkedin_data/post_data.json'
+b = '../data/clean_data/linkedin_preprocessed_data.json'
 
 try:
     posts_data = json.load(open(a))
@@ -15,17 +15,15 @@ try:
 
     # Process each post
     for post in posts_data:
-        #print(post)
-        cleaned_heading = preprocessor.clean_text(post.get("post_heading", ""))
-        # print(cleaned_heading)
-        cleaned_content = preprocessor.clean_text(post.get("post_content", ""))
-        # print(cleaned_content)
+        cleaned_heading = preprocessor.clean_text(post.get("Post_Heading", ""))
+        cleaned_content = preprocessor.clean_text(post.get("Post_Content", ""))
+
         processed_post = {
             "Cleaned_Heading": cleaned_heading,
             "Cleaned_Content": cleaned_content,
-            "Original_Hashtags": post.get("hashtags", ""),
-            "Image_URLs": post.get("image_URLs", ""),
-            "Image_Paths": post.get("image_paths", "")
+            "Original_Hashtags": post.get("Hashtags", ""),
+            "Image_URLs": post.get("Image URLs", ""),
+            "Image_Paths": post.get("Image Paths", "")
         }
         preprocessed_data.append(processed_post)
 

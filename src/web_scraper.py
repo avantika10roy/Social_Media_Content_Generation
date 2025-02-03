@@ -12,7 +12,9 @@ from config import LINKEDIN_POST_DATA_PATH
 from config import LINKEDIN_LOGIN_PAGE_LINK
 from config import LINKEDIN_IMAGE_DATA_PATH
 from config import LINKEDIN_POST_DATA_FILENAME
+
 from .logger import LoggerSetup
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -123,13 +125,9 @@ class SocialMediaScraper:
                             exist_ok = True)
 
                 output_file   = os.path.join(output_dir, LINKEDIN_POST_DATA_FILENAME)
-                df.to_json(output_file, 
-                           orient       = 'records', 
-                           force_ascii  = False, 
-                           indent       = 4
-                           )
+                df.to_json(output_file, orient= 'records' , force_ascii= False, indent=4)
 
-                scraper_logger.info("Scraping complete. Data saved to post_data.csv")
+                scraper_logger.info("Scraping complete. Data saved to post_data.json")
                 scraper_logger.info(f"Total posts scraped: {len(df)}")
                 return df
             else:
@@ -497,12 +495,12 @@ class SocialMediaScraper:
                     image_urls         = list(set([img['src'] for img in valid_images if img.get('src')]))
                     image_paths        = [self.download_image(url, post_id) for url in image_urls if url]
 
-                    post_data          = {"post_heading": heading,
-                                          "post_content": content if content else "No content",
-                                          "hashtags": ', '.join(hashtags) if hashtags else "No hashtags",
-                                          "emojis": ', '.join(emojis) if emojis else "No emojis",
-                                          "image_URLs": ', '.join(image_urls),
-                                          "image_paths": ', '.join(filter(None, image_paths))
+                    post_data          = {"Post_Heading": heading,
+                                          "Post_Content": content if content else "No content",
+                                          "Hashtags": ', '.join(hashtags) if hashtags else "No hashtags",
+                                          "Emojis": ', '.join(emojis) if emojis else "No emojis",
+                                          "Image URLs": ', '.join(image_urls),
+                                          "Image Paths": ', '.join(filter(None, image_paths))
                                           }
 
                     full_post_content   = f"{heading} {content}".lower()

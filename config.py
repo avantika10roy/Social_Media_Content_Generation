@@ -1,10 +1,10 @@
-LINKEDIN_USERNAME             = "jit@itobuz.com"
-LINKEDIN_PASSWORD             = "Abcd@1234"
+LINKEDIN_USERNAME             = "avantika@itobuz.com"
+LINKEDIN_PASSWORD             = "Avantika@2930"
 LINKEDIN_POST_DATA_FILENAME   = 'post_data.json'
 LINKEDIN_POST_DATA_PATH       = './data/linkedin_data'
 LINKEDIN_IMAGE_DATA_PATH      = './data/linkedin_data/linkedin_images'
 LINKEDIN_LOGIN_PAGE_LINK      = "https://www.linkedin.com/login"
-CHROME_DRIVER_PATH            = "/opt/homebrew/bin/chromedriver"
+CHROME_DRIVER_PATH            = "/usr/local/bin/chromedriver"
 PROFILE_URL                   = "https://www.linkedin.com/company/itobuz-technologies-pvt-ltd/posts/?feedView=all"
 INSTAGRAM_USERNAME            = "itobuztechnologies"
 INSTAGRAM_IMAGE_DATA_PATH     = "./data/instagram_data/instagram_images"
