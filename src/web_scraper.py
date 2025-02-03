@@ -126,11 +126,9 @@ class SocialMediaScraper:
                             exist_ok = True)
 
                 output_file   = os.path.join(output_dir, LINKEDIN_POST_DATA_FILENAME)
-                df.to_csv(output_file, 
-                          index    = False, 
-                          encoding = 'utf-8')
+                df.to_json(output_file, orient= 'records' , force_ascii= False, indent=4)
 
-                scraper_logger.info("Scraping complete. Data saved to post_data.csv")
+                scraper_logger.info("Scraping complete. Data saved to post_data.json")
                 scraper_logger.info(f"Total posts scraped: {len(df)}")
                 return df
             else:
