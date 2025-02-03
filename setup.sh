@@ -22,7 +22,7 @@ conda activate social_media_content_env
 # Start a new interactive shell with the activated environment
 # exec bash --rcfile <(echo "source activate social_media_content_env")
 
-source /opt/anaconda3/envs/social_media_content_env/bin/activate  # Activate your virtual environment
 brew install --cask chromedriver
 pip install -r requirements.txt
-python scraper_run.py  # Run the Python script
+
+python scraper_run.py
