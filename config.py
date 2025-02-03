@@ -2,6 +2,7 @@ LINKEDIN_USERNAME             = "jit@itobuz.com"
 LINKEDIN_PASSWORD             = "Abcd@1234"
 LINKEDIN_POST_DATA_FILENAME   = 'post_data.csv'
 LINKEDIN_POST_DATA_PATH       = './data/linkedin_data'
+LINKEDIN_IMAGE_DATA_PATH      = './data/linkedin_data/linkedin_images'
 LINKEDIN_LOGIN_PAGE_LINK      = "https://www.linkedin.com/login"
 CHROME_DRIVER_PATH            = "/opt/homebrew/bin/chromedriver"
 PROFILE_URL                   = "https://www.linkedin.com/company/itobuz-technologies-pvt-ltd/posts/?feedView=all"

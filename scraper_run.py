@@ -15,7 +15,7 @@ from logger import LoggerSetup
 from src.web_scraper import SocialMediaScraper
 
 # LOGGING SETUP
-main_logger = LoggerSetup(logger_name = "Run.py", log_filename_prefix = "main").get_logger()
+main_logger = LoggerSetup(logger_name = "scraper_run.py", log_filename_prefix = "scraper_main").get_logger()
 
 def main():
     """
