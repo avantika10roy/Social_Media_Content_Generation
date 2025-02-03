@@ -1,7 +1,6 @@
 ## ----- DONE BY PRIYAM PAL AND SUBHAS MUKHERJEE -----
 
 # DEPENDENCIES
-
 import re
 import os
 import time
@@ -9,14 +8,11 @@ import emoji
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
-
 from config import LINKEDIN_POST_DATA_PATH
 from config import LINKEDIN_LOGIN_PAGE_LINK
 from config import LINKEDIN_IMAGE_DATA_PATH
 from config import LINKEDIN_POST_DATA_FILENAME
-
 from .logger import LoggerSetup
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
