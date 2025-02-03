@@ -1,0 +1,7 @@
+emoji
+requests
+pandas
+beautifulsoup4
+
+selenium
+webdriver-manager
