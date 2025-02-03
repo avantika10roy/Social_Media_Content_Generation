@@ -171,3 +171,4 @@ cython_debug/
 .pypirc
 
 data/
+data/instagram_post_data.json

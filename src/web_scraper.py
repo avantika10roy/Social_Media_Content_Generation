@@ -12,7 +12,9 @@ from config import LINKEDIN_POST_DATA_PATH
 from config import LINKEDIN_LOGIN_PAGE_LINK
 from config import LINKEDIN_IMAGE_DATA_PATH
 from config import LINKEDIN_POST_DATA_FILENAME
+
 from .logger import LoggerSetup
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -123,13 +125,9 @@ class SocialMediaScraper:
                             exist_ok = True)
 
                 output_file   = os.path.join(output_dir, LINKEDIN_POST_DATA_FILENAME)
-                df.to_json(output_file, 
-                           orient       = 'records', 
-                           force_ascii  = False, 
-                           indent       = 4
-                           )
+                df.to_json(output_file, orient= 'records' , force_ascii= False, indent=4)
 
-                scraper_logger.info("Scraping complete. Data saved to post_data.csv")
+                scraper_logger.info("Scraping complete. Data saved to post_data.json")
                 scraper_logger.info(f"Total posts scraped: {len(df)}")
                 return df
             else:
@@ -509,7 +507,7 @@ class SocialMediaScraper:
                     is_duplicate        = False
             
                     for existing_post in scraped_data:
-                        existing_content = f"{existing_post['Post_Heading']} {existing_post['Post_Content']}".lower()
+                        existing_content = f"{existing_post['post_heading']} {existing_post['post_content']}".lower()
                         
                         if (full_post_content in existing_content) or (existing_content in full_post_content):
                             is_duplicate = True
