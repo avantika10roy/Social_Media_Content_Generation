@@ -15,7 +15,7 @@ from config import LINKEDIN_LOGIN_PAGE_LINK
 from config import LINKEDIN_IMAGE_DATA_PATH
 from config import LINKEDIN_POST_DATA_FILENAME
 
-from logger import LoggerSetup
+from .logger import LoggerSetup
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -501,8 +501,8 @@ class SocialMediaScraper:
                                           "Post_Content": content if content else "No content",
                                           "Hashtags": ', '.join(hashtags) if hashtags else "No hashtags",
                                           "Emojis": ', '.join(emojis) if emojis else "No emojis",
-                                          "Image URLs": ', '.join(image_urls),
-                                          "Image Paths": ', '.join(filter(None, image_paths))
+                                          "Image_URLs": ', '.join(image_urls),
+                                          "Image_Paths": ', '.join(filter(None, image_paths))
                                           }
 
                     full_post_content   = f"{heading} {content}".lower()
