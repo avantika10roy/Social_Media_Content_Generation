@@ -15,7 +15,7 @@ from config import LINKEDIN_LOGIN_PAGE_LINK
 from config import LINKEDIN_IMAGE_DATA_PATH
 from config import LINKEDIN_POST_DATA_FILENAME
 
-from logger import LoggerSetup
+from .logger import LoggerSetup
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
