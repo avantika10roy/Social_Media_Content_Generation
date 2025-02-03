@@ -85,26 +85,4 @@ class TextPreprocessing:
             preprocessor_logger.error(f"Text cleaning error: {e}", exc_info=True)
             raise Exception(f"Text cleaning error: {e}")
 
-    def save_to_csv(self, text_list, filename="cleaned_text.csv"):
-        """
-        Save cleaned tokens to a CSV file.
-
-        Arguments:
-        ----------
-        text_list {list} : List of text samples to be tokenized and saved.
-        filename {str}   : Name of the CSV file to save the cleaned tokens.
-        """
-        try:
-            preprocessor_logger.info(f"Saving cleaned tokens to {filename}...")
-            cleaned_texts = [self.clean_text(text) for text in text_list]
-            df = pd.DataFrame({"Tokenized_Text": cleaned_texts})
-            df.to_csv(filename, index=False)
-
-            preprocessor_logger.info(f"Cleaned tokens successfully saved to {filename}.")
-            print(f"Cleaned tokens saved to {filename}")
-
-        except Exception as e:
-            preprocessor_logger.error(f"Error while saving to CSV: {e}", exc_info=True)
-            raise Exception(f"Error while saving to CSV: {e}")
-
-
+    

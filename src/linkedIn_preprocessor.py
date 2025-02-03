@@ -5,7 +5,7 @@ from text_preprocessing import TextPreprocessing
 preprocessor = TextPreprocessing()
 
 json_data  = '../data/linkedin_data/post_data.json'
-output_data = '../data/clean_data/linkedin_data/preprocessed_data.json'
+output_data = '../data/clean_data/preprocessed_data.json'
 
 try:
     posts_data = json.load(open(json_data))
