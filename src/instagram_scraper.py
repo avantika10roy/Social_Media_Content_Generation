@@ -4,70 +4,60 @@ import os
 import json
 import time
 import random
+from .logger import LoggerSetup
+from config import INSTAGRAM_IMAGE_DATA_PATH, INSTAGRAM_POST_DATA_PATH, INSTAGRAM_USERNAME
 
-class InstaDataScrapper():
+instgram_logger = LoggerSetup(logger_name="instagram_scraper", log_filename_prefix="InstagramDataScrapper").get_logger()
+
+class InstagramDataScrapper():
     """
     A class to scrape Instagram posts for a given user, download images, extract metadata,
     and save post details in a JSON file.
     """
-    def __init__(self, user: str, image_dir: str = '../data/instagram_images', data_path: str = '../data/instagram_post_data.json'):
+    def __init__(self, user: str = INSTAGRAM_USERNAME, image_dir: str = INSTAGRAM_IMAGE_DATA_PATH, data_path: str = INSTAGRAM_POST_DATA_PATH):
         """
         Initializes the scraper with a username, directory for images, and data file path.
-
-        :param user: Instagram username to scrape.
-        :param image_dir: Directory to save images.
-        :param data_path: Path to save post details in JSON format.
         """
         self.user = user
         self.image_dir = image_dir
         self.data_path = data_path
         self.loader = instaloader.Instaloader()
+        instgram_logger.info(f"Initialized InstagramDataScrapper for user: {self.user}")
     
     def extract_hashtags(self, caption):
-        """
-        Extracts hashtags from a given caption.
-
-        :param caption: Post caption as a string.
-        :return: List of hashtags.
-        """
-        if caption:
-            return re.findall(r"#\w+", caption)
-        return []
+        """Extracts hashtags from a caption."""
+        try:
+            return re.findall(r"#\w+", caption) if caption else []
+        except Exception as e:
+            instgram_logger.error(f"Error extracting hashtags: {e}")
+            return []
         
     def remove_hashtags(self, caption):
-        """
-        Removes hashtags from a caption.
-
-        :param caption: Post caption as a string.
-        :return: Caption without hashtags.
-        """
-        if caption:
-            return re.sub(r"#\w+", "", caption).strip()
-        return ""
+        """Removes hashtags from a caption."""
+        try:
+            return re.sub(r"#\w+", "", caption).strip() if caption else ""
+        except Exception as e:
+            instgram_logger.error(f"Error removing hashtags: {e}")
+            return caption
     
     def split_at_first_delimiter(self, text):
-        """
-        Splits text at the first occurrence of a delimiter (., !, ?).
-        The first sentence is used as the heading, and the rest as content.
-
-        :param text: Input text.
-        :return: Tuple containing (heading, content).
-        """
-        match = re.search(r'[.!?]', text)
-        if match:
-            split_index = match.start() + 1
-            heading = text[:split_index].strip()
-            content = text[split_index:].strip()
-            content = re.sub(r'^[.!?\s]+', '', content)
-            return heading, content
-        else:
-            return text.strip(), ""
-
-    def insta_scrapper(self):
-        """
-        Scrapes Instagram posts, downloads images, and saves metadata.
-        """
+        """Splits text at the first occurrence of a delimiter (., !, ?)."""
         try:
+            match = re.search(r'[.!?]', text)
+            if match:
+                split_index = match.start() + 1
+                heading = text[:split_index].strip()
+                content = re.sub(r'^[.!?\s]+', '', text[split_index:].strip())
+                return heading, content
+            return text.strip(), ""
+        except Exception as e:
+            instgram_logger.error(f"Error splitting text: {e}")
+            return text, ""
+
+    def instagram_scrapper(self):
+        """Scrapes Instagram posts, downloads images, and saves metadata."""
+        try:
+            instgram_logger.info(f"Starting scraping for user: {self.user}")
             profile = instaloader.Profile.from_username(self.loader.context, self.user)
             posts = profile.get_posts()
             os.makedirs(self.image_dir, exist_ok=True)
@@ -108,19 +98,19 @@ class InstaDataScrapper():
                     }
                     
                     post_data.append(post_info)
-                    print(f"Downloaded Post {i+1}: {', '.join(image_paths)}")
+                    instgram_logger.info(f"Successfully downloaded post {i+1}: {', '.join(image_paths)}")
                 except Exception as e:
-                    print(f"Error downloading post {i+1}: {str(e)}")
+                    instgram_logger.error(f"Error downloading post {i+1}: {str(e)}")
             
             with open(self.data_path, mode="w", encoding="utf-8") as json_file:
                 json.dump(post_data, json_file, indent=4, ensure_ascii=False)
             
-            print(f"All images saved in '{self.image_dir}'")
-            print(f"Post details saved in '{self.data_path}'")
+            instgram_logger.info(f"All images saved in '{self.image_dir}'")
+            instgram_logger.info(f"Post details saved in '{self.data_path}'")
         
         except instaloader.exceptions.ProfileNotExistsException:
-            print(f"Error: Profile '{self.user}' does not exist.")
+            instgram_logger.error(f"Error: Profile '{self.user}' does not exist.")
         except instaloader.exceptions.ConnectionException:
-            print("Error: Unable to connect to Instagram. Check your internet connection.")
+            instgram_logger.error("Error: Unable to connect to Instagram. Check your internet connection.")
         except Exception as e:
-            print(f"An unexpected error occurred: {str(e)}")
+            instgram_logger.error(f"An unexpected error occurred: {str(e)}")
