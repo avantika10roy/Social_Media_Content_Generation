@@ -1,4 +1,4 @@
-
+# Dependencies
 import json
 from text_preprocessing import TextPreprocessing
 
@@ -6,10 +6,10 @@ from text_preprocessing import TextPreprocessing
 preprocessor = TextPreprocessing()
 
 a  = '../data/linkedin_data/post_data.json'
-b = '../data/clean_data/linkedin_preprocessed_data.json'
+b  = '../data/clean_data/linkedin_preprocessed_data.json'
 
 try:
-    posts_data = json.load(open(a))
+    posts_data        = json.load(open(a))
 
     preprocessed_data = []
 
@@ -18,13 +18,12 @@ try:
         cleaned_heading = preprocessor.clean_text(post.get("Post_Heading", ""))
         cleaned_content = preprocessor.clean_text(post.get("Post_Content", ""))
 
-        processed_post = {
-            "Cleaned_Heading": cleaned_heading,
-            "Cleaned_Content": cleaned_content,
-            "Original_Hashtags": post.get("Hashtags", ""),
-            "Image_URLs": post.get("Image URLs", ""),
-            "Image_Paths": post.get("Image Paths", "")
-        }
+        processed_post  = {"Cleaned_Heading"   : cleaned_heading,
+                           "Cleaned_Content"   : cleaned_content,
+                           "Original_Hashtags" : post.get("Hashtags", ""),
+                           "Image_URLs"        : post.get("Image URLs", ""),
+                           "Image_Paths"       : post.get("Image Paths", "")
+                          }
         preprocessed_data.append(processed_post)
 
     # Save preprocessed data to preprocessed_data.json
