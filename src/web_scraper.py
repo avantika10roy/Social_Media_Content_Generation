@@ -5,6 +5,7 @@
 import re
 import os
 import time
+import emoji
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -64,7 +65,7 @@ class SocialMediaScraper:
             scraper_logger.info("LinkedIn Scraper Class Initiated")
             
         except Exception as e:
-            scraper_logger.error(f"An Error Occured: {str(e)}")
+            scraper_logger.error(f"An Error Occured: {repr(e)}")
 
     def setup_driver(self, chromedriver_path: str) -> None: 
         """
@@ -97,7 +98,7 @@ class SocialMediaScraper:
             scraper_logger.info("WebDriver Initialized")
             
         except Exception as e:
-            scraper_logger.error(f"An Error Occured: {str(e)}")
+            scraper_logger.error(f"An Error Occured: {repr(e)}")
 
     
     def linkedin_scraper(self) -> pd.DataFrame:
@@ -126,9 +127,11 @@ class SocialMediaScraper:
                             exist_ok = True)
 
                 output_file   = os.path.join(output_dir, LINKEDIN_POST_DATA_FILENAME)
-                df.to_csv(output_file, 
-                          index    = False, 
-                          encoding = 'utf-8')
+                df.to_json(output_file, 
+                           orient       = 'records', 
+                           force_ascii  = False, 
+                           indent       = 4
+                           )
 
                 scraper_logger.info("Scraping complete. Data saved to post_data.csv")
                 scraper_logger.info(f"Total posts scraped: {len(df)}")
@@ -138,7 +141,7 @@ class SocialMediaScraper:
                 return pd.DataFrame()
             
         except Exception as e:
-            scraper_logger.error(f"An Error Occured: {str(e)}")
+            scraper_logger.error(f"An Error Occured: {repr(e)}")
                 
         finally:
             if self.driver:
@@ -174,7 +177,7 @@ class SocialMediaScraper:
             scraper_logger.info("Login Successful")
             
         except Exception as e:
-            scraper_logger.error(f"An Error Occured: {str(e)}")
+            scraper_logger.error(f"An Error Occured: {repr(e)}")
 
     def _scroll_down(self) -> None:
         
@@ -242,17 +245,25 @@ class SocialMediaScraper:
             list       : List of unique hashtags found in the text
         """
         
-        hashtags          = re.findall(r'(?:hashtag)?#\w+', text)
-        cleaned_hashtags  = list(set
-                                 (
-                                     [
-                                         tag.replace('hashtag#', '#') 
-                                         for tag in hashtags
-                                         ]
+        try:
+            hashtags          = re.findall(r'(?:hashtag)?#\w+', text)
+            cleaned_hashtags  = list(set
+                                     (
+                                         [
+                                             tag.replace('hashtag#', 
+                                                         '#'
+                                                         ) 
+                                             for tag in hashtags
+                                             ]
+                                         )
                                      )
-                                 )
+            
+            scraper_logger.info("Hastags Extracted")
+            
+            return cleaned_hashtags
         
-        return cleaned_hashtags
+        except Exception as e:
+            scraper_logger.error(f"Error extracting Hastags: {repr(e)}")
 
     @staticmethod
     def _clean_text(text: str) -> str:
@@ -267,12 +278,23 @@ class SocialMediaScraper:
         --------
             str        : Cleaned text
         """
-        
-        text          = re.sub(r'hashtag#\w+', '', text)
-        text          = re.sub(r'#\w+', '', text)
-        text          = re.sub(r'\.{3,}', '.', text)
-        
-        return ' '.join(text.split()).strip()
+        try:
+            text         = re.sub(r'hashtag#\w+', '', text) 
+            text         = re.sub(r'#\w+', '', text) 
+
+            text         = emoji.replace_emoji(text, '')
+
+            text         = re.sub(r'\.{3,}', '.', text)
+
+            cleaned_text = ' '.join(text.split()).strip()
+
+            scraper_logger.info("Text Cleaned")
+            
+            return cleaned_text
+
+        except Exception as e:
+            scraper_logger.error(f"Error cleaning text: {repr(e)}")
+            return text 
 
 
     @staticmethod
@@ -288,18 +310,24 @@ class SocialMediaScraper:
         ---------
             tuple       : (heading, content) pair
         """
+        try:
         
-        match            = re.search(r'[.!?]', text)
+            match            = re.search(r'[.!?]', text)
         
-        if match:
-            split_index  = match.start() + 1
-            heading      = text[:split_index].strip()
-            content      = text[split_index:].strip()
-            content      = re.sub(r'^[.!?\s]+', '', content)
-            return heading, content
+            if match:
+                split_index  = match.start() + 1
+                heading      = text[:split_index].strip()
+                content      = text[split_index:].strip()
+                content      = re.sub(r'^[.!?\s]+', '', content)
+                scraper_logger.info("Text Splitted into Heading and Content")
+                return heading, content
         
-        else:
-            return text.strip(), ""
+            else:
+                scraper_logger.warning("No Text Splitted into Heading and Content")
+                return text.strip(), ""
+            
+        except Exception as e:
+            scraper_logger.error(f"An Error Occured: {repr(e)}")
 
     @staticmethod
     def _extract_emojis(text: str) -> tuple:
@@ -314,56 +342,111 @@ class SocialMediaScraper:
         --------
             tuple      : (cleaned_text, emojis) pair
         """
-        emoji_pattern = re.compile(
-            "["
-            "\U0001F600-\U0001F64F"  # Emoticons
-            "\U0001F300-\U0001F5FF"  # Symbols & pictographs
-            "\U0001F680-\U0001F6FF"  # Transport & map symbols
-            "\U0001F700-\U0001F77F"  # Alchemical symbols
-            "\U0001F780-\U0001F7FF"  # Geometric shapes
-            "\U0001F800-\U0001F8FF"  # Supplemental arrows
-            "\U0001F900-\U0001F9FF"  # Supplemental symbols & pictographs
-            "\U0001FA00-\U0001FA6F"  # Chess symbols
-            "\U0001FA70-\U0001FAFF"  # Miscellaneous symbols
-            "\U00002702-\U000027B0"  # Dingbats
-            "\U000024C2-\U0001F251"  # Enclosed characters
-            "]+", 
-            flags = re.UNICODE
-        )
+        try:
+            emojis = [e['emoji'] for e in emoji.emoji_list(text)]
+            scraper_logger.info("Emoji Extracted")
+            return list(set(emojis))
         
-        emojis        = emoji_pattern.findall(text)  
-        cleaned_text  = emoji_pattern.sub('', text)  
-        
-        return cleaned_text.strip(), ''.join(emojis)
+        except Exception as e:
+            scraper_logger.error(f"Error extracting emojis: {repr(e)}")
+            return []
     
     @staticmethod
     def create_image_folder():
-        folder_path = LINKEDIN_IMAGE_DATA_PATH
+        """
+        Function to Create Image Folder
+        
+        Arguments:
+        ----------
+            None
+            
+        Returns:
+        --------
+            None
+        """
+        
+        folder_path   = LINKEDIN_IMAGE_DATA_PATH
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
 
     @staticmethod
     def is_valid_image(img_element):
-        src                = img_element.get('src', '').lower()
-        invalid_indicators = ['logo', 'profile', 'company', 'brand', 'avatar', '8fz8rainn3wh49ad6ef9gotj1']
-        return not any(indicator in src for indicator in invalid_indicators)
+        """
+        Checks whether an image element contains a valid image source.
+        
+        Arguments:
+        -----------
+            img_element (dict): A dictionary representing an HTML image element 
+                                (e.g., BeautifulSoup tag or a similar structure).
 
+        Returns:
+        --------
+            bool              : True if the image source is considered valid, False otherwise.
+        """
+        
+        try:
+            
+            src                = img_element.get('src', '').lower()
+            invalid_indicators = ['logo', 
+                                  'profile', 
+                                  'company', 
+                                  'brand', 
+                                  'avatar', 
+                                  '8fz8rainn3wh49ad6ef9gotj1'
+                                  ]
+            
+            scraper_logger.info("Image is Valid")
+        
+            return not any(indicator in src for indicator in invalid_indicators)
+        
+        except Exception as e:
+            scraper_logger.error(f"Error Occured capturing image: {repr(e)}")
+    
     def download_image(self, image_url, post_id):
+        """
+        Downloads an image from the given URL and saves it locally with a filename 
+        that includes the post ID.
+
+        Arguments:
+        ----------
+            image_url (str): The URL of the image to be downloaded.
+            post_id (str): The unique identifier for the post associated with the image.
+
+        Returns:
+        --------
+            str: The local file path of the downloaded image if successful.
+            None: If the download fails or an error occurs.
+
+        Logs:
+        -----
+            - Info: Logs the successful download of an image.
+            - Warning: Logs a failure if the image cannot be downloaded.
+            - Error: Logs any exceptions encountered during the download process.
+        """     
         try:
             response       = requests.get(image_url, stream=True)
+            
             if response.status_code == 200:
                 image_name = f"{post_id}_{image_url.split('/')[-1].split('?')[0]}.png"
                 image_path = os.path.join(LINKEDIN_IMAGE_DATA_PATH, image_name)
+                
                 with open(image_path, 'wb') as file:
+                
                     for chunk in response.iter_content(1024):
                         file.write(chunk)
-                print(f"Downloaded: {image_name}")
+                
+                scraper_logger.info(f"Downloaded: {image_name}")
+                
                 return image_path
+            
             else:
-                print(f"Failed to download image from {image_url}")
+                scraper_logger.warning(f"Failed to download image from {image_url}")
+            
                 return None
         except Exception as e:
-            print(f"Error downloading image: {e}")
+            
+            scraper_logger.error(f"Error downloading image: {e}")
+            
             return None
 
     def _scrape_linkedin_posts(self) -> list:
@@ -374,69 +457,77 @@ class SocialMediaScraper:
         ---------
             list  : List of dictionaries containing unique post data
         """
-        self.driver.get(self.profile_url)
-        self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "feed-shared-update-v2")))
-        self._scroll_down()
+        
+        try:
+            
+            self.driver.get(self.profile_url)
+            self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "feed-shared-update-v2")))
+            self._scroll_down()
 
-        page_source                  = self.driver.page_source
-        soup                         = BeautifulSoup(page_source, 'html.parser')
-        posts = soup.find_all('div', {'class': ['feed-shared-update-v2', 'update-components-text']})
+            page_source               = self.driver.page_source
+            soup                      = BeautifulSoup(page_source, 'html.parser')
+            posts                     = soup.find_all('div', {'class': ['feed-shared-update-v2', 'update-components-text']})
     
-        seen_contents = set()
-        scraped_data = []
+            seen_contents             = set()
+            scraped_data              = list()
 
-        self.create_image_folder()
+            self.create_image_folder()
 
-        for post_id, post in enumerate(posts, start=1):
-            try:
-                content_element = post.find('span', {'class': 'break-words'})
-                if not content_element:
+            for post_id, post in enumerate(posts, start = 1):
+                try:
+                    content_element   = post.find('span', {'class': 'break-words'})
+                    if not content_element:
+                        continue
+            
+                    full_text          = content_element.get_text(strip=True)
+            
+                    content_identifier = full_text[:100].strip() 
+            
+                    if content_identifier in seen_contents:
+                        continue
+            
+                    seen_contents.add(content_identifier)
+            
+                    hashtags           = self._extract_hashtags(full_text)
+                    cleaned_text       = self._clean_text(full_text)
+                    emojis             = self._extract_emojis(full_text)
+                    heading, content   = self._split_at_first_delimiter(cleaned_text)
+
+                    if not heading.strip():
+                        continue
+
+                    image_elements     = post.find_all('img', {'class': 'ivm-view-attr__img--centered'})
+                    valid_images       = [img for img in image_elements if self.is_valid_image(img)]
+                    image_urls         = list(set([img['src'] for img in valid_images if img.get('src')]))
+                    image_paths        = [self.download_image(url, post_id) for url in image_urls if url]
+
+                    post_data          = {"Post_Heading": heading,
+                                          "Post_Content": content if content else "No content",
+                                          "Hashtags": ', '.join(hashtags) if hashtags else "No hashtags",
+                                          "Emojis": ', '.join(emojis) if emojis else "No emojis",
+                                          "Image URLs": ', '.join(image_urls),
+                                          "Image Paths": ', '.join(filter(None, image_paths))
+                                          }
+
+                    full_post_content   = f"{heading} {content}".lower()
+                    is_duplicate        = False
+            
+                    for existing_post in scraped_data:
+                        existing_content = f"{existing_post['Post_Heading']} {existing_post['Post_Content']}".lower()
+                        
+                        if (full_post_content in existing_content) or (existing_content in full_post_content):
+                            is_duplicate = True
+                            break
+
+                    if not is_duplicate:
+                        scraped_data.append(post_data)
+
+                except Exception as e:
+                    scraper_logger.error(f"Error extracting post: {e}")
                     continue
-            
-                full_text = content_element.get_text(strip=True)
-            
-                content_identifier = full_text[:100].strip() 
-            
-                if content_identifier in seen_contents:
-                    continue
-            
-                seen_contents.add(content_identifier)
-            
-                hashtags = self._extract_hashtags(full_text)
-                cleaned_text = self._clean_text(full_text)
-                heading, content = self._split_at_first_delimiter(cleaned_text)
 
-                if not heading.strip():
-                    continue
-
-                image_elements = post.find_all('img', {'class': 'ivm-view-attr__img--centered'})
-                valid_images = [img for img in image_elements if self.is_valid_image(img)]
-                image_urls = list(set([img['src'] for img in valid_images if img.get('src')]))
-                image_paths = [self.download_image(url, post_id) for url in image_urls if url]
-
-                post_data = {
-                    "Post Caption/Heading": heading,
-                    "Post Content": content if content else "No content",
-                    "Hashtags": ', '.join(hashtags) if hashtags else "No hashtags",
-                    "Image URLs": ', '.join(image_urls),
-                    "Image Paths": ', '.join(filter(None, image_paths))
-                }
-
-                full_post_content = f"{heading} {content}".lower()
-                is_duplicate = False
-            
-                for existing_post in scraped_data:
-                    existing_content = f"{existing_post['Post Caption/Heading']} {existing_post['Post Content']}".lower()
-                    if (full_post_content in existing_content) or (existing_content in full_post_content):
-                        is_duplicate = True
-                        break
-
-                if not is_duplicate:
-                    scraped_data.append(post_data)
-
-            except Exception as e:
-                print(f"Error extracting post: {e}")
-                continue
-
-        print(f"Total unique posts found: {len(scraped_data)}")
-        return scraped_data
+            scraper_logger.info(f"Total unique posts found: {len(scraped_data)}")
+            return scraped_data
+        
+        except Exception as e:
+            scraper_logger.error(f"Error Occured in Scraping: {str(e)}")
