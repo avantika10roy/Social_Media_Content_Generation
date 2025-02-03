@@ -214,7 +214,7 @@ class LinkedInScraper:
 
 if __name__ == "__main__":
     scraper = LinkedInScraper(
-        username="avantika@itobuz.com",
+        username="@itobuz.com",
         password="Avantika@2930",
         profile_url="https://www.linkedin.com/company/itobuz-technologies-pvt-ltd/posts/?feedView=all"
     )

@@ -5,13 +5,16 @@
 import re
 import os
 import time
-import logging
+import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
 from config import LINKEDIN_POST_DATA_PATH
 from config import LINKEDIN_LOGIN_PAGE_LINK
+from config import LINKEDIN_IMAGE_DATA_PATH
 from config import LINKEDIN_POST_DATA_FILENAME
+
+from logger import LoggerSetup
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -20,6 +23,9 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+
+# LOGGING SETUP
+scraper_logger = LoggerSetup(logger_name = "web_scraper.py", log_filename_prefix = "linkedin").get_logger()
 
 class SocialMediaScraper:
     """
@@ -48,11 +54,17 @@ class SocialMediaScraper:
             profile_url (str) : URL to scrape
         """
         
-        self.username    = username
-        self.password    = password
-        self.profile_url = profile_url
-        self.driver      = None
-        self.wait        = None
+        try:
+            self.username    = username
+            self.password    = password
+            self.profile_url = profile_url
+            self.driver      = None
+            self.wait        = None
+            
+            scraper_logger.info("LinkedIn Scraper Class Initiated")
+            
+        except Exception as e:
+            scraper_logger.error(f"An Error Occured: {str(e)}")
 
     def setup_driver(self, chromedriver_path: str) -> None: 
         """
@@ -71,15 +83,21 @@ class SocialMediaScraper:
             WebDriverException      : If ChromeDriver initialization fails
         """
         
-        chrome_options  = Options()
-        chrome_options.add_argument("--start-maximized")
-        chrome_options.add_argument("--disable-notifications")
+        try:
+            chrome_options  = Options()
+            chrome_options.add_argument("--start-maximized")
+            chrome_options.add_argument("--disable-notifications")
         
-        service         = Service(chromedriver_path)
-        self.driver     = webdriver.Chrome(service = service, 
-                                           options = chrome_options)
+            service         = Service(chromedriver_path)
+            self.driver     = webdriver.Chrome(service = service, 
+                                               options = chrome_options)
         
-        self.wait       = WebDriverWait(self.driver, 10)
+            self.wait       = WebDriverWait(self.driver, 10)
+            
+            scraper_logger.info("WebDriver Initialized")
+            
+        except Exception as e:
+            scraper_logger.error(f"An Error Occured: {str(e)}")
 
     
     def linkedin_scraper(self) -> pd.DataFrame:
@@ -112,12 +130,15 @@ class SocialMediaScraper:
                           index    = False, 
                           encoding = 'utf-8')
 
-                print("Scraping complete. Data saved to post_data.csv")
-                print(f"Total posts scraped: {len(df)}")
+                scraper_logger.info("Scraping complete. Data saved to post_data.csv")
+                scraper_logger.info(f"Total posts scraped: {len(df)}")
                 return df
             else:
-                print("No posts found. Please check the selectors and scroll logic.")
+                scraper_logger.info("No posts found. Please check the selectors and scroll logic.")
                 return pd.DataFrame()
+            
+        except Exception as e:
+            scraper_logger.error(f"An Error Occured: {str(e)}")
                 
         finally:
             if self.driver:
@@ -137,21 +158,23 @@ class SocialMediaScraper:
             TimeoutException : If login elements are not found
         """
         
-        self.driver.get(LINKEDIN_LOGIN_PAGE_LINK)
-        self.wait.until(EC.presence_of_element_located((By.ID, "username")))
+        try:
+            self.driver.get(LINKEDIN_LOGIN_PAGE_LINK)
+            self.wait.until(EC.presence_of_element_located((By.ID, "username")))
         
-        email_field    = self.driver.find_element(By.ID, "username")
-        password_field = self.driver.find_element(By.ID, "password")
+            email_field    = self.driver.find_element(By.ID, "username")
+            password_field = self.driver.find_element(By.ID, "password")
         
-        email_field.send_keys(self.username)
-        password_field.send_keys(self.password)
-        password_field.send_keys(Keys.RETURN)
+            email_field.send_keys(self.username)
+            password_field.send_keys(self.password)
+            password_field.send_keys(Keys.RETURN)
         
-        self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, 
-                                                        "feed-shared-update-v2"
-                                                        )
-                                                       )
-                        )
+            self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "feed-shared-update-v2")))
+            
+            scraper_logger.info("Login Successful")
+            
+        except Exception as e:
+            scraper_logger.error(f"An Error Occured: {str(e)}")
 
     def _scroll_down(self) -> None:
         
@@ -312,56 +335,108 @@ class SocialMediaScraper:
         cleaned_text  = emoji_pattern.sub('', text)  
         
         return cleaned_text.strip(), ''.join(emojis)
+    
+    @staticmethod
+    def create_image_folder():
+        folder_path = LINKEDIN_IMAGE_DATA_PATH
+        if not os.path.exists(folder_path):
+            os.makedirs(folder_path)
+
+    @staticmethod
+    def is_valid_image(img_element):
+        src                = img_element.get('src', '').lower()
+        invalid_indicators = ['logo', 'profile', 'company', 'brand', 'avatar', '8fz8rainn3wh49ad6ef9gotj1']
+        return not any(indicator in src for indicator in invalid_indicators)
+
+    def download_image(self, image_url, post_id):
+        try:
+            response       = requests.get(image_url, stream=True)
+            if response.status_code == 200:
+                image_name = f"{post_id}_{image_url.split('/')[-1].split('?')[0]}.png"
+                image_path = os.path.join(LINKEDIN_IMAGE_DATA_PATH, image_name)
+                with open(image_path, 'wb') as file:
+                    for chunk in response.iter_content(1024):
+                        file.write(chunk)
+                print(f"Downloaded: {image_name}")
+                return image_path
+            else:
+                print(f"Failed to download image from {image_url}")
+                return None
+        except Exception as e:
+            print(f"Error downloading image: {e}")
+            return None
 
     def _scrape_linkedin_posts(self) -> list:
         """
-        Scrape LinkedIn posts and extract relevant information.
-        
+        Scrape LinkedIn posts and extract relevant information while preventing duplicates.
+    
         Returns:
         ---------
-            list  : List of dictionaries containing post data
+            list  : List of dictionaries containing unique post data
         """
-        
         self.driver.get(self.profile_url)
-        self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, 
-                                                        "feed-shared-update-v2"
-                                                        )
-                                                       )
-                        )
-        
+        self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "feed-shared-update-v2")))
         self._scroll_down()
-        
+
         page_source                  = self.driver.page_source
         soup                         = BeautifulSoup(page_source, 'html.parser')
-        posts                        = soup.find_all('div', {'class': ['feed-shared-update-v2', 'update-components-text']})
-        scraped_data                 = []
+        posts = soup.find_all('div', {'class': ['feed-shared-update-v2', 'update-components-text']})
+    
+        seen_contents = set()
+        scraped_data = []
 
-        for post in posts:
+        self.create_image_folder()
+
+        for post_id, post in enumerate(posts, start=1):
             try:
-                content_element      = post.find('span', {'class': 'break-words'})
+                content_element = post.find('span', {'class': 'break-words'})
                 if not content_element:
                     continue
+            
+                full_text = content_element.get_text(strip=True)
+            
+                content_identifier = full_text[:100].strip() 
+            
+                if content_identifier in seen_contents:
+                    continue
+            
+                seen_contents.add(content_identifier)
+            
+                hashtags = self._extract_hashtags(full_text)
+                cleaned_text = self._clean_text(full_text)
+                heading, content = self._split_at_first_delimiter(cleaned_text)
 
-                full_text            = content_element.get_text(strip=True)
-                
-                cleaned_text         = self._clean_text(full_text)
-                
-                hashtags             = self._extract_hashtags(full_text)
-                
-                cleaned_text, emojis = self._extract_emojis(cleaned_text)
-                
-                heading, content     = self._split_at_first_delimiter(cleaned_text)
-                
-                if heading:
-                    scraped_data.append({
-                        "Post Caption/Heading": heading,
-                        "Post Content": content if content else "No content",
-                        "Hashtags": ', '.join(hashtags) if hashtags else "No hashtags",
-                        "Emojis": emojis if emojis else "No emojis"
-                    })
+                if not heading.strip():
+                    continue
+
+                image_elements = post.find_all('img', {'class': 'ivm-view-attr__img--centered'})
+                valid_images = [img for img in image_elements if self.is_valid_image(img)]
+                image_urls = list(set([img['src'] for img in valid_images if img.get('src')]))
+                image_paths = [self.download_image(url, post_id) for url in image_urls if url]
+
+                post_data = {
+                    "Post Caption/Heading": heading,
+                    "Post Content": content if content else "No content",
+                    "Hashtags": ', '.join(hashtags) if hashtags else "No hashtags",
+                    "Image URLs": ', '.join(image_urls),
+                    "Image Paths": ', '.join(filter(None, image_paths))
+                }
+
+                full_post_content = f"{heading} {content}".lower()
+                is_duplicate = False
+            
+                for existing_post in scraped_data:
+                    existing_content = f"{existing_post['Post Caption/Heading']} {existing_post['Post Content']}".lower()
+                    if (full_post_content in existing_content) or (existing_content in full_post_content):
+                        is_duplicate = True
+                        break
+
+                if not is_duplicate:
+                    scraped_data.append(post_data)
 
             except Exception as e:
                 print(f"Error extracting post: {e}")
                 continue
 
+        print(f"Total unique posts found: {len(scraped_data)}")
         return scraped_data
