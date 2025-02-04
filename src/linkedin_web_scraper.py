@@ -24,7 +24,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # LOGGING SETUP
-scraper_logger = LoggerSetup(logger_name = "web_scraper.py", log_filename_prefix = "linkedin").get_logger()
+scraper_logger = LoggerSetup(logger_name = "linkedin_web_scraper.py", log_filename_prefix = "linkedin").get_logger()
 
 class SocialMediaScraper:
     """

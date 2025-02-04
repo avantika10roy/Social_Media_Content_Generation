@@ -11,7 +11,7 @@ from config import LINKEDIN_USERNAME
 from config import LINKEDIN_PASSWORD
 from config import CHROME_DRIVER_PATH
 from src.logger import LoggerSetup
-from src.web_scraper import SocialMediaScraper
+from linkedin_web_scraper import SocialMediaScraper
 
 
 # LOGGING SETUP
