@@ -495,12 +495,12 @@ class SocialMediaScraper:
                     image_urls         = list(set([img['src'] for img in valid_images if img.get('src')]))
                     image_paths        = [self.download_image(url, post_id) for url in image_urls if url]
 
-                    post_data          = {"Post_Heading": heading,
-                                          "Post_Content": content if content else "No content",
-                                          "Hashtags": ', '.join(hashtags) if hashtags else "No hashtags",
-                                          "Emojis": ', '.join(emojis) if emojis else "No emojis",
-                                          "Image URLs": ', '.join(image_urls),
-                                          "Image Paths": ', '.join(filter(None, image_paths))
+                    post_data          = {"post_heading": heading,
+                                          "post_content": content if content else "No content",
+                                          "hashtags": ', '.join(hashtags) if hashtags else "No hashtags",
+                                          "emojis": ', '.join(emojis) if emojis else "No emojis",
+                                          "image_URLs": ', '.join(image_urls),
+                                          "image_paths": ', '.join(filter(None, image_paths))
                                           }
 
                     full_post_content   = f"{heading} {content}".lower()

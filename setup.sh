@@ -23,7 +23,10 @@ conda activate social_media_content_env
 # Start a new interactive shell with the activated environment
 # exec bash --rcfile <(echo "source activate social_media_content_env")
 
+# Installing the ChromeDriver
 brew install --cask chromedriver
+
+# Installing the Requirements.txt
 pip install -r requirements.txt
 
 python scraper_run.py
