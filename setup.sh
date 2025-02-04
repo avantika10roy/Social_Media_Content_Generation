@@ -29,4 +29,13 @@ brew install --cask chromedriver
 # Installing the Requirements.txt
 pip install -r requirements.txt
 
-python scraper_run.py
+# Define the path to the linkedin_data folder
+LINKEDIN_DATA_DIR="data/linkedin_data"
+
+# Check if the directory exists
+if [ ! -d "$LINKEDIN_DATA_DIR" ]; then
+    echo "linkedin_data folder not found. Running scraper_run.py..."
+    python scraper_run.py
+else
+    echo "linkedin_data folder already exists. No need to run scraper."
+fi
