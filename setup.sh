@@ -16,6 +16,15 @@ else
     echo "Conda environment 'social_media_content_env' already exists."
 fi
 
+# # Activate the Conda environment
+# echo "Activating Conda environment 'social_media_content_env'..."
+# conda init bash
+# source ~/.bashrc   
+# conda activate social_media_content_env
+
+# # Start a new interactive shell with the activated environment
+# exec bash --rcfile <(echo "source activate social_media_content_env")
+
 # Activate the Conda environment
 echo "Activating Conda environment 'social_media_content_env'..."
 conda activate social_media_content_env
