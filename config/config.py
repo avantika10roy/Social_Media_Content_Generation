@@ -1,6 +1,7 @@
 ## ----- DONE BY PRIYAM PAL -----
 
 import os
+from pathlib import Path
 
 class Config:
     
@@ -10,21 +11,35 @@ class Config:
     """
     
     # CHROME DRIVER PATH
-    CHROME_DRIVER_PATH           = "/opt/homebrew/bin/chromedriver"
+    CHROME_DRIVER_PATH                    = "/opt/homebrew/bin/chromedriver"
     
     # LINKEDIN CONFIGURATIONS
-    LINKEDIN_USERNAME            = "jit@itobuz.com"
-    LINKEDIN_PASSWORD            = "Abcd@1234"
-    LINKEDIN_POST_DATA_FILENAME  = 'linkedin_post_data.json'
-    LINKEDIN_POST_DATA_PATH      = './data/raw'
-    LINKEDIN_IMAGE_DATA_PATH     = './data/raw/linkedin_images'
-    LINKEDIN_LOGIN_PAGE_LINK     = "https://www.linkedin.com/login"
-    LINKEDIN_PROFILE_URL         = "https://www.linkedin.com/company/itobuz-technologies-pvt-ltd/posts/?feedView=all"
+    LINKEDIN_USERNAME                     = "jit@itobuz.com"
+    LINKEDIN_PASSWORD                     = "Abcd@1234"
+    LINKEDIN_PROFILE_URL                  = "https://www.linkedin.com/company/itobuz-technologies-pvt-ltd/posts/?feedView=all"
+    LINKEDIN_LOGIN_PAGE_LINK              = "https://www.linkedin.com/login"
+    LINKEDIN_RAW_POST_DATA_PATH           = './data/raw_data/linkedin_raw_data.json'
+    LINKEDIN_RAW_IMAGE_DATA_PATH          = './data/raw_data/linkedin_raw_images'
+    LINKEDIN_CLEANED_POST_DATA_PATH       = './data/cleaned_data/linkedin_cleaned_data.json'
+    LINKEDIN_CLEANED_IMAGE_DATA_PATH      = './data/cleaned_data/linkedin_cleaned_images'
     
     # INSTAGRAM CONFIGURATIONS
-    INSTAGRAM_USERNAME           = "itobuztechnologies"
-    INSTAGRAM_IMAGE_DATA_PATH    = "./data/raw/instagram_images"
-    INSTAGRAM_POST_DATA_PATH     = "./data/raw/instagram_post_data.json"
+    INSTAGRAM_USERNAME                    = "itobuztechnologies"
+    INSTAGRAM_RAW_IMAGE_DATA_PATH         = "./data/raw_data/instagram_images"
+    INSTAGRAM_RAW_POST_DATA_PATH          = "./data/raw_data/instagram_raw_data.json"
+    INSTAGRAM_CLEANED_POST_DATA_PATH      = './data/cleaned_data/instagram_cleaned_data.json'
+    INSTAGRAM_CLEANED_IMAGE_DATA_PATH     = './data/cleaned_data/instagram_cleaned_images'
+    
+    # FACEBOOK CONFIGURATIONS
+    FACEBOOK_USERNAME                     = ""
+    FACEBOOK_RAW_IMAGE_DATA_PATH          = "./data/raw_data/facebook_raw_images"
+    FACEBOOK_RAW_POST_DATA_PATH           = "./data/raw_data/facebook_raw_data.json"
+    FACEBOOK_CLEANED_POST_DATA_PATH       = './data/cleaned_data/facebook_cleaned_data.json'
+    FACEBOOK_CLEANED_IMAGE_DATA_PATH      = './data/cleaned_data/facebook_cleaned_images'
+    
+    # CURATED DATA PATHS
+    CURATED_POST_DATA_PATH                = './data/curated_data/final_data.json'
+    
 
     @staticmethod
     def setup_directories():
