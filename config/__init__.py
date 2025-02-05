@@ -1,0 +1,1 @@
+# This file allows the config folder to be treated as a package

@@ -3,7 +3,7 @@ import emoji
 import re
 import pandas as pd
 import logging
-from src.logger import LoggerSetup
+from utils.logger import LoggerSetup
 
 cleaner_logger = LoggerSetup(logger_name = "cleaner.py", log_filename_prefix = "DataCleaner").get_logger()
 
