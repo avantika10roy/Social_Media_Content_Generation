@@ -170,3 +170,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
+data/raw_data/linkedin_raw_images
