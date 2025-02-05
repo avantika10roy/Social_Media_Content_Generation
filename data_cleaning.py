@@ -1,6 +1,6 @@
 ## IT WILL CLEAN THE RAW DATA AND SAVE IT TO data/cleaned_data/ and withing their corresponding sub-folders
 
-from src.data_cleaner.cleaner import DataCleaner
+from data_cleaner.data_cleaner import DataCleaner
 import os
 import pandas as pd
 
