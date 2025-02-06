@@ -116,9 +116,7 @@ Social_Media_Content_Generation/
 ## 💻 Usage
 
 ### Model Fine-tuning
-```plaintext 
-Yet to be done
-```
+
 
 ### API Usage
 
