@@ -60,7 +60,8 @@ The AI-Powered Social Media Content Generation System is a cutting-edge solution
 
 ## 📋 Prerequisites
 ```bash
-yet to be done```
+yet to be done
+```
 
 ## 🚀 Installation
 
@@ -116,7 +117,9 @@ Social_Media_Content_Generation/
 ## 💻 Usage
 
 ### Model Fine-tuning
-
+```bash 
+Yet to be done
+```
 
 ### API Usage
 
