@@ -13,6 +13,8 @@ class Config:
     # CHROME DRIVER PATH
     CHROME_DRIVER_PATH                    = "/opt/homebrew/bin/chromedriver"
     
+    CLIENT_SECRET_CREDENTIALS             = "./credentials/client_secret.json"
+    
     # LINKEDIN CONFIGURATIONS
     LINKEDIN_USERNAME                     = "jit@itobuz.com"
     LINKEDIN_PASSWORD                     = "Abcd@1234"
@@ -39,7 +41,7 @@ class Config:
     FACEBOOK_RAW_IMAGE_DATA_LINK          = ""
     FACEBOOK_CLEANED_POST_DATA_PATH       = './data/cleaned_data/facebook_cleaned_data.json'
     FACEBOOK_CLEANED_IMAGE_DATA_PATH      = './data/cleaned_data/facebook_cleaned_images'
-    
+    FACEBOOK_API                          = 'apify_api_yZXdrMa7P6SXvEKcdOpLwen6xmtQzX3Dr7t1'
     # CURATED DATA PATHS
     CURATED_POST_DATA_PATH                = './data/curated_data/final_data.json'
     
