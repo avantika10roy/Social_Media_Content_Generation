@@ -1,6 +1,6 @@
-#!/bin/bash
+## ----- DONE BY PRIYAM PAL -----
 
-# ----- DONE BY PRIYAM PAL -----
+#!/bin/bash
 
 # Exit on error
 set -e
