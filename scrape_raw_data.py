@@ -2,16 +2,16 @@
 
 # DEPENDENCIES
 
+import os
 import sys
 
 from config.config import Config
 
-from utils.logger import LoggerSetup
+from src.utils.data_saver import DataSaver
+from src.utils.logger import LoggerSetup
 from src.scraper.linkedin_scraper import LinkedinScraper
 from src.scraper.instagram_scraper import InstagramDataScraper
 
-# INITIALIZING THE CONFIG CLASS
-config = Config()
 
 # LOGGING SETUP
 main_logger              = LoggerSetup(logger_name = "scraper_run.py", log_filename_prefix = "scraper_main").get_logger()
@@ -27,16 +27,19 @@ def main():
     
     try:
         main_logger.info("Initializing LinkedIn scraper...")
-        linkedin_scraper = LinkedinScraper(username     = config.LINKEDIN_USERNAME, 
-                                           password     = config.LINKEDIN_PASSWORD, 
-                                           profile_url  = config.LINKEDIN_PROFILE_URL
+        linkedin_scraper = LinkedinScraper(username     = Config.LINKEDIN_USERNAME, 
+                                           password     = Config.LINKEDIN_PASSWORD, 
+                                           profile_url  = Config.LINKEDIN_PROFILE_URL
                                            )
 
         main_logger.info("Setting up Chrome driver...")
-        linkedin_scraper.setup_driver(config.CHROME_DRIVER_PATH)
+        linkedin_scraper.setup_driver(Config.CHROME_DRIVER_PATH)
 
         main_logger.info("Starting LinkedIn scraping process...")
         df               = linkedin_scraper.linkedin_scraper()
+        
+        DataSaver.raw_data_saver(df, Config.LINKEDIN_POST_DATA_PATH)
+        main_logger.info(f"LinkedIn Raw Data saved to {Config.LINKEDIN_POST_DATA_PATH}")
 
         if not df.empty:
             main_logger.info(f"Total posts scraped: {len(df)}")
