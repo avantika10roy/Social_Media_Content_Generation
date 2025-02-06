@@ -170,6 +170,5 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 
-data/
-data/instagram_post_data.json
-.DS_Store
+data/raw_data/linkedin_raw_images
+data/raw_data/instagram_images
