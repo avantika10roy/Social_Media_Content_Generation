@@ -1,3 +1,4 @@
+# Dependencies
 import json
 from text_preprocessing import TextPreprocessing
 
@@ -5,27 +6,24 @@ from text_preprocessing import TextPreprocessing
 preprocessor = TextPreprocessing()
 
 a  = '../data/linkedin_data/post_data.json'
-b = '../data/clean_data/linkedin_preprocessed_data.json'
+b  = '../data/clean_data/linkedin_preprocessed_data.json'
 
 try:
-    posts_data = json.load(open(a))
+    posts_data        = json.load(open(a))
 
     preprocessed_data = []
 
     # Process each post
     for post in posts_data:
-        #print(post)
         cleaned_heading = preprocessor.clean_text(post.get("Post_Heading", ""))
-        # print(cleaned_heading)
         cleaned_content = preprocessor.clean_text(post.get("Post_Content", ""))
-        # print(cleaned_content)
-        processed_post = {
-            "Cleaned_Heading": cleaned_heading,
-            "Cleaned_Content": cleaned_content,
-            "Original_Hashtags": post.get("Hashtags", ""),
-            "Image_URLs": post.get("Image_URLs", ""),
-            "Image_Paths": post.get("Image_Paths", "")
-        }
+
+        processed_post  = {"Cleaned_Heading"   : cleaned_heading,
+                           "Cleaned_Content"   : cleaned_content,
+                           "Original_Hashtags" : post.get("Hashtags", ""),
+                           "Image_URLs"        : post.get("Image URLs", ""),
+                           "Image_Paths"       : post.get("Image Paths", "")
+                          }
         preprocessed_data.append(processed_post)
 
     # Save preprocessed data to preprocessed_data.json
@@ -36,4 +34,3 @@ try:
 
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
-
