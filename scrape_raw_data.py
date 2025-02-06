@@ -4,13 +4,12 @@
 
 import os
 import sys
-
 from config.config import Config
-
 from src.utils.data_saver import DataSaver
 from src.utils.logger import LoggerSetup
 from src.scraper.linkedin_scraper import LinkedinScraper
 from src.scraper.instagram_scraper import InstagramDataScraper
+from src.scraper.facebook_scraper import FacebookScraper,FacebookDataProcessor
 
 
 # LOGGING SETUP
@@ -60,9 +59,44 @@ def main():
     #     main_logger.info("Starting Instagram Scraping Process...")
     #     instagram_scraper.instagram_scraper()
         
+
+    # except Exception as e:
+    #     main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
+    #     sys.exit(1)
+
+    #except Exception as e:
+    #    main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
+    #    sys.exit(1)
+    # ----- FACEBOOK SCRAPER -----
+    try:
+        main_logger.info("Initializing Facebook Scraper...")
+        facebook_scraper = FacebookScraper(api_token=Config.FACEBOOK_API, 
+                                           page_url=Config.FACEBOOK_PAGE_URL)
+        
+        main_logger.info("Starting Facebook scraping process...")
+        facebook_scraper.scrape_data()
+
+        main_logger.info("Initializing Facebook Data Processor...")
+        processor = FacebookDataProcessor(dataset_file="facebook_data.json", 
+                                          csv_file="facebook_posts.csv", 
+                                          output_json=Config.FACEBOOK_RAW_POST_DATA_PATH)
+        
+        main_logger.info("Processing Facebook scraped data...")
+        processor.process_data()
+        processor.download_images()
+        processor.format_json()
+
+        main_logger.info(f"Facebook Raw Data saved to {Config.FACEBOOK_RAW_POST_DATA_PATH}")
+
     except Exception as e:
-        main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
+        main_logger.error(f"Error in Facebook Scraper: {repr(e)}", exc_info=True)
         sys.exit(1)
+
+
+    # except Exception as e:
+    #     main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
+    #     sys.exit(1)
+
 
 if __name__ == "__main__":
     main_logger.info("Starting script execution...")
