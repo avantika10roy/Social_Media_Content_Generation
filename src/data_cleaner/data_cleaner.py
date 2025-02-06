@@ -104,48 +104,77 @@ class DataCleaner():
         
     def instagram_clean_data(self, insta_data: pd.DataFrame, platform: str) -> pd.DataFrame:
         """
-        General method to clean data for specified platform.
+        Cleans Instagram data by extracting emojis, hashtags, and cleaning text.
         """
         try:
-            #merged_data = insta_data[]
-            insta_data['emoji'] = self.extract_emojis(insta_data['post_heading'])
-            self.extract_hashtags(insta_data)
-            self.split_at_first_delimiter(insta_data)
-            cleaned_insta_data = self.clean_text(insta_data)
-            
-            cleaned_insta_data = cleaned_insta_data.drop(columns=['image_urls','post_id'], axis=1)
-            cleaned_insta_data['platform'] = 'instagram'
-        
-            cleaner_logger.info(f"{platform} data cleaned")
-            return cleaned_insta_data
-        
+            if 'post_content' not in insta_data:
+                raise KeyError("Missing 'post_content' column in Instagram data.")
+
+            insta_data['emoji'] = self.extract_emojis(insta_data['post_content'])
+            #insta_data['hashtags'] = self.extract_hashtags(insta_data['post_content'])
+            insta_data['post_content'] = self.clean_text(insta_data['post_content'])
+            insta_data = self.split_at_first_delimiter(insta_data)
+
+            if 'image_urls' in insta_data and 'post_id' in insta_data:
+                insta_data = insta_data.drop(columns=['image_urls', 'post_id'], errors='ignore')
+
+            insta_data['platform'] = 'instagram'
+            cleaner_logger.info(f"{platform} data cleaned successfully.")
+            return insta_data
+
         except Exception as e:
             cleaner_logger.error(f"Error in {platform} cleaner: {e}")
+            return pd.DataFrame()  
 
-            return insta_data
         
     def linkdln_clean_data(self, linkdln_data: pd.DataFrame, platform: str) -> pd.DataFrame:
         """
-        General method to clean data for specified platform.
+        Cleans LinkedIn data by extracting emojis, hashtags, and cleaning text.
         """
         try:
+            if 'post_contents' not in linkdln_data:
+                raise KeyError("Missing 'post_contents' column in LinkedIn data.")
+
             linkdln_data['emoji'] = self.extract_emojis(linkdln_data['post_contents'])
             linkdln_data['hashtags'] = self.extract_hashtags(linkdln_data['post_contents'])
             linkdln_data['post_contents'] = self.clean_text(linkdln_data['post_contents'])
-            self.split_at_first_delimiter(linkdln_data)
-            
-            
-            linkdln_data = linkdln_data.drop(columns=['image_URLs','post_contents'], axis=1)
+            linkdln_data = self.split_at_first_delimiter(linkdln_data)
+
+            if 'image_URLs' in linkdln_data and 'post_contents' in linkdln_data:
+                linkdln_data = linkdln_data.drop(columns=['image_URLs', 'post_contents'], errors='ignore')
+
             linkdln_data['platform'] = 'linkedin'
-            
-            cleaner_logger.info(f"{platform} data cleaned")
-        
+            cleaner_logger.info(f"{platform} data cleaned successfully.")
             return linkdln_data
-        
+
         except Exception as e:
             cleaner_logger.error(f"Error in {platform} cleaner: {e}")
-            return linkdln_data
-        
+            return pd.DataFrame()  
+
+    def facebook_cleaner(self, facebook_data: pd.DataFrame, platform: str) -> pd.DataFrame:
+        """
+        Cleans Facebook data by extracting emojis, hashtags, and cleaning text.
+        """
+        try:
+            if 'post_contents' not in facebook_data:
+                raise KeyError("Missing 'post_contents' column in Facebook data.")
+            
+            facebook_data['emoji']=self.extract_emojis(facebook_data['post_contents'])
+            facebook_data['hashtags']=self.extract_hashtags(facebook_data['post_contents'])
+            facebook_data['post_contents']=self.clean_text(facebook_data['post_contents'])
+            facebook_data = self.split_at_first_delimiter(facebook_data)
+
+            if 'image_URLs' in facebook_data and 'post_contents' in facebook_data:
+                facebook_data = facebook_data.drop(columns=['image_URLs', 'post_contents'], errors='ignore')
+            
+            facebook_data['platform']='facebook'
+            cleaner_logger.info(f"{platform} data cleaned successfully.")
+            return facebook_data
+
+        except Exception as e:
+            cleaner_logger.error(f"Error in {platform} cleaner: {e}")
+            return pd.DataFrame() 
+
 
 '''class ImageDataCleaning():
 
