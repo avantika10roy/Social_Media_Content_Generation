@@ -14,7 +14,7 @@ class LLMFineTuner:
     A class to fine tune a LLM using peft techniques
     and save the model in .gguf format for faster inference 
     """
-    def __init__(self, model_path:str , tokenizer_path:str, dataset:'Dataset',**kwargs):
+    def __init__(self, model_path:str , tokenizer_path:str, dataset: Dataset,**kwargs):
         """The Initialization of Fine Tuner
         Arguments:
         --------------
@@ -39,6 +39,7 @@ class LLMFineTuner:
         try:
             self.lora_config   = LoraConfig(**kwargs)
             self.model         = get_peft_model(self.model, self.lora_config)
+            
         except Exception as e:
             print(e)
     def define_training_args(self, **kwargs) -> None:
