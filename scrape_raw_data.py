@@ -10,7 +10,7 @@ from config.config import Config
 from src.utils.data_saver import DataSaver
 from src.utils.logger import LoggerSetup
 from src.scraper.linkedin_scraper import LinkedinScraper
-from src.scraper.instagram_scraper import InstagramDataScraper
+# from src.scraper.instagram_scraper import InstagramDataScraper
 
 
 # LOGGING SETUP
@@ -38,8 +38,8 @@ def main():
         main_logger.info("Starting LinkedIn scraping process...")
         df               = linkedin_scraper.linkedin_scraper()
         
-        DataSaver.data_saver(df, Config.LINKEDIN_POST_DATA_PATH)
-        main_logger.info(f"LinkedIn Raw Data saved to {Config.LINKEDIN_POST_DATA_PATH}")
+        DataSaver.data_saver(df, Config.LINKEDIN_RAW_POST_DATA_PATH)
+        main_logger.info(f"LinkedIn Raw Data saved to {Config.LINKEDIN_RAW_POST_DATA_PATH}")
 
         if not df.empty:
             main_logger.info(f"Total posts scraped: {len(df)}")
@@ -52,17 +52,17 @@ def main():
         sys.exit(1)
         
         
-    # ----- INSTAGRAM SCRAPER -----    
-    try:
-        main_logger.info("Initailizing the Instagram Scraper")
-        instagram_scraper = InstagramDataScraper()
+    # # ----- INSTAGRAM SCRAPER -----    
+    # try:
+    #     main_logger.info("Initailizing the Instagram Scraper")
+    #     instagram_scraper = InstagramDataScraper()
         
-        main_logger.info("Starting Instagram Scraping Process...")
-        instagram_scraper.instagram_scraper()
+    #     main_logger.info("Starting Instagram Scraping Process...")
+    #     instagram_scraper.instagram_scraper()
         
-    except Exception as e:
-        main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
-        sys.exit(1)
+    # except Exception as e:
+    #     main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
+    #     sys.exit(1)
 
 if __name__ == "__main__":
     main_logger.info("Starting script execution...")

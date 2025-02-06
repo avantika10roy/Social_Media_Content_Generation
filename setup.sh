@@ -37,5 +37,3 @@ brew install --cask chromedriver
 
 # Installing the Requirements.txt
 pip install -r requirements.txt
-
-python scraper_run.py
