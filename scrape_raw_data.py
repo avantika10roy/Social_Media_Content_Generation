@@ -38,7 +38,7 @@ def main():
         main_logger.info("Starting LinkedIn scraping process...")
         df               = linkedin_scraper.linkedin_scraper()
         
-        DataSaver.raw_data_saver(df, Config.LINKEDIN_POST_DATA_PATH)
+        DataSaver.data_saver(df, Config.LINKEDIN_POST_DATA_PATH)
         main_logger.info(f"LinkedIn Raw Data saved to {Config.LINKEDIN_POST_DATA_PATH}")
 
         if not df.empty:

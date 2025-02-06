@@ -20,20 +20,23 @@ class Config:
     LINKEDIN_LOGIN_PAGE_LINK              = "https://www.linkedin.com/login"
     LINKEDIN_RAW_POST_DATA_PATH           = './data/raw_data/linkedin_raw_data.json'
     LINKEDIN_RAW_IMAGE_DATA_PATH          = './data/raw_data/linkedin_raw_images'
+    LINKEDIN_RAW_IMAGE_DATA_LINK          = 'https://drive.google.com/drive/folders/1-PwFzDBfRFHWtadLEXubp-Kl2h8UquqG?usp=sharing'
     LINKEDIN_CLEANED_POST_DATA_PATH       = './data/cleaned_data/linkedin_cleaned_data.json'
     LINKEDIN_CLEANED_IMAGE_DATA_PATH      = './data/cleaned_data/linkedin_cleaned_images'
     
     # INSTAGRAM CONFIGURATIONS
     INSTAGRAM_USERNAME                    = "itobuztechnologies"
-    INSTAGRAM_RAW_IMAGE_DATA_PATH         = "./data/raw_data/instagram_images"
     INSTAGRAM_RAW_POST_DATA_PATH          = "./data/raw_data/instagram_raw_data.json"
+    INSTAGRAM_RAW_IMAGE_DATA_PATH         = "./data/raw_data/instagram_images"
+    INSTAGRAM_RAW_IMAGE_DATA_LINK         = "https://drive.google.com/drive/folders/1IFNmQVAY9JstGt9KvWK-fXI317b1Fwsg?usp=sharing"
     INSTAGRAM_CLEANED_POST_DATA_PATH      = './data/cleaned_data/instagram_cleaned_data.json'
     INSTAGRAM_CLEANED_IMAGE_DATA_PATH     = './data/cleaned_data/instagram_cleaned_images'
     
     # FACEBOOK CONFIGURATIONS
     FACEBOOK_USERNAME                     = ""
-    FACEBOOK_RAW_IMAGE_DATA_PATH          = "./data/raw_data/facebook_raw_images"
     FACEBOOK_RAW_POST_DATA_PATH           = "./data/raw_data/facebook_raw_data.json"
+    FACEBOOK_RAW_IMAGE_DATA_PATH          = "./data/raw_data/facebook_raw_images"
+    FACEBOOK_RAW_IMAGE_DATA_LINK          = ""
     FACEBOOK_CLEANED_POST_DATA_PATH       = './data/cleaned_data/facebook_cleaned_data.json'
     FACEBOOK_CLEANED_IMAGE_DATA_PATH      = './data/cleaned_data/facebook_cleaned_images'
     
