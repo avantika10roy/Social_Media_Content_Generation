@@ -13,6 +13,8 @@ class Config:
     # CHROME DRIVER PATH
     CHROME_DRIVER_PATH                    = "/opt/homebrew/bin/chromedriver"
     
+    CLIENT_SECRET_CREDENTIALS             = "./credentials/client_secret.json"
+    
     # LINKEDIN CONFIGURATIONS
     LINKEDIN_USERNAME                     = "jit@itobuz.com"
     LINKEDIN_PASSWORD                     = "Abcd@1234"
