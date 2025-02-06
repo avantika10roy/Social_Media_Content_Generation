@@ -171,3 +171,4 @@ cython_debug/
 .pypirc
 
 data/raw_data/linkedin_raw_images
+data/raw_data/instagram_images
