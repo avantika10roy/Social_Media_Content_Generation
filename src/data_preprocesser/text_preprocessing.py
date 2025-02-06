@@ -6,7 +6,7 @@ import re
 import nltk
 import torch
 import pandas as pd
-from logger import LoggerSetup
+from src.utils.logger import LoggerSetup
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
