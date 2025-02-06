@@ -3,14 +3,13 @@ import os
 import json
 import time
 import random
-from config import config
 from ..utils.logger import LoggerSetup
 from config.config import Config
 
 instgram_logger = LoggerSetup(logger_name = "instagram_scraper", log_filename_prefix = "InstagramDataScrapper").get_logger()
 
-cf = config.Config()
-class InstagramDataScraper():
+cf = Config()
+class InstagramDataScraper:
     """
     A class to scrape Instagram posts for a given user, download images, extract metadata,
     and save post details in a JSON file.
