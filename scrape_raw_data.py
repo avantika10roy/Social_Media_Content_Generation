@@ -10,7 +10,7 @@ from config.config import Config
 from src.utils.data_saver import DataSaver
 from src.utils.logger import LoggerSetup
 from src.scraper.linkedin_scraper import LinkedinScraper
-# from src.scraper.instagram_scraper import InstagramDataScraper
+from src.scraper.instagram_scraper import InstagramDataScraper
 
 
 # LOGGING SETUP
@@ -60,9 +60,9 @@ def main():
     #     main_logger.info("Starting Instagram Scraping Process...")
     #     instagram_scraper.instagram_scraper()
         
-    # except Exception as e:
-    #     main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
-    #     sys.exit(1)
+    except Exception as e:
+        main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
+        sys.exit(1)
 
 if __name__ == "__main__":
     main_logger.info("Starting script execution...")
