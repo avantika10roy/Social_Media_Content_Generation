@@ -23,8 +23,8 @@ class Config:
     
     # INSTAGRAM CONFIGURATIONS
     INSTAGRAM_USERNAME           = "itobuztechnologies"
-    INSTAGRAM_IMAGE_DATA_PATH    = "./data/raw/instagram_images"
-    INSTAGRAM_POST_DATA_PATH     = "./data/raw/instagram_post_data.json"
+    INSTAGRAM_IMAGE_DATA_PATH    = "./data/raw_data/instagram_raw_images"
+    INSTAGRAM_POST_DATA_PATH     = "./data/raw_data/instagram_raw_data.json"
 
     @staticmethod
     def setup_directories():
