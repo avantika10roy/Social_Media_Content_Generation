@@ -172,3 +172,4 @@ cython_debug/
 
 data/
 data/instagram_post_data.json
+.DS_Store
