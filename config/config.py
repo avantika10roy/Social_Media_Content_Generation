@@ -28,7 +28,7 @@ class Config:
     INSTAGRAM_USERNAME                    = "itobuztechnologies"
     INSTAGRAM_RAW_POST_DATA_PATH          = "./data/raw_data/instagram_raw_data.json"
     INSTAGRAM_RAW_IMAGE_DATA_PATH         = "./data/raw_data/instagram_images"
-    INSTAGRAM_RAW_IMAGE_DATA_LINK         = "https://drive.google.com/drive/folders/1IFNmQVAY9JstGt9KvWK-fXI317b1Fwsg?usp=sharing"
+    INSTAGRAM_RAW_IMAGE_DATA_LINK         = "https://drive.google.com/drive/folders/1kcXIbWs1qbs7vaPfUbGK8G3vWlphspnD?usp=drive_link"
     INSTAGRAM_CLEANED_POST_DATA_PATH      = './data/cleaned_data/instagram_cleaned_data.json'
     INSTAGRAM_CLEANED_IMAGE_DATA_PATH     = './data/cleaned_data/instagram_cleaned_images'
     
