@@ -116,7 +116,7 @@ Social_Media_Content_Generation/
 ## 💻 Usage
 
 ### Model Fine-tuning
-```bash 
+```plaintext 
 Yet to be done
 ```
 
