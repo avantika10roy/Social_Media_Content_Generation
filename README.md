@@ -87,31 +87,75 @@ pip install -r requirements.txt
 
 ```plaintext
 Social_Media_Content_Generation/
-│
-├── src/
-│
-├── data/
-│	  ├── linkdln_data/
-|     ├── facebook_data/
-|     ├── instagram_data/
-|  
-├── notebooks/ 
-│
-├── results/
-|
-├── tests/
-|
-├── models/
-|   ├── llm/
-|   ├── stable_diffusion/
-│
-├── main.py                          # Main script to execute the pipeline
-├── config.py                        # Configuration variables stored here
-├── README.md                        # Summary of the project and results
-├── requirements.txt                 # Required pythoon dependencies
-├── LICENSE                          # MIT License for the project
-├── changelog.txt                    # Contains the description of the chnages from the starting and done by whom
-└── requirements.txt                 # Project dependencies
+├── LICENSE                                # MIT License for the project
+├── README.md                              # Executive summary of the project and results
+├── changelog.txt                          # Contains the description of the chnages from the starting and done by whom
+├── config                                 # Centralized Configuration module for the whole project
+│   ├── __init__.py
+│   └── config.py
+├── data                                   # All type of data in each stage has been saved here
+│   ├── cleaned_data
+│   │   ├── facebook_cleaned_data.json     # Cleaned facebook data 
+│   │   ├── instagram_cleaned_data.json    # Cleaned instagram data
+│   │   └── linkedin_cleaned_data.json     # Cleaned linkedin data
+│   ├── curated_data                       
+│   │   └── final_data.json                # After merging data from all platforms, saved here in one unified place
+│   ├── extracted_features_data             
+│   │   └── blip_output.json               # Extracted features along with original features saved here
+│   └── raw_data
+│       ├── facebook_raw_data.json         # Raw Scraped facebook data
+│       ├── instagram_raw_data.json        # Raw scraped instagram data
+│       └── linkedin_raw_data.json         # Raw scraped linkedin data
+├── data_cleaning.py                       
+├── docs                                   # A centralized folder for keeping all project related documents for future purpose
+│   ├── project_flowchart.png
+│   └── workflow.png
+├── logs                                   # Log files saved here for all the tasks
+│   
+├── notebooks                              # Containing all jupyter notebooks for experimentation
+│   └── Final_Project.ipynb
+├── requirements.txt                       # Required pythoon dependencies
+├── run.py                                 # 
+├── scrape_raw_data.py                     # Run file for data collection by scraper module
+├── setup.sh                               # Project environment setup 
+└── src                                    # All source codes 
+    ├── api                                # API related codes here
+    │   └── __init__.py
+    ├── base_models                        # Base models for image generation, text generation and feature extraction saved here
+    │   └── __init__.py  
+    ├── data_cleaner                       # Centralized module for data cleaning for whole project
+    │   ├── __init__.py 
+    │   ├── data_cleaner.py
+    │   ├── data_preprocessing.py
+    │   └── linkedIn_preprocessor.py
+    ├── data_curator                       # Centralized module for data curation for whole project
+    │   └── __init__.py
+    ├── data_preprocesser                  # Centralized module for data preprocessing for whole project
+    │   ├── __init__.py
+    │   └── text_preprocessing.py
+    ├── feature_engineering                # Centralized module for feature engineering for whole project
+    │   └── blip_feature_extraction.py
+    ├── frontend                           # Centralized module for frontend management
+    │   └── __init__.py
+    ├── model_finetuners                   # Model fine-tuning functionalities
+    │   └── __init__.py 
+    ├── model_inference                    # Model inference functionalities
+    │   └── __init__.py
+    ├── models                             # Model utilities
+    │   ├── __init__.py
+    │   ├── model_loader.py
+    │   └── model_saver.py
+    ├── scraper                            # Centralized scraper module 
+    │   ├── __init__.py
+    │   ├── facebook_scraper.py
+    │   ├── instagram_scraper.py
+    │   └── linkedin_scraper.py
+    ├── scripts                            # 
+    │   └── example.sh 
+    └── utils                              # Unified utility module for any other utilities than model related tasks
+        ├── __init__.py
+        ├── data_saver.py
+        └── logger.py                    
 ```
 
 ## 💻 Usage
