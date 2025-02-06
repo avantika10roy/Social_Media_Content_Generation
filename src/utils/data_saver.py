@@ -17,7 +17,7 @@ class DataSaver:
     """
     
     @staticmethod
-    def raw_data_saver(data, file_path):
+    def data_saver(data, file_path):
         """
         Saves a Pandas DataFrame or a list to a JSON file.
         
@@ -51,7 +51,7 @@ class DataSaver:
             
             
     @staticmethod
-    def raw_data_reader(file_path):
+    def data_reader(file_path):
         """
         Reads a JSON file and returns its contents as a dictionary.
         

@@ -16,12 +16,21 @@
             "#ItobuzTechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DFfakZWNWgc_1.jpg",
             "../data/instagram_images/post_DFfakZWNWgc_2.jpg",
             "../data/instagram_images/post_DFfakZWNWgc_3.jpg",
             "../data/instagram_images/post_DFfakZWNWgc_4.jpg",
             "../data/instagram_images/post_DFfakZWNWgc_5.jpg",
             "../data/instagram_images/post_DFfakZWNWgc_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DFfakZWNWgc_1.jpg",
+            "./data/raw_data/instagram_raw_images/DFfakZWNWgc_2.jpg",
+            "./data/raw_data/instagram_raw_images/DFfakZWNWgc_3.jpg",
+            "./data/raw_data/instagram_raw_images/DFfakZWNWgc_4.jpg",
+            "./data/raw_data/instagram_raw_images/DFfakZWNWgc_5.jpg",
+            "./data/raw_data/instagram_raw_images/DFfakZWNWgc_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/475670777_1182437487215440_5884715261991031859_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=esqhka5_JQMQ7kNvgHKzsS5&_nc_gid=243b79b22ac84956be0d1baffe55453a&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzU1NzY3OTA2MzQ0MDMyNzQxMg%3D%3D.3-ccb7-5&oh=00_AYDVaVMoI6q9AXX5OYtEhOSJFCrfbhxe3Lef47KnwpSd0w&oe=67A6799E&_nc_sid=8f1549",
@@ -43,7 +52,11 @@
             "#happyrepublicday"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DFRoNg2MFvm.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DFRoNg2MFvm.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/474607075_1176310454494810_3674332583800914155_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=wl5pGjOo2oYQ7kNvgGJmA6n&_nc_gid=243b79b22ac84956be0d1baffe55453a&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzU1Mzc5ODQzMTQ1NDU1MTAxNA%3D%3D.3-ccb7-5&oh=00_AYAgZgKJcP9WJOrVcEYlV94nAGqFWZsn5M6DE83eMn9Cag&oe=67A66E9E&_nc_sid=8f1549"
@@ -67,11 +80,19 @@
             "#LogisticsPlatform"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DFNT1nks7P2_1.jpg",
             "../data/instagram_images/post_DFNT1nks7P2_2.jpg",
             "../data/instagram_images/post_DFNT1nks7P2_3.jpg",
             "../data/instagram_images/post_DFNT1nks7P2_4.jpg",
             "../data/instagram_images/post_DFNT1nks7P2_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DFNT1nks7P2_1.jpg",
+            "./data/raw_data/instagram_raw_images/DFNT1nks7P2_2.jpg",
+            "./data/raw_data/instagram_raw_images/DFNT1nks7P2_3.jpg",
+            "./data/raw_data/instagram_raw_images/DFNT1nks7P2_4.jpg",
+            "./data/raw_data/instagram_raw_images/DFNT1nks7P2_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/474583432_1176210794504776_8393098752395793971_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=cHgSCTOcjzcQ7kNvgG5zm0v&_nc_gid=243b79b22ac84956be0d1baffe55453a&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzU1MjU4MjkxNzMyMzU1NzYyOQ%3D%3D.3-ccb7-5&oh=00_AYCDsjDz9AeYGoe3UmPlRdd38tUKVNYjNQo-ckruucv7Fw&oe=67A69FEB&_nc_sid=8f1549",
@@ -98,12 +119,21 @@
             "#appdevelopment"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DE7OYHnKZLU_1.jpg",
             "../data/instagram_images/post_DE7OYHnKZLU_2.jpg",
             "../data/instagram_images/post_DE7OYHnKZLU_3.jpg",
             "../data/instagram_images/post_DE7OYHnKZLU_4.jpg",
             "../data/instagram_images/post_DE7OYHnKZLU_5.jpg",
             "../data/instagram_images/post_DE7OYHnKZLU_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DE7OYHnKZLU_1.jpg",
+            "./data/raw_data/instagram_raw_images/DE7OYHnKZLU_2.jpg",
+            "./data/raw_data/instagram_raw_images/DE7OYHnKZLU_3.jpg",
+            "./data/raw_data/instagram_raw_images/DE7OYHnKZLU_4.jpg",
+            "./data/raw_data/instagram_raw_images/DE7OYHnKZLU_5.jpg",
+            "./data/raw_data/instagram_raw_images/DE7OYHnKZLU_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/473782925_1171477698311419_3506607544736605064_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=zqDdWafcfXkQ7kNvgGvUKRs&_nc_gid=243b79b22ac84956be0d1baffe55453a&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzU0NzQ5MjMyNTM3OTQzMDM5OQ%3D%3D.3-ccb7-5&oh=00_AYAFkHFYT8CWkqViWKevLaE5h9wDP2Q4o3NoGAMNgtLevQ&oe=67A687F1&_nc_sid=8f1549",
@@ -129,12 +159,21 @@
             "#DigitalInnovation"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DEpV6jcveFh_1.jpg",
             "../data/instagram_images/post_DEpV6jcveFh_2.jpg",
             "../data/instagram_images/post_DEpV6jcveFh_3.jpg",
             "../data/instagram_images/post_DEpV6jcveFh_4.jpg",
             "../data/instagram_images/post_DEpV6jcveFh_5.jpg",
             "../data/instagram_images/post_DEpV6jcveFh_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DEpV6jcveFh_1.jpg",
+            "./data/raw_data/instagram_raw_images/DEpV6jcveFh_2.jpg",
+            "./data/raw_data/instagram_raw_images/DEpV6jcveFh_3.jpg",
+            "./data/raw_data/instagram_raw_images/DEpV6jcveFh_4.jpg",
+            "./data/raw_data/instagram_raw_images/DEpV6jcveFh_5.jpg",
+            "./data/raw_data/instagram_raw_images/DEpV6jcveFh_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/473023885_1165812032211319_6673259114525161416_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=W6Ih1t62VHEQ7kNvgGTG_pg&_nc_gid=243b79b22ac84956be0d1baffe55453a&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzU0MjQ1ODk0NTc0ODQyNjM2OA%3D%3D.3-ccb7-5&oh=00_AYD_nNsG6bOS46O0yoH1LYNj5yRk1t1b5f_hnMdqtohSYQ&oe=67A67B8A&_nc_sid=8f1549",
@@ -161,7 +200,11 @@
             "#smartapps"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DEUvirFPZiJ.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DEUvirFPZiJ.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t51.29350-15/472440730_1236054657486227_8515939659924070370_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2NvdmVyX2ZyYW1lIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=111&_nc_ohc=kw6AoRDQk0IQ7kNvgHLCKet&_nc_gid=243b79b22ac84956be0d1baffe55453a&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzUzNjY2MDY5ODI5OTczNDE1Mw%3D%3D.3-ccb7-5&oh=00_AYD4v8gKknMb_u5JAl6DkcPsKYSwxsByyHqlozveUwnsCA&oe=67A6A31E&_nc_sid=8f1549"
@@ -190,11 +233,19 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DEFZnukM30T_1.jpg",
             "../data/instagram_images/post_DEFZnukM30T_2.jpg",
             "../data/instagram_images/post_DEFZnukM30T_3.jpg",
             "../data/instagram_images/post_DEFZnukM30T_4.jpg",
             "../data/instagram_images/post_DEFZnukM30T_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DEFZnukM30T_1.jpg",
+            "./data/raw_data/instagram_raw_images/DEFZnukM30T_2.jpg",
+            "./data/raw_data/instagram_raw_images/DEFZnukM30T_3.jpg",
+            "./data/raw_data/instagram_raw_images/DEFZnukM30T_4.jpg",
+            "./data/raw_data/instagram_raw_images/DEFZnukM30T_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/471327221_1155276196598236_839439800302891166_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=kza8zvpez5sQ7kNvgFTGbwK&_nc_gid=243b79b22ac84956be0d1baffe55453a&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzUzMjM0MjE1NDYzNTYwNzM5OA%3D%3D.3-ccb7-5&oh=00_AYBRsm_hJtj1Accq0rtTI7WU_SHLy9f7r78HaMfTlj0Idw&oe=67A6799C&_nc_sid=8f1549",
@@ -222,7 +273,11 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DD_OxrPKqVL.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DD_OxrPKqVL.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/471424764_1152317190227470_8494614317820238976_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=AEcAOKl7sv8Q7kNvgG-MeYb&_nc_gid=243b79b22ac84956be0d1baffe55453a&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzUzMDYwNTYxOTIxMjYyNTIyNw%3D%3D.3-ccb7-5&oh=00_AYAXcMa4xjKijZj5TZaILL8c8LLr-4RZxlcWoPL-Ef27fg&oe=67A68667&_nc_sid=8f1549"
@@ -246,10 +301,17 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DDzRN8TNkYd_1.jpg",
             "../data/instagram_images/post_DDzRN8TNkYd_2.jpg",
             "../data/instagram_images/post_DDzRN8TNkYd_3.jpg",
             "../data/instagram_images/post_DDzRN8TNkYd_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DDzRN8TNkYd_1.jpg",
+            "./data/raw_data/instagram_raw_images/DDzRN8TNkYd_2.jpg",
+            "./data/raw_data/instagram_raw_images/DDzRN8TNkYd_3.jpg",
+            "./data/raw_data/instagram_raw_images/DDzRN8TNkYd_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/470202070_1149696737156182_855762302716727438_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=eIUHkVAHp7oQ7kNvgFXP6vH&_nc_gid=243b79b22ac84956be0d1baffe55453a&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzUyNzIzODY0Mzc4MjkxMzE1Ng%3D%3D.3-ccb7-5&oh=00_AYBcR_ig7P3eOYQlCx1xl1hReC2Cl_5jGuHQC0ClVdBt8Q&oe=67A69A3F&_nc_sid=8f1549",
@@ -281,12 +343,21 @@
             "#itobuztechnoloies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DDhPqdft7qK_1.jpg",
             "../data/instagram_images/post_DDhPqdft7qK_2.jpg",
             "../data/instagram_images/post_DDhPqdft7qK_3.jpg",
             "../data/instagram_images/post_DDhPqdft7qK_4.jpg",
             "../data/instagram_images/post_DDhPqdft7qK_5.jpg",
             "../data/instagram_images/post_DDhPqdft7qK_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DDhPqdft7qK_1.jpg",
+            "./data/raw_data/instagram_raw_images/DDhPqdft7qK_2.jpg",
+            "./data/raw_data/instagram_raw_images/DDhPqdft7qK_3.jpg",
+            "./data/raw_data/instagram_raw_images/DDhPqdft7qK_4.jpg",
+            "./data/raw_data/instagram_raw_images/DDhPqdft7qK_5.jpg",
+            "./data/raw_data/instagram_raw_images/DDhPqdft7qK_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/470182045_1144233087702547_8640992393738895468_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=Ny0yf_xudvoQ7kNvgGL-n8z&_nc_gid=243b79b22ac84956be0d1baffe55453a&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzUyMjE2NTI2MDY0MDY4NTk1NQ%3D%3D.3-ccb7-5&oh=00_AYB8quwzbTIWmh8ViX6BMwQrn2oSTQYWgT-vfEgy3nsVvg&oe=67A69164&_nc_sid=8f1549",
@@ -312,12 +383,21 @@
             "#appdevelopmentcompany"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DDPU9V5Pvb4_1.jpg",
             "../data/instagram_images/post_DDPU9V5Pvb4_2.jpg",
             "../data/instagram_images/post_DDPU9V5Pvb4_3.jpg",
             "../data/instagram_images/post_DDPU9V5Pvb4_4.jpg",
             "../data/instagram_images/post_DDPU9V5Pvb4_5.jpg",
             "../data/instagram_images/post_DDPU9V5Pvb4_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DDPU9V5Pvb4_1.jpg",
+            "./data/raw_data/instagram_raw_images/DDPU9V5Pvb4_2.jpg",
+            "./data/raw_data/instagram_raw_images/DDPU9V5Pvb4_3.jpg",
+            "./data/raw_data/instagram_raw_images/DDPU9V5Pvb4_4.jpg",
+            "./data/raw_data/instagram_raw_images/DDPU9V5Pvb4_5.jpg",
+            "./data/raw_data/instagram_raw_images/DDPU9V5Pvb4_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/469323814_1138862324906290_5330809398370922344_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=gIcQJCweY10Q7kNvgHGUnex&_nc_gid=243b79b22ac84956be0d1baffe55453a&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzUxNzEyMTk5MzcyNTcxNjUwOQ%3D%3D.3-ccb7-5&oh=00_AYA7VHfSQOxYJujrJg9xG-gQXCuvKdgo_pGXJ0u4wX6oiw&oe=67A68E05&_nc_sid=8f1549",
@@ -349,12 +429,21 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DC9LykON97x_1.jpg",
             "../data/instagram_images/post_DC9LykON97x_2.jpg",
             "../data/instagram_images/post_DC9LykON97x_3.jpg",
             "../data/instagram_images/post_DC9LykON97x_4.jpg",
             "../data/instagram_images/post_DC9LykON97x_5.jpg",
             "../data/instagram_images/post_DC9LykON97x_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DC9LykON97x_1.jpg",
+            "./data/raw_data/instagram_raw_images/DC9LykON97x_2.jpg",
+            "./data/raw_data/instagram_raw_images/DC9LykON97x_3.jpg",
+            "./data/raw_data/instagram_raw_images/DC9LykON97x_4.jpg",
+            "./data/raw_data/instagram_raw_images/DC9LykON97x_5.jpg",
+            "./data/raw_data/instagram_raw_images/DC9LykON97x_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/468732446_1133328928792963_7457716344956782291_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=BjaFLeciQSoQ7kNvgF4z2xq&_nc_gid=243b79b22ac84956be0d1baffe55453a&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzUxMjAxNTEyMTU1NzEwNDI4NQ%3D%3D.3-ccb7-5&oh=00_AYC7NXFqhfdbJDFRaHcd03ORjRqaqkozokJ6jvpCorY4pQ&oe=67A67195&_nc_sid=8f1549",
@@ -385,7 +474,11 @@
             "#itobuztechnoloies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DC6o4ydAwdI.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DC6o4ydAwdI.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/468547475_1132586242200565_2382235187247328635_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=j_EKARA2GW8Q7kNvgFj9ENy&_nc_gid=13927e2de12747f6ba09af54ab56ae54&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzUxMTI5ODY4MzgxMzY5MzI1Ng%3D%3D.3-ccb7-5&oh=00_AYCZoYxcRPKsmZ0iVOOyLgtKaaOtIm4AuQtRs7CYx8uOnA&oe=67A688D2&_nc_sid=8f1549"
@@ -409,11 +502,19 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DCrR1P8pGb9_1.jpg",
             "../data/instagram_images/post_DCrR1P8pGb9_2.jpg",
             "../data/instagram_images/post_DCrR1P8pGb9_3.jpg",
             "../data/instagram_images/post_DCrR1P8pGb9_4.jpg",
             "../data/instagram_images/post_DCrR1P8pGb9_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DCrR1P8pGb9_1.jpg",
+            "./data/raw_data/instagram_raw_images/DCrR1P8pGb9_2.jpg",
+            "./data/raw_data/instagram_raw_images/DCrR1P8pGb9_3.jpg",
+            "./data/raw_data/instagram_raw_images/DCrR1P8pGb9_4.jpg",
+            "./data/raw_data/instagram_raw_images/DCrR1P8pGb9_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/467907985_1127714259354430_2374357684825487258_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=jToLcvadCe4Q7kNvgF8C_Q3&_nc_gid=13927e2de12747f6ba09af54ab56ae54&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzUwNjk3NTE0NzI3ODI4MDUyNA%3D%3D.3-ccb7-5&oh=00_AYAmJ8-1ecE5BsDu5cnNqk9_2XrRKZHeg-kaKFR78FCV-w&oe=67A67785&_nc_sid=8f1549",
@@ -437,12 +538,21 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DCZJZPEhvnk_1.jpg",
             "../data/instagram_images/post_DCZJZPEhvnk_2.jpg",
             "../data/instagram_images/post_DCZJZPEhvnk_3.jpg",
             "../data/instagram_images/post_DCZJZPEhvnk_4.jpg",
             "../data/instagram_images/post_DCZJZPEhvnk_5.jpg",
             "../data/instagram_images/post_DCZJZPEhvnk_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DCZJZPEhvnk_1.jpg",
+            "./data/raw_data/instagram_raw_images/DCZJZPEhvnk_2.jpg",
+            "./data/raw_data/instagram_raw_images/DCZJZPEhvnk_3.jpg",
+            "./data/raw_data/instagram_raw_images/DCZJZPEhvnk_4.jpg",
+            "./data/raw_data/instagram_raw_images/DCZJZPEhvnk_5.jpg",
+            "./data/raw_data/instagram_raw_images/DCZJZPEhvnk_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/467021859_1122236236568899_7899863568033063343_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=c3Sw77aqPNUQ7kNvgEBmqks&_nc_gid=13927e2de12747f6ba09af54ab56ae54&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzUwMTg3MTQ4MjQzMzU3MDU4NQ%3D%3D.3-ccb7-5&oh=00_AYC1QxP_TdDnipKn0SeSWf0KDlAnwKUvUz05dfs-G0NCOQ&oe=67A69C89&_nc_sid=8f1549",
@@ -471,12 +581,21 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DCHH0RXN6MS_1.jpg",
             "../data/instagram_images/post_DCHH0RXN6MS_2.jpg",
             "../data/instagram_images/post_DCHH0RXN6MS_3.jpg",
             "../data/instagram_images/post_DCHH0RXN6MS_4.jpg",
             "../data/instagram_images/post_DCHH0RXN6MS_5.jpg",
             "../data/instagram_images/post_DCHH0RXN6MS_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DCHH0RXN6MS_1.jpg",
+            "./data/raw_data/instagram_raw_images/DCHH0RXN6MS_2.jpg",
+            "./data/raw_data/instagram_raw_images/DCHH0RXN6MS_3.jpg",
+            "./data/raw_data/instagram_raw_images/DCHH0RXN6MS_4.jpg",
+            "./data/raw_data/instagram_raw_images/DCHH0RXN6MS_5.jpg",
+            "./data/raw_data/instagram_raw_images/DCHH0RXN6MS_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/466011770_1116794640446392_6672134850149393706_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=sOn2clJVA3gQ7kNvgGixwA6&_nc_gid=13927e2de12747f6ba09af54ab56ae54&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQ5Njc5Nzk5NjkwMzI4OTQ3Mw%3D%3D.3-ccb7-5&oh=00_AYCBvbCavO3SqzNDW-SAPvJJUXLVQhqTbFwj_BJ9evpFXA&oe=67A68087&_nc_sid=8f1549",
@@ -501,7 +620,11 @@
             "#itobuztechnoloies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DBxnEikgIMx.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DBxnEikgIMx.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/465011718_1108868931238963_8713336064320665396_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=NOiN7D550F8Q7kNvgFNDo9d&_nc_gid=13927e2de12747f6ba09af54ab56ae54&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQ5MDc0MzAyMjAwMDMwOTA0MQ%3D%3D.3-ccb7-5&oh=00_AYD5yw3Vi-j7GZugrjBPsdz2q27vHxR9V1tex5kGlpxHGQ&oe=67A68C27&_nc_sid=8f1549"
@@ -522,7 +645,11 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DBvFtrfpOqW.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DBvFtrfpOqW.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/465004229_1108936254565564_2283734932499643801_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=fJGBHL2B1xwQ7kNvgFQc7YZ&_nc_gid=13927e2de12747f6ba09af54ab56ae54&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQ5MDAzMzM2NTU0NjIzMjQ3MA%3D%3D.3-ccb7-5&oh=00_AYD1Eju1qxl3qsdPZzcVl65O7E37qOkCxOww6Vy5Zg_khA&oe=67A66D77&_nc_sid=8f1549"
@@ -546,12 +673,21 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DBjLleLNiyN_1.jpg",
             "../data/instagram_images/post_DBjLleLNiyN_2.jpg",
             "../data/instagram_images/post_DBjLleLNiyN_3.jpg",
             "../data/instagram_images/post_DBjLleLNiyN_4.jpg",
             "../data/instagram_images/post_DBjLleLNiyN_5.jpg",
             "../data/instagram_images/post_DBjLleLNiyN_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DBjLleLNiyN_1.jpg",
+            "./data/raw_data/instagram_raw_images/DBjLleLNiyN_2.jpg",
+            "./data/raw_data/instagram_raw_images/DBjLleLNiyN_3.jpg",
+            "./data/raw_data/instagram_raw_images/DBjLleLNiyN_4.jpg",
+            "./data/raw_data/instagram_raw_images/DBjLleLNiyN_5.jpg",
+            "./data/raw_data/instagram_raw_images/DBjLleLNiyN_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/464596885_1105483094910880_3448985247967315096_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=mPrGJ1Ajql8Q7kNvgFMai9d&_nc_gid=13927e2de12747f6ba09af54ab56ae54&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQ4NjY4MTQ3MDA0MDY4NjYxOA%3D%3D.3-ccb7-5&oh=00_AYCou_1UWi2VpX02e7PzuoiDEIWjQdpjW9LQSQnYPfYS2Q&oe=67A69ED5&_nc_sid=8f1549",
@@ -583,11 +719,19 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DBRS7lBOmp3_1.jpg",
             "../data/instagram_images/post_DBRS7lBOmp3_2.jpg",
             "../data/instagram_images/post_DBRS7lBOmp3_3.jpg",
             "../data/instagram_images/post_DBRS7lBOmp3_4.jpg",
             "../data/instagram_images/post_DBRS7lBOmp3_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DBRS7lBOmp3_1.jpg",
+            "./data/raw_data/instagram_raw_images/DBRS7lBOmp3_2.jpg",
+            "./data/raw_data/instagram_raw_images/DBRS7lBOmp3_3.jpg",
+            "./data/raw_data/instagram_raw_images/DBRS7lBOmp3_4.jpg",
+            "./data/raw_data/instagram_raw_images/DBRS7lBOmp3_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/463892044_1099812418811281_928228040037309627_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=jm2hkLiKVwcQ7kNvgE2hLVN&_nc_gid=13927e2de12747f6ba09af54ab56ae54&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQ4MTY0NzIxOTkyMjc1MzU4OA%3D%3D.3-ccb7-5&oh=00_AYAg3RYDy8h6bZqN2oUUL433d1bK3ZG0S6_ABW208HQsoA&oe=67A68BF4&_nc_sid=8f1549",
@@ -616,12 +760,21 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DA_Ic3mKh_u_1.jpg",
             "../data/instagram_images/post_DA_Ic3mKh_u_2.jpg",
             "../data/instagram_images/post_DA_Ic3mKh_u_3.jpg",
             "../data/instagram_images/post_DA_Ic3mKh_u_4.jpg",
             "../data/instagram_images/post_DA_Ic3mKh_u_5.jpg",
             "../data/instagram_images/post_DA_Ic3mKh_u_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DA_Ic3mKh_u_1.jpg",
+            "./data/raw_data/instagram_raw_images/DA_Ic3mKh_u_2.jpg",
+            "./data/raw_data/instagram_raw_images/DA_Ic3mKh_u_3.jpg",
+            "./data/raw_data/instagram_raw_images/DA_Ic3mKh_u_4.jpg",
+            "./data/raw_data/instagram_raw_images/DA_Ic3mKh_u_5.jpg",
+            "./data/raw_data/instagram_raw_images/DA_Ic3mKh_u_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/462679138_1091614792964377_4237298202038764294_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=zCA3FVxmI28Q7kNvgFQFQo-&_nc_gid=13927e2de12747f6ba09af54ab56ae54&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQ3NjUzNDU2MzUzOTkyODcyNQ%3D%3D.3-ccb7-5&oh=00_AYCF0brFVbCbi2I8r4BhrTMIA2RAdJsGfPlYlVLU70pXuw&oe=67A696C1&_nc_sid=8f1549",
@@ -653,12 +806,21 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DAtG5Qai9vn_1.jpg",
             "../data/instagram_images/post_DAtG5Qai9vn_2.jpg",
             "../data/instagram_images/post_DAtG5Qai9vn_3.jpg",
             "../data/instagram_images/post_DAtG5Qai9vn_4.jpg",
             "../data/instagram_images/post_DAtG5Qai9vn_5.jpg",
             "../data/instagram_images/post_DAtG5Qai9vn_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DAtG5Qai9vn_1.jpg",
+            "./data/raw_data/instagram_raw_images/DAtG5Qai9vn_2.jpg",
+            "./data/raw_data/instagram_raw_images/DAtG5Qai9vn_3.jpg",
+            "./data/raw_data/instagram_raw_images/DAtG5Qai9vn_4.jpg",
+            "./data/raw_data/instagram_raw_images/DAtG5Qai9vn_5.jpg",
+            "./data/raw_data/instagram_raw_images/DAtG5Qai9vn_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/462031618_1086910743434782_5949955659570182445_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=0xFgl4VtDbMQ7kNvgFALDUw&_nc_gid=13927e2de12747f6ba09af54ab56ae54&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQ3MTQ2MTE2OTM5ODAzMjAxMA%3D%3D.3-ccb7-5&oh=00_AYCBfwKpe8kMq0brduJD0LFmoHdv7fUuuW4ZooHoTBDDKA&oe=67A68D98&_nc_sid=8f1549",
@@ -684,11 +846,19 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DAbB03tuqtt_1.jpg",
             "../data/instagram_images/post_DAbB03tuqtt_2.jpg",
             "../data/instagram_images/post_DAbB03tuqtt_3.jpg",
             "../data/instagram_images/post_DAbB03tuqtt_4.jpg",
             "../data/instagram_images/post_DAbB03tuqtt_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DAbB03tuqtt_1.jpg",
+            "./data/raw_data/instagram_raw_images/DAbB03tuqtt_2.jpg",
+            "./data/raw_data/instagram_raw_images/DAbB03tuqtt_3.jpg",
+            "./data/raw_data/instagram_raw_images/DAbB03tuqtt_4.jpg",
+            "./data/raw_data/instagram_raw_images/DAbB03tuqtt_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/461323733_1081266870665836_7537527824459172427_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=0nLJNjU3wC0Q7kNvgF7Goeu&_nc_gid=13927e2de12747f6ba09af54ab56ae54&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQ2NjM3MjM1NDQ0MTcxOTg2OQ%3D%3D.3-ccb7-5&oh=00_AYAvKG4PZMDBSOHHt2lBfcMErAefyoVJUPCkdXphMxSvAg&oe=67A6705A&_nc_sid=8f1549",
@@ -716,12 +886,21 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_DAJASEypdgq_1.jpg",
             "../data/instagram_images/post_DAJASEypdgq_2.jpg",
             "../data/instagram_images/post_DAJASEypdgq_3.jpg",
             "../data/instagram_images/post_DAJASEypdgq_4.jpg",
             "../data/instagram_images/post_DAJASEypdgq_5.jpg",
             "../data/instagram_images/post_DAJASEypdgq_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/DAJASEypdgq_1.jpg",
+            "./data/raw_data/instagram_raw_images/DAJASEypdgq_2.jpg",
+            "./data/raw_data/instagram_raw_images/DAJASEypdgq_3.jpg",
+            "./data/raw_data/instagram_raw_images/DAJASEypdgq_4.jpg",
+            "./data/raw_data/instagram_raw_images/DAJASEypdgq_5.jpg",
+            "./data/raw_data/instagram_raw_images/DAJASEypdgq_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/460674107_1075377471254776_5457212677439300837_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=aVEHST9WflwQ7kNvgEmgCdY&_nc_gid=13927e2de12747f6ba09af54ab56ae54&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQ2MTI5OTAxMjcyOTQzNTc1Nw%3D%3D.3-ccb7-5&oh=00_AYCJEIT0vggMXTIlnBKvPK1uzrqTq9VPWeDbanhPVZ854A&oe=67A6991E&_nc_sid=8f1549",
@@ -746,7 +925,11 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C_0dYZAMgTV.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C_0dYZAMgTV.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t51.29350-15/459625891_1198426044544409_6383624587598124849_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2NvdmVyX2ZyYW1lIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=eQhePZeF0DIQ7kNvgH6mife&_nc_gid=7bda02ac3c96424790ab381c88fd6f3e&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzQ1NTUxNjAzMzU2MzEwMDM3MzEwNjUxODUzMjE5OTA0MTI%3D.3-ccb7-5&oh=00_AYATQDymhaMvrV1JJY3eGmpTGZwvz1u563e80iG91VWwYg&oe=67A685EA&_nc_sid=8f1549"
@@ -769,11 +952,19 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C_lAnk8NO1s_1.jpg",
             "../data/instagram_images/post_C_lAnk8NO1s_2.jpg",
             "../data/instagram_images/post_C_lAnk8NO1s_3.jpg",
             "../data/instagram_images/post_C_lAnk8NO1s_4.jpg",
             "../data/instagram_images/post_C_lAnk8NO1s_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C_lAnk8NO1s_1.jpg",
+            "./data/raw_data/instagram_raw_images/C_lAnk8NO1s_2.jpg",
+            "./data/raw_data/instagram_raw_images/C_lAnk8NO1s_3.jpg",
+            "./data/raw_data/instagram_raw_images/C_lAnk8NO1s_4.jpg",
+            "./data/raw_data/instagram_raw_images/C_lAnk8NO1s_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/458386089_1063744855751371_2220954910316013469_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=jVplSk5u-2UQ7kNvgH6B5ok&_nc_gid=7bda02ac3c96424790ab381c88fd6f3e&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQ1MTE2NzM5NjEyMTAyOTc4MQ%3D%3D.3-ccb7-5&oh=00_AYAIrNS3_pd7KneuypuJujRoBSG7q6SCZdNDe6ZHzQNYKQ&oe=67A69231&_nc_sid=8f1549",
@@ -801,11 +992,19 @@
             "#Itobuz"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C_S_DkTognT_1.jpg",
             "../data/instagram_images/post_C_S_DkTognT_2.jpg",
             "../data/instagram_images/post_C_S_DkTognT_3.jpg",
             "../data/instagram_images/post_C_S_DkTognT_4.jpg",
             "../data/instagram_images/post_C_S_DkTognT_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C_S_DkTognT_1.jpg",
+            "./data/raw_data/instagram_raw_images/C_S_DkTognT_2.jpg",
+            "./data/raw_data/instagram_raw_images/C_S_DkTognT_3.jpg",
+            "./data/raw_data/instagram_raw_images/C_S_DkTognT_4.jpg",
+            "./data/raw_data/instagram_raw_images/C_S_DkTognT_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/457411413_1058570179602172_7987320929306307297_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=t9gW5w-56qkQ7kNvgFpDw34&_nc_gid=7bda02ac3c96424790ab381c88fd6f3e&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQ0NjA5Mzk1MTUyMjgxMzU5Ng%3D%3D.3-ccb7-5&oh=00_AYDWDlSI3RpRu4A4lnpgQBpwLzM3epNgt-xP71eU9JYfJQ&oe=67A67CFE&_nc_sid=8f1549",
@@ -835,11 +1034,19 @@
             "#Itobuz"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C_BA4RKPHYd_1.jpg",
             "../data/instagram_images/post_C_BA4RKPHYd_2.jpg",
             "../data/instagram_images/post_C_BA4RKPHYd_3.jpg",
             "../data/instagram_images/post_C_BA4RKPHYd_4.jpg",
             "../data/instagram_images/post_C_BA4RKPHYd_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C_BA4RKPHYd_1.jpg",
+            "./data/raw_data/instagram_raw_images/C_BA4RKPHYd_2.jpg",
+            "./data/raw_data/instagram_raw_images/C_BA4RKPHYd_3.jpg",
+            "./data/raw_data/instagram_raw_images/C_BA4RKPHYd_4.jpg",
+            "./data/raw_data/instagram_raw_images/C_BA4RKPHYd_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/456515304_1053089840150206_6723270004555025851_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=GBMOQm-V1ZcQ7kNvgG10i28&_nc_gid=7bda02ac3c96424790ab381c88fd6f3e&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQ0MTAzNTQ0Mzg5MjQyOTE5OQ%3D%3D.3-ccb7-5&oh=00_AYDCp-wo_P-7xJTKHVGJaJkqeK-byZUHgXUUzwyeX34FgQ&oe=67A66EF0&_nc_sid=8f1549",
@@ -863,11 +1070,19 @@
             "#ItobuzTechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C-o8_dIB5kP_1.jpg",
             "../data/instagram_images/post_C-o8_dIB5kP_2.jpg",
             "../data/instagram_images/post_C-o8_dIB5kP_3.jpg",
             "../data/instagram_images/post_C-o8_dIB5kP_4.jpg",
             "../data/instagram_images/post_C-o8_dIB5kP_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C-o8_dIB5kP_1.jpg",
+            "./data/raw_data/instagram_raw_images/C-o8_dIB5kP_2.jpg",
+            "./data/raw_data/instagram_raw_images/C-o8_dIB5kP_3.jpg",
+            "./data/raw_data/instagram_raw_images/C-o8_dIB5kP_4.jpg",
+            "./data/raw_data/instagram_raw_images/C-o8_dIB5kP_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/455080195_1046071317518725_5070927734462517566_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=EJs1wCrQmeEQ7kNvgEODDqH&_nc_gid=7bda02ac3c96424790ab381c88fd6f3e&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQzNDI2Mjk0MzU4MjU0NzQzOA%3D%3D.3-ccb7-5&oh=00_AYC7slLFaJMamLIkO84GcmV3iDZOqMpaT42U97pQeWJtPA&oe=67A68431&_nc_sid=8f1549",
@@ -891,11 +1106,19 @@
             "#Itobuz"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C-c6WFfCyY6_1.jpg",
             "../data/instagram_images/post_C-c6WFfCyY6_2.jpg",
             "../data/instagram_images/post_C-c6WFfCyY6_3.jpg",
             "../data/instagram_images/post_C-c6WFfCyY6_4.jpg",
             "../data/instagram_images/post_C-c6WFfCyY6_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C-c6WFfCyY6_1.jpg",
+            "./data/raw_data/instagram_raw_images/C-c6WFfCyY6_2.jpg",
+            "./data/raw_data/instagram_raw_images/C-c6WFfCyY6_3.jpg",
+            "./data/raw_data/instagram_raw_images/C-c6WFfCyY6_4.jpg",
+            "./data/raw_data/instagram_raw_images/C-c6WFfCyY6_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/454525786_1042359921223198_1396045973116820180_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=yRiVO-_hrocQ7kNvgG5w44w&_nc_gid=7bda02ac3c96424790ab381c88fd6f3e&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQzMDg3MzU5MDY0MjkwODk1OA%3D%3D.3-ccb7-5&oh=00_AYD-9EWOMS40kXV7I5BB4wZV_8XwTs9oHx012P_YDFbQRw&oe=67A6789B&_nc_sid=8f1549",
@@ -923,10 +1146,17 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C-K8MD7NeXz_1.jpg",
             "../data/instagram_images/post_C-K8MD7NeXz_2.jpg",
             "../data/instagram_images/post_C-K8MD7NeXz_3.jpg",
             "../data/instagram_images/post_C-K8MD7NeXz_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C-K8MD7NeXz_1.jpg",
+            "./data/raw_data/instagram_raw_images/C-K8MD7NeXz_2.jpg",
+            "./data/raw_data/instagram_raw_images/C-K8MD7NeXz_3.jpg",
+            "./data/raw_data/instagram_raw_images/C-K8MD7NeXz_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/453924352_1037186435073880_1943390875145364137_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=OuyjqZO4l7wQ7kNvgHcQHUA&_nc_gid=7bda02ac3c96424790ab381c88fd6f3e&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQyNTgxNTE2Nzg0NzYzNTI2MA%3D%3D.3-ccb7-5&oh=00_AYDR7sHfqf6A45IhT6hr71-5R6bN9rF5p2e-TSxUkCUsyA&oe=67A6968A&_nc_sid=8f1549",
@@ -953,10 +1183,17 @@
             "#Itobuz"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C94wXzis5Bb_1.jpg",
             "../data/instagram_images/post_C94wXzis5Bb_2.jpg",
             "../data/instagram_images/post_C94wXzis5Bb_3.jpg",
             "../data/instagram_images/post_C94wXzis5Bb_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C94wXzis5Bb_1.jpg",
+            "./data/raw_data/instagram_raw_images/C94wXzis5Bb_2.jpg",
+            "./data/raw_data/instagram_raw_images/C94wXzis5Bb_3.jpg",
+            "./data/raw_data/instagram_raw_images/C94wXzis5Bb_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/452917740_1031887138937143_6179831085518948587_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=tFid9slzf84Q7kNvgHlTLSc&_nc_gid=7bda02ac3c96424790ab381c88fd6f3e&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQyMDY5NjY0NjcyOTc0NDQwMg%3D%3D.3-ccb7-5&oh=00_AYDiZ_lq2P9aNvd588pDxc66qfNTrXyV9yCD9KSm9D151A&oe=67A6952B&_nc_sid=8f1549",
@@ -980,11 +1217,19 @@
             "#itobuztech"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C9m1sJeOVx3_1.jpg",
             "../data/instagram_images/post_C9m1sJeOVx3_2.jpg",
             "../data/instagram_images/post_C9m1sJeOVx3_3.jpg",
             "../data/instagram_images/post_C9m1sJeOVx3_4.jpg",
             "../data/instagram_images/post_C9m1sJeOVx3_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C9m1sJeOVx3_1.jpg",
+            "./data/raw_data/instagram_raw_images/C9m1sJeOVx3_2.jpg",
+            "./data/raw_data/instagram_raw_images/C9m1sJeOVx3_3.jpg",
+            "./data/raw_data/instagram_raw_images/C9m1sJeOVx3_4.jpg",
+            "./data/raw_data/instagram_raw_images/C9m1sJeOVx3_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/451859638_1027070566085467_8502340624116229583_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=FXXzfjPgSrgQ7kNvgHQOOgj&_nc_gid=7bda02ac3c96424790ab381c88fd6f3e&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQxNTY1MzQ4MTc3ODM3MDUxOQ%3D%3D.3-ccb7-5&oh=00_AYCvi2gpcMRkJa-34HQF0zx9oYbgXLARVEIhNVsJn8-WLQ&oe=67A69345&_nc_sid=8f1549",
@@ -1009,11 +1254,19 @@
             "#itobuztechnologies"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C9fDy3UN81d_1.jpg",
             "../data/instagram_images/post_C9fDy3UN81d_2.jpg",
             "../data/instagram_images/post_C9fDy3UN81d_3.jpg",
             "../data/instagram_images/post_C9fDy3UN81d_4.jpg",
             "../data/instagram_images/post_C9fDy3UN81d_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C9fDy3UN81d_1.jpg",
+            "./data/raw_data/instagram_raw_images/C9fDy3UN81d_2.jpg",
+            "./data/raw_data/instagram_raw_images/C9fDy3UN81d_3.jpg",
+            "./data/raw_data/instagram_raw_images/C9fDy3UN81d_4.jpg",
+            "./data/raw_data/instagram_raw_images/C9fDy3UN81d_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/451405234_1024304223028768_2378575822317572523_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=xQ_ROlkN8ykQ7kNvgEV5iWV&_nc_gid=7bda02ac3c96424790ab381c88fd6f3e&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQxMzQ2MzcxNzkyNjg3MjQ3Mg%3D%3D.3-ccb7-5&oh=00_AYAu0ewfxf3dacirQphyPN-jlpg3YaY3IFPpcgQ8k0zcGA&oe=67A67D51&_nc_sid=8f1549",
@@ -1038,10 +1291,17 @@
             "#itobuztech"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C9CvEffsvmf_1.jpg",
             "../data/instagram_images/post_C9CvEffsvmf_2.jpg",
             "../data/instagram_images/post_C9CvEffsvmf_3.jpg",
             "../data/instagram_images/post_C9CvEffsvmf_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C9CvEffsvmf_1.jpg",
+            "./data/raw_data/instagram_raw_images/C9CvEffsvmf_2.jpg",
+            "./data/raw_data/instagram_raw_images/C9CvEffsvmf_3.jpg",
+            "./data/raw_data/instagram_raw_images/C9CvEffsvmf_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/450161443_1017205097072014_2949953269273677612_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=-az5fg_yHKIQ7kNvgHL4lIN&_nc_gid=7bda02ac3c96424790ab381c88fd6f3e&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQwNTQ5MTI3MDExMTYzMjMwOA%3D%3D.3-ccb7-5&oh=00_AYDmjiU64Ge0Kov0BAPB4LGpxiFPPeIQ-2qYYQKzu8EIzw&oe=67A6925A&_nc_sid=8f1549",
@@ -1070,11 +1330,19 @@
             "#Itobuz"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C8wtfHXttoL_1.jpg",
             "../data/instagram_images/post_C8wtfHXttoL_2.jpg",
             "../data/instagram_images/post_C8wtfHXttoL_3.jpg",
             "../data/instagram_images/post_C8wtfHXttoL_4.jpg",
             "../data/instagram_images/post_C8wtfHXttoL_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C8wtfHXttoL_1.jpg",
+            "./data/raw_data/instagram_raw_images/C8wtfHXttoL_2.jpg",
+            "./data/raw_data/instagram_raw_images/C8wtfHXttoL_3.jpg",
+            "./data/raw_data/instagram_raw_images/C8wtfHXttoL_4.jpg",
+            "./data/raw_data/instagram_raw_images/C8wtfHXttoL_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/449456492_1012215110904346_4532713602300255615_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=BGPU6tdzojAQ7kNvgEG2MjZ&_nc_gid=7bda02ac3c96424790ab381c88fd6f3e&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzQwMDQxNzc1NjMwMDI5NjE0MA%3D%3D.3-ccb7-5&oh=00_AYCbc0tbw1_s8Xu6ScAPEAuGfgceKKS11px8d2PdHuRgog&oe=67A691D9&_nc_sid=8f1549",
@@ -1099,10 +1367,17 @@
             "#Itobuz"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C8ehpjMKs-m_1.jpg",
             "../data/instagram_images/post_C8ehpjMKs-m_2.jpg",
             "../data/instagram_images/post_C8ehpjMKs-m_3.jpg",
             "../data/instagram_images/post_C8ehpjMKs-m_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C8ehpjMKs-m_1.jpg",
+            "./data/raw_data/instagram_raw_images/C8ehpjMKs-m_2.jpg",
+            "./data/raw_data/instagram_raw_images/C8ehpjMKs-m_3.jpg",
+            "./data/raw_data/instagram_raw_images/C8ehpjMKs-m_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/448864373_1006882001437657_551705107680679801_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=vqZM2Q8XgDEQ7kNvgEW3cVo&_nc_gid=a16f9edd094c437fba109ee3959fd529&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzM5NTI5OTEzNzMyODc1NDQ2OQ%3D%3D.3-ccb7-5&oh=00_AYBDmhV9o_fC28DQJli8fVfs9QuYbRlJLKxCjdMeeSdhtg&oe=67A691AA&_nc_sid=8f1549",
@@ -1126,11 +1401,19 @@
             "#Itobuz"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C8L-34RoMr-_1.jpg",
             "../data/instagram_images/post_C8L-34RoMr-_2.jpg",
             "../data/instagram_images/post_C8L-34RoMr-_3.jpg",
             "../data/instagram_images/post_C8L-34RoMr-_4.jpg",
             "../data/instagram_images/post_C8L-34RoMr-_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C8L-34RoMr-_1.jpg",
+            "./data/raw_data/instagram_raw_images/C8L-34RoMr-_2.jpg",
+            "./data/raw_data/instagram_raw_images/C8L-34RoMr-_3.jpg",
+            "./data/raw_data/instagram_raw_images/C8L-34RoMr-_4.jpg",
+            "./data/raw_data/instagram_raw_images/C8L-34RoMr-_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/448351073_1001964011929456_5121112432755043705_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDc4eDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=RdbBqUwJFXoQ7kNvgGvTQO7&_nc_gid=a16f9edd094c437fba109ee3959fd529&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzM5MDA3OTYzODkxMjAzNjM0MQ%3D%3D.3-ccb7-5&oh=00_AYBgG1H1eu9cARnbRcXdsL6K_77X6D_zY6YbFzpG97CPUA&oe=67A6945A&_nc_sid=8f1549",
@@ -1156,12 +1439,21 @@
             "#Itobuz"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C8J_KHqgJ0u_1.jpg",
             "../data/instagram_images/post_C8J_KHqgJ0u_2.jpg",
             "../data/instagram_images/post_C8J_KHqgJ0u_3.jpg",
             "../data/instagram_images/post_C8J_KHqgJ0u_4.jpg",
             "../data/instagram_images/post_C8J_KHqgJ0u_5.jpg",
             "../data/instagram_images/post_C8J_KHqgJ0u_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C8J_KHqgJ0u_1.jpg",
+            "./data/raw_data/instagram_raw_images/C8J_KHqgJ0u_2.jpg",
+            "./data/raw_data/instagram_raw_images/C8J_KHqgJ0u_3.jpg",
+            "./data/raw_data/instagram_raw_images/C8J_KHqgJ0u_4.jpg",
+            "./data/raw_data/instagram_raw_images/C8J_KHqgJ0u_5.jpg",
+            "./data/raw_data/instagram_raw_images/C8J_KHqgJ0u_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/448370792_1001452285313962_8313414438604288676_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=KdEg5ytVrGoQ7kNvgFsQ9T-&_nc_gid=a16f9edd094c437fba109ee3959fd529&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzM4OTUxNzk0OTY3MjA0NzU0Mg%3D%3D.3-ccb7-5&oh=00_AYDYsYtcIOH49Z05HqLFhAyd_0y1vczHBTNAsc77CnZSlw&oe=67A6917F&_nc_sid=8f1549",
@@ -1186,12 +1478,21 @@
             "#itobuztech"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C751Vl4qZ8R_1.jpg",
             "../data/instagram_images/post_C751Vl4qZ8R_2.jpg",
             "../data/instagram_images/post_C751Vl4qZ8R_3.jpg",
             "../data/instagram_images/post_C751Vl4qZ8R_4.jpg",
             "../data/instagram_images/post_C751Vl4qZ8R_5.jpg",
             "../data/instagram_images/post_C751Vl4qZ8R_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C751Vl4qZ8R_1.jpg",
+            "./data/raw_data/instagram_raw_images/C751Vl4qZ8R_2.jpg",
+            "./data/raw_data/instagram_raw_images/C751Vl4qZ8R_3.jpg",
+            "./data/raw_data/instagram_raw_images/C751Vl4qZ8R_4.jpg",
+            "./data/raw_data/instagram_raw_images/C751Vl4qZ8R_5.jpg",
+            "./data/raw_data/instagram_raw_images/C751Vl4qZ8R_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/445234316_991845232941334_1816502932706456501_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=ejTTYlQ8maQQ7kNvgGcqZjf&_nc_gid=a16f9edd094c437fba109ee3959fd529&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzM4NDk3MTEzNjk1NTI5NTk1Mw%3D%3D.3-ccb7-5&oh=00_AYDeO8_Kgoq9ZrlMfwDLLnI7yk44eINWpUtUNUUWiYgJ5Q&oe=67A68852&_nc_sid=8f1549",
@@ -1216,12 +1517,21 @@
             "#itobuztech"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C7nwS_6u9pr_1.jpg",
             "../data/instagram_images/post_C7nwS_6u9pr_2.jpg",
             "../data/instagram_images/post_C7nwS_6u9pr_3.jpg",
             "../data/instagram_images/post_C7nwS_6u9pr_4.jpg",
             "../data/instagram_images/post_C7nwS_6u9pr_5.jpg",
             "../data/instagram_images/post_C7nwS_6u9pr_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C7nwS_6u9pr_1.jpg",
+            "./data/raw_data/instagram_raw_images/C7nwS_6u9pr_2.jpg",
+            "./data/raw_data/instagram_raw_images/C7nwS_6u9pr_3.jpg",
+            "./data/raw_data/instagram_raw_images/C7nwS_6u9pr_4.jpg",
+            "./data/raw_data/instagram_raw_images/C7nwS_6u9pr_5.jpg",
+            "./data/raw_data/instagram_raw_images/C7nwS_6u9pr_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/445234325_991934789599045_3369015789347912275_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDc4eDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=jReR26rDX20Q7kNvgGPEeY-&_nc_gid=a16f9edd094c437fba109ee3959fd529&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzM3OTg4MjQ0MTc2OTE4MDE4MA%3D%3D.3-ccb7-5&oh=00_AYCQmPPbQyHSgQ1_EKqxYuWh73hqQ5tDnueNNdhw9M32Cg&oe=67A69B49&_nc_sid=8f1549",
@@ -1247,11 +1557,19 @@
             "#ItoubuzTech"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C7YW-x8RSSt_1.jpg",
             "../data/instagram_images/post_C7YW-x8RSSt_2.jpg",
             "../data/instagram_images/post_C7YW-x8RSSt_3.jpg",
             "../data/instagram_images/post_C7YW-x8RSSt_4.jpg",
             "../data/instagram_images/post_C7YW-x8RSSt_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C7YW-x8RSSt_1.jpg",
+            "./data/raw_data/instagram_raw_images/C7YW-x8RSSt_2.jpg",
+            "./data/raw_data/instagram_raw_images/C7YW-x8RSSt_3.jpg",
+            "./data/raw_data/instagram_raw_images/C7YW-x8RSSt_4.jpg",
+            "./data/raw_data/instagram_raw_images/C7YW-x8RSSt_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/442465952_987736453352212_8545748489674754181_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=FmKlhy7o4eQQ7kNvgGqUY_2&_nc_gid=a16f9edd094c437fba109ee3959fd529&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzM3NTU0ODk3MTMwODM4NTg3Ng%3D%3D.3-ccb7-5&oh=00_AYBM7qUrDe67ulLkaS6Edf-_QlAHkG8o-nJFhrCpDexJhA&oe=67A6A2A8&_nc_sid=8f1549",
@@ -1275,12 +1593,21 @@
             "#TechEvent"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C7T9c_PBBha_1.jpg",
             "../data/instagram_images/post_C7T9c_PBBha_2.jpg",
             "../data/instagram_images/post_C7T9c_PBBha_3.jpg",
             "../data/instagram_images/post_C7T9c_PBBha_4.jpg",
             "../data/instagram_images/post_C7T9c_PBBha_5.jpg",
             "../data/instagram_images/post_C7T9c_PBBha_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C7T9c_PBBha_1.jpg",
+            "./data/raw_data/instagram_raw_images/C7T9c_PBBha_2.jpg",
+            "./data/raw_data/instagram_raw_images/C7T9c_PBBha_3.jpg",
+            "./data/raw_data/instagram_raw_images/C7T9c_PBBha_4.jpg",
+            "./data/raw_data/instagram_raw_images/C7T9c_PBBha_5.jpg",
+            "./data/raw_data/instagram_raw_images/C7T9c_PBBha_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/445242129_987027613423096_9100986991752784211_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=9Rt7mj4bBagQ7kNvgEZAdvb&_nc_gid=a16f9edd094c437fba109ee3959fd529&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzM3NDMxMDgwMTEyODMxNzc5Mg%3D%3D.3-ccb7-5&oh=00_AYBIUN41iA5dVUncjiCs7g1mQQLeYfwLoH64MUKbMo2Skw&oe=67A6A341&_nc_sid=8f1549",
@@ -1303,12 +1630,21 @@
             "#itobuz"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C7EkHBWOmnm_1.jpg",
             "../data/instagram_images/post_C7EkHBWOmnm_2.jpg",
             "../data/instagram_images/post_C7EkHBWOmnm_3.jpg",
             "../data/instagram_images/post_C7EkHBWOmnm_4.jpg",
             "../data/instagram_images/post_C7EkHBWOmnm_5.jpg",
             "../data/instagram_images/post_C7EkHBWOmnm_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C7EkHBWOmnm_1.jpg",
+            "./data/raw_data/instagram_raw_images/C7EkHBWOmnm_2.jpg",
+            "./data/raw_data/instagram_raw_images/C7EkHBWOmnm_3.jpg",
+            "./data/raw_data/instagram_raw_images/C7EkHBWOmnm_4.jpg",
+            "./data/raw_data/instagram_raw_images/C7EkHBWOmnm_5.jpg",
+            "./data/raw_data/instagram_raw_images/C7EkHBWOmnm_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/442488068_982607580531766_7603341997739377049_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDc4eDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=4FbeWDiwy4kQ7kNvgFYfaQV&_nc_gid=a16f9edd094c437fba109ee3959fd529&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzM2OTk3NzIxNTQ1MjgwNDUyNw%3D%3D.3-ccb7-5&oh=00_AYBn1WAvqc66LnDpcb3bwwuBHsCM-LZnTzIuzoh_6P3fSQ&oe=67A6A458&_nc_sid=8f1549",
@@ -1331,11 +1667,19 @@
             "#userinterface"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C6yiinPJZyl_1.jpg",
             "../data/instagram_images/post_C6yiinPJZyl_2.jpg",
             "../data/instagram_images/post_C6yiinPJZyl_3.jpg",
             "../data/instagram_images/post_C6yiinPJZyl_4.jpg",
             "../data/instagram_images/post_C6yiinPJZyl_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C6yiinPJZyl_1.jpg",
+            "./data/raw_data/instagram_raw_images/C6yiinPJZyl_2.jpg",
+            "./data/raw_data/instagram_raw_images/C6yiinPJZyl_3.jpg",
+            "./data/raw_data/instagram_raw_images/C6yiinPJZyl_4.jpg",
+            "./data/raw_data/instagram_raw_images/C6yiinPJZyl_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/441958987_977408661051658_5286069861787667941_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=HzpjigvlkAsQ7kNvgHTntCO&_nc_gid=a16f9edd094c437fba109ee3959fd529&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzM2NDkwMzc2ODM5NjQyNjM0Mw%3D%3D.3-ccb7-5&oh=00_AYBrzR1aHv6hFuxLOzDQzkerHZexEcGZIH5-mwaQwGQQVg&oe=67A6A4F8&_nc_sid=8f1549",
@@ -1358,10 +1702,17 @@
             "#itobuz"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C6gg-_xvIXO_1.jpg",
             "../data/instagram_images/post_C6gg-_xvIXO_2.jpg",
             "../data/instagram_images/post_C6gg-_xvIXO_3.jpg",
             "../data/instagram_images/post_C6gg-_xvIXO_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C6gg-_xvIXO_1.jpg",
+            "./data/raw_data/instagram_raw_images/C6gg-_xvIXO_2.jpg",
+            "./data/raw_data/instagram_raw_images/C6gg-_xvIXO_3.jpg",
+            "./data/raw_data/instagram_raw_images/C6gg-_xvIXO_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/440766016_972586748200516_902387011778685687_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=F_3QIN3sv2AQ7kNvgFmY86B&_nc_gid=a16f9edd094c437fba109ee3959fd529&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzM1OTgzMDM3NzIxMTM0NzY0Nw%3D%3D.3-ccb7-5&oh=00_AYCL3Q4gqvTnFojSysrZmEkN5JODPweToZxg7f6RoActXw&oe=67A69B4C&_nc_sid=8f1549",
@@ -1382,11 +1733,19 @@
             "#itobuz"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C6Ob_Imso9t_1.jpg",
             "../data/instagram_images/post_C6Ob_Imso9t_2.jpg",
             "../data/instagram_images/post_C6Ob_Imso9t_3.jpg",
             "../data/instagram_images/post_C6Ob_Imso9t_4.jpg",
             "../data/instagram_images/post_C6Ob_Imso9t_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C6Ob_Imso9t_1.jpg",
+            "./data/raw_data/instagram_raw_images/C6Ob_Imso9t_2.jpg",
+            "./data/raw_data/instagram_raw_images/C6Ob_Imso9t_3.jpg",
+            "./data/raw_data/instagram_raw_images/C6Ob_Imso9t_4.jpg",
+            "./data/raw_data/instagram_raw_images/C6Ob_Imso9t_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/440753188_967610058698185_8956345605620550003_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=TkJiL_M_x8UQ7kNvgHv-htq&_nc_gid=a16f9edd094c437fba109ee3959fd529&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzM1NDc0MTg0NjQ5ODcwNDI2NQ%3D%3D.3-ccb7-5&oh=00_AYDTBo5_kSN7qATn0fZ1ek3X3uo6j1uTevG3RPTk5Ty1AQ&oe=67A67A17&_nc_sid=8f1549",
@@ -1409,10 +1768,17 @@
             "#businessanalytics"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C58Yyb-LHPS_1.jpg",
             "../data/instagram_images/post_C58Yyb-LHPS_2.jpg",
             "../data/instagram_images/post_C58Yyb-LHPS_3.jpg",
             "../data/instagram_images/post_C58Yyb-LHPS_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C58Yyb-LHPS_1.jpg",
+            "./data/raw_data/instagram_raw_images/C58Yyb-LHPS_2.jpg",
+            "./data/raw_data/instagram_raw_images/C58Yyb-LHPS_3.jpg",
+            "./data/raw_data/instagram_raw_images/C58Yyb-LHPS_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/439451602_962870425838815_767907799868848785_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=dWmj3PSMYDMQ7kNvgFtgy5s&_nc_gid=a16f9edd094c437fba109ee3959fd529&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzM0OTY2MTIzMjU4NTgyMDUwMA%3D%3D.3-ccb7-5&oh=00_AYArBkGFkf5l1VM5Kvxr1z9y9MRMY7IbHpkRQX6tpLkZZQ&oe=67A68944&_nc_sid=8f1549",
@@ -1434,10 +1800,17 @@
             "#futuretech"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C5qDUufyjZN_1.jpg",
             "../data/instagram_images/post_C5qDUufyjZN_2.jpg",
             "../data/instagram_images/post_C5qDUufyjZN_3.jpg",
             "../data/instagram_images/post_C5qDUufyjZN_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C5qDUufyjZN_1.jpg",
+            "./data/raw_data/instagram_raw_images/C5qDUufyjZN_2.jpg",
+            "./data/raw_data/instagram_raw_images/C5qDUufyjZN_3.jpg",
+            "./data/raw_data/instagram_raw_images/C5qDUufyjZN_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t51.29350-15/437922425_803767261624630_2446054201965305966_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2NvdmVyX2ZyYW1lIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=2aJ-8LBfXIYQ7kNvgHl_rCF&_nc_gid=c5e969a3937943ce814dad4d7ec07b7f&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzM0NDQ5NzMxMTgwMzEzMDQ0Mg%3D%3D.3-ccb7-5&oh=00_AYCNwsiZzBdb-O8tPW4n0eBWApD2XzTIdv-Rlj97THcXrA&oe=67A672BA&_nc_sid=8f1549",
@@ -1458,10 +1831,17 @@
             "#technology"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C5X3qg5ScR2_1.jpg",
             "../data/instagram_images/post_C5X3qg5ScR2_2.jpg",
             "../data/instagram_images/post_C5X3qg5ScR2_3.jpg",
             "../data/instagram_images/post_C5X3qg5ScR2_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C5X3qg5ScR2_1.jpg",
+            "./data/raw_data/instagram_raw_images/C5X3qg5ScR2_2.jpg",
+            "./data/raw_data/instagram_raw_images/C5X3qg5ScR2_3.jpg",
+            "./data/raw_data/instagram_raw_images/C5X3qg5ScR2_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t51.29350-15/435893411_792826229057060_7243294075886402836_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2NvdmVyX2ZyYW1lIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=108&_nc_ohc=831XgunDLTEQ7kNvgEb2t16&_nc_gid=c5e969a3937943ce814dad4d7ec07b7f&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzMzOTM3ODU3MTY4Mzk2NDQwMg%3D%3D.3-ccb7-5&oh=00_AYB422uj9XRoprAUToah3yO2Q_eTJKJ4l6TbrEAMVbJWRA&oe=67A677DD&_nc_sid=8f1549",
@@ -1481,12 +1861,21 @@
             "#holi2024"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C5QDCocPRMO_1.jpg",
             "../data/instagram_images/post_C5QDCocPRMO_2.jpg",
             "../data/instagram_images/post_C5QDCocPRMO_3.jpg",
             "../data/instagram_images/post_C5QDCocPRMO_4.jpg",
             "../data/instagram_images/post_C5QDCocPRMO_5.jpg",
             "../data/instagram_images/post_C5QDCocPRMO_6.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C5QDCocPRMO_1.jpg",
+            "./data/raw_data/instagram_raw_images/C5QDCocPRMO_2.jpg",
+            "./data/raw_data/instagram_raw_images/C5QDCocPRMO_3.jpg",
+            "./data/raw_data/instagram_raw_images/C5QDCocPRMO_4.jpg",
+            "./data/raw_data/instagram_raw_images/C5QDCocPRMO_5.jpg",
+            "./data/raw_data/instagram_raw_images/C5QDCocPRMO_6.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/434934935_950981220361069_1480247636565429495_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDc4eDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=lnCdIEN-KxAQ7kNvgGANCal&_nc_gid=c5e969a3937943ce814dad4d7ec07b7f&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzMzNzE4MDY4MzIxMzYzODgzMg%3D%3D.3-ccb7-5&oh=00_AYAo1HLHCqldXougOmftNCYhqnLbaUVRIwwLJYjkJtE6CQ&oe=67A684BC&_nc_sid=8f1549",
@@ -1510,10 +1899,17 @@
             "#roboai"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C5GJnpiytcK_1.jpg",
             "../data/instagram_images/post_C5GJnpiytcK_2.jpg",
             "../data/instagram_images/post_C5GJnpiytcK_3.jpg",
             "../data/instagram_images/post_C5GJnpiytcK_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C5GJnpiytcK_1.jpg",
+            "./data/raw_data/instagram_raw_images/C5GJnpiytcK_2.jpg",
+            "./data/raw_data/instagram_raw_images/C5GJnpiytcK_3.jpg",
+            "./data/raw_data/instagram_raw_images/C5GJnpiytcK_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t51.29350-15/434314383_1201817384113766_4566117006852922799_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2NvdmVyX2ZyYW1lIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=102&_nc_ohc=PFEPGLiJWjAQ7kNvgEx13GT&_nc_gid=c5e969a3937943ce814dad4d7ec07b7f&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzMzNDM5NDE5NjE5NDA4MjAxMw%3D%3D.3-ccb7-5&oh=00_AYDTs7EZ8yqPzGiViz3mscnBjAuHa9VY88pweoxm5AlGMA&oe=67A6A0B8&_nc_sid=8f1549",
@@ -1533,11 +1929,19 @@
             "#AIinTransportation"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C40SqspplGo_1.jpg",
             "../data/instagram_images/post_C40SqspplGo_2.jpg",
             "../data/instagram_images/post_C40SqspplGo_3.jpg",
             "../data/instagram_images/post_C40SqspplGo_4.jpg",
             "../data/instagram_images/post_C40SqspplGo_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C40SqspplGo_1.jpg",
+            "./data/raw_data/instagram_raw_images/C40SqspplGo_2.jpg",
+            "./data/raw_data/instagram_raw_images/C40SqspplGo_3.jpg",
+            "./data/raw_data/instagram_raw_images/C40SqspplGo_4.jpg",
+            "./data/raw_data/instagram_raw_images/C40SqspplGo_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/434051372_943093814483143_6447016420551193489_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=Nrn-OaQoJBMQ7kNvgHe773h&_nc_gid=c5e969a3937943ce814dad4d7ec07b7f&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzMyOTM2ODExMzM5ODc1MDc3MQ%3D%3D.3-ccb7-5&oh=00_AYCsFbnQn5GZ6PkrkAjIQ0p2cdJNECSByMEOyuz3TM9HpA&oe=67A66DEC&_nc_sid=8f1549",
@@ -1557,9 +1961,15 @@
             "#womendaycelebration"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C4p9152OA6U_1.jpg",
             "../data/instagram_images/post_C4p9152OA6U_2.jpg",
             "../data/instagram_images/post_C4p9152OA6U_3.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C4p9152OA6U_1.jpg",
+            "./data/raw_data/instagram_raw_images/C4p9152OA6U_2.jpg",
+            "./data/raw_data/instagram_raw_images/C4p9152OA6U_3.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/433527642_940397524752772_9095804493561118036_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=vT75TyYScx0Q7kNvgGYeg0z&_nc_gid=c5e969a3937943ce814dad4d7ec07b7f&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzMyNjQ2MTc3NjU1MDc0MDU3NA%3D%3D.3-ccb7-5&oh=00_AYC2ZLo0SV0RkyDvMYAvgr7l4NaqOFmzSlcU5YKt2I7uow&oe=67A6868E&_nc_sid=8f1549",
@@ -1579,11 +1989,19 @@
             "#mobiledevelopment"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C4htA1IyYyv_1.jpg",
             "../data/instagram_images/post_C4htA1IyYyv_2.jpg",
             "../data/instagram_images/post_C4htA1IyYyv_3.jpg",
             "../data/instagram_images/post_C4htA1IyYyv_4.jpg",
             "../data/instagram_images/post_C4htA1IyYyv_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C4htA1IyYyv_1.jpg",
+            "./data/raw_data/instagram_raw_images/C4htA1IyYyv_2.jpg",
+            "./data/raw_data/instagram_raw_images/C4htA1IyYyv_3.jpg",
+            "./data/raw_data/instagram_raw_images/C4htA1IyYyv_4.jpg",
+            "./data/raw_data/instagram_raw_images/C4htA1IyYyv_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t51.29350-15/433083241_725702719628436_8425712254003181784_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2NvdmVyX2ZyYW1lIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=YvYY1nPl7CAQ7kNvgEcJU1e&_nc_gid=c5e969a3937943ce814dad4d7ec07b7f&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzMyNDEzMzc4NDIyNzg2MjU4Nw%3D%3D.3-ccb7-5&oh=00_AYAyHKvlFluoN9Cong4cSdT5UoUzQWwQbykxSY0sVMeBEA&oe=67A6708C&_nc_sid=8f1549",
@@ -1606,11 +2024,19 @@
             "#mobileapps"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C4QX9AiPtyZ_1.jpg",
             "../data/instagram_images/post_C4QX9AiPtyZ_2.jpg",
             "../data/instagram_images/post_C4QX9AiPtyZ_3.jpg",
             "../data/instagram_images/post_C4QX9AiPtyZ_4.jpg",
             "../data/instagram_images/post_C4QX9AiPtyZ_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C4QX9AiPtyZ_1.jpg",
+            "./data/raw_data/instagram_raw_images/C4QX9AiPtyZ_2.jpg",
+            "./data/raw_data/instagram_raw_images/C4QX9AiPtyZ_3.jpg",
+            "./data/raw_data/instagram_raw_images/C4QX9AiPtyZ_4.jpg",
+            "./data/raw_data/instagram_raw_images/C4QX9AiPtyZ_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/429580825_933721772087014_5880638282953050579_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=D1TFnguLraAQ7kNvgGA5dFv&_nc_gid=c5e969a3937943ce814dad4d7ec07b7f&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzMxOTI1ODI2MjcwMzkzMzMxMw%3D%3D.3-ccb7-5&oh=00_AYCtAL9AvqUFKfUPnz3v2VcZbHn26LMxq372nKDUOe1fWQ&oe=67A67966&_nc_sid=8f1549",
@@ -1637,11 +2063,19 @@
             "#techtrends"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C39xu0UMiCZ_1.jpg",
             "../data/instagram_images/post_C39xu0UMiCZ_2.jpg",
             "../data/instagram_images/post_C39xu0UMiCZ_3.jpg",
             "../data/instagram_images/post_C39xu0UMiCZ_4.jpg",
             "../data/instagram_images/post_C39xu0UMiCZ_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C39xu0UMiCZ_1.jpg",
+            "./data/raw_data/instagram_raw_images/C39xu0UMiCZ_2.jpg",
+            "./data/raw_data/instagram_raw_images/C39xu0UMiCZ_3.jpg",
+            "./data/raw_data/instagram_raw_images/C39xu0UMiCZ_4.jpg",
+            "./data/raw_data/instagram_raw_images/C39xu0UMiCZ_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t51.29350-15/430641212_253145637853594_6047529520812365528_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2NvdmVyX2ZyYW1lIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=uok3K5A6KgwQ7kNvgHf_zNl&_nc_gid=c5e969a3937943ce814dad4d7ec07b7f&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzMxNDAyMTk1MjA1ODE0Mjg5NA%3D%3D.3-ccb7-5&oh=00_AYBSXABjzzG2rlwh77ypohL5jEDL-bkvHQC56rmbH-n4ZQ&oe=67A69DDB&_nc_sid=8f1549",
@@ -1662,11 +2096,19 @@
             "#technologytrends"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C3sMoa_Ms4Q_1.jpg",
             "../data/instagram_images/post_C3sMoa_Ms4Q_2.jpg",
             "../data/instagram_images/post_C3sMoa_Ms4Q_3.jpg",
             "../data/instagram_images/post_C3sMoa_Ms4Q_4.jpg",
             "../data/instagram_images/post_C3sMoa_Ms4Q_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C3sMoa_Ms4Q_1.jpg",
+            "./data/raw_data/instagram_raw_images/C3sMoa_Ms4Q_2.jpg",
+            "./data/raw_data/instagram_raw_images/C3sMoa_Ms4Q_3.jpg",
+            "./data/raw_data/instagram_raw_images/C3sMoa_Ms4Q_4.jpg",
+            "./data/raw_data/instagram_raw_images/C3sMoa_Ms4Q_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/428645510_924684656324059_6804553160631479215_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=lu_fHSZgNsoQ7kNvgEvRO4F&_nc_gid=c5e969a3937943ce814dad4d7ec07b7f&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzMwOTA3NTM3MDU3NjQxMzY1MA%3D%3D.3-ccb7-5&oh=00_AYBOyXh5JpJGuNtpH6fMT9s1ZKvxUADolCbUdZ0uENrpVg&oe=67A68BAB&_nc_sid=8f1549",
@@ -1690,11 +2132,19 @@
             "#cybersecurity"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C3aLMG2o8TN_1.jpg",
             "../data/instagram_images/post_C3aLMG2o8TN_2.jpg",
             "../data/instagram_images/post_C3aLMG2o8TN_3.jpg",
             "../data/instagram_images/post_C3aLMG2o8TN_4.jpg",
             "../data/instagram_images/post_C3aLMG2o8TN_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C3aLMG2o8TN_1.jpg",
+            "./data/raw_data/instagram_raw_images/C3aLMG2o8TN_2.jpg",
+            "./data/raw_data/instagram_raw_images/C3aLMG2o8TN_3.jpg",
+            "./data/raw_data/instagram_raw_images/C3aLMG2o8TN_4.jpg",
+            "./data/raw_data/instagram_raw_images/C3aLMG2o8TN_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/427760641_920038113455380_2293766181302742230_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=BXPqnNBNfgQQ7kNvgF6VVg3&_nc_gid=c5e969a3937943ce814dad4d7ec07b7f&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzMwNDAwMjQ2NzcwNjAxMzYyNQ%3D%3D.3-ccb7-5&oh=00_AYCVn3gSCOB0qWG22epYlSfNdYWbREwonwy0gY6Cs9h1mg&oe=67A68130&_nc_sid=8f1549",
@@ -1716,11 +2166,19 @@
             "#ai"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C3IJ3uhte99_1.jpg",
             "../data/instagram_images/post_C3IJ3uhte99_2.jpg",
             "../data/instagram_images/post_C3IJ3uhte99_3.jpg",
             "../data/instagram_images/post_C3IJ3uhte99_4.jpg",
             "../data/instagram_images/post_C3IJ3uhte99_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C3IJ3uhte99_1.jpg",
+            "./data/raw_data/instagram_raw_images/C3IJ3uhte99_2.jpg",
+            "./data/raw_data/instagram_raw_images/C3IJ3uhte99_3.jpg",
+            "./data/raw_data/instagram_raw_images/C3IJ3uhte99_4.jpg",
+            "./data/raw_data/instagram_raw_images/C3IJ3uhte99_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/427478796_914869983972193_1991964756543886487_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=2jb4Rv7MiIoQ7kNvgE63T6f&_nc_gid=c5e969a3937943ce814dad4d7ec07b7f&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzI5ODkzMDEyOTcwMTg0MDIxNw%3D%3D.3-ccb7-5&oh=00_AYCZuHWVwTuQBYQ3wljuEqbamE4if1r5Tpf3QAadEcGgYA&oe=67A67A24&_nc_sid=8f1549",
@@ -1755,11 +2213,19 @@
             "#webappdevelopmentservice"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C21-6k_Ko8v_1.jpg",
             "../data/instagram_images/post_C21-6k_Ko8v_2.jpg",
             "../data/instagram_images/post_C21-6k_Ko8v_3.jpg",
             "../data/instagram_images/post_C21-6k_Ko8v_4.jpg",
             "../data/instagram_images/post_C21-6k_Ko8v_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C21-6k_Ko8v_1.jpg",
+            "./data/raw_data/instagram_raw_images/C21-6k_Ko8v_2.jpg",
+            "./data/raw_data/instagram_raw_images/C21-6k_Ko8v_3.jpg",
+            "./data/raw_data/instagram_raw_images/C21-6k_Ko8v_4.jpg",
+            "./data/raw_data/instagram_raw_images/C21-6k_Ko8v_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/424737475_909660481159810_1949615620791956606_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=yPZOuNV-FJ4Q7kNvgFpqw4e&_nc_gid=0483a37b9b394525b9a54ee087dff1a3&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzI5MzgxNTM4MTA1Nzg1NjMxMQ%3D%3D.3-ccb7-5&oh=00_AYA1psVmYcTVAXCIGRIzfS0uDQWk_bKXXCENAEFXa34jww&oe=67A67D0E&_nc_sid=8f1549",
@@ -1782,7 +2248,11 @@
             "#indiaproudmoment"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C2i_jQ9xkGh.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C2i_jQ9xkGh.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/422233411_904055555053636_8626843504940703647_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=Q0PWlkljEy8Q7kNvgFYPE_8&_nc_gid=0483a37b9b394525b9a54ee087dff1a3&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzI4ODQ3MDE3ODI2MjA0MDk5Mw%3D%3D.3-ccb7-5&oh=00_AYBPycwMr9WVm8M5SzXQi-m1VYXzxyovdDKZIMPgP2ij-g&oe=67A68582&_nc_sid=8f1549"
@@ -1804,11 +2274,19 @@
             "#futureofsoftware"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C2R9t5uow2C_1.jpg",
             "../data/instagram_images/post_C2R9t5uow2C_2.jpg",
             "../data/instagram_images/post_C2R9t5uow2C_3.jpg",
             "../data/instagram_images/post_C2R9t5uow2C_4.jpg",
             "../data/instagram_images/post_C2R9t5uow2C_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C2R9t5uow2C_1.jpg",
+            "./data/raw_data/instagram_raw_images/C2R9t5uow2C_2.jpg",
+            "./data/raw_data/instagram_raw_images/C2R9t5uow2C_3.jpg",
+            "./data/raw_data/instagram_raw_images/C2R9t5uow2C_4.jpg",
+            "./data/raw_data/instagram_raw_images/C2R9t5uow2C_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/420642089_899467738845751_6447259182528537888_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=d2WC2hlvi5gQ7kNvgFYvBkZ&_nc_gid=0483a37b9b394525b9a54ee087dff1a3&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzI4MzY3NzAxNTk4MDQ5MjA5OQ%3D%3D.3-ccb7-5&oh=00_AYBFy_nnHKJHeWVSJ3xlkzFE_AZ6SFrHrGjpM6Tbhv6J-w&oe=67A6782F&_nc_sid=8f1549",
@@ -1844,11 +2322,19 @@
             "#technologyinnovation"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C1_6NVDrzBc_1.jpg",
             "../data/instagram_images/post_C1_6NVDrzBc_2.jpg",
             "../data/instagram_images/post_C1_6NVDrzBc_3.jpg",
             "../data/instagram_images/post_C1_6NVDrzBc_4.jpg",
             "../data/instagram_images/post_C1_6NVDrzBc_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C1_6NVDrzBc_1.jpg",
+            "./data/raw_data/instagram_raw_images/C1_6NVDrzBc_2.jpg",
+            "./data/raw_data/instagram_raw_images/C1_6NVDrzBc_3.jpg",
+            "./data/raw_data/instagram_raw_images/C1_6NVDrzBc_4.jpg",
+            "./data/raw_data/instagram_raw_images/C1_6NVDrzBc_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/418965434_894481316011060_7619284159234046693_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=tXn9dsnUazQQ7kNvgEhCw32&_nc_gid=0483a37b9b394525b9a54ee087dff1a3&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzI3ODU5NTA0NTU4MDU2MDU3Mg%3D%3D.3-ccb7-5&oh=00_AYA3LugFDOFjj4BMqb-SPiH8T3cUKtiohCXHz-TT62yF_w&oe=67A682DA&_nc_sid=8f1549",
@@ -1873,10 +2359,17 @@
             "#airevolution"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C1uAX17skLV_1.jpg",
             "../data/instagram_images/post_C1uAX17skLV_2.jpg",
             "../data/instagram_images/post_C1uAX17skLV_3.jpg",
             "../data/instagram_images/post_C1uAX17skLV_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C1uAX17skLV_1.jpg",
+            "./data/raw_data/instagram_raw_images/C1uAX17skLV_2.jpg",
+            "./data/raw_data/instagram_raw_images/C1uAX17skLV_3.jpg",
+            "./data/raw_data/instagram_raw_images/C1uAX17skLV_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t51.29350-15/416358427_319304057236639_1191904832924970699_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=_dFiogvjG-MQ7kNvgGci4zU&_nc_gid=0483a37b9b394525b9a54ee087dff1a3&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzI3MzU1NTYwOTc3NjI0MDczNA%3D%3D.3-ccb7-5&oh=00_AYBv0TRewSLcKbjpTSXuVdSylEJPs9exT6S2HvdPvYkHdg&oe=67A685CD&_nc_sid=8f1549",
@@ -1900,10 +2393,17 @@
             "#metaversemagic"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C1cBbQniN0k_1.jpg",
             "../data/instagram_images/post_C1cBbQniN0k_2.jpg",
             "../data/instagram_images/post_C1cBbQniN0k_3.jpg",
             "../data/instagram_images/post_C1cBbQniN0k_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C1cBbQniN0k_1.jpg",
+            "./data/raw_data/instagram_raw_images/C1cBbQniN0k_2.jpg",
+            "./data/raw_data/instagram_raw_images/C1cBbQniN0k_3.jpg",
+            "./data/raw_data/instagram_raw_images/C1cBbQniN0k_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/414850078_884861736973018_8561240526600995149_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=wG5Bax6lw1EQ7kNvgHZmXgZ&_nc_gid=0483a37b9b394525b9a54ee087dff1a3&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzI2ODQ5MzY3NzI5MTA1MDQ3Mg%3D%3D.3-ccb7-5&oh=00_AYAypRhWHtpdjHtqUXORKA6UMO0-2RsVjBog_ylXfkKICg&oe=67A69FDA&_nc_sid=8f1549",
@@ -1922,10 +2422,17 @@
             "#AIinSports"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C1KHezhr8yr_1.jpg",
             "../data/instagram_images/post_C1KHezhr8yr_2.jpg",
             "../data/instagram_images/post_C1KHezhr8yr_3.jpg",
             "../data/instagram_images/post_C1KHezhr8yr_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C1KHezhr8yr_1.jpg",
+            "./data/raw_data/instagram_raw_images/C1KHezhr8yr_2.jpg",
+            "./data/raw_data/instagram_raw_images/C1KHezhr8yr_3.jpg",
+            "./data/raw_data/instagram_raw_images/C1KHezhr8yr_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/413805437_880283020764223_3831988729500374589_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=0mmSIE8isecQ7kNvgERIUjL&_nc_gid=0483a37b9b394525b9a54ee087dff1a3&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzI2MzQ1Mzc3MjE3OTc2NzE2Ng%3D%3D.3-ccb7-5&oh=00_AYAcbcNDvKM9_oSsKxf29mqIh8W8U_GZKBvRWhGFbfPZBw&oe=67A6A0A9&_nc_sid=8f1549",
@@ -1947,11 +2454,19 @@
             "#technologysolutions"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C0346bbMSKC_1.jpg",
             "../data/instagram_images/post_C0346bbMSKC_2.jpg",
             "../data/instagram_images/post_C0346bbMSKC_3.jpg",
             "../data/instagram_images/post_C0346bbMSKC_4.jpg",
             "../data/instagram_images/post_C0346bbMSKC_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C0346bbMSKC_1.jpg",
+            "./data/raw_data/instagram_raw_images/C0346bbMSKC_2.jpg",
+            "./data/raw_data/instagram_raw_images/C0346bbMSKC_3.jpg",
+            "./data/raw_data/instagram_raw_images/C0346bbMSKC_4.jpg",
+            "./data/raw_data/instagram_raw_images/C0346bbMSKC_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t51.29350-15/410316525_2782893281850335_8889601573182652851_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=111&_nc_ohc=Kw-hYu-gf3wQ7kNvgGOPk3p&_nc_gid=0483a37b9b394525b9a54ee087dff1a3&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzI1ODMyMzE1NTM0MzY3NDUyNg%3D%3D.3-ccb7-5&oh=00_AYDf3HmulXVxvr43fsW3fgCsiloi7a-tJzJeLKxt2C77Tw&oe=67A6778E&_nc_sid=8f1549",
@@ -1977,11 +2492,19 @@
             "#technologyinnovation"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C0l8kVWSUlq_1.jpg",
             "../data/instagram_images/post_C0l8kVWSUlq_2.jpg",
             "../data/instagram_images/post_C0l8kVWSUlq_3.jpg",
             "../data/instagram_images/post_C0l8kVWSUlq_4.jpg",
             "../data/instagram_images/post_C0l8kVWSUlq_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C0l8kVWSUlq_1.jpg",
+            "./data/raw_data/instagram_raw_images/C0l8kVWSUlq_2.jpg",
+            "./data/raw_data/instagram_raw_images/C0l8kVWSUlq_3.jpg",
+            "./data/raw_data/instagram_raw_images/C0l8kVWSUlq_4.jpg",
+            "./data/raw_data/instagram_raw_images/C0l8kVWSUlq_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t51.29350-15/408179724_730042772353002_3337586891654894799_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=oPMRMsvIO_4Q7kNvgExwXAy&_nc_gid=0483a37b9b394525b9a54ee087dff1a3&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzI1MzI3MjY3ODYxNDM3Mzg5Ng%3D%3D.3-ccb7-5&oh=00_AYAZNF-l8YIqf3aPeQ_eNU1R09fauHZ_wxVW-ZzDLhQWgg&oe=67A66FF4&_nc_sid=8f1549",
@@ -2008,10 +2531,17 @@
             "#technologyfacts"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C0UCK8gvqCH_1.jpg",
             "../data/instagram_images/post_C0UCK8gvqCH_2.jpg",
             "../data/instagram_images/post_C0UCK8gvqCH_3.jpg",
             "../data/instagram_images/post_C0UCK8gvqCH_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C0UCK8gvqCH_1.jpg",
+            "./data/raw_data/instagram_raw_images/C0UCK8gvqCH_2.jpg",
+            "./data/raw_data/instagram_raw_images/C0UCK8gvqCH_3.jpg",
+            "./data/raw_data/instagram_raw_images/C0UCK8gvqCH_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/407245963_865619345563924_7575248948970712365_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=mTlouY9as2AQ7kNvgG6qsKv&_nc_gid=0483a37b9b394525b9a54ee087dff1a3&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzI0ODIzMDc3MDcwMjkwMzM4OQ%3D%3D.3-ccb7-5&oh=00_AYBzUUMAkWuHH3790ltq6AJv88jCKaa62K1-3-mh2bDVcw&oe=67A6812E&_nc_sid=8f1549",
@@ -2035,10 +2565,17 @@
             "#crossplatformappdevelopment"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_C0CHUAVvyN-_1.jpg",
             "../data/instagram_images/post_C0CHUAVvyN-_2.jpg",
             "../data/instagram_images/post_C0CHUAVvyN-_3.jpg",
             "../data/instagram_images/post_C0CHUAVvyN-_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/C0CHUAVvyN-_1.jpg",
+            "./data/raw_data/instagram_raw_images/C0CHUAVvyN-_2.jpg",
+            "./data/raw_data/instagram_raw_images/C0CHUAVvyN-_3.jpg",
+            "./data/raw_data/instagram_raw_images/C0CHUAVvyN-_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/404848809_861053119353880_1465243018192578202_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=f75dwS5M1BIQ7kNvgFsuRQc&_nc_gid=0483a37b9b394525b9a54ee087dff1a3&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzI0MzE4NjgzMjE5NTY1MjU5OA%3D%3D.3-ccb7-5&oh=00_AYC7Bb2cy0shnqDwIR6UaLA71OFr2Xj2DvttJt_9X_vXiA&oe=67A67F67&_nc_sid=8f1549",
@@ -2062,11 +2599,19 @@
             "#technologyisawesome"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_Czd6qI0tJxU_1.jpg",
             "../data/instagram_images/post_Czd6qI0tJxU_2.jpg",
             "../data/instagram_images/post_Czd6qI0tJxU_3.jpg",
             "../data/instagram_images/post_Czd6qI0tJxU_4.jpg",
             "../data/instagram_images/post_Czd6qI0tJxU_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/Czd6qI0tJxU_1.jpg",
+            "./data/raw_data/instagram_raw_images/Czd6qI0tJxU_2.jpg",
+            "./data/raw_data/instagram_raw_images/Czd6qI0tJxU_3.jpg",
+            "./data/raw_data/instagram_raw_images/Czd6qI0tJxU_4.jpg",
+            "./data/raw_data/instagram_raw_images/Czd6qI0tJxU_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/399595674_851998143592711_2617328743217275112_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=ASORFwrAIBAQ7kNvgE6RBpR&_nc_gid=0483a37b9b394525b9a54ee087dff1a3&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzIzMjk5ODA3Nzk3NDgyODE5NQ%3D%3D.3-ccb7-5&oh=00_AYD_ww59CIgURZCe0fNWNfbxOD5DLLBe7bf-sXU1xB9Zlw&oe=67A681C9&_nc_sid=8f1549",
@@ -2090,11 +2635,19 @@
             "#softwaredevelopmentservices"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CzL6Pe9PW1P_1.jpg",
             "../data/instagram_images/post_CzL6Pe9PW1P_2.jpg",
             "../data/instagram_images/post_CzL6Pe9PW1P_3.jpg",
             "../data/instagram_images/post_CzL6Pe9PW1P_4.jpg",
             "../data/instagram_images/post_CzL6Pe9PW1P_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CzL6Pe9PW1P_1.jpg",
+            "./data/raw_data/instagram_raw_images/CzL6Pe9PW1P_2.jpg",
+            "./data/raw_data/instagram_raw_images/CzL6Pe9PW1P_3.jpg",
+            "./data/raw_data/instagram_raw_images/CzL6Pe9PW1P_4.jpg",
+            "./data/raw_data/instagram_raw_images/CzL6Pe9PW1P_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/398981725_847553624037163_7078679533736834665_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=OIV1x7CYp-QQ7kNvgE9di41&_nc_gid=6a4c5883329a4ae5bc6b2337c5a47410&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzIyNzkyOTY5Njc4Mzk4NTEyMw%3D%3D.3-ccb7-5&oh=00_AYCrphj1nd_QnRDiUUrlmHhtYMUcNEUt8c-0IkdSlNivjg&oe=67A674CB&_nc_sid=8f1549",
@@ -2120,10 +2673,17 @@
             "#blockchainapplications"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_Cy5yNRgBOxt_1.jpg",
             "../data/instagram_images/post_Cy5yNRgBOxt_2.jpg",
             "../data/instagram_images/post_Cy5yNRgBOxt_3.jpg",
             "../data/instagram_images/post_Cy5yNRgBOxt_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/Cy5yNRgBOxt_1.jpg",
+            "./data/raw_data/instagram_raw_images/Cy5yNRgBOxt_2.jpg",
+            "./data/raw_data/instagram_raw_images/Cy5yNRgBOxt_3.jpg",
+            "./data/raw_data/instagram_raw_images/Cy5yNRgBOxt_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/396445053_842808661178326_7064045569962509690_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=x7r1Lmv3QQMQ7kNvgEHkYw1&_nc_gid=6a4c5883329a4ae5bc6b2337c5a47410&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzIyMjgyNzgxMTM3MDk4MjY5MQ%3D%3D.3-ccb7-5&oh=00_AYCgX3DkQqeI2bWbnIqjFdgqt1Mf_j6UKw1F-aeskRs5cA&oe=67A6A2DF&_nc_sid=8f1549",
@@ -2149,10 +2709,17 @@
             "#lowcodevelopment"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CygDZlEJQqU_1.jpg",
             "../data/instagram_images/post_CygDZlEJQqU_2.jpg",
             "../data/instagram_images/post_CygDZlEJQqU_3.jpg",
             "../data/instagram_images/post_CygDZlEJQqU_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CygDZlEJQqU_1.jpg",
+            "./data/raw_data/instagram_raw_images/CygDZlEJQqU_2.jpg",
+            "./data/raw_data/instagram_raw_images/CygDZlEJQqU_3.jpg",
+            "./data/raw_data/instagram_raw_images/CygDZlEJQqU_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/393268195_835616655230860_2347126933371362197_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=YtyoDIgy7BcQ7kNvgHCE6i1&_nc_gid=6a4c5883329a4ae5bc6b2337c5a47410&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzIxNTU4NTA3NTkxODEwNDY1MQ%3D%3D.3-ccb7-5&oh=00_AYAddFVqPlrWADEN_jryi0Py9CqOsCoKnh0GEd98mIZI2A&oe=67A69A47&_nc_sid=8f1549",
@@ -2177,11 +2744,19 @@
             "#learnappdevelopmentonline"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CyDu2vVhO4Q_1.jpg",
             "../data/instagram_images/post_CyDu2vVhO4Q_2.jpg",
             "../data/instagram_images/post_CyDu2vVhO4Q_3.jpg",
             "../data/instagram_images/post_CyDu2vVhO4Q_4.jpg",
             "../data/instagram_images/post_CyDu2vVhO4Q_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CyDu2vVhO4Q_1.jpg",
+            "./data/raw_data/instagram_raw_images/CyDu2vVhO4Q_2.jpg",
+            "./data/raw_data/instagram_raw_images/CyDu2vVhO4Q_3.jpg",
+            "./data/raw_data/instagram_raw_images/CyDu2vVhO4Q_4.jpg",
+            "./data/raw_data/instagram_raw_images/CyDu2vVhO4Q_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/385325881_827646169361242_342756810615325450_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=A_wwfAOOV9cQ7kNvgGDm6Gb&_nc_gid=6a4c5883329a4ae5bc6b2337c5a47410&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzIwNzYxMzQxODMzMzExMDQxMQ%3D%3D.3-ccb7-5&oh=00_AYD_CoO-jDD73hEARSdIrSHvgaA2f5jDWJHHWMybLEi9rA&oe=67A69605&_nc_sid=8f1549",
@@ -2207,11 +2782,19 @@
             "#webdevelopmenttips2023"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CxvGIrAh6rN_1.jpg",
             "../data/instagram_images/post_CxvGIrAh6rN_2.jpg",
             "../data/instagram_images/post_CxvGIrAh6rN_3.jpg",
             "../data/instagram_images/post_CxvGIrAh6rN_4.jpg",
             "../data/instagram_images/post_CxvGIrAh6rN_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CxvGIrAh6rN_1.jpg",
+            "./data/raw_data/instagram_raw_images/CxvGIrAh6rN_2.jpg",
+            "./data/raw_data/instagram_raw_images/CxvGIrAh6rN_3.jpg",
+            "./data/raw_data/instagram_raw_images/CxvGIrAh6rN_4.jpg",
+            "./data/raw_data/instagram_raw_images/CxvGIrAh6rN_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/383208758_822192596573266_3554113914819590626_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=JU3FMFhdALEQ7kNvgF1Av2J&_nc_gid=6a4c5883329a4ae5bc6b2337c5a47410&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzIwMTgwNDgzMTg2NjQwMjAzNw%3D%3D.3-ccb7-5&oh=00_AYBTBr98DoyqK72gRsfNfgYsqSiqt6WRW8XPRavzqSVPJQ&oe=67A6A557&_nc_sid=8f1549",
@@ -2238,11 +2821,19 @@
             "#appdevelopmentcompany"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_Cxag6_vS8wU_1.jpg",
             "../data/instagram_images/post_Cxag6_vS8wU_2.jpg",
             "../data/instagram_images/post_Cxag6_vS8wU_3.jpg",
             "../data/instagram_images/post_Cxag6_vS8wU_4.jpg",
             "../data/instagram_images/post_Cxag6_vS8wU_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/Cxag6_vS8wU_1.jpg",
+            "./data/raw_data/instagram_raw_images/Cxag6_vS8wU_2.jpg",
+            "./data/raw_data/instagram_raw_images/Cxag6_vS8wU_3.jpg",
+            "./data/raw_data/instagram_raw_images/Cxag6_vS8wU_4.jpg",
+            "./data/raw_data/instagram_raw_images/Cxag6_vS8wU_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t51.29350-15/380247190_807877897800673_5026536710396099793_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=Q4zSXe0V-2UQ7kNvgF1JlQb&_nc_gid=6a4c5883329a4ae5bc6b2337c5a47410&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzE5NjAxMTY3MTQ5MjA3NjU5MQ%3D%3D.3-ccb7-5&oh=00_AYAdCGiHMKa4c3sNeYPxiXhgiSutRcJvzqqhfNe1MleU1Q&oe=67A69A19&_nc_sid=8f1549",
@@ -2267,11 +2858,19 @@
             "#integratedchatbot"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CwxOTwbBAZr_1.jpg",
             "../data/instagram_images/post_CwxOTwbBAZr_2.jpg",
             "../data/instagram_images/post_CwxOTwbBAZr_3.jpg",
             "../data/instagram_images/post_CwxOTwbBAZr_4.jpg",
             "../data/instagram_images/post_CwxOTwbBAZr_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CwxOTwbBAZr_1.jpg",
+            "./data/raw_data/instagram_raw_images/CwxOTwbBAZr_2.jpg",
+            "./data/raw_data/instagram_raw_images/CwxOTwbBAZr_3.jpg",
+            "./data/raw_data/instagram_raw_images/CwxOTwbBAZr_4.jpg",
+            "./data/raw_data/instagram_raw_images/CwxOTwbBAZr_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/373332812_805499074909285_4122922102283762426_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=XFQmnkxFLG8Q7kNvgEh2b4c&_nc_gid=6a4c5883329a4ae5bc6b2337c5a47410&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzE4NDM4OTMzMDUxNzMzNTkzNw%3D%3D.3-ccb7-5&oh=00_AYDazxAMfYlB1SqX6QWsaLcYPpc2b53SQ4klx1c3nwK-wA&oe=67A6987F&_nc_sid=8f1549",
@@ -2296,11 +2895,19 @@
             "#androidapplication"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CwfhV7uhXPO_1.jpg",
             "../data/instagram_images/post_CwfhV7uhXPO_2.jpg",
             "../data/instagram_images/post_CwfhV7uhXPO_3.jpg",
             "../data/instagram_images/post_CwfhV7uhXPO_4.jpg",
             "../data/instagram_images/post_CwfhV7uhXPO_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CwfhV7uhXPO_1.jpg",
+            "./data/raw_data/instagram_raw_images/CwfhV7uhXPO_2.jpg",
+            "./data/raw_data/instagram_raw_images/CwfhV7uhXPO_3.jpg",
+            "./data/raw_data/instagram_raw_images/CwfhV7uhXPO_4.jpg",
+            "./data/raw_data/instagram_raw_images/CwfhV7uhXPO_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/370508880_801123268680199_2893793888577812343_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=aPnpULkwXQkQ7kNvgFMJOOO&_nc_gid=6a4c5883329a4ae5bc6b2337c5a47410&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzE3OTQwNjQ5MjE1NTg4MzAwMA%3D%3D.3-ccb7-5&oh=00_AYAlpw1JIFHJYR8C87rahVJCzeOKWAI7uMO7LHlH2aI4lw&oe=67A67CC6&_nc_sid=8f1549",
@@ -2327,11 +2934,19 @@
             "#softwaresolutionscompany"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CwP6RrONI8l_1.jpg",
             "../data/instagram_images/post_CwP6RrONI8l_2.jpg",
             "../data/instagram_images/post_CwP6RrONI8l_3.jpg",
             "../data/instagram_images/post_CwP6RrONI8l_4.jpg",
             "../data/instagram_images/post_CwP6RrONI8l_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CwP6RrONI8l_1.jpg",
+            "./data/raw_data/instagram_raw_images/CwP6RrONI8l_2.jpg",
+            "./data/raw_data/instagram_raw_images/CwP6RrONI8l_3.jpg",
+            "./data/raw_data/instagram_raw_images/CwP6RrONI8l_4.jpg",
+            "./data/raw_data/instagram_raw_images/CwP6RrONI8l_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/368914221_797312075727985_90683509357739707_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=Nr-8PHMdcZgQ7kNvgFE9bPq&_nc_gid=6a4c5883329a4ae5bc6b2337c5a47410&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzE3NTAxMjU1MTIzMzk4ODk0Nw%3D%3D.3-ccb7-5&oh=00_AYD129fgYGex2X5Y31P6yVhWFW70coobn0hqVF9OoY5XBQ&oe=67A693C9&_nc_sid=8f1549",
@@ -2363,11 +2978,19 @@
             "#softwaredevelopment"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CvzliTgBr_e_1.jpg",
             "../data/instagram_images/post_CvzliTgBr_e_2.jpg",
             "../data/instagram_images/post_CvzliTgBr_e_3.jpg",
             "../data/instagram_images/post_CvzliTgBr_e_4.jpg",
             "../data/instagram_images/post_CvzliTgBr_e_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CvzliTgBr_e_1.jpg",
+            "./data/raw_data/instagram_raw_images/CvzliTgBr_e_2.jpg",
+            "./data/raw_data/instagram_raw_images/CvzliTgBr_e_3.jpg",
+            "./data/raw_data/instagram_raw_images/CvzliTgBr_e_4.jpg",
+            "./data/raw_data/instagram_raw_images/CvzliTgBr_e_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/366944085_790324923093367_8650978021087494273_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=GBW9yux3_EQQ7kNvgEhmW2o&_nc_gid=6a4c5883329a4ae5bc6b2337c5a47410&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzE2NzA0MDAzMzA4NTgwNzc4MA%3D%3D.3-ccb7-5&oh=00_AYAsWPhs4suBigsagtT3ziEhS2cN0DSgj20mzZ63PRuTEg&oe=67A68835&_nc_sid=8f1549",
@@ -2394,10 +3017,17 @@
             "#customsoftwaredevelopmentcompany"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CvhZqsyPLKE_1.jpg",
             "../data/instagram_images/post_CvhZqsyPLKE_2.jpg",
             "../data/instagram_images/post_CvhZqsyPLKE_3.jpg",
             "../data/instagram_images/post_CvhZqsyPLKE_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CvhZqsyPLKE_1.jpg",
+            "./data/raw_data/instagram_raw_images/CvhZqsyPLKE_2.jpg",
+            "./data/raw_data/instagram_raw_images/CvhZqsyPLKE_3.jpg",
+            "./data/raw_data/instagram_raw_images/CvhZqsyPLKE_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/362660823_785694076889785_3680125733382689244_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=IzqqWF78-5cQ7kNvgG9ZaVn&_nc_gid=6a4c5883329a4ae5bc6b2337c5a47410&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzE2MTkyMTI5MDEyNjU0MjU4MQ%3D%3D.3-ccb7-5&oh=00_AYBwqlhYA0G4VzKLRk3aX1yJzXBojBRKPExdVMAx4LGEMA&oe=67A6A29F&_nc_sid=8f1549",
@@ -2421,10 +3051,17 @@
             "#appdevelopment"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CvPeRWyhzEH_1.jpg",
             "../data/instagram_images/post_CvPeRWyhzEH_2.jpg",
             "../data/instagram_images/post_CvPeRWyhzEH_3.jpg",
             "../data/instagram_images/post_CvPeRWyhzEH_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CvPeRWyhzEH_1.jpg",
+            "./data/raw_data/instagram_raw_images/CvPeRWyhzEH_2.jpg",
+            "./data/raw_data/instagram_raw_images/CvPeRWyhzEH_3.jpg",
+            "./data/raw_data/instagram_raw_images/CvPeRWyhzEH_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/362275344_781502843975575_7683728307139293703_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=EVd6mpSWGuoQ7kNvgEQ8X1o&_nc_gid=6a4c5883329a4ae5bc6b2337c5a47410&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzE1Njg3NDk4ODIyNTkzOTA0Nw%3D%3D.3-ccb7-5&oh=00_AYB8luJNXHvD771xdjzZ4omzla-BcBD8haLjBhApxQRWcA&oe=67A699E7&_nc_sid=8f1549",
@@ -2448,11 +3085,19 @@
             "#edtechteam"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_Cu9demaPg7x_1.jpg",
             "../data/instagram_images/post_Cu9demaPg7x_2.jpg",
             "../data/instagram_images/post_Cu9demaPg7x_3.jpg",
             "../data/instagram_images/post_Cu9demaPg7x_4.jpg",
             "../data/instagram_images/post_Cu9demaPg7x_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/Cu9demaPg7x_1.jpg",
+            "./data/raw_data/instagram_raw_images/Cu9demaPg7x_2.jpg",
+            "./data/raw_data/instagram_raw_images/Cu9demaPg7x_3.jpg",
+            "./data/raw_data/instagram_raw_images/Cu9demaPg7x_4.jpg",
+            "./data/raw_data/instagram_raw_images/Cu9demaPg7x_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/361600570_777267671065759_9196935612725852803_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=JjizScDpVPkQ7kNvgG6Y73v&_nc_gid=27cf9863be124df698a50d040222e28d&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzE1MTgwNDk0OTA3MTc4MTM1MA%3D%3D.3-ccb7-5&oh=00_AYCNyUux61EkWMIpeM1Y5LNHTCu0kwXHzlik-Bfy1LfNqA&oe=67A692F2&_nc_sid=8f1549",
@@ -2477,10 +3122,17 @@
             "#healthcaresoftwarecompany"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CurS3-FBhmx_1.jpg",
             "../data/instagram_images/post_CurS3-FBhmx_2.jpg",
             "../data/instagram_images/post_CurS3-FBhmx_3.jpg",
             "../data/instagram_images/post_CurS3-FBhmx_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CurS3-FBhmx_1.jpg",
+            "./data/raw_data/instagram_raw_images/CurS3-FBhmx_2.jpg",
+            "./data/raw_data/instagram_raw_images/CurS3-FBhmx_3.jpg",
+            "./data/raw_data/instagram_raw_images/CurS3-FBhmx_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t39.30808-6/359413372_772752878183905_3075337622895138969_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=4PBUFw3Hr_UQ7kNvgGMUWTy&_nc_gid=27cf9863be124df698a50d040222e28d&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzE0NjY5MTc2NTYwNDg5NTUzOA%3D%3D.3-ccb7-5&oh=00_AYBz-4sCEVLz_MzgmlwNGg_S8pnE55P_JnAG8dkLJKlLsg&oe=67A67676&_nc_sid=8f1549",
@@ -2504,10 +3156,17 @@
             "#customsoftwaredevelopmentcompany"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CuWdKhTMylu_1.jpg",
             "../data/instagram_images/post_CuWdKhTMylu_2.jpg",
             "../data/instagram_images/post_CuWdKhTMylu_3.jpg",
             "../data/instagram_images/post_CuWdKhTMylu_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CuWdKhTMylu_1.jpg",
+            "./data/raw_data/instagram_raw_images/CuWdKhTMylu_2.jpg",
+            "./data/raw_data/instagram_raw_images/CuWdKhTMylu_3.jpg",
+            "./data/raw_data/instagram_raw_images/CuWdKhTMylu_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t51.29350-15/358202374_499193312396002_6690320858809046033_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=oIqnI67Xn1EQ7kNvgH4gLRR&_nc_gid=27cf9863be124df698a50d040222e28d&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzE0MDgyNjA1MzAwNTY2NTc0Mw%3D%3D.3-ccb7-5&oh=00_AYAWK_6ok8O-yUGqDnsRbg-B3-XT3LnSBRRMfmMHi2Oz0g&oe=67A69FF8&_nc_sid=8f1549",
@@ -2531,11 +3190,19 @@
             "#appdevelopmentsolutions"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CteWSzVv7pa_1.jpg",
             "../data/instagram_images/post_CteWSzVv7pa_2.jpg",
             "../data/instagram_images/post_CteWSzVv7pa_3.jpg",
             "../data/instagram_images/post_CteWSzVv7pa_4.jpg",
             "../data/instagram_images/post_CteWSzVv7pa_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CteWSzVv7pa_1.jpg",
+            "./data/raw_data/instagram_raw_images/CteWSzVv7pa_2.jpg",
+            "./data/raw_data/instagram_raw_images/CteWSzVv7pa_3.jpg",
+            "./data/raw_data/instagram_raw_images/CteWSzVv7pa_4.jpg",
+            "./data/raw_data/instagram_raw_images/CteWSzVv7pa_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/353833053_751805676945292_404853384369945072_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=7y3SSdLNr9EQ7kNvgETJDFe&_nc_gid=27cf9863be124df698a50d040222e28d&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzEyNTAzMzIyNzg2NTg5NDY3Mw%3D%3D.3-ccb7-5&oh=00_AYCltWm8KSf7W5zNoTBhIOCMstKrGHxOAjVYWQCKyy-0Ow&oe=67A67161&_nc_sid=8f1549",
@@ -2564,11 +3231,19 @@
             "#appdevelopmentagency"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CtL104tPKcq_1.jpg",
             "../data/instagram_images/post_CtL104tPKcq_2.jpg",
             "../data/instagram_images/post_CtL104tPKcq_3.jpg",
             "../data/instagram_images/post_CtL104tPKcq_4.jpg",
             "../data/instagram_images/post_CtL104tPKcq_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CtL104tPKcq_1.jpg",
+            "./data/raw_data/instagram_raw_images/CtL104tPKcq_2.jpg",
+            "./data/raw_data/instagram_raw_images/CtL104tPKcq_3.jpg",
+            "./data/raw_data/instagram_raw_images/CtL104tPKcq_4.jpg",
+            "./data/raw_data/instagram_raw_images/CtL104tPKcq_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t39.30808-6/352359381_247262667926810_7933925631383711209_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4yMDQ4eDIwNDguc2RyLmYzMDgwOC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=102&_nc_ohc=zZOMU3PU18sQ7kNvgEqNMSm&_nc_gid=27cf9863be124df698a50d040222e28d&edm=AEhyXUkAAAAA&ccb=7-5&ig_cache_key=MzExOTgyMzg4Nzc2MDUwNTc2Mw%3D%3D.3-ccb7-5&oh=00_AYDGKvkgz06CALw7JhuZ2xvslVbpeNyIXU9G-dtT1Mwxeg&oe=67A66E8A&_nc_sid=8f1549",
@@ -2598,11 +3273,19 @@
             "#renewableenergysolutions"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_Cs2-5SIyX-N_1.jpg",
             "../data/instagram_images/post_Cs2-5SIyX-N_2.jpg",
             "../data/instagram_images/post_Cs2-5SIyX-N_3.jpg",
             "../data/instagram_images/post_Cs2-5SIyX-N_4.jpg",
             "../data/instagram_images/post_Cs2-5SIyX-N_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/Cs2-5SIyX-N_1.jpg",
+            "./data/raw_data/instagram_raw_images/Cs2-5SIyX-N_2.jpg",
+            "./data/raw_data/instagram_raw_images/Cs2-5SIyX-N_3.jpg",
+            "./data/raw_data/instagram_raw_images/Cs2-5SIyX-N_4.jpg",
+            "./data/raw_data/instagram_raw_images/Cs2-5SIyX-N_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t51.29350-15/350436447_968671797660668_9011366823357960150_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=108&_nc_ohc=v49aVy_8YXQQ7kNvgGfQJ61&_nc_gid=27cf9863be124df698a50d040222e28d&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzExMzk1MjgwMTc5NDMzMDAxNw%3D%3D.3-ccb7-5&oh=00_AYCqPeYR-af0Ff52SI6L-p9kNNzKc3fc_dqADgpqhsOMVA&oe=67A6709A&_nc_sid=8f1549",
@@ -2633,11 +3316,19 @@
             "#mobileapp"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_Csk0tbIy30t_1.jpg",
             "../data/instagram_images/post_Csk0tbIy30t_2.jpg",
             "../data/instagram_images/post_Csk0tbIy30t_3.jpg",
             "../data/instagram_images/post_Csk0tbIy30t_4.jpg",
             "../data/instagram_images/post_Csk0tbIy30t_5.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/Csk0tbIy30t_1.jpg",
+            "./data/raw_data/instagram_raw_images/Csk0tbIy30t_2.jpg",
+            "./data/raw_data/instagram_raw_images/Csk0tbIy30t_3.jpg",
+            "./data/raw_data/instagram_raw_images/Csk0tbIy30t_4.jpg",
+            "./data/raw_data/instagram_raw_images/Csk0tbIy30t_5.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-2.fna.fbcdn.net/v/t51.29350-15/348305098_2794649274004422_8165158648908630191_n.jpg?stp=dst-jpg_e35_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=3gbAGLlHiWAQ7kNvgGCIwB8&_nc_gid=27cf9863be124df698a50d040222e28d&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzEwODg0MTQ1NzQxNjAzODk2Ng%3D%3D.3-ccb7-5&oh=00_AYARaTZHTmGjSfz7RkkTiMu5PW0XXpyQSjNVatOz4Qkydw&oe=67A6941A&_nc_sid=8f1549",
@@ -2662,10 +3353,17 @@
             "#Itobuz"
         ],
         "image_paths": [
+<<<<<<< HEAD
             "../data/instagram_images/post_CrknfxaMREl_1.jpg",
             "../data/instagram_images/post_CrknfxaMREl_2.jpg",
             "../data/instagram_images/post_CrknfxaMREl_3.jpg",
             "../data/instagram_images/post_CrknfxaMREl_4.jpg"
+=======
+            "./data/raw_data/instagram_raw_images/CrknfxaMREl_1.jpg",
+            "./data/raw_data/instagram_raw_images/CrknfxaMREl_2.jpg",
+            "./data/raw_data/instagram_raw_images/CrknfxaMREl_3.jpg",
+            "./data/raw_data/instagram_raw_images/CrknfxaMREl_4.jpg"
+>>>>>>> main
         ],
         "image_urls": [
             "https://instagram.fccu31-1.fna.fbcdn.net/v/t51.29350-15/343291584_739505374534661_80243436050136280_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fccu31-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=hl0mdMWdOygQ7kNvgF3THqZ&_nc_gid=27cf9863be124df698a50d040222e28d&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzA5MDc2ODk0NjkzMjE2MTE3OA%3D%3D.3-ccb7-5&oh=00_AYCxEoZK4JON84pousP9dHLqJrs4SdDMtzYJGO_9giLI6A&oe=67A67A4B&_nc_sid=8f1549",

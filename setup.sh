@@ -1,6 +1,6 @@
-#!/bin/bash
+## ----- DONE BY PRIYAM PAL -----
 
-# ----- DONE BY PRIYAM PAL -----
+#!/bin/bash
 
 # Exit on error
 set -e
@@ -37,5 +37,3 @@ brew install --cask chromedriver
 
 # Installing the Requirements.txt
 pip install -r requirements.txt
-
-python scraper_run.py

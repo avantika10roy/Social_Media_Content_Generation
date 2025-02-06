@@ -227,7 +227,7 @@ class LinkedinScraper:
             None
         """
         
-        folder_path   = Config.LINKEDIN_IMAGE_DATA_PATH
+        folder_path   = Config.LINKEDIN_RAW_IMAGE_DATA_PATH
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
 
@@ -290,7 +290,7 @@ class LinkedinScraper:
             
             if response.status_code == 200:
                 image_name = f"{post_id}_{image_url.split('/')[-1].split('?')[0]}.png"
-                image_path = os.path.join(Config.LINKEDIN_IMAGE_DATA_PATH, image_name)
+                image_path = os.path.join(Config.LINKEDIN_RAW_IMAGE_DATA_PATH, image_name)
                 
                 with open(image_path, 'wb') as file:
                 
