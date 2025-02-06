@@ -76,7 +76,7 @@ class TextPreprocessing:
             text = re.sub('<[^>]*>', '', text)
             # Remove special characters
             text = re.sub('[^a-zA-Z\s]', '', text)
-            text = text.lower()
+            # text = text.lower()
             tokens = word_tokenize(text)
             tokens = [self.lemmatizer.lemmatize(token) for token in tokens if token not in self.stop_words]
 
