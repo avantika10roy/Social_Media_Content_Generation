@@ -93,7 +93,7 @@ for item in data:
             item["combined_features"].append(combined_features)
 
 # Saving
-output_json_path = os.path.join(os.path.dirname(__file__), "../../data/extracted_features_data/resnet_output.json")
+output_json_path = os.path.join(os.path.dirname(__file__), "../../data/extracted_features_data/clip_output.json")
 
 try:
     with open(output_json_path, "w") as f:
