@@ -1,36 +1,36 @@
 import os
+import torch
+from torchvision import transforms
+from PIL import Image
 import random
 import shutil
-from PIL import Image
-from torchvision import transforms
-import cv2  # OpenCV for face detection
+import cv2  # Import OpenCV for face detection
 
 class ImagePreprocessor:
+    """
+    Preprocesses Images.
+    
+    Arguments:
+        raw_data_path     : path to directory containing raw image data
+        cleaned_data_path : path to directory where clean image data will be saved
+    """
     def __init__(self, raw_data_path, cleaned_data_path):
-        """
-        Preprocesses Images
-        -------------------
-        Arguments:
-                raw_data_path     : path to directory to raw image data
-                cleaned_data_path : path to directory to clean image data
-        """
         self.raw_data_path = raw_data_path
         self.cleaned_data_path = cleaned_data_path
         self.image_size = (1024, 1024)  # Resize target
-
-        # Create directories for original and augmented images
+        
         self.original_images_path = os.path.join(self.cleaned_data_path, "linkedin_original_images")
-        self.augmented_images_path = os.path.join(self.cleaned_data_path, "linkedin_augmented_images")
+        self.augmented_images_path = os.path.join(self.cleaned_data_path, "linkedin_augment_images")
 
-        os.makedirs(self.original_images_path, exist_ok=True)
-        os.makedirs(self.augmented_images_path, exist_ok=True)
-
+        for path in [self.original_images_path, self.augmented_images_path]:
+            if not os.path.exists(path):
+                os.makedirs(path)
+        
         # Define the transformations: Resize, Normalize, and Augment
         self.transform = transforms.Compose([
             transforms.Resize(self.image_size),  # Resize to 1024x1024
             transforms.ToTensor(),  # Convert to tensor and normalize to [0, 1]
             transforms.RandomHorizontalFlip(),  # Random horizontal flip
-            # transforms.RandomRotation(30),  # Random rotation within 30 degrees
             transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2),  # Random color jitter
         ])
         
@@ -40,19 +40,15 @@ class ImagePreprocessor:
     def contains_face(self, image_path):
         """Check if an image contains any faces."""
         image = cv2.imread(image_path)
-        
-        # Check if the image was loaded successfully
         if image is None:
             print(f"Warning: Unable to load image {image_path}. Skipping it.")
-            return False  # Return False, meaning no faces detected as image can't be processed
-        
+            return False  
         gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         faces = self.face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
-        
-        return len(faces) > 0  # If any faces are detected, return True
-    
+        return len(faces) > 0  # Return True if faces are detected
+
     def is_gif(self, image_path):
-        """Check if an image is a GIF, even if saved with a .png extension."""
+        """Check if an image is a GIF."""
         try:
             with Image.open(image_path) as img:
                 if img.format == 'GIF':
@@ -64,29 +60,23 @@ class ImagePreprocessor:
 
     def process_image(self, image_path):
         """Load, resize, normalize, and augment the image."""
-        image = Image.open(image_path)
-        
-        if image is None:
-            print(f"Error: Unable to load image {image_path}")
+        try:
+            image = Image.open(image_path).convert('RGB')
+        except Exception as e:
+            print(f"Error: Unable to load image {image_path}: {e}")
             return []
-
+        
         augmented_images = []
-        # Generate 4 to 5 augmentations
-        for _ in range(random.randint(4, 5)):  # Randomly choose 4 or 5 augmentations
-            # Apply the transformations
+        for _ in range(random.randint(4, 5)):  # Generate 4 to 5 augmentations
             image_transformed = self.transform(image)
-
-            # Convert tensor back to PIL for saving
             image_transformed = transforms.ToPILImage()(image_transformed)
             augmented_images.append(image_transformed)
-
         return augmented_images
-    
-    def save_image(self, image, base_name, index, save_path):
-        """Save the processed image to the specified path with a unique name."""
-        file_name = f"{base_name}_aug_{index}.png"
-        image.save(os.path.join(save_path, file_name))
-        print(f"Saved processed image: {os.path.join(save_path, file_name)}")
+
+    def save_image(self, image, save_path):
+        """Save the image to the given path."""
+        image.save(save_path)
+        print(f"Saved image: {save_path}")
 
     def preprocess_images(self):
         """Preprocess all images in the raw data path."""
@@ -94,23 +84,31 @@ class ImagePreprocessor:
             file_path = os.path.join(self.raw_data_path, file_name)
             
             if os.path.isfile(file_path):
-                # Skip GIFs saved as PNG
                 if self.is_gif(file_path):
-                    os.remove(file_path)  # Remove the file if it's a GIF saved as PNG
+                    os.remove(file_path)
                     continue
-
-                # Skip images with faces
                 if self.contains_face(file_path):
                     print(f"Skipping {file_name} because it contains a face.")
-                    continue  # Skip this image if it contains a face
-
-                # Copy the original image to the original images directory
-                shutil.copy(file_path, os.path.join(self.original_images_path, file_name))
-
-                # Process the image and generate augmented versions
-                augmented_images = self.process_image(file_path)
+                    continue
                 
-                if augmented_images:
+                try:
+                    image = Image.open(file_path).convert('RGB')
                     base_name, _ = os.path.splitext(file_name)
+                    
+                    original_save_path = os.path.join(self.original_images_path, f"{base_name}.jpg")
+                    self.save_image(image, original_save_path)
+                    
+                    augmented_images = self.process_image(file_path)
                     for idx, img in enumerate(augmented_images):
-                        self.save_image(img, base_name, idx, self.augmented_images_path)
+                        aug_save_path = os.path.join(self.augmented_images_path, f"{base_name}_aug_{idx}.jpg")
+                        self.save_image(img, aug_save_path)
+                except Exception as e:
+                    print(f"Error processing {file_name}: {e}")
+                    continue
+
+# Example usage
+if __name__ == "__main__":
+    raw_data_path = "data/raw_data/linkedin_images"
+    cleaned_data_path = "data/preprocessed_data/processed_images"
+    preprocessor = ImagePreprocessor(raw_data_path, cleaned_data_path)
+    preprocessor.preprocess_images()

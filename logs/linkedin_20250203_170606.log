@@ -1,0 +1,553 @@
+[2025-02-03 17:06:06,036 web_scraper.py->__init__():65]INFO: LinkedIn Scraper Class Initiated
+[2025-02-03 17:06:07,519 web_scraper.py->setup_driver():98]INFO: WebDriver Initialized
+[2025-02-03 17:06:15,997 web_scraper.py->_linkedin_login():173]INFO: Login Successful
+[2025-02-03 17:06:46,849 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:46,863 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:46,864 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:46,864 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:46,865 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:46,865 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:46,865 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:46,865 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:46,865 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:46,996 web_scraper.py->download_image():434]INFO: Downloaded: 1_1738312196468.png
+[2025-02-03 17:06:47,030 web_scraper.py->download_image():434]INFO: Downloaded: 1_1738312196922.png
+[2025-02-03 17:06:47,064 web_scraper.py->download_image():434]INFO: Downloaded: 1_1738312196977.png
+[2025-02-03 17:06:47,101 web_scraper.py->download_image():434]INFO: Downloaded: 1_1738312196716.png
+[2025-02-03 17:06:47,102 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:47,102 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:47,103 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:47,103 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:47,104 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:47,105 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:47,150 web_scraper.py->download_image():434]INFO: Downloaded: 3_1737555174045.png
+[2025-02-03 17:06:47,151 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:47,151 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:47,152 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:47,152 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:47,153 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:47,153 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:47,154 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:47,154 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:47,154 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:47,187 web_scraper.py->download_image():434]INFO: Downloaded: 5_1737635022735.png
+[2025-02-03 17:06:47,225 web_scraper.py->download_image():434]INFO: Downloaded: 5_1737635022675.png
+[2025-02-03 17:06:47,261 web_scraper.py->download_image():434]INFO: Downloaded: 5_1737635023231.png
+[2025-02-03 17:06:47,295 web_scraper.py->download_image():434]INFO: Downloaded: 5_1737635023102.png
+[2025-02-03 17:06:47,296 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:47,296 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:47,297 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:47,297 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:47,298 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:47,298 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:47,298 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:47,298 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:47,298 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:47,556 web_scraper.py->download_image():434]INFO: Downloaded: 7_1734086237986.png
+[2025-02-03 17:06:47,808 web_scraper.py->download_image():434]INFO: Downloaded: 7_1734086237093.png
+[2025-02-03 17:06:48,150 web_scraper.py->download_image():434]INFO: Downloaded: 7_1734086238947.png
+[2025-02-03 17:06:48,437 web_scraper.py->download_image():434]INFO: Downloaded: 7_1734086239665.png
+[2025-02-03 17:06:48,438 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:48,438 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:48,438 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:48,438 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:48,439 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,439 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:48,440 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:48,440 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:48,440 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:48,441 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,441 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,441 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,441 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,441 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,478 web_scraper.py->download_image():434]INFO: Downloaded: 11_1732882868948.png
+[2025-02-03 17:06:48,508 web_scraper.py->download_image():434]INFO: Downloaded: 11_1732882869469.png
+[2025-02-03 17:06:48,540 web_scraper.py->download_image():434]INFO: Downloaded: 11_1732882869496.png
+[2025-02-03 17:06:48,573 web_scraper.py->download_image():434]INFO: Downloaded: 11_1732882869324.png
+[2025-02-03 17:06:48,575 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:48,575 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:48,576 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:48,576 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:48,577 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,578 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:48,578 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:48,579 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:48,579 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:48,580 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,580 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,580 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,580 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,581 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,619 web_scraper.py->download_image():434]INFO: Downloaded: 15_1732263433124.png
+[2025-02-03 17:06:48,656 web_scraper.py->download_image():434]INFO: Downloaded: 15_1732263433871.png
+[2025-02-03 17:06:48,699 web_scraper.py->download_image():434]INFO: Downloaded: 15_1732263432895.png
+[2025-02-03 17:06:48,732 web_scraper.py->download_image():434]INFO: Downloaded: 15_1732263433266.png
+[2025-02-03 17:06:48,733 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:48,733 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:48,734 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:48,734 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:48,735 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,736 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:48,736 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:48,737 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:48,737 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:48,738 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,738 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,738 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,738 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,738 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,770 web_scraper.py->download_image():434]INFO: Downloaded: 19_1728458998048.png
+[2025-02-03 17:06:48,803 web_scraper.py->download_image():434]INFO: Downloaded: 19_1728458998864.png
+[2025-02-03 17:06:48,858 web_scraper.py->download_image():434]INFO: Downloaded: 19_1728458999815.png
+[2025-02-03 17:06:48,890 web_scraper.py->download_image():434]INFO: Downloaded: 19_1728458999912.png
+[2025-02-03 17:06:48,891 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:48,891 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:48,892 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:48,892 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:48,893 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,893 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,893 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,893 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,893 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:48,930 web_scraper.py->download_image():434]INFO: Downloaded: 21_1728474811626.png
+[2025-02-03 17:06:48,966 web_scraper.py->download_image():434]INFO: Downloaded: 21_1728474811765.png
+[2025-02-03 17:06:49,003 web_scraper.py->download_image():434]INFO: Downloaded: 21_1728474811958.png
+[2025-02-03 17:06:49,047 web_scraper.py->download_image():434]INFO: Downloaded: 21_1728474813087.png
+[2025-02-03 17:06:49,048 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:49,048 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:49,049 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:49,049 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:49,050 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:49,050 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:49,050 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:49,050 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:49,050 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:49,226 web_scraper.py->download_image():434]INFO: Downloaded: 23_1727974406783.png
+[2025-02-03 17:06:49,546 web_scraper.py->download_image():434]INFO: Downloaded: 23_1727974415001.png
+[2025-02-03 17:06:50,019 web_scraper.py->download_image():434]INFO: Downloaded: 23_1727974422689.png
+[2025-02-03 17:06:50,631 web_scraper.py->download_image():434]INFO: Downloaded: 23_1727974429975.png
+[2025-02-03 17:06:50,632 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:50,632 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:50,633 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:50,633 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:50,634 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,634 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,634 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,634 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,634 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,688 web_scraper.py->download_image():434]INFO: Downloaded: 25_1727428838748.png
+[2025-02-03 17:06:50,727 web_scraper.py->download_image():434]INFO: Downloaded: 25_1727428837946.png
+[2025-02-03 17:06:50,759 web_scraper.py->download_image():434]INFO: Downloaded: 25_1727428837932.png
+[2025-02-03 17:06:50,792 web_scraper.py->download_image():434]INFO: Downloaded: 25_1727428838537.png
+[2025-02-03 17:06:50,793 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:50,794 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:50,794 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:50,795 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:50,795 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,795 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,796 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,796 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,796 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,825 web_scraper.py->download_image():434]INFO: Downloaded: 27_1726836477345.png
+[2025-02-03 17:06:50,856 web_scraper.py->download_image():434]INFO: Downloaded: 27_1726836476720.png
+[2025-02-03 17:06:50,887 web_scraper.py->download_image():434]INFO: Downloaded: 27_1726836476705.png
+[2025-02-03 17:06:50,927 web_scraper.py->download_image():434]INFO: Downloaded: 27_1726836476442.png
+[2025-02-03 17:06:50,928 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:50,928 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:50,928 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:50,929 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:50,929 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,930 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,930 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,930 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,930 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:50,960 web_scraper.py->download_image():434]INFO: Downloaded: 29_1725604185534.png
+[2025-02-03 17:06:50,991 web_scraper.py->download_image():434]INFO: Downloaded: 29_1725604185742.png
+[2025-02-03 17:06:51,036 web_scraper.py->download_image():434]INFO: Downloaded: 29_1725604185076.png
+[2025-02-03 17:06:51,097 web_scraper.py->download_image():434]INFO: Downloaded: 29_1725604186741.png
+[2025-02-03 17:06:51,098 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:51,098 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:51,099 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:51,099 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:51,100 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,100 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,100 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,100 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,100 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,136 web_scraper.py->download_image():434]INFO: Downloaded: 31_1723197874732.png
+[2025-02-03 17:06:51,176 web_scraper.py->download_image():434]INFO: Downloaded: 31_1723197875671.png
+[2025-02-03 17:06:51,209 web_scraper.py->download_image():434]INFO: Downloaded: 31_1723197874939.png
+[2025-02-03 17:06:51,242 web_scraper.py->download_image():434]INFO: Downloaded: 31_1723197875410.png
+[2025-02-03 17:06:51,242 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:51,243 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:51,243 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:51,243 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:51,244 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,244 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,244 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,244 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,244 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,274 web_scraper.py->download_image():434]INFO: Downloaded: 33_1722603743360.png
+[2025-02-03 17:06:51,306 web_scraper.py->download_image():434]INFO: Downloaded: 33_1722603742185.png
+[2025-02-03 17:06:51,335 web_scraper.py->download_image():434]INFO: Downloaded: 33_1722603743213.png
+[2025-02-03 17:06:51,367 web_scraper.py->download_image():434]INFO: Downloaded: 33_1722603743030.png
+[2025-02-03 17:06:51,368 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:51,369 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:51,370 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:51,370 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:51,370 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,371 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,371 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,371 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,371 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,402 web_scraper.py->download_image():434]INFO: Downloaded: 35_1721982010111.png
+[2025-02-03 17:06:51,440 web_scraper.py->download_image():434]INFO: Downloaded: 35_1721982010343.png
+[2025-02-03 17:06:51,484 web_scraper.py->download_image():434]INFO: Downloaded: 35_1721982010284.png
+[2025-02-03 17:06:51,511 web_scraper.py->download_image():434]INFO: Downloaded: 35_1721982010305.png
+[2025-02-03 17:06:51,512 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:51,513 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:51,514 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:51,514 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:51,515 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,515 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,549 web_scraper.py->download_image():434]INFO: Downloaded: 37_1734960306940.png
+[2025-02-03 17:06:51,551 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:51,552 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:51,553 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:51,553 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:51,554 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,554 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,554 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,554 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,554 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,589 web_scraper.py->download_image():434]INFO: Downloaded: 39_1721380723655.png
+[2025-02-03 17:06:51,627 web_scraper.py->download_image():434]INFO: Downloaded: 39_1721380723696.png
+[2025-02-03 17:06:51,661 web_scraper.py->download_image():434]INFO: Downloaded: 39_1721380723645.png
+[2025-02-03 17:06:51,695 web_scraper.py->download_image():434]INFO: Downloaded: 39_1721380723481.png
+[2025-02-03 17:06:51,696 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:51,696 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:51,696 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:51,697 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:51,697 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,697 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,698 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,698 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,698 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,729 web_scraper.py->download_image():434]INFO: Downloaded: 41_1721048271355.png
+[2025-02-03 17:06:51,762 web_scraper.py->download_image():434]INFO: Downloaded: 41_1721048271403.png
+[2025-02-03 17:06:51,793 web_scraper.py->download_image():434]INFO: Downloaded: 41_1721048271200.png
+[2025-02-03 17:06:51,862 web_scraper.py->download_image():434]INFO: Downloaded: 41_1721048271030.png
+[2025-02-03 17:06:51,863 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:51,863 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:51,864 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:51,864 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:51,864 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,864 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,864 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,865 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,865 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:51,901 web_scraper.py->download_image():434]INFO: Downloaded: 43_1718957337003.png
+[2025-02-03 17:06:51,955 web_scraper.py->download_image():434]INFO: Downloaded: 43_1718957336688.png
+[2025-02-03 17:06:51,996 web_scraper.py->download_image():434]INFO: Downloaded: 43_1718957338242.png
+[2025-02-03 17:06:52,038 web_scraper.py->download_image():434]INFO: Downloaded: 43_1718957337989.png
+[2025-02-03 17:06:52,039 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:52,040 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:52,041 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:52,041 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:52,042 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,043 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:52,043 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:52,044 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:52,044 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:52,046 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,046 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,046 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,046 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,047 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,082 web_scraper.py->download_image():434]INFO: Downloaded: 47_1718347551239.png
+[2025-02-03 17:06:52,111 web_scraper.py->download_image():434]INFO: Downloaded: 47_1718347552270.png
+[2025-02-03 17:06:52,145 web_scraper.py->download_image():434]INFO: Downloaded: 47_1718347551827.png
+[2025-02-03 17:06:52,189 web_scraper.py->download_image():434]INFO: Downloaded: 47_1718347551246.png
+[2025-02-03 17:06:52,190 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:52,191 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:52,192 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:52,192 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:52,193 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,193 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,193 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,193 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,194 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,228 web_scraper.py->download_image():434]INFO: Downloaded: 49_1718181796749.png
+[2025-02-03 17:06:52,259 web_scraper.py->download_image():434]INFO: Downloaded: 49_1718181811432.png
+[2025-02-03 17:06:52,290 web_scraper.py->download_image():434]INFO: Downloaded: 49_1718181796385.png
+[2025-02-03 17:06:52,324 web_scraper.py->download_image():434]INFO: Downloaded: 49_1718181799844.png
+[2025-02-03 17:06:52,325 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:52,326 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:52,326 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:52,327 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:52,327 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,327 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,328 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,328 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,328 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,366 web_scraper.py->download_image():434]INFO: Downloaded: 51_1719200085686.png
+[2025-02-03 17:06:52,409 web_scraper.py->download_image():434]INFO: Downloaded: 51_1719199506279.png
+[2025-02-03 17:06:52,451 web_scraper.py->download_image():434]INFO: Downloaded: 51_1719125877770.png
+[2025-02-03 17:06:52,487 web_scraper.py->download_image():434]INFO: Downloaded: 51_1719030746126.png
+[2025-02-03 17:06:52,488 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:52,489 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:52,490 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:52,490 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:52,491 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,491 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,491 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,491 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,491 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,523 web_scraper.py->download_image():434]INFO: Downloaded: 53_1719150897408.png
+[2025-02-03 17:06:52,557 web_scraper.py->download_image():434]INFO: Downloaded: 53_1719140641165.png
+[2025-02-03 17:06:52,590 web_scraper.py->download_image():434]INFO: Downloaded: 53_1719039833308.png
+[2025-02-03 17:06:52,624 web_scraper.py->download_image():434]INFO: Downloaded: 53_1719038305932.png
+[2025-02-03 17:06:52,624 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:52,625 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:52,625 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:52,626 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:52,626 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,626 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,627 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,627 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:52,627 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:53,373 web_scraper.py->download_image():434]INFO: Downloaded: 55_1715935976306.png
+[2025-02-03 17:06:53,802 web_scraper.py->download_image():434]INFO: Downloaded: 55_1715935964335.png
+[2025-02-03 17:06:54,693 web_scraper.py->download_image():434]INFO: Downloaded: 55_1715935984436.png
+[2025-02-03 17:06:54,909 web_scraper.py->download_image():434]INFO: Downloaded: 55_1715935952566.png
+[2025-02-03 17:06:54,910 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:54,911 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:54,911 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:54,911 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:54,912 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:54,913 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:54,913 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:54,914 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:54,914 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:54,915 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:54,915 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:54,915 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:54,915 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:54,915 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:55,179 web_scraper.py->download_image():434]INFO: Downloaded: 59_1715328968198.png
+[2025-02-03 17:06:55,427 web_scraper.py->download_image():434]INFO: Downloaded: 59_1715328964848.png
+[2025-02-03 17:06:55,810 web_scraper.py->download_image():434]INFO: Downloaded: 59_1715328968369.png
+[2025-02-03 17:06:55,991 web_scraper.py->download_image():434]INFO: Downloaded: 59_1715328961652.png
+[2025-02-03 17:06:55,992 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:55,993 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:55,994 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:55,994 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:55,995 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:55,995 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:55,995 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:55,995 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:55,995 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:56,243 web_scraper.py->download_image():434]INFO: Downloaded: 61_1714731015916.png
+[2025-02-03 17:06:56,504 web_scraper.py->download_image():434]INFO: Downloaded: 61_1714731016339.png
+[2025-02-03 17:06:56,682 web_scraper.py->download_image():434]INFO: Downloaded: 61_1714731008942.png
+[2025-02-03 17:06:57,041 web_scraper.py->download_image():434]INFO: Downloaded: 61_1714731017819.png
+[2025-02-03 17:06:57,044 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:57,045 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:57,046 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:57,047 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:57,049 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:57,049 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:57,050 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:57,055 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:57,057 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:57,427 web_scraper.py->download_image():434]INFO: Downloaded: 63_1714119984710.png
+[2025-02-03 17:06:57,944 web_scraper.py->download_image():434]INFO: Downloaded: 63_1714119991123.png
+[2025-02-03 17:06:58,231 web_scraper.py->download_image():434]INFO: Downloaded: 63_1714119986892.png
+[2025-02-03 17:06:58,451 web_scraper.py->download_image():434]INFO: Downloaded: 63_1714119983070.png
+[2025-02-03 17:06:58,452 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:58,452 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:58,453 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:58,453 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:58,454 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:58,454 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:58,454 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:58,454 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:58,454 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:58,598 web_scraper.py->download_image():434]INFO: Downloaded: 65_1713509780169.png
+[2025-02-03 17:06:58,852 web_scraper.py->download_image():434]INFO: Downloaded: 65_1713509784707.png
+[2025-02-03 17:06:59,138 web_scraper.py->download_image():434]INFO: Downloaded: 65_1713509783351.png
+[2025-02-03 17:06:59,355 web_scraper.py->download_image():434]INFO: Downloaded: 65_1713509780108.png
+[2025-02-03 17:06:59,356 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:59,356 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:59,356 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:59,356 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:59,357 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:59,357 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:59,357 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:59,357 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:59,357 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:59,403 web_scraper.py->download_image():434]INFO: Downloaded: 67_1712042431358.png
+[2025-02-03 17:06:59,474 web_scraper.py->download_image():434]INFO: Downloaded: 67_1712042431279.png
+[2025-02-03 17:06:59,517 web_scraper.py->download_image():434]INFO: Downloaded: 67_1712042430540.png
+[2025-02-03 17:06:59,558 web_scraper.py->download_image():434]INFO: Downloaded: 67_1712042432592.png
+[2025-02-03 17:06:59,559 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:06:59,559 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:06:59,559 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:06:59,560 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:06:59,560 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:59,560 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:59,560 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:59,560 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:59,560 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:06:59,938 web_scraper.py->download_image():434]INFO: Downloaded: 69_1711710033194.png
+[2025-02-03 17:07:00,302 web_scraper.py->download_image():434]INFO: Downloaded: 69_1711710028346.png
+[2025-02-03 17:07:00,672 web_scraper.py->download_image():434]INFO: Downloaded: 69_1711710024180.png
+[2025-02-03 17:07:00,944 web_scraper.py->download_image():434]INFO: Downloaded: 69_1711710021687.png
+[2025-02-03 17:07:00,945 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:00,945 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:00,946 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:00,946 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:00,947 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:00,947 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:00,947 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:00,947 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:00,947 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:00,981 web_scraper.py->download_image():434]INFO: Downloaded: 71_1711535665098.png
+[2025-02-03 17:07:01,026 web_scraper.py->download_image():434]INFO: Downloaded: 71_1711535664998.png
+[2025-02-03 17:07:01,063 web_scraper.py->download_image():434]INFO: Downloaded: 71_1711535665031.png
+[2025-02-03 17:07:01,101 web_scraper.py->download_image():434]INFO: Downloaded: 71_1711535664490.png
+[2025-02-03 17:07:01,103 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:01,103 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:01,103 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:01,103 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:01,104 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,104 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,104 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,104 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,105 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,135 web_scraper.py->download_image():434]INFO: Downloaded: 73_1711101863812.png
+[2025-02-03 17:07:01,175 web_scraper.py->download_image():434]INFO: Downloaded: 73_1711101863951.png
+[2025-02-03 17:07:01,206 web_scraper.py->download_image():434]INFO: Downloaded: 73_1711101863651.png
+[2025-02-03 17:07:01,248 web_scraper.py->download_image():434]INFO: Downloaded: 73_1711101863415.png
+[2025-02-03 17:07:01,249 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:01,249 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:01,250 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:01,250 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:01,251 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,251 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:01,252 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:01,252 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:01,252 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:01,253 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,253 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,253 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,253 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,291 web_scraper.py->download_image():434]INFO: Downloaded: 77_1710764870927.png
+[2025-02-03 17:07:01,326 web_scraper.py->download_image():434]INFO: Downloaded: 77_1710764870813.png
+[2025-02-03 17:07:01,360 web_scraper.py->download_image():434]INFO: Downloaded: 77_1710764871747.png
+[2025-02-03 17:07:01,361 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:01,361 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:01,362 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:01,362 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:01,363 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,363 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:01,364 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:01,364 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:01,364 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:01,365 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,365 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,398 web_scraper.py->download_image():434]INFO: Downloaded: 81_1709642323839.png
+[2025-02-03 17:07:01,399 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:01,399 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:01,399 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:01,399 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:01,400 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,401 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,401 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,401 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,401 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:01,401 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:03,022 web_scraper.py->download_image():434]INFO: Downloaded: 83_1709283902645.png
+[2025-02-03 17:07:03,317 web_scraper.py->download_image():434]INFO: Downloaded: 83_1709283765917.png
+[2025-02-03 17:07:04,138 web_scraper.py->download_image():434]INFO: Downloaded: 83_1709283826129.png
+[2025-02-03 17:07:05,191 web_scraper.py->download_image():434]INFO: Downloaded: 83_1709283848189.png
+[2025-02-03 17:07:05,507 web_scraper.py->download_image():434]INFO: Downloaded: 83_1709283766355.png
+[2025-02-03 17:07:05,508 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:05,508 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:05,508 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:05,508 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:05,509 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:05,510 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:05,510 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:05,510 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:05,510 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:05,511 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:05,511 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:05,556 web_scraper.py->download_image():434]INFO: Downloaded: 87_1709039250140.png
+[2025-02-03 17:07:05,557 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:05,557 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:05,558 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:05,558 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:05,559 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:05,559 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:05,559 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:05,559 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:05,559 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:05,559 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:05,593 web_scraper.py->download_image():434]INFO: Downloaded: 89_1708691396630.png
+[2025-02-03 17:07:05,624 web_scraper.py->download_image():434]INFO: Downloaded: 89_1708691396894.png
+[2025-02-03 17:07:05,654 web_scraper.py->download_image():434]INFO: Downloaded: 89_1708691398290.png
+[2025-02-03 17:07:05,687 web_scraper.py->download_image():434]INFO: Downloaded: 89_1708691396358.png
+[2025-02-03 17:07:05,718 web_scraper.py->download_image():434]INFO: Downloaded: 89_1708691396573.png
+[2025-02-03 17:07:05,719 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:05,720 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:05,720 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:05,720 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:05,721 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:05,721 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:05,721 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:05,721 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:05,721 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:05,721 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:06,384 web_scraper.py->download_image():434]INFO: Downloaded: 91_1707480694825.png
+[2025-02-03 17:07:06,957 web_scraper.py->download_image():434]INFO: Downloaded: 91_1707480690131.png
+[2025-02-03 17:07:07,404 web_scraper.py->download_image():434]INFO: Downloaded: 91_1707480658465.png
+[2025-02-03 17:07:07,737 web_scraper.py->download_image():434]INFO: Downloaded: 91_1707480612613.png
+[2025-02-03 17:07:08,861 web_scraper.py->download_image():434]INFO: Downloaded: 91_1707480730685.png
+[2025-02-03 17:07:08,862 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:08,862 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:08,862 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:08,862 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:08,863 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:08,863 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:08,864 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:08,864 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:08,864 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:08,865 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:08,865 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:08,894 web_scraper.py->download_image():434]INFO: Downloaded: 95_1732799288559.png
+[2025-02-03 17:07:08,895 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:08,896 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:08,896 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:08,896 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:08,897 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:08,897 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:08,930 web_scraper.py->download_image():434]INFO: Downloaded: 97_1730203822351.png
+[2025-02-03 17:07:08,931 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:08,932 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:08,932 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:08,932 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:08,933 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:08,933 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:08,965 web_scraper.py->download_image():434]INFO: Downloaded: 99_1730210049822.png
+[2025-02-03 17:07:08,966 web_scraper.py->_extract_hashtags():257]INFO: Hastags Extracted
+[2025-02-03 17:07:08,967 web_scraper.py->_clean_text():287]INFO: Text Cleaned
+[2025-02-03 17:07:08,968 web_scraper.py->_extract_emojis():343]INFO: Emoji Extracted
+[2025-02-03 17:07:08,968 web_scraper.py->_split_at_first_delimiter():318]INFO: Text Splitted into Heading and Content
+[2025-02-03 17:07:08,968 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:08,968 web_scraper.py->is_valid_image():394]INFO: Image is Valid
+[2025-02-03 17:07:10,143 web_scraper.py->download_image():434]INFO: Downloaded: 101_1723641789314.png
+[2025-02-03 17:07:10,144 web_scraper.py->_scrape_linkedin_posts():525]INFO: Total unique posts found: 51
+[2025-02-03 17:07:10,158 web_scraper.py->linkedin_scraper():132]INFO: Scraping complete. Data saved to post_data.json
+[2025-02-03 17:07:10,158 web_scraper.py->linkedin_scraper():133]INFO: Total posts scraped: 51
