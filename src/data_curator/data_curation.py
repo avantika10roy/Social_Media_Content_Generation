@@ -4,7 +4,7 @@ from ..utils.data_saver import DataSaver
 from config.config import Config
 
 # LOGGING SETUP
-dataCurator_logger = LoggerSetup(logger_name="data_curation.py", log_filename_prefix="data_curator").get_logger()
+dataCurator_logger = LoggerSetup(logger_name = "data_curation.py", log_filename_prefix = "data_curator").get_logger()
 
 class DataCuration:
     """
@@ -46,33 +46,29 @@ class DataCuration:
         Raises:
         -------
             Logs an error if any file reading operation fails.
+        
         """
+    
         try:
-            linked_cleaned_data     = DataSaver.data_reader(self.linkedin_cleaned_data_path)
-            facebook_cleaned_data   = DataSaver.data_reader(self.facebook_cleaned_data_path)
-            instagram_cleaned_data  = DataSaver.data_reader(self.instagram_cleaned_data_path)
+            linked_cleaned_data = DataSaver.data_reader(self.linkedin_cleaned_data_path)
+            facebook_cleaned_data = DataSaver.data_reader(self.facebook_cleaned_data_path)
+            instagram_cleaned_data = DataSaver.data_reader(self.instagram_cleaned_data_path)
 
             dataCurator_logger.info("Data successfully read from all sources")
 
-            if not isinstance(linked_cleaned_data, list):
-                dataCurator_logger.warning("LinkedIn data is not in list format. Converting to list.")
-                linked_cleaned_data = list(linked_cleaned_data) if linked_cleaned_data else []
-        
-            if not isinstance(facebook_cleaned_data, list):
-                dataCurator_logger.warning("Facebook data is not in list format. Converting to list.")
-                facebook_cleaned_data = list(facebook_cleaned_data) if facebook_cleaned_data else []
-        
-            if not isinstance(instagram_cleaned_data, list):
-                dataCurator_logger.warning("Instagram data is not in list format. Converting to list.")
-                instagram_cleaned_data = list(instagram_cleaned_data) if instagram_cleaned_data else []
+            dataframes = [df for df in [linked_cleaned_data, facebook_cleaned_data, instagram_cleaned_data] if df is not None]
 
-            combined_data = linked_cleaned_data + facebook_cleaned_data + instagram_cleaned_data
+            if not dataframes:  # If all are None, return an empty DataFrame
+                dataCurator_logger.error("No valid data found. Returning an empty DataFrame.")
+                return pd.DataFrame()
+
+            combined_data = pd.concat(dataframes, ignore_index=True)
 
             if not combined_data.empty:
                 DataSaver.data_saver(combined_data, Config.CURATED_POST_DATA_PATH)
                 dataCurator_logger.info("Data Curation Completed Successfully")
             else:
-                dataCurator_logger.warning("No valid data found to curate.")
+                dataCurator_logger.warning("No valid data to save after merging.")
 
             return combined_data
 
