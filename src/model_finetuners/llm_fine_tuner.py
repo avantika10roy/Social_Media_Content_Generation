@@ -16,8 +16,10 @@ class LLMFineTuner:
     A class to fine tune a LLM using peft techniques
     and save the model in .gguf format for faster inference 
     """
-    def __init__(self, model_path:str , tokenizer_path:str, dataset: Dataset, finetune_logger: LoggerSetup, **kwargs):
-        """The Initialization of Fine Tuner
+    def __init__(self, model_path:str , tokenizer_path:str, dataset:Dataset, finetune_logger:LoggerSetup, **kwargs) -> None:
+        """
+        The Initialization of Fine Tuner
+
         Arguments:
         --------------
             model_path     : Path to the directory of saved model or address of the model on Huggingface
@@ -41,6 +43,7 @@ class LLMFineTuner:
             self.logger.error(e, exc_info=True)
             raise
 
+
     def define_lora_config(self, **kwargs) -> None:
         """
         Defines the lora config
@@ -54,6 +57,7 @@ class LLMFineTuner:
             self.logger.error(e, exc_info=True)
             raise
 
+
     def define_training_args(self, **kwargs) -> None:
         """
         Defines the training arguments
@@ -63,21 +67,23 @@ class LLMFineTuner:
         except Exception as e:
             self.logger.error(e, exc_info=True)
             raise
+
+
     def define_trainer(self) -> None:
         """
         Defines the trainer that is used during fine tuning
         """
         try:
-            self.trainer = Trainer(
-                model          = self.model,
-                args           = self.training_args,
-                train_dataset  = self.dataset['train'],
-                eval_dataset   = self.dataset['test'],
-                tokenizer      = self.tokenizer
-            )
+            self.trainer = Trainer(model          = self.model,
+                                   args           = self.training_args,
+                                   train_dataset  = self.dataset['train'],
+                                   eval_dataset   = self.dataset['test'],
+                                   tokenizer      = self.tokenizer
+                                  )
         except Exception as e:
             self.logger.error(e, exc_info=True)
             raise
+
 
     def start_fine_tuning(self) -> AutoModelForCausalLM:
         """
@@ -85,8 +91,8 @@ class LLMFineTuner:
         """
         try:
             self.trainer.train()
-
             return self.model
-        except Exception as e:
-            self.logger.error(e, exc_info=True)
-            raise
+
+        except Exception as FineTuningStartError:
+            self.logger.error(repr(FineTuningStartError), exc_info=True)
+            return repr(FineTuningStartError)
