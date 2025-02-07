@@ -25,6 +25,8 @@ class Config:
     LINKEDIN_RAW_IMAGE_DATA_LINK          = 'https://drive.google.com/drive/folders/1-PwFzDBfRFHWtadLEXubp-Kl2h8UquqG?usp=sharing'
     LINKEDIN_CLEANED_POST_DATA_PATH       = './data/cleaned_data/linkedin_cleaned_data.json'
     LINKEDIN_CLEANED_IMAGE_DATA_PATH      = './data/cleaned_data/linkedin_cleaned_images'
+    LINKEDIN_PREPROCESSED_IMAGE_DATA_PATH = './data/preprocessed_data/linkedin_preprocessed_images'
+
     
     # INSTAGRAM CONFIGURATIONS
     INSTAGRAM_USERNAME                    = "itobuztechnologies"
