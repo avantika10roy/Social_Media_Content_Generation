@@ -1,10 +1,8 @@
 ## ----- DONE BY PRIYAM PAL AND SUBHAS MUKHERJEE -----
 
 # DEPENDENCIES
-import re
 import os
 import time
-import emoji
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -22,9 +20,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # LOGGING SETUP
 scraper_logger = LoggerSetup(logger_name = "linkedin_web_scraper.py", log_filename_prefix = "linkedin").get_logger()
-
-# INITIALISING THE CONFIG CLASS
-config = Config()
 
 class LinkedinScraper:
     """
@@ -120,14 +115,7 @@ class LinkedinScraper:
                 df            = pd.DataFrame(posts_data)
                 df            = df.drop_duplicates()
 
-                output_dir    = config.LINKEDIN_POST_DATA_PATH
-                os.makedirs(output_dir, 
-                            exist_ok = True)
-
-                output_file   = os.path.join(output_dir, config.LINKEDIN_POST_DATA_FILENAME)
-                df.to_json(output_file, orient= 'records' , force_ascii = False, indent = 4)
-
-                scraper_logger.info("Scraping complete. Data saved to linkedin_post_data.json")
+                scraper_logger.info("Scraping complete. Data saved to linkedin_raw_data.json")
                 scraper_logger.info(f"Total posts scraped: {len(df)}")
                 return df
             else:
@@ -156,7 +144,7 @@ class LinkedinScraper:
         """
         
         try:
-            self.driver.get(config.LINKEDIN_LOGIN_PAGE_LINK)
+            self.driver.get(Config.LINKEDIN_LOGIN_PAGE_LINK)
             self.wait.until(EC.presence_of_element_located((By.ID, "username")))
         
             email_field    = self.driver.find_element(By.ID, "username")
@@ -224,127 +212,7 @@ class LinkedinScraper:
                 break
             last_height              = new_height
 
-    @staticmethod
-    def _extract_hashtags(text: str) -> list:
-        
-        """
-        Extract hashtags from text content.
-        
-        Arguments:
-        ----------
-            text (str) : Text to extract hashtags from
-            
-        Returns:
-        --------
-            list       : List of unique hashtags found in the text
-        """
-        
-        try:
-            hashtags          = re.findall(r'(?:hashtag)?#\w+', text)
-            cleaned_hashtags  = list(set
-                                     (
-                                         [
-                                             tag.replace('hashtag#', 
-                                                         '#'
-                                                         ) 
-                                             for tag in hashtags
-                                             ]
-                                         )
-                                     )
-            
-            scraper_logger.info("Hastags Extracted")
-            
-            return cleaned_hashtags
-        
-        except Exception as e:
-            scraper_logger.error(f"Error extracting Hastags: {repr(e)}")
 
-    @staticmethod
-    def _clean_text(text: str) -> str:
-        """
-        Clean text by removing hashtags and formatting.
-        
-        Arguments:
-        ----------
-            text (str) : Text to clean
-            
-        Returns:
-        --------
-            str        : Cleaned text
-        """
-        try:
-            text         = re.sub(r'hashtag#\w+', '', text) 
-            text         = re.sub(r'#\w+', '', text) 
-
-            text         = emoji.replace_emoji(text, '')
-
-            text         = re.sub(r'\.{3,}', '.', text)
-
-            cleaned_text = ' '.join(text.split()).strip()
-
-            scraper_logger.info("Text Cleaned")
-            
-            return cleaned_text
-
-        except Exception as e:
-            scraper_logger.error(f"Error cleaning text: {repr(e)}")
-            return text 
-
-
-    @staticmethod
-    def _split_at_first_delimiter(text: str) -> tuple:
-        """
-        Split text into heading and content at first delimiter.
-        
-        Arguments:
-        ----------
-            text (str)  : Text to split
-            
-        Returns:
-        ---------
-            tuple       : (heading, content) pair
-        """
-        try:
-        
-            match            = re.search(r'[.!?]', text)
-        
-            if match:
-                split_index  = match.start() + 1
-                heading      = text[:split_index].strip()
-                content      = text[split_index:].strip()
-                content      = re.sub(r'^[.!?\s]+', '', content)
-                scraper_logger.info("Text Splitted into Heading and Content")
-                return heading, content
-        
-            else:
-                scraper_logger.warning("No Text Splitted into Heading and Content")
-                return text.strip(), ""
-            
-        except Exception as e:
-            scraper_logger.error(f"An Error Occured: {repr(e)}")
-
-    @staticmethod
-    def _extract_emojis(text: str) -> tuple:
-        """
-        Extracts emojis from a string and returns cleaned text and emojis.
-        
-        Arguments:
-        ----------
-            text (str) : Text to extract emojis from
-            
-        Returns:
-        --------
-            tuple      : (cleaned_text, emojis) pair
-        """
-        try:
-            emojis = [e['emoji'] for e in emoji.emoji_list(text)]
-            scraper_logger.info("Emoji Extracted")
-            return list(set(emojis))
-        
-        except Exception as e:
-            scraper_logger.error(f"Error extracting emojis: {repr(e)}")
-            return []
-    
     @staticmethod
     def create_image_folder():
         """
@@ -359,7 +227,7 @@ class LinkedinScraper:
             None
         """
         
-        folder_path   = config.LINKEDIN_IMAGE_DATA_PATH
+        folder_path   = Config.LINKEDIN_RAW_IMAGE_DATA_PATH
         if not os.path.exists(folder_path):
             os.makedirs(folder_path)
 
@@ -422,7 +290,7 @@ class LinkedinScraper:
             
             if response.status_code == 200:
                 image_name = f"{post_id}_{image_url.split('/')[-1].split('?')[0]}.png"
-                image_path = os.path.join(config.LINKEDIN_IMAGE_DATA_PATH, image_name)
+                image_path = os.path.join(Config.LINKEDIN_RAW_IMAGE_DATA_PATH, image_name)
                 
                 with open(image_path, 'wb') as file:
                 
@@ -481,33 +349,22 @@ class LinkedinScraper:
                         continue
             
                     seen_contents.add(content_identifier)
-            
-                    hashtags           = self._extract_hashtags(full_text)
-                    cleaned_text       = self._clean_text(full_text)
-                    emojis             = self._extract_emojis(full_text)
-                    heading, content   = self._split_at_first_delimiter(cleaned_text)
-
-                    if not heading.strip():
-                        continue
 
                     image_elements     = post.find_all('img', {'class': 'ivm-view-attr__img--centered'})
                     valid_images       = [img for img in image_elements if self.is_valid_image(img)]
                     image_urls         = list(set([img['src'] for img in valid_images if img.get('src')]))
                     image_paths        = [self.download_image(url, post_id) for url in image_urls if url]
 
-                    post_data          = {"post_heading": heading,
-                                          "post_content": content if content else "No content",
-                                          "hashtags": ', '.join(hashtags) if hashtags else "No hashtags",
-                                          "emojis": ', '.join(emojis) if emojis else "No emojis",
+                    post_data          = {"post_contents": full_text,
                                           "image_URLs": ', '.join(image_urls),
                                           "image_paths": ', '.join(filter(None, image_paths))
                                           }
 
-                    full_post_content   = f"{heading} {content}".lower()
+                    full_post_content   = f"{full_text}"
                     is_duplicate        = False
             
                     for existing_post in scraped_data:
-                        existing_content = f"{existing_post['post_heading']} {existing_post['post_content']}".lower()
+                        existing_content = f"{existing_post['post_contents']}"
                         
                         if (full_post_content in existing_content) or (existing_content in full_post_content):
                             is_duplicate = True

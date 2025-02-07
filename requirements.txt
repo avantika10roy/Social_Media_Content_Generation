@@ -5,3 +5,7 @@ beautifulsoup4
 
 selenium
 webdriver-manager
+
+transformers
+peft
+datasets

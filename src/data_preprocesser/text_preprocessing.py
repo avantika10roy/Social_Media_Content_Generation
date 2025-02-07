@@ -4,11 +4,13 @@
 import os
 import re
 import nltk
+import torch
 import pandas as pd
+from src.utils.logger import LoggerSetup
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
-from logger import LoggerSetup
+
 
 # LOGGING SETUP
 preprocessor_logger = LoggerSetup(logger_name = "text_preprocessor.py", log_filename_prefix = "text_preprocessor").get_logger()
@@ -74,7 +76,7 @@ class TextPreprocessing:
             text = re.sub('<[^>]*>', '', text)
             # Remove special characters
             text = re.sub('[^a-zA-Z\s]', '', text)
-            text = text.lower()
+            # text = text.lower()
             tokens = word_tokenize(text)
             tokens = [self.lemmatizer.lemmatize(token) for token in tokens if token not in self.stop_words]
 
@@ -87,3 +89,4 @@ class TextPreprocessing:
 
     
 
+    
