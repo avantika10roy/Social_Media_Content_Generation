@@ -14,8 +14,8 @@ transform = transforms.Compose([
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
 ])
 
-json_path = os.path.join(os.path.dirname(__file__), "../../data/raw_data/facebook_raw_data.json")
-image_base_path = os.path.join(os.path.dirname(__file__), "../../data/raw_data/facebook_raw_images")
+json_path = os.path.join(os.path.dirname(__file__), "../../data/raw_data/linkedin_raw_data.json")
+image_base_path = os.path.join(os.path.dirname(__file__), "../../data/raw_data/linkedin_raw_images")
 
 try:
     with open(json_path, "r") as f:
