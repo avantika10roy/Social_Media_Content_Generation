@@ -6,7 +6,7 @@ import pandas
 import transformers
 from datasets import Dataset
 from peft import LoraConfig, get_peft_model
-from transformers import TrainingArguments, Trainer, set_seed
+from transformers import TrainingArguments, Trainer, set_seed # use set_seed during the calling of the class in beginning of the script
 from transformers import AutoTokenizer, AutoModelForCausalLM, QuantoConfig
 
 class LLMFineTuner:
@@ -65,7 +65,7 @@ class LLMFineTuner:
         except Exception as e:
             print(e)
 
-    def start_fine_tuning(self) -> 'AutoModelForCausalLM':
+    def start_fine_tuning(self) -> AutoModelForCausalLM:
         """
         Strats the fine tuning process
         """
