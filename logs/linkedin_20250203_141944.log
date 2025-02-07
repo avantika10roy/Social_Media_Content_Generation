@@ -1,5 +1,0 @@
-[2025-02-03 14:19:44,901 web_scraper.py->__init__():64]INFO: LinkedIn Scraper Class Initiated
-[2025-02-03 14:19:44,902 web_scraper.py->setup_driver():100]ERROR: An Error Occured: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
-
-[2025-02-03 14:19:44,902 web_scraper.py->_linkedin_login():177]ERROR: An Error Occured: 'NoneType' object has no attribute 'get'
-[2025-02-03 14:19:44,902 web_scraper.py->linkedin_scraper():141]ERROR: An Error Occured: 'NoneType' object has no attribute 'get'

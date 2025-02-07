@@ -1,5 +1,0 @@
-[2025-02-03 14:21:11,529 web_scraper.py->__init__():64]INFO: LinkedIn Scraper Class Initiated
-[2025-02-03 14:21:12,958 web_scraper.py->setup_driver():97]INFO: WebDriver Initialized
-[2025-02-03 14:21:20,683 web_scraper.py->_linkedin_login():174]INFO: Login Successful
-[2025-02-03 14:22:14,023 web_scraper.py->linkedin_scraper():133]INFO: Scraping complete. Data saved to post_data.csv
-[2025-02-03 14:22:14,024 web_scraper.py->linkedin_scraper():134]INFO: Total posts scraped: 51
