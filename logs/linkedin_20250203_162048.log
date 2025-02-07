@@ -1,0 +1,3 @@
+[2025-02-03 16:20:48,038 web_scraper.py->__init__():64]INFO: LinkedIn Scraper Class Initiated
+[2025-02-03 16:20:49,556 web_scraper.py->setup_driver():97]INFO: WebDriver Initialized
+[2025-02-03 16:20:58,121 web_scraper.py->_linkedin_login():172]INFO: Login Successful
