@@ -1,3 +1,5 @@
+nltk
+pydrive2
 emoji
 requests
 pandas
@@ -9,3 +11,4 @@ webdriver-manager
 transformers
 peft
 datasets
+pillow

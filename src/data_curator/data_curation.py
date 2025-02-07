@@ -53,12 +53,28 @@ class DataCuration:
             instagram_cleaned_data  = DataSaver.data_reader(self.instagram_cleaned_data_path)
 
             dataCurator_logger.info("Data successfully read from all sources")
-            
+
+            if not isinstance(linked_cleaned_data, list):
+                dataCurator_logger.warning("LinkedIn data is not in list format. Converting to list.")
+                linked_cleaned_data = list(linked_cleaned_data) if linked_cleaned_data else []
+        
+            if not isinstance(facebook_cleaned_data, list):
+                dataCurator_logger.warning("Facebook data is not in list format. Converting to list.")
+                facebook_cleaned_data = list(facebook_cleaned_data) if facebook_cleaned_data else []
+        
+            if not isinstance(instagram_cleaned_data, list):
+                dataCurator_logger.warning("Instagram data is not in list format. Converting to list.")
+                instagram_cleaned_data = list(instagram_cleaned_data) if instagram_cleaned_data else []
+
             combined_data = linked_cleaned_data + facebook_cleaned_data + instagram_cleaned_data
-            
-            dataCurator_logger.info("Data Curation Completed Successfully")
-            
-            DataSaver.data_saver(combined_data, Config.CURATED_POST_DATA_PATH)
+
+            if not combined_data.empty:
+                DataSaver.data_saver(combined_data, Config.CURATED_POST_DATA_PATH)
+                dataCurator_logger.info("Data Curation Completed Successfully")
+            else:
+                dataCurator_logger.warning("No valid data found to curate.")
+
+            return combined_data
 
         except Exception as e:
             dataCurator_logger.error(f"Error Occurred in data_curation function: {repr(e)}")
