@@ -43,7 +43,7 @@ class Config:
     FACEBOOK_CLEANED_IMAGE_DATA_PATH      = './data/cleaned_data/facebook_cleaned_images'
     FACEBOOK_API                          = 'apify_api_yZXdrMa7P6SXvEKcdOpLwen6xmtQzX3Dr7t1'
     # CURATED DATA PATHS
-    CURATED_POST_DATA_PATH                = './data/curated_data/final_data.json'
+    CURATED_POST_DATA_PATH                = './data/curated_data/curated_post_data.json'
     
 
     @staticmethod
