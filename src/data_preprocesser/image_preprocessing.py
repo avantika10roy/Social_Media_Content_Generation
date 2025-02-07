@@ -1,157 +1,147 @@
 import os
-import numpy as np
-from PIL import Image, ImageEnhance, ImageFilter
-import cv2
+import torch
+from torchvision import transforms
+from PIL import Image
+import random
+import shutil
+import cv2  # Import OpenCV for face detection
 
 class ImagePreprocessor:
     """
-    A class to preprocess images by performing face detection, white space filtering,
-    resizing, normalization, and data augmentation using PIL.
+    Preprocesses Images.
+    
+    Arguments:
+        raw_data_path     : path to directory containing raw image data
+        cleaned_data_path : path to directory where clean image data will be saved
     """
-
-    def __init__(self, data_dir, output_dir, target_size=(1024, 1024)):
-        """
-        Initialize the ImagePreprocessor.
-
-        Args:
-            data_dir (str): Directory containing input images.
-            output_dir (str): Directory to save preprocessed and augmented images.
-            target_size (tuple): Target size for resizing images (width, height).
-        """
-        self.data_dir = data_dir
-        self.output_dir = output_dir
-        self.target_size = target_size
-        os.makedirs(output_dir, exist_ok=True)
+    def __init__(self, raw_data_path, cleaned_data_path):
+        self.raw_data_path = raw_data_path
+        self.cleaned_data_path = cleaned_data_path
+        self.image_size = (1024, 1024)  # Resize target
+        
+        if not os.path.exists(self.cleaned_data_path):
+            os.makedirs(self.cleaned_data_path)
+        
+        # Define the transformations: Resize, Normalize, and Augment
+        self.transform = transforms.Compose([
+            transforms.Resize(self.image_size),  # Resize to 1024x1024
+            transforms.ToTensor(),  # Convert to tensor and normalize to [0, 1]
+            transforms.RandomHorizontalFlip(),  # Random horizontal flip
+            transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2),  # Random color jitter
+        ])
+        
+        # Load OpenCV's pre-trained face detector
         self.face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
-        # List of post numbers to skip
-        self.skip_posts = ['7', '23', '55', '61', '63', '65', '69', '83', '91']
-
-    def contains_faces(self, img):
+    def contains_face(self, image_path):
         """
-        Check if an image contains faces using Haar Cascade face detection.
-
+        Check if an image contains any faces.
+        
         Args:
-            img (PIL.Image): Input image.
-
+            image_path (str): Path to the image file.
+            
         Returns:
-            bool: True if faces are detected, False otherwise.
+            bool: True if the image contains a face, False otherwise.
         """
-        img = img.convert('RGB')
-        img_gray = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2GRAY)
-        faces = self.face_cascade.detectMultiScale(img_gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
-        return len(faces) > 0
+        image = cv2.imread(image_path)
+        
+        # Check if the image was loaded successfully
+        if image is None:
+            print(f"Warning: Unable to load image {image_path}. Skipping it.")
+            return False  # Return False, meaning no faces detected as image can't be processed
+        
+        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+        faces = self.face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+        
+        return len(faces) > 0  # If any faces are detected, return True
 
-    def has_too_much_white_space(self, img, white_threshold=0.98, white_pixel_threshold=240):
+    def is_gif(self, image_path):
         """
-        Check if an image has too much white space.
-
+        Check if an image is a GIF, even if saved with a .png extension.
+        
         Args:
-            img (PIL.Image): Input image.
-            white_threshold (float): Percentage threshold for white pixels.
-            white_pixel_threshold (int): Pixel intensity threshold for white.
-
+            image_path (str): Path to the image file.
+            
         Returns:
-            bool: True if the image has too much white space, False otherwise.
+            bool: True if the image is a GIF, False otherwise.
         """
-        img_array = np.array(img)
-        white_mask = np.all(img_array >= white_pixel_threshold, axis=-1)
-        white_percentage = np.sum(white_mask) / img_array.size
-        return white_percentage > white_threshold
-
-    def resize_and_normalize(self, img):
-        """
-        Resize and normalize an image.
-
-        Args:
-            img (PIL.Image): Input image.
-
-        Returns:
-            PIL.Image: Resized and normalized image.
-        """
-        img = img.convert('RGB')
-        img_resized = img.resize(self.target_size)
-        img_normalized = np.array(img_resized) / 255.0
-        return Image.fromarray((img_normalized * 255).astype(np.uint8))
-
-    def augment_image(self, img):
-        """
-        Apply data augmentation to an image (Hue/Saturation adjustment, Median Blur, Horizontal Flip).
-
-        Args:
-            img (PIL.Image): Input image.
-
-        Returns:
-            PIL.Image: Augmented image or None if it should be skipped.
-        """
-        img = img.convert('RGB')
-        enhancer = ImageEnhance.Color(img)
-        img = enhancer.enhance(1.5)  # Enhance color
-        img = img.filter(ImageFilter.MedianFilter(size=3))  # Apply median blur
-        img = img.transpose(Image.FLIP_LEFT_RIGHT)  # Horizontal flip
-
-        # Check if the augmented image has too much white space
-        if self.has_too_much_white_space(img):
-            print(f"Skipping augmented image with too much white space")
-            return None
-
-        return img
-
-    def process_images(self):
-        """
-        Process all images in the input directory, applying preprocessing and augmentation.
-        """
-        for img_name in os.listdir(self.data_dir):
-            img_path = os.path.join(self.data_dir, img_name)
-
-            try:
-                # Skip posts starting with specified numbers
-                if any(img_name.startswith(post) for post in self.skip_posts):
-                    print(f"Skipping post: {img_name}")
-                    continue
-
-                # Open image
-                img = Image.open(img_path)
-
-                # Skip if the image is a GIF
+        try:
+            with Image.open(image_path) as img:
                 if img.format == 'GIF':
-                    print(f"Skipping GIF image: {img_name}")
-                    continue
+                    print(f"Removing {image_path} because it is a GIF saved as PNG.")
+                    return True
+        except Exception as e:
+            print(f"Error processing {image_path}: {e}")
+        return False
 
+    def process_image(self, image_path):
+        """
+        Load, resize, normalize, and augment the image.
+        
+        Args:
+            image_path (str): Path to the image file.
+            
+        Returns:
+            list: List of augmented images.
+        """
+        try:
+            # Open the image and convert it to RGB if it has an alpha channel
+            image = Image.open(image_path).convert('RGB')
+        except Exception as e:
+            print(f"Error: Unable to load image {image_path}: {e}")
+            return []
+        
+        augmented_images = []
+        # Generate 4 to 5 augmentations
+        for _ in range(random.randint(4, 5)):  # Randomly choose 4 or 5 augmentations
+            # Apply the transformations
+            image_transformed = self.transform(image)
+            # Convert tensor back to PIL for saving
+            image_transformed = transforms.ToPILImage()(image_transformed)
+            augmented_images.append(image_transformed)
+        return augmented_images
+
+    def save_image(self, image, base_name, index):
+        """
+        Save the processed image to the cleaned data path with a unique name.
+        
+        Args:
+            image (PIL.Image): The image to save.
+            base_name (str): Base name for the image file.
+            index (int): Index for the augmentation.
+        """
+        file_name = f"{base_name}_aug_{index}.jpg"
+        save_path = os.path.join(self.cleaned_data_path, file_name)
+        image.save(save_path)
+        print(f"Saved processed image: {save_path}")
+
+    def preprocess_images(self):
+        """
+        Preprocess all images in the raw data path.
+        """
+        for file_name in os.listdir(self.raw_data_path):
+            file_path = os.path.join(self.raw_data_path, file_name)
+            
+            if os.path.isfile(file_path):
+                # Skip GIFs saved as PNG
+                if self.is_gif(file_path):
+                    os.remove(file_path)  # Remove the file if it's a GIF saved as PNG
+                    continue
                 # Skip images with faces
-                if self.contains_faces(img):
-                    print(f"Skipping image with faces: {img_name}")
-                    continue
-
-                # Skip images with too much white space
-                if self.has_too_much_white_space(img):
-                    print(f"Skipping image with too much white space: {img_name}")
-                    continue
-
-                # Preprocess the image
-                img_processed = self.resize_and_normalize(img)
-
-                # Save the processed image
-                save_path = os.path.join(self.output_dir, img_name)
-                img_processed.save(save_path)
-
-                # Data Augmentation: Generate and save augmented images
-                for i in range(5):  # Generate 5 augmented versions per image
-                    augmented_img = self.augment_image(img)
-                    if augmented_img is None:
-                        continue
-                    
-                    augmented_img_path = os.path.join(self.output_dir, f"aug_{i}_{img_name}")
-                    augmented_img.save(augmented_img_path)
-
-            except Exception as e:
-                print(f"Error processing image {img_name}: {e}")
-
+                if self.contains_face(file_path):
+                    print(f"Skipping {file_name} because it contains a face.")
+                    continue  # Skip this image if it contains a face
+                
+                augmented_images = self.process_image(file_path)
+                
+                if augmented_images:
+                    base_name, _ = os.path.splitext(file_name)
+                    for idx, img in enumerate(augmented_images):
+                        self.save_image(img, base_name, idx)
 
 # Example usage
 if __name__ == "__main__":
-    data_dir = "data/linkedin_data/linkedin_images"
-    output_dir = "preprocessed_data/linkedin_processed_data"
-
-    preprocessor = ImagePreprocessor(data_dir, output_dir)
-    preprocessor.process_images()
+    raw_data_path = "data/linkedin_data/linkedin_images"
+    cleaned_data_path = "preprocessed_data/processed_images"
+    preprocessor = ImagePreprocessor(raw_data_path, cleaned_data_path)
+    preprocessor.preprocess_images()
