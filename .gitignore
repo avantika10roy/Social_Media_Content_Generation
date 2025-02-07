@@ -172,3 +172,4 @@ cython_debug/
 
 data/raw_data/linkedin_raw_images
 data/raw_data/instagram_images
+data/cleaned_data/linkedin_cleaned_images
