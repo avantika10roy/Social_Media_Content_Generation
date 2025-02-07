@@ -44,7 +44,8 @@ class Config:
     FACEBOOK_CLEANED_IMAGE_DATA_PATH      = './data/cleaned_data/facebook_cleaned_images'
     
     # CURATED DATA PATHS
-    CURATED_POST_DATA_PATH                = './data/curated_data/curated_post_data.json'
+    CURATED_POST_DATA_PATH                = './data/curated_data/curated_data.json'
+    CURATED_IMAGE_DATA_PATH               = "./data/curated_data/curated_images"
     
 
     @staticmethod
