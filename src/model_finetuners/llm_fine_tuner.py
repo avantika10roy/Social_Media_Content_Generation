@@ -4,6 +4,7 @@
 
 import pandas
 import transformers
+from pathlib import Path
 from datasets import Dataset
 from peft import LoraConfig, get_peft_model
 from src.utils.logger import LoggerSetup
@@ -22,9 +23,9 @@ class LLMFineTuner:
         """The Initialization of Fine Tuner
         Arguments:
         --------------
-            model_path     : Path to the saved model or address of the model on Huggingface
+            model_path     : Path to the directory of saved model or address of the model on Huggingface
 
-            tokenizer_path : Path to the saved tokenizer or address of the tokenizer on Huggingface
+            tokenizer_path : Path to the dirrectory of saved tokenizer or address of the tokenizer on Huggingface
 
             dataset        : The dataset provided for finetuning
         """
@@ -39,6 +40,10 @@ class LLMFineTuner:
         except Exception as e:
             finetune_logger.error(e, exc_info=True)
             raise
+
+    def save_checkpoint(self):
+        
+        pass
 
     def define_lora_config(self, **kwargs) -> None:
         """
