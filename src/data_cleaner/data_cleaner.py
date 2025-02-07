@@ -1,17 +1,24 @@
-import emoji
-import re
-import pandas as pd
-import logging
-from src.utils.logger import LoggerSetup
+# Dependencies
 import os
+import re
+import emoji
 import shutil
+import logging
+import pandas as pd
+from src.utils.logger import LoggerSetup
 
-cleaner_logger = LoggerSetup(logger_name="data_cleaner.py", log_filename_prefix="DataCleaner").get_logger()
 
+# Create Logger instance for this file
+cleaner_logger = LoggerSetup(logger_name         = "data_cleaner.py", 
+                             log_filename_prefix = "DataCleaner")
+cleaner_logger.get_logger()
+
+
+# Data Cleaning Utility Class
 class DataCleaner():
     """
     A class for preprocessing text data, including extracting emojis, extracting hashtags,
-    and cleaning text by removing emojis, hashtags, HTML tags, extra spaces, and standardizing case.
+    and cleaning text by removing emojis, hashtags, HTML tags, extra spaces, and standardizing case
     """
     
     HASHTAG_PATTERN = re.compile(r"#\w+")
@@ -22,21 +29,24 @@ class DataCleaner():
 
     def __init__(self):
         """
-        Initializes the DataCleaner class.
+        Initializes the DataCleaner class
         """
-        cleaner_logger.info("DataCleaner instance created.")
+        cleaner_logger.info("DataCleaner instance created")
         
+
     def extract_emojis(self, text: pd.Series):
         """
-        Extracts distinct emojis from each text entry in a pandas DataFrame.
+        Extracts distinct emojis from each text entry in a pandas DataFrame
         """
         try:
             cleaner_logger.info("Extracting emojis from text.")
             emoji_list = text.apply(emoji.distinct_emoji_list)
             return emoji_list
+
         except Exception as e:
             cleaner_logger.error(f"Error extracting emojis: {e}")
             return text
+
 
     def extract_hashtags(self, text: pd.Series):
         """
@@ -46,6 +56,7 @@ class DataCleaner():
             cleaner_logger.info("Extracting hashtags from text.")
             hashtags_list = text.apply(lambda x: self.HASHTAG_PATTERN.findall(x))
             return hashtags_list
+        
         except Exception as e:
             cleaner_logger.error(f"Error extracting hashtags: {e}")
             return text
@@ -97,6 +108,7 @@ class DataCleaner():
             cleaner_logger.info("Splitting text at first delimiter for DataFrame.")
             gen_data[['post_heading','post_content']] = gen_data['post_contents'].apply(split_text).apply(pd.Series)
             return gen_data
+
         except Exception as e:
             cleaner_logger.error(f"Error splitting text in DataFrame: {e}")
             return gen_data
@@ -140,8 +152,9 @@ class DataCleaner():
             linkdln_data['post_contents'] = self.clean_text(linkdln_data['post_contents'])
             linkdln_data = self.split_at_first_delimiter(linkdln_data)
 
-            if 'image_URLs' in linkdln_data and 'post_contents' in linkdln_data:
-                linkdln_data = linkdln_data.drop(columns=['image_URLs', 'post_contents'], errors='ignore')
+            if (('image_URLs' in linkdln_data) and ('post_contents' in linkdln_data)):
+                linkdln_data = linkdln_data.drop(columns = ['image_URLs', 'post_contents'], 
+                                                 errors  = 'ignore')
 
             linkdln_data['platform'] = 'linkedin'
             cleaner_logger.info(f"{platform} data cleaned successfully.")
@@ -150,6 +163,7 @@ class DataCleaner():
         except Exception as e:
             cleaner_logger.error(f"Error in {platform} cleaner: {e}")
             return pd.DataFrame()  
+
 
     def facebook_cleaner(self, facebook_data: pd.DataFrame, platform: str) -> pd.DataFrame:
         """
