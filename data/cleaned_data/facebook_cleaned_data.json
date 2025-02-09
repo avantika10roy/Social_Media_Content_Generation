@@ -1,6 +1,6 @@
 [
     {
-        "image_paths": "./facebook_raw_images/image_427.jpg, ./facebook_raw_images/image_428.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_427.jpg, ./data/raw_data/facebook_raw_images/image_428.jpg",
         "emoji": [],
         "hashtags": [
             "#CopingUp",
@@ -14,7 +14,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_325.jpg, ./facebook_raw_images/image_326.jpg, ./facebook_raw_images/image_327.jpg, ./facebook_raw_images/image_328.jpg, ./facebook_raw_images/image_329.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_325.jpg, ./data/raw_data/facebook_raw_images/image_326.jpg, ./data/raw_data/facebook_raw_images/image_327.jpg, ./data/raw_data/facebook_raw_images/image_328.jpg, ./data/raw_data/facebook_raw_images/image_329.jpg",
         "emoji": [],
         "hashtags": [
             "#AppDevelopment",
@@ -26,7 +26,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_113.jpg, ./facebook_raw_images/image_114.jpg, ./facebook_raw_images/image_115.jpg, ./facebook_raw_images/image_116.jpg, ./facebook_raw_images/image_117.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_113.jpg, ./data/raw_data/facebook_raw_images/image_114.jpg, ./data/raw_data/facebook_raw_images/image_115.jpg, ./data/raw_data/facebook_raw_images/image_116.jpg, ./data/raw_data/facebook_raw_images/image_117.jpg",
         "emoji": [],
         "hashtags": [
             "#techvsnontech",
@@ -42,7 +42,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_83.jpg, ./facebook_raw_images/image_84.jpg, ./facebook_raw_images/image_85.jpg, ./facebook_raw_images/image_86.jpg, ./facebook_raw_images/image_87.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_83.jpg, ./data/raw_data/facebook_raw_images/image_84.jpg, ./data/raw_data/facebook_raw_images/image_85.jpg, ./data/raw_data/facebook_raw_images/image_86.jpg, ./data/raw_data/facebook_raw_images/image_87.jpg",
         "emoji": [],
         "hashtags": [
             "#cybersecurity",
@@ -59,7 +59,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_88.jpg, ./facebook_raw_images/image_89.jpg, ./facebook_raw_images/image_90.jpg, ./facebook_raw_images/image_91.jpg, ./facebook_raw_images/image_92.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_88.jpg, ./data/raw_data/facebook_raw_images/image_89.jpg, ./data/raw_data/facebook_raw_images/image_90.jpg, ./data/raw_data/facebook_raw_images/image_91.jpg, ./data/raw_data/facebook_raw_images/image_92.jpg",
         "emoji": [
             "🌟"
         ],
@@ -81,7 +81,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_439.jpg, ./facebook_raw_images/image_440.jpg, ./facebook_raw_images/image_441.jpg, ./facebook_raw_images/image_442.jpg, ./facebook_raw_images/image_443.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_439.jpg, ./data/raw_data/facebook_raw_images/image_440.jpg, ./data/raw_data/facebook_raw_images/image_441.jpg, ./data/raw_data/facebook_raw_images/image_442.jpg, ./data/raw_data/facebook_raw_images/image_443.jpg",
         "emoji": [],
         "hashtags": [
             "#SoftwareDevelopmentProject",
@@ -94,7 +94,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_64.jpg, ./facebook_raw_images/image_65.jpg, ./facebook_raw_images/image_66.jpg, ./facebook_raw_images/image_67.jpg, ./facebook_raw_images/image_68.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_64.jpg, ./data/raw_data/facebook_raw_images/image_65.jpg, ./data/raw_data/facebook_raw_images/image_66.jpg, ./data/raw_data/facebook_raw_images/image_67.jpg, ./data/raw_data/facebook_raw_images/image_68.jpg",
         "emoji": [],
         "hashtags": [
             "#devops",
@@ -117,7 +117,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_103.jpg, ./facebook_raw_images/image_104.jpg, ./facebook_raw_images/image_105.jpg, ./facebook_raw_images/image_106.jpg, ./facebook_raw_images/image_107.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_103.jpg, ./data/raw_data/facebook_raw_images/image_104.jpg, ./data/raw_data/facebook_raw_images/image_105.jpg, ./data/raw_data/facebook_raw_images/image_106.jpg, ./data/raw_data/facebook_raw_images/image_107.jpg",
         "emoji": [
             "🌟",
             "🚀"
@@ -142,7 +142,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_406.jpg, ./facebook_raw_images/image_407.jpg, ./facebook_raw_images/image_408.jpg, ./facebook_raw_images/image_409.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_406.jpg, ./data/raw_data/facebook_raw_images/image_407.jpg, ./data/raw_data/facebook_raw_images/image_408.jpg, ./data/raw_data/facebook_raw_images/image_409.jpg",
         "emoji": [],
         "hashtags": [
             "#customsoftwaredevelopment",
@@ -159,7 +159,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_54.jpg, ./facebook_raw_images/image_55.jpg, ./facebook_raw_images/image_56.jpg, ./facebook_raw_images/image_57.jpg, ./facebook_raw_images/image_58.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_54.jpg, ./data/raw_data/facebook_raw_images/image_55.jpg, ./data/raw_data/facebook_raw_images/image_56.jpg, ./data/raw_data/facebook_raw_images/image_57.jpg, ./data/raw_data/facebook_raw_images/image_58.jpg",
         "emoji": [],
         "hashtags": [
             "#ai",
@@ -179,7 +179,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_232.jpg, ./facebook_raw_images/image_233.jpg, ./facebook_raw_images/image_234.jpg, ./facebook_raw_images/image_235.jpg, ./facebook_raw_images/image_236.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_232.jpg, ./data/raw_data/facebook_raw_images/image_233.jpg, ./data/raw_data/facebook_raw_images/image_234.jpg, ./data/raw_data/facebook_raw_images/image_235.jpg, ./data/raw_data/facebook_raw_images/image_236.jpg",
         "emoji": [],
         "hashtags": [
             "#reactnative",
@@ -195,7 +195,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_198.jpg, ./facebook_raw_images/image_199.jpg, ./facebook_raw_images/image_200.jpg, ./facebook_raw_images/image_201.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_198.jpg, ./data/raw_data/facebook_raw_images/image_199.jpg, ./data/raw_data/facebook_raw_images/image_200.jpg, ./data/raw_data/facebook_raw_images/image_201.jpg",
         "emoji": [],
         "hashtags": [
             "#technology",
@@ -210,7 +210,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_149.jpg, ./facebook_raw_images/image_150.jpg, ./facebook_raw_images/image_151.jpg, ./facebook_raw_images/image_152.jpg, ./facebook_raw_images/image_153.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_149.jpg, ./data/raw_data/facebook_raw_images/image_150.jpg, ./data/raw_data/facebook_raw_images/image_151.jpg, ./data/raw_data/facebook_raw_images/image_152.jpg, ./data/raw_data/facebook_raw_images/image_153.jpg",
         "emoji": [],
         "hashtags": [
             "#lowcode",
@@ -227,7 +227,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_98.jpg, ./facebook_raw_images/image_99.jpg, ./facebook_raw_images/image_100.jpg, ./facebook_raw_images/image_101.jpg, ./facebook_raw_images/image_102.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_98.jpg, ./data/raw_data/facebook_raw_images/image_99.jpg, ./data/raw_data/facebook_raw_images/image_100.jpg, ./data/raw_data/facebook_raw_images/image_101.jpg, ./data/raw_data/facebook_raw_images/image_102.jpg",
         "emoji": [],
         "hashtags": [
             "#NativeApps",
@@ -247,12 +247,12 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_169.jpg, ./facebook_raw_images/image_170.jpg, ./facebook_raw_images/image_171.jpg, ./facebook_raw_images/image_172.jpg, ./facebook_raw_images/image_173.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_169.jpg, ./data/raw_data/facebook_raw_images/image_170.jpg, ./data/raw_data/facebook_raw_images/image_171.jpg, ./data/raw_data/facebook_raw_images/image_172.jpg, ./data/raw_data/facebook_raw_images/image_173.jpg",
         "emoji": [
-            "🌐",
-            "⚡",
             "💰",
             "🔄",
+            "🌐",
+            "⚡",
             "🌍"
         ],
         "hashtags": [
@@ -270,7 +270,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_219.jpg, ./facebook_raw_images/image_220.jpg, ./facebook_raw_images/image_221.jpg, ./facebook_raw_images/image_222.jpg, ./facebook_raw_images/image_223.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_219.jpg, ./data/raw_data/facebook_raw_images/image_220.jpg, ./data/raw_data/facebook_raw_images/image_221.jpg, ./data/raw_data/facebook_raw_images/image_222.jpg, ./data/raw_data/facebook_raw_images/image_223.jpg",
         "emoji": [],
         "hashtags": [
             "#ai",
@@ -283,7 +283,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_202.jpg, ./facebook_raw_images/image_203.jpg, ./facebook_raw_images/image_204.jpg, ./facebook_raw_images/image_205.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_202.jpg, ./data/raw_data/facebook_raw_images/image_203.jpg, ./data/raw_data/facebook_raw_images/image_204.jpg, ./data/raw_data/facebook_raw_images/image_205.jpg",
         "emoji": [],
         "hashtags": [
             "#artrends",
@@ -299,7 +299,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_272.jpg, ./facebook_raw_images/image_273.jpg, ./facebook_raw_images/image_274.jpg, ./facebook_raw_images/image_275.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_272.jpg, ./data/raw_data/facebook_raw_images/image_273.jpg, ./data/raw_data/facebook_raw_images/image_274.jpg, ./data/raw_data/facebook_raw_images/image_275.jpg",
         "emoji": [
             "🌐",
             "✨"
@@ -317,7 +317,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_59.jpg, ./facebook_raw_images/image_60.jpg, ./facebook_raw_images/image_61.jpg, ./facebook_raw_images/image_62.jpg, ./facebook_raw_images/image_63.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_59.jpg, ./data/raw_data/facebook_raw_images/image_60.jpg, ./data/raw_data/facebook_raw_images/image_61.jpg, ./data/raw_data/facebook_raw_images/image_62.jpg, ./data/raw_data/facebook_raw_images/image_63.jpg",
         "emoji": [
             "🚀"
         ],
@@ -339,7 +339,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_312.jpg, ./facebook_raw_images/image_313.jpg, ./facebook_raw_images/image_314.jpg, ./facebook_raw_images/image_315.jpg, ./facebook_raw_images/image_316.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_312.jpg, ./data/raw_data/facebook_raw_images/image_313.jpg, ./data/raw_data/facebook_raw_images/image_314.jpg, ./data/raw_data/facebook_raw_images/image_315.jpg, ./data/raw_data/facebook_raw_images/image_316.jpg",
         "emoji": [],
         "hashtags": [
             "#hotelmanagementsoftware",
@@ -353,7 +353,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_257.jpg, ./facebook_raw_images/image_258.jpg, ./facebook_raw_images/image_259.jpg, ./facebook_raw_images/image_260.jpg, ./facebook_raw_images/image_261.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_257.jpg, ./data/raw_data/facebook_raw_images/image_258.jpg, ./data/raw_data/facebook_raw_images/image_259.jpg, ./data/raw_data/facebook_raw_images/image_260.jpg, ./data/raw_data/facebook_raw_images/image_261.jpg",
         "emoji": [
             "🚀"
         ],
@@ -372,7 +372,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_262.jpg, ./facebook_raw_images/image_263.jpg, ./facebook_raw_images/image_264.jpg, ./facebook_raw_images/image_265.jpg, ./facebook_raw_images/image_266.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_262.jpg, ./data/raw_data/facebook_raw_images/image_263.jpg, ./data/raw_data/facebook_raw_images/image_264.jpg, ./data/raw_data/facebook_raw_images/image_265.jpg, ./data/raw_data/facebook_raw_images/image_266.jpg",
         "emoji": [
             "🌐"
         ],
@@ -391,7 +391,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_298.jpg, ./facebook_raw_images/image_299.jpg, ./facebook_raw_images/image_300.jpg, ./facebook_raw_images/image_301.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_298.jpg, ./data/raw_data/facebook_raw_images/image_299.jpg, ./data/raw_data/facebook_raw_images/image_300.jpg, ./data/raw_data/facebook_raw_images/image_301.jpg",
         "emoji": [
             "🚀",
             "✨"
@@ -408,7 +408,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_140.jpg, ./facebook_raw_images/image_141.jpg, ./facebook_raw_images/image_142.jpg, ./facebook_raw_images/image_143.jpg, ./facebook_raw_images/image_144.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_140.jpg, ./data/raw_data/facebook_raw_images/image_141.jpg, ./data/raw_data/facebook_raw_images/image_142.jpg, ./data/raw_data/facebook_raw_images/image_143.jpg, ./data/raw_data/facebook_raw_images/image_144.jpg",
         "emoji": [],
         "hashtags": [
             "#programming",
@@ -430,7 +430,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_145.jpg, ./facebook_raw_images/image_146.jpg, ./facebook_raw_images/image_147.jpg, ./facebook_raw_images/image_148.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_145.jpg, ./data/raw_data/facebook_raw_images/image_146.jpg, ./data/raw_data/facebook_raw_images/image_147.jpg, ./data/raw_data/facebook_raw_images/image_148.jpg",
         "emoji": [],
         "hashtags": [
             "#webapps",
@@ -447,7 +447,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_49.jpg, ./facebook_raw_images/image_50.jpg, ./facebook_raw_images/image_51.jpg, ./facebook_raw_images/image_52.jpg, ./facebook_raw_images/image_53.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_49.jpg, ./data/raw_data/facebook_raw_images/image_50.jpg, ./data/raw_data/facebook_raw_images/image_51.jpg, ./data/raw_data/facebook_raw_images/image_52.jpg, ./data/raw_data/facebook_raw_images/image_53.jpg",
         "emoji": [],
         "hashtags": [
             "#customsoftware",
@@ -463,14 +463,14 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_355.jpg, ./facebook_raw_images/image_356.jpg, ./facebook_raw_images/image_357.jpg, ./facebook_raw_images/image_358.jpg, ./facebook_raw_images/image_359.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_355.jpg, ./data/raw_data/facebook_raw_images/image_356.jpg, ./data/raw_data/facebook_raw_images/image_357.jpg, ./data/raw_data/facebook_raw_images/image_358.jpg, ./data/raw_data/facebook_raw_images/image_359.jpg",
         "emoji": [
-            "📋",
-            "📉",
-            "📈",
-            "💼",
             "🚫",
-            "💡"
+            "💼",
+            "📉",
+            "📋",
+            "💡",
+            "📈"
         ],
         "hashtags": [
             "#inventorymanagementsoftware",
@@ -485,7 +485,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_350.jpg, ./facebook_raw_images/image_351.jpg, ./facebook_raw_images/image_352.jpg, ./facebook_raw_images/image_353.jpg, ./facebook_raw_images/image_354.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_350.jpg, ./data/raw_data/facebook_raw_images/image_351.jpg, ./data/raw_data/facebook_raw_images/image_352.jpg, ./data/raw_data/facebook_raw_images/image_353.jpg, ./data/raw_data/facebook_raw_images/image_354.jpg",
         "emoji": [
             "🔧",
             "🚀"
@@ -502,10 +502,10 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_307.jpg, ./facebook_raw_images/image_308.jpg, ./facebook_raw_images/image_309.jpg, ./facebook_raw_images/image_310.jpg, ./facebook_raw_images/image_311.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_307.jpg, ./data/raw_data/facebook_raw_images/image_308.jpg, ./data/raw_data/facebook_raw_images/image_309.jpg, ./data/raw_data/facebook_raw_images/image_310.jpg, ./data/raw_data/facebook_raw_images/image_311.jpg",
         "emoji": [
-            "🌐",
-            "🚀"
+            "🚀",
+            "🌐"
         ],
         "hashtags": [
             "#5GTechnology",
@@ -519,7 +519,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_289.jpg, ./facebook_raw_images/image_290.jpg, ./facebook_raw_images/image_291.jpg, ./facebook_raw_images/image_292.jpg, ./facebook_raw_images/image_293.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_289.jpg, ./data/raw_data/facebook_raw_images/image_290.jpg, ./data/raw_data/facebook_raw_images/image_291.jpg, ./data/raw_data/facebook_raw_images/image_292.jpg, ./data/raw_data/facebook_raw_images/image_293.jpg",
         "emoji": [
             "🌐"
         ],
@@ -537,7 +537,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_252.jpg, ./facebook_raw_images/image_253.jpg, ./facebook_raw_images/image_254.jpg, ./facebook_raw_images/image_255.jpg, ./facebook_raw_images/image_256.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_252.jpg, ./data/raw_data/facebook_raw_images/image_253.jpg, ./data/raw_data/facebook_raw_images/image_254.jpg, ./data/raw_data/facebook_raw_images/image_255.jpg, ./data/raw_data/facebook_raw_images/image_256.jpg",
         "emoji": [],
         "hashtags": [
             "#AIRevolution",
@@ -550,11 +550,11 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_330.jpg, ./facebook_raw_images/image_331.jpg, ./facebook_raw_images/image_332.jpg, ./facebook_raw_images/image_333.jpg, ./facebook_raw_images/image_334.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_330.jpg, ./data/raw_data/facebook_raw_images/image_331.jpg, ./data/raw_data/facebook_raw_images/image_332.jpg, ./data/raw_data/facebook_raw_images/image_333.jpg, ./data/raw_data/facebook_raw_images/image_334.jpg",
         "emoji": [
+            "💻",
             "🌟",
-            "🌐",
-            "💻"
+            "🌐"
         ],
         "hashtags": [
             "#webdevelopment",
@@ -569,7 +569,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_136.jpg, ./facebook_raw_images/image_137.jpg, ./facebook_raw_images/image_138.jpg, ./facebook_raw_images/image_139.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_136.jpg, ./data/raw_data/facebook_raw_images/image_137.jpg, ./data/raw_data/facebook_raw_images/image_138.jpg, ./data/raw_data/facebook_raw_images/image_139.jpg",
         "emoji": [],
         "hashtags": [
             "#webdevelopment",
@@ -586,7 +586,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_122.jpg, ./facebook_raw_images/image_123.jpg, ./facebook_raw_images/image_124.jpg, ./facebook_raw_images/image_125.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_122.jpg, ./data/raw_data/facebook_raw_images/image_123.jpg, ./data/raw_data/facebook_raw_images/image_124.jpg, ./data/raw_data/facebook_raw_images/image_125.jpg",
         "emoji": [
             "🚀"
         ],
@@ -608,7 +608,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_159.jpg, ./facebook_raw_images/image_160.jpg, ./facebook_raw_images/image_161.jpg, ./facebook_raw_images/image_162.jpg, ./facebook_raw_images/image_163.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_159.jpg, ./data/raw_data/facebook_raw_images/image_160.jpg, ./data/raw_data/facebook_raw_images/image_161.jpg, ./data/raw_data/facebook_raw_images/image_162.jpg, ./data/raw_data/facebook_raw_images/image_163.jpg",
         "emoji": [],
         "hashtags": [
             "#softwaredevelopment",
@@ -624,7 +624,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_284.jpg, ./facebook_raw_images/image_285.jpg, ./facebook_raw_images/image_286.jpg, ./facebook_raw_images/image_287.jpg, ./facebook_raw_images/image_288.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_284.jpg, ./data/raw_data/facebook_raw_images/image_285.jpg, ./data/raw_data/facebook_raw_images/image_286.jpg, ./data/raw_data/facebook_raw_images/image_287.jpg, ./data/raw_data/facebook_raw_images/image_288.jpg",
         "emoji": [
             "🚗",
             "✨"
@@ -642,7 +642,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_242.jpg, ./facebook_raw_images/image_243.jpg, ./facebook_raw_images/image_244.jpg, ./facebook_raw_images/image_245.jpg, ./facebook_raw_images/image_246.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_242.jpg, ./data/raw_data/facebook_raw_images/image_243.jpg, ./data/raw_data/facebook_raw_images/image_244.jpg, ./data/raw_data/facebook_raw_images/image_245.jpg, ./data/raw_data/facebook_raw_images/image_246.jpg",
         "emoji": [],
         "hashtags": [
             "#ai",
@@ -655,7 +655,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_294.jpg, ./facebook_raw_images/image_295.jpg, ./facebook_raw_images/image_296.jpg, ./facebook_raw_images/image_297.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_294.jpg, ./data/raw_data/facebook_raw_images/image_295.jpg, ./data/raw_data/facebook_raw_images/image_296.jpg, ./data/raw_data/facebook_raw_images/image_297.jpg",
         "emoji": [],
         "hashtags": [
             "#SamsungZ",
@@ -671,7 +671,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_118.jpg, ./facebook_raw_images/image_119.jpg, ./facebook_raw_images/image_120.jpg, ./facebook_raw_images/image_121.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_118.jpg, ./data/raw_data/facebook_raw_images/image_119.jpg, ./data/raw_data/facebook_raw_images/image_120.jpg, ./data/raw_data/facebook_raw_images/image_121.jpg",
         "emoji": [],
         "hashtags": [
             "#mobileappdevelopment",
@@ -691,7 +691,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_126.jpg, ./facebook_raw_images/image_127.jpg, ./facebook_raw_images/image_128.jpg, ./facebook_raw_images/image_129.jpg, ./facebook_raw_images/image_130.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_126.jpg, ./data/raw_data/facebook_raw_images/image_127.jpg, ./data/raw_data/facebook_raw_images/image_128.jpg, ./data/raw_data/facebook_raw_images/image_129.jpg, ./data/raw_data/facebook_raw_images/image_130.jpg",
         "emoji": [],
         "hashtags": [
             "#webdevelopment",
@@ -708,7 +708,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_184.jpg, ./facebook_raw_images/image_185.jpg, ./facebook_raw_images/image_186.jpg, ./facebook_raw_images/image_187.jpg, ./facebook_raw_images/image_188.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_184.jpg, ./data/raw_data/facebook_raw_images/image_185.jpg, ./data/raw_data/facebook_raw_images/image_186.jpg, ./data/raw_data/facebook_raw_images/image_187.jpg, ./data/raw_data/facebook_raw_images/image_188.jpg",
         "emoji": [],
         "hashtags": [
             "#mobileappdevelopment",
@@ -722,7 +722,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_215.jpg, ./facebook_raw_images/image_216.jpg, ./facebook_raw_images/image_217.jpg, ./facebook_raw_images/image_218.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_215.jpg, ./data/raw_data/facebook_raw_images/image_216.jpg, ./data/raw_data/facebook_raw_images/image_217.jpg, ./data/raw_data/facebook_raw_images/image_218.jpg",
         "emoji": [],
         "hashtags": [
             "#tech",
@@ -734,10 +734,10 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_267.jpg, ./facebook_raw_images/image_268.jpg, ./facebook_raw_images/image_269.jpg, ./facebook_raw_images/image_270.jpg, ./facebook_raw_images/image_271.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_267.jpg, ./data/raw_data/facebook_raw_images/image_268.jpg, ./data/raw_data/facebook_raw_images/image_269.jpg, ./data/raw_data/facebook_raw_images/image_270.jpg, ./data/raw_data/facebook_raw_images/image_271.jpg",
         "emoji": [
-            "🚀",
-            "🔏"
+            "🔏",
+            "🚀"
         ],
         "hashtags": [
             "#blockchainapps",
@@ -752,7 +752,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_237.jpg, ./facebook_raw_images/image_238.jpg, ./facebook_raw_images/image_239.jpg, ./facebook_raw_images/image_240.jpg, ./facebook_raw_images/image_241.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_237.jpg, ./data/raw_data/facebook_raw_images/image_238.jpg, ./data/raw_data/facebook_raw_images/image_239.jpg, ./data/raw_data/facebook_raw_images/image_240.jpg, ./data/raw_data/facebook_raw_images/image_241.jpg",
         "emoji": [
             "🗣️",
             "🌐",
@@ -775,7 +775,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_29.jpg, ./facebook_raw_images/image_30.jpg, ./facebook_raw_images/image_31.jpg, ./facebook_raw_images/image_32.jpg, ./facebook_raw_images/image_33.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_29.jpg, ./data/raw_data/facebook_raw_images/image_30.jpg, ./data/raw_data/facebook_raw_images/image_31.jpg, ./data/raw_data/facebook_raw_images/image_32.jpg, ./data/raw_data/facebook_raw_images/image_33.jpg",
         "emoji": [
             "✨",
             "🚚"
@@ -803,7 +803,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_34.jpg, ./facebook_raw_images/image_35.jpg, ./facebook_raw_images/image_36.jpg, ./facebook_raw_images/image_37.jpg, ./facebook_raw_images/image_38.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_34.jpg, ./data/raw_data/facebook_raw_images/image_35.jpg, ./data/raw_data/facebook_raw_images/image_36.jpg, ./data/raw_data/facebook_raw_images/image_37.jpg, ./data/raw_data/facebook_raw_images/image_38.jpg",
         "emoji": [
             "🌟"
         ],
@@ -821,7 +821,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_193.jpg, ./facebook_raw_images/image_194.jpg, ./facebook_raw_images/image_195.jpg, ./facebook_raw_images/image_196.jpg, ./facebook_raw_images/image_197.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_193.jpg, ./data/raw_data/facebook_raw_images/image_194.jpg, ./data/raw_data/facebook_raw_images/image_195.jpg, ./data/raw_data/facebook_raw_images/image_196.jpg, ./data/raw_data/facebook_raw_images/image_197.jpg",
         "emoji": [],
         "hashtags": [
             "#technology",
@@ -836,7 +836,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_369.jpg, ./facebook_raw_images/image_370.jpg, ./facebook_raw_images/image_371.jpg, ./facebook_raw_images/image_372.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_369.jpg, ./data/raw_data/facebook_raw_images/image_370.jpg, ./data/raw_data/facebook_raw_images/image_371.jpg, ./data/raw_data/facebook_raw_images/image_372.jpg",
         "emoji": [],
         "hashtags": [
             "#softwaresolutions",
@@ -850,7 +850,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_425.jpg, ./facebook_raw_images/image_426.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_425.jpg, ./data/raw_data/facebook_raw_images/image_426.jpg",
         "emoji": [],
         "hashtags": [
             "#Coronavirus",
@@ -865,7 +865,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_420.jpg, ./facebook_raw_images/image_421.jpg, ./facebook_raw_images/image_422.jpg, ./facebook_raw_images/image_423.jpg, ./facebook_raw_images/image_424.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_420.jpg, ./data/raw_data/facebook_raw_images/image_421.jpg, ./data/raw_data/facebook_raw_images/image_422.jpg, ./data/raw_data/facebook_raw_images/image_423.jpg, ./data/raw_data/facebook_raw_images/image_424.jpg",
         "emoji": [],
         "hashtags": [
             "#GuideOfDoingGood",
@@ -877,7 +877,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_15.jpg, ./facebook_raw_images/image_16.jpg, ./facebook_raw_images/image_17.jpg, ./facebook_raw_images/image_18.jpg, ./facebook_raw_images/image_19.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_15.jpg, ./data/raw_data/facebook_raw_images/image_16.jpg, ./data/raw_data/facebook_raw_images/image_17.jpg, ./data/raw_data/facebook_raw_images/image_18.jpg, ./data/raw_data/facebook_raw_images/image_19.jpg",
         "emoji": [],
         "hashtags": [
             "#apptrends",
@@ -894,12 +894,12 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_154.jpg, ./facebook_raw_images/image_155.jpg, ./facebook_raw_images/image_156.jpg, ./facebook_raw_images/image_157.jpg, ./facebook_raw_images/image_158.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_154.jpg, ./data/raw_data/facebook_raw_images/image_155.jpg, ./data/raw_data/facebook_raw_images/image_156.jpg, ./data/raw_data/facebook_raw_images/image_157.jpg, ./data/raw_data/facebook_raw_images/image_158.jpg",
         "emoji": [
+            "🏆",
             "🌟",
-            "🎉",
             "🚀",
-            "🏆"
+            "🎉"
         ],
         "hashtags": [
             "#ITobuzAnniversary",
@@ -917,7 +917,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_276.jpg, ./facebook_raw_images/image_277.jpg, ./facebook_raw_images/image_278.jpg, ./facebook_raw_images/image_279.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_276.jpg, ./data/raw_data/facebook_raw_images/image_277.jpg, ./data/raw_data/facebook_raw_images/image_278.jpg, ./data/raw_data/facebook_raw_images/image_279.jpg",
         "emoji": [
             "🚀",
             "🌈"
@@ -937,7 +937,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_131.jpg, ./facebook_raw_images/image_132.jpg, ./facebook_raw_images/image_133.jpg, ./facebook_raw_images/image_134.jpg, ./facebook_raw_images/image_135.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_131.jpg, ./data/raw_data/facebook_raw_images/image_132.jpg, ./data/raw_data/facebook_raw_images/image_133.jpg, ./data/raw_data/facebook_raw_images/image_134.jpg, ./data/raw_data/facebook_raw_images/image_135.jpg",
         "emoji": [],
         "hashtags": [
             "#techtipsandtricks",
@@ -954,7 +954,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_206.jpg, ./facebook_raw_images/image_207.jpg, ./facebook_raw_images/image_208.jpg, ./facebook_raw_images/image_209.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_206.jpg, ./data/raw_data/facebook_raw_images/image_207.jpg, ./data/raw_data/facebook_raw_images/image_208.jpg, ./data/raw_data/facebook_raw_images/image_209.jpg",
         "emoji": [],
         "hashtags": [
             "#tech",
@@ -968,7 +968,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_25.jpg, ./facebook_raw_images/image_26.jpg, ./facebook_raw_images/image_27.jpg, ./facebook_raw_images/image_28.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_25.jpg, ./data/raw_data/facebook_raw_images/image_26.jpg, ./data/raw_data/facebook_raw_images/image_27.jpg, ./data/raw_data/facebook_raw_images/image_28.jpg",
         "emoji": [],
         "hashtags": [
             "#nocode",
@@ -988,10 +988,10 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_20.jpg, ./facebook_raw_images/image_21.jpg, ./facebook_raw_images/image_22.jpg, ./facebook_raw_images/image_23.jpg, ./facebook_raw_images/image_24.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_20.jpg, ./data/raw_data/facebook_raw_images/image_21.jpg, ./data/raw_data/facebook_raw_images/image_22.jpg, ./data/raw_data/facebook_raw_images/image_23.jpg, ./data/raw_data/facebook_raw_images/image_24.jpg",
         "emoji": [
-            "👉",
-            "🚀"
+            "🚀",
+            "👉"
         ],
         "hashtags": [
             "#mobileappdevelopment",
@@ -1016,7 +1016,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_39.jpg, ./facebook_raw_images/image_40.jpg, ./facebook_raw_images/image_41.jpg, ./facebook_raw_images/image_42.jpg, ./facebook_raw_images/image_43.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_39.jpg, ./data/raw_data/facebook_raw_images/image_40.jpg, ./data/raw_data/facebook_raw_images/image_41.jpg, ./data/raw_data/facebook_raw_images/image_42.jpg, ./data/raw_data/facebook_raw_images/image_43.jpg",
         "emoji": [
             "💼",
             "🚀"
@@ -1042,7 +1042,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_321.jpg, ./facebook_raw_images/image_322.jpg, ./facebook_raw_images/image_323.jpg, ./facebook_raw_images/image_324.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_321.jpg, ./data/raw_data/facebook_raw_images/image_322.jpg, ./data/raw_data/facebook_raw_images/image_323.jpg, ./data/raw_data/facebook_raw_images/image_324.jpg",
         "emoji": [],
         "hashtags": [
             "#lowcodedevelopment",
@@ -1061,7 +1061,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_44.jpg, ./facebook_raw_images/image_45.jpg, ./facebook_raw_images/image_46.jpg, ./facebook_raw_images/image_47.jpg, ./facebook_raw_images/image_48.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_44.jpg, ./data/raw_data/facebook_raw_images/image_45.jpg, ./data/raw_data/facebook_raw_images/image_46.jpg, ./data/raw_data/facebook_raw_images/image_47.jpg, ./data/raw_data/facebook_raw_images/image_48.jpg",
         "emoji": [],
         "hashtags": [
             "#machinelearning",
@@ -1081,7 +1081,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_189.jpg, ./facebook_raw_images/image_190.jpg, ./facebook_raw_images/image_191.jpg, ./facebook_raw_images/image_192.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_189.jpg, ./data/raw_data/facebook_raw_images/image_190.jpg, ./data/raw_data/facebook_raw_images/image_191.jpg, ./data/raw_data/facebook_raw_images/image_192.jpg",
         "emoji": [],
         "hashtags": [
             "#appdevelopment",
@@ -1096,7 +1096,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_108.jpg, ./facebook_raw_images/image_109.jpg, ./facebook_raw_images/image_110.jpg, ./facebook_raw_images/image_111.jpg, ./facebook_raw_images/image_112.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_108.jpg, ./data/raw_data/facebook_raw_images/image_109.jpg, ./data/raw_data/facebook_raw_images/image_110.jpg, ./data/raw_data/facebook_raw_images/image_111.jpg, ./data/raw_data/facebook_raw_images/image_112.jpg",
         "emoji": [
             "🙌",
             "🥳"
@@ -1115,7 +1115,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_391.jpg, ./facebook_raw_images/image_392.jpg, ./facebook_raw_images/image_393.jpg, ./facebook_raw_images/image_394.jpg, ./facebook_raw_images/image_395.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_391.jpg, ./data/raw_data/facebook_raw_images/image_392.jpg, ./data/raw_data/facebook_raw_images/image_393.jpg, ./data/raw_data/facebook_raw_images/image_394.jpg, ./data/raw_data/facebook_raw_images/image_395.jpg",
         "emoji": [],
         "hashtags": [
             "#itobuz",
@@ -1135,7 +1135,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_429.jpg, ./facebook_raw_images/image_430.jpg, ./facebook_raw_images/image_431.jpg, ./facebook_raw_images/image_432.jpg, ./facebook_raw_images/image_433.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_429.jpg, ./data/raw_data/facebook_raw_images/image_430.jpg, ./data/raw_data/facebook_raw_images/image_431.jpg, ./data/raw_data/facebook_raw_images/image_432.jpg, ./data/raw_data/facebook_raw_images/image_433.jpg",
         "emoji": [],
         "hashtags": [
             "#ItobuzTechnologies",
@@ -1146,11 +1146,11 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_10.jpg, ./facebook_raw_images/image_11.jpg, ./facebook_raw_images/image_12.jpg, ./facebook_raw_images/image_13.jpg, ./facebook_raw_images/image_14.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_10.jpg, ./data/raw_data/facebook_raw_images/image_11.jpg, ./data/raw_data/facebook_raw_images/image_12.jpg, ./data/raw_data/facebook_raw_images/image_13.jpg, ./data/raw_data/facebook_raw_images/image_14.jpg",
         "emoji": [
+            "💻",
             "🌟",
-            "✨",
-            "💻"
+            "✨"
         ],
         "hashtags": [
             "#DigitalInnovation",
@@ -1167,7 +1167,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_317.jpg, ./facebook_raw_images/image_318.jpg, ./facebook_raw_images/image_319.jpg, ./facebook_raw_images/image_320.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_317.jpg, ./data/raw_data/facebook_raw_images/image_318.jpg, ./data/raw_data/facebook_raw_images/image_319.jpg, ./data/raw_data/facebook_raw_images/image_320.jpg",
         "emoji": [
             "🚀",
             "🔐"
@@ -1188,7 +1188,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_227.jpg, ./facebook_raw_images/image_228.jpg, ./facebook_raw_images/image_229.jpg, ./facebook_raw_images/image_230.jpg, ./facebook_raw_images/image_231.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_227.jpg, ./data/raw_data/facebook_raw_images/image_228.jpg, ./data/raw_data/facebook_raw_images/image_229.jpg, ./data/raw_data/facebook_raw_images/image_230.jpg, ./data/raw_data/facebook_raw_images/image_231.jpg",
         "emoji": [],
         "hashtags": [
             "#fitnessapp",
@@ -1203,7 +1203,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_434.jpg, ./facebook_raw_images/image_435.jpg, ./facebook_raw_images/image_436.jpg, ./facebook_raw_images/image_437.jpg, ./facebook_raw_images/image_438.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_434.jpg, ./data/raw_data/facebook_raw_images/image_435.jpg, ./data/raw_data/facebook_raw_images/image_436.jpg, ./data/raw_data/facebook_raw_images/image_437.jpg, ./data/raw_data/facebook_raw_images/image_438.jpg",
         "emoji": [],
         "hashtags": [
             "#SelfCare",
@@ -1217,7 +1217,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_179.jpg, ./facebook_raw_images/image_180.jpg, ./facebook_raw_images/image_181.jpg, ./facebook_raw_images/image_182.jpg, ./facebook_raw_images/image_183.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_179.jpg, ./data/raw_data/facebook_raw_images/image_180.jpg, ./data/raw_data/facebook_raw_images/image_181.jpg, ./data/raw_data/facebook_raw_images/image_182.jpg, ./data/raw_data/facebook_raw_images/image_183.jpg",
         "emoji": [],
         "hashtags": [
             "#technology",
@@ -1230,7 +1230,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_74.jpg, ./facebook_raw_images/image_75.jpg, ./facebook_raw_images/image_76.jpg, ./facebook_raw_images/image_77.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_74.jpg, ./data/raw_data/facebook_raw_images/image_75.jpg, ./data/raw_data/facebook_raw_images/image_76.jpg, ./data/raw_data/facebook_raw_images/image_77.jpg",
         "emoji": [
             "🎉"
         ],
@@ -1249,7 +1249,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_174.jpg, ./facebook_raw_images/image_175.jpg, ./facebook_raw_images/image_176.jpg, ./facebook_raw_images/image_177.jpg, ./facebook_raw_images/image_178.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_174.jpg, ./data/raw_data/facebook_raw_images/image_175.jpg, ./data/raw_data/facebook_raw_images/image_176.jpg, ./data/raw_data/facebook_raw_images/image_177.jpg, ./data/raw_data/facebook_raw_images/image_178.jpg",
         "emoji": [],
         "hashtags": [
             "#Hackathon2024",
@@ -1265,7 +1265,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_224.jpg, ./facebook_raw_images/image_225.jpg, ./facebook_raw_images/image_226.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_224.jpg, ./data/raw_data/facebook_raw_images/image_225.jpg, ./data/raw_data/facebook_raw_images/image_226.jpg",
         "emoji": [],
         "hashtags": [
             "#womenday",
@@ -1277,12 +1277,12 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_302.jpg, ./facebook_raw_images/image_303.jpg, ./facebook_raw_images/image_304.jpg, ./facebook_raw_images/image_305.jpg, ./facebook_raw_images/image_306.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_302.jpg, ./data/raw_data/facebook_raw_images/image_303.jpg, ./data/raw_data/facebook_raw_images/image_304.jpg, ./data/raw_data/facebook_raw_images/image_305.jpg, ./data/raw_data/facebook_raw_images/image_306.jpg",
         "emoji": [
+            "🌸",
             "🙏",
-            "🎉",
             "🌆",
-            "🌸"
+            "🎉"
         ],
         "hashtags": [
             "#ThrowbackDurgaPuja",
@@ -1300,7 +1300,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_414.jpg, ./facebook_raw_images/image_415.jpg, ./facebook_raw_images/image_416.jpg, ./facebook_raw_images/image_417.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_414.jpg, ./data/raw_data/facebook_raw_images/image_415.jpg, ./data/raw_data/facebook_raw_images/image_416.jpg, ./data/raw_data/facebook_raw_images/image_417.jpg",
         "emoji": [],
         "hashtags": [
             "#ItobuzHoli2023",
@@ -1315,7 +1315,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_410.jpg, ./facebook_raw_images/image_411.jpg, ./facebook_raw_images/image_412.jpg, ./facebook_raw_images/image_413.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_410.jpg, ./data/raw_data/facebook_raw_images/image_411.jpg, ./data/raw_data/facebook_raw_images/image_412.jpg, ./data/raw_data/facebook_raw_images/image_413.jpg",
         "emoji": [],
         "hashtags": [
             "#throwback",
@@ -1329,7 +1329,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_69.jpg, ./facebook_raw_images/image_70.jpg, ./facebook_raw_images/image_71.jpg, ./facebook_raw_images/image_72.jpg, ./facebook_raw_images/image_73.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_69.jpg, ./data/raw_data/facebook_raw_images/image_70.jpg, ./data/raw_data/facebook_raw_images/image_71.jpg, ./data/raw_data/facebook_raw_images/image_72.jpg, ./data/raw_data/facebook_raw_images/image_73.jpg",
         "emoji": [
             "🚀"
         ],
@@ -1352,13 +1352,13 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_280.jpg, ./facebook_raw_images/image_281.jpg, ./facebook_raw_images/image_282.jpg, ./facebook_raw_images/image_283.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_280.jpg, ./data/raw_data/facebook_raw_images/image_281.jpg, ./data/raw_data/facebook_raw_images/image_282.jpg, ./data/raw_data/facebook_raw_images/image_283.jpg",
         "emoji": [
-            "🌐",
             "🚀",
-            "🏀",
+            "🌐",
+            "📊",
             "🔍",
-            "📊"
+            "🏀"
         ],
         "hashtags": [
             "#AISportsRevolution",
@@ -1370,7 +1370,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_340.jpg, ./facebook_raw_images/image_341.jpg, ./facebook_raw_images/image_342.jpg, ./facebook_raw_images/image_343.jpg, ./facebook_raw_images/image_344.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_340.jpg, ./data/raw_data/facebook_raw_images/image_341.jpg, ./data/raw_data/facebook_raw_images/image_342.jpg, ./data/raw_data/facebook_raw_images/image_343.jpg, ./data/raw_data/facebook_raw_images/image_344.jpg",
         "emoji": [
             "🚀"
         ],
@@ -1385,7 +1385,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_382.jpg, ./facebook_raw_images/image_383.jpg, ./facebook_raw_images/image_384.jpg, ./facebook_raw_images/image_385.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_382.jpg, ./data/raw_data/facebook_raw_images/image_383.jpg, ./data/raw_data/facebook_raw_images/image_384.jpg, ./data/raw_data/facebook_raw_images/image_385.jpg",
         "emoji": [
             "🚀",
             "💡"
@@ -1402,7 +1402,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_335.jpg, ./facebook_raw_images/image_336.jpg, ./facebook_raw_images/image_337.jpg, ./facebook_raw_images/image_338.jpg, ./facebook_raw_images/image_339.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_335.jpg, ./data/raw_data/facebook_raw_images/image_336.jpg, ./data/raw_data/facebook_raw_images/image_337.jpg, ./data/raw_data/facebook_raw_images/image_338.jpg, ./data/raw_data/facebook_raw_images/image_339.jpg",
         "emoji": [
             "🚀"
         ],
@@ -1418,7 +1418,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_164.jpg, ./facebook_raw_images/image_165.jpg, ./facebook_raw_images/image_166.jpg, ./facebook_raw_images/image_167.jpg, ./facebook_raw_images/image_168.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_164.jpg, ./data/raw_data/facebook_raw_images/image_165.jpg, ./data/raw_data/facebook_raw_images/image_166.jpg, ./data/raw_data/facebook_raw_images/image_167.jpg, ./data/raw_data/facebook_raw_images/image_168.jpg",
         "emoji": [],
         "hashtags": [
             "#SaaS",
@@ -1434,7 +1434,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_378.jpg, ./facebook_raw_images/image_379.jpg, ./facebook_raw_images/image_380.jpg, ./facebook_raw_images/image_381.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_378.jpg, ./data/raw_data/facebook_raw_images/image_379.jpg, ./data/raw_data/facebook_raw_images/image_380.jpg, ./data/raw_data/facebook_raw_images/image_381.jpg",
         "emoji": [
             "🌐",
             "💡"
@@ -1451,7 +1451,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_247.jpg, ./facebook_raw_images/image_248.jpg, ./facebook_raw_images/image_249.jpg, ./facebook_raw_images/image_250.jpg, ./facebook_raw_images/image_251.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_247.jpg, ./data/raw_data/facebook_raw_images/image_248.jpg, ./data/raw_data/facebook_raw_images/image_249.jpg, ./data/raw_data/facebook_raw_images/image_250.jpg, ./data/raw_data/facebook_raw_images/image_251.jpg",
         "emoji": [],
         "hashtags": [
             "#cloudsecurity",
@@ -1467,7 +1467,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_0.jpg, ./facebook_raw_images/image_1.jpg, ./facebook_raw_images/image_2.jpg, ./facebook_raw_images/image_3.jpg, ./facebook_raw_images/image_4.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_0.jpg, ./data/raw_data/facebook_raw_images/image_1.jpg, ./data/raw_data/facebook_raw_images/image_2.jpg, ./data/raw_data/facebook_raw_images/image_3.jpg, ./data/raw_data/facebook_raw_images/image_4.jpg",
         "emoji": [
             "💪",
             "🚀"
@@ -1489,7 +1489,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_418.jpg, ./facebook_raw_images/image_419.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_418.jpg, ./data/raw_data/facebook_raw_images/image_419.jpg",
         "emoji": [],
         "hashtags": [
             "#RaiseAwareness",
@@ -1503,10 +1503,10 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_210.jpg, ./facebook_raw_images/image_211.jpg, ./facebook_raw_images/image_212.jpg, ./facebook_raw_images/image_213.jpg, ./facebook_raw_images/image_214.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_210.jpg, ./data/raw_data/facebook_raw_images/image_211.jpg, ./data/raw_data/facebook_raw_images/image_212.jpg, ./data/raw_data/facebook_raw_images/image_213.jpg, ./data/raw_data/facebook_raw_images/image_214.jpg",
         "emoji": [
-            "🎉",
-            "🎨"
+            "🎨",
+            "🎉"
         ],
         "hashtags": [
             "#holicelebrations",
@@ -1519,7 +1519,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_401.jpg, ./facebook_raw_images/image_402.jpg, ./facebook_raw_images/image_403.jpg, ./facebook_raw_images/image_404.jpg, ./facebook_raw_images/image_405.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_401.jpg, ./data/raw_data/facebook_raw_images/image_402.jpg, ./data/raw_data/facebook_raw_images/image_403.jpg, ./data/raw_data/facebook_raw_images/image_404.jpg, ./data/raw_data/facebook_raw_images/image_405.jpg",
         "emoji": [],
         "hashtags": [
             "#HealthcareAppDevelopment",
@@ -1538,11 +1538,11 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_360.jpg, ./facebook_raw_images/image_361.jpg, ./facebook_raw_images/image_362.jpg, ./facebook_raw_images/image_363.jpg, ./facebook_raw_images/image_364.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_360.jpg, ./data/raw_data/facebook_raw_images/image_361.jpg, ./data/raw_data/facebook_raw_images/image_362.jpg, ./data/raw_data/facebook_raw_images/image_363.jpg, ./data/raw_data/facebook_raw_images/image_364.jpg",
         "emoji": [
+            "🚀",
             "🔮",
-            "🌐",
-            "🚀"
+            "🌐"
         ],
         "hashtags": [
             "#AR",
@@ -1562,7 +1562,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_93.jpg, ./facebook_raw_images/image_94.jpg, ./facebook_raw_images/image_95.jpg, ./facebook_raw_images/image_96.jpg, ./facebook_raw_images/image_97.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_93.jpg, ./data/raw_data/facebook_raw_images/image_94.jpg, ./data/raw_data/facebook_raw_images/image_95.jpg, ./data/raw_data/facebook_raw_images/image_96.jpg, ./data/raw_data/facebook_raw_images/image_97.jpg",
         "emoji": [
             "🌟"
         ],
@@ -1583,7 +1583,7 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_78.jpg, ./facebook_raw_images/image_79.jpg, ./facebook_raw_images/image_80.jpg, ./facebook_raw_images/image_81.jpg, ./facebook_raw_images/image_82.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_78.jpg, ./data/raw_data/facebook_raw_images/image_79.jpg, ./data/raw_data/facebook_raw_images/image_80.jpg, ./data/raw_data/facebook_raw_images/image_81.jpg, ./data/raw_data/facebook_raw_images/image_82.jpg",
         "emoji": [
             "🌾",
             "🌱"
@@ -1609,13 +1609,13 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_396.jpg, ./facebook_raw_images/image_397.jpg, ./facebook_raw_images/image_398.jpg, ./facebook_raw_images/image_399.jpg, ./facebook_raw_images/image_400.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_396.jpg, ./data/raw_data/facebook_raw_images/image_397.jpg, ./data/raw_data/facebook_raw_images/image_398.jpg, ./data/raw_data/facebook_raw_images/image_399.jpg, ./data/raw_data/facebook_raw_images/image_400.jpg",
         "emoji": [
-            "🌿",
-            "✨",
             "🌱",
+            "🌿",
+            "💡",
             "🌍",
-            "💡"
+            "✨"
         ],
         "hashtags": [
             "#renewableenergy",
@@ -1631,30 +1631,30 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_365.jpg, ./facebook_raw_images/image_366.jpg, ./facebook_raw_images/image_367.jpg, ./facebook_raw_images/image_368.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_365.jpg, ./data/raw_data/facebook_raw_images/image_366.jpg, ./data/raw_data/facebook_raw_images/image_367.jpg, ./data/raw_data/facebook_raw_images/image_368.jpg",
         "emoji": [
-            "📈",
+            "📱",
+            "💹",
             "💬",
-            "💻",
-            "🏆",
-            "🏅",
-            "👥",
-            "⏰",
             "🤝",
+            "🎉",
+            "💻",
+            "🏅",
+            "💪",
+            "👉",
             "⌛",
+            "🏆",
+            "🕗",
+            "🚀",
             "🍽️",
             "💡",
+            "👥",
+            "📈",
             "✨",
-            "📱",
-            "📊",
-            "👉",
-            "🍔",
-            "💹",
-            "🎉",
-            "🚀",
-            "💪",
             "❤️",
-            "🕗"
+            "🍔",
+            "📊",
+            "⏰"
         ],
         "hashtags": [
             "#RestaurantTech",
@@ -1667,12 +1667,12 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_345.jpg, ./facebook_raw_images/image_346.jpg, ./facebook_raw_images/image_347.jpg, ./facebook_raw_images/image_348.jpg, ./facebook_raw_images/image_349.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_345.jpg, ./data/raw_data/facebook_raw_images/image_346.jpg, ./data/raw_data/facebook_raw_images/image_347.jpg, ./data/raw_data/facebook_raw_images/image_348.jpg, ./data/raw_data/facebook_raw_images/image_349.jpg",
         "emoji": [
+            "🚀",
             "🗣️",
             "🤖",
-            "💬",
-            "🚀"
+            "💬"
         ],
         "hashtags": [
             "#voicetechnology",
@@ -1687,13 +1687,13 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_386.jpg, ./facebook_raw_images/image_387.jpg, ./facebook_raw_images/image_388.jpg, ./facebook_raw_images/image_389.jpg, ./facebook_raw_images/image_390.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_386.jpg, ./data/raw_data/facebook_raw_images/image_387.jpg, ./data/raw_data/facebook_raw_images/image_388.jpg, ./data/raw_data/facebook_raw_images/image_389.jpg, ./data/raw_data/facebook_raw_images/image_390.jpg",
         "emoji": [
-            "📲",
-            "🌟",
-            "🚀",
+            "💼",
             "📱",
-            "💼"
+            "🚀",
+            "📲",
+            "🌟"
         ],
         "hashtags": [
             "#appdevelopmentagency",
@@ -1711,21 +1711,21 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_373.jpg, ./facebook_raw_images/image_374.jpg, ./facebook_raw_images/image_375.jpg, ./facebook_raw_images/image_376.jpg, ./facebook_raw_images/image_377.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_373.jpg, ./data/raw_data/facebook_raw_images/image_374.jpg, ./data/raw_data/facebook_raw_images/image_375.jpg, ./data/raw_data/facebook_raw_images/image_376.jpg, ./data/raw_data/facebook_raw_images/image_377.jpg",
         "emoji": [
-            "👩‍🎓",
-            "🤝",
-            "✨",
-            "🌟",
-            "🏫",
-            "🚀",
-            "🎯",
-            "📊",
-            "📚",
             "💻",
-            "🔍",
+            "🏫",
+            "🌟",
+            "🚀",
             "💡",
-            "✅"
+            "🎯",
+            "👩‍🎓",
+            "📚",
+            "🤝",
+            "📊",
+            "✅",
+            "🔍",
+            "✨"
         ],
         "hashtags": [
             "#EdTechSolutions",
@@ -1738,12 +1738,12 @@
         "platform": "facebook"
     },
     {
-        "image_paths": "./facebook_raw_images/image_5.jpg, ./facebook_raw_images/image_6.jpg, ./facebook_raw_images/image_7.jpg, ./facebook_raw_images/image_8.jpg, ./facebook_raw_images/image_9.jpg",
+        "image_paths": "./data/raw_data/facebook_raw_images/image_5.jpg, ./data/raw_data/facebook_raw_images/image_6.jpg, ./data/raw_data/facebook_raw_images/image_7.jpg, ./data/raw_data/facebook_raw_images/image_8.jpg, ./data/raw_data/facebook_raw_images/image_9.jpg",
         "emoji": [
-            "👉",
             "📈",
-            "💡",
-            "🚛"
+            "👉",
+            "🚛",
+            "💡"
         ],
         "hashtags": [
             "#ItobuzTechnologies",
