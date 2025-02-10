@@ -110,6 +110,6 @@ class DownloadData:
         download_logger.info(f"Download complete! Files saved to {local_save_path}")
 
 
-# EXAMPLE: 
+# # EXAMPLE: 
 # downloader = DownloadData(client_secrets_path = Config.CLIENT_SECRET_CREDENTIALS)
 # downloader.download_google_drive_folder(Config.INSTAGRAM_RAW_IMAGE_DATA_LINK, Config.INSTAGRAM_RAW_IMAGE_DATA_PATH)
