@@ -156,4 +156,4 @@ class DataCuration:
 #                        Config.INSTAGRAM_CLEANED_POST_DATA_PATH, 
 #                        Config.FACEBOOK_CLEANED_POST_DATA_PATH
 #                        )
-# curator.data_curation()
+# curator.text_curation()
