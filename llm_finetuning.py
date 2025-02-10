@@ -3,6 +3,7 @@
 # ---------- Dependencies ------------
 import os
 import json
+import torch
 from datasets import Dataset, DatasetDict
 from config.config import Config
 from transformers import set_seed
@@ -32,10 +33,14 @@ def llm_ftmain():
 
             model.save_pretrained(model_path)
             tokenizer.save_pretrained(tokenizer_path)
+        else:
+            model = AutoModelForCausalLM.from_pretrained(model_path)
+            tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
 
         with open("data/cleaned_data/linkedin_cleaned_data.json", "r", encoding="utf-8") as file:
             data = json.load(file)
 
+        # Data Preparation
         for item in data:
             item.pop('image_paths',None)
 
@@ -45,20 +50,23 @@ def llm_ftmain():
             for key, value in item.items():
                 text = text + "".join(value)
             data_list.append(text)
-            
-        
-        train_data, test_data = train_test_split(data_list, test_size=0.2, random_state=42)
-        train_dataset = Dataset.from_list(train_data)
-        test_dataset  = Dataset.from_list(test_data)
 
-        dataset = DatasetDict({
-            'train':train_dataset,
-            'test':test_dataset
-        })
+        data = Dataset.from_dict({'texts':data_list})
+        # def tokenize_function(examples):
+        #     return tokenizer(examples["texts"], truncation=True, padding="max_length", max_length=128, return_tensors='pt')
+        
+        def tokenize_function(examples):
+            inputs = tokenizer(examples["texts"], padding="max_length", truncation=True, return_tensors='pt')
+            inputs["labels"] = torch.tensor(inputs["input_ids"]).clone().detach() # Add labels for causal LM training
+            return inputs
+        
+        tokenized_dataset = data.map(tokenize_function, batched=True)
+        split_dataset = tokenized_dataset.train_test_split(test_size=0.2)
+
 
         fine_tuner = LLMFineTuner(model_path=model_path,
                                   tokenizer_path=tokenizer_path,
-                                  dataset=dataset,
+                                  dataset=split_dataset,
                                   finetune_logger=finetune_logger)
         
         training_args = {
@@ -69,17 +77,26 @@ def llm_ftmain():
             'per_device_eval_batch_size' :1,
             'num_train_epochs':3,
             'weight_decay':0.01,
-            'evaluation_strategy':"epoch",
-            'no_cuda':True
+            'eval_strategy':"epoch",
+            'use_cpu':True
         }
 
+        lora_args = {
+            'r' : 32,
+            'lora_alpha' : 64,
+            'target_modules' : ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"], 
+            'bias' :"none",
+            'lora_dropout':0.05,
+            'task_type' : "CAUSAL_LM"
+        }
+
+        fine_tuner.define_lora_config(**lora_args)
         fine_tuner.define_training_args(**training_args)
         fine_tuner.define_trainer()
         model = fine_tuner.start_fine_tuning()
 
-    except Exception as e:
-        finetune_logger.error(e, exc_info=True)
-        raise
+    except Exception as MainError:
+        finetune_logger.error(repr(MainError), exc_info=True)
     pass
 
 if __name__ == '__main__':
