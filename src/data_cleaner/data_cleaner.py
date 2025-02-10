@@ -9,9 +9,12 @@ from src.utils.logger import LoggerSetup
 
 
 # Create Logger instance for this file
-cleaner_logger = LoggerSetup(logger_name         = "data_cleaner.py", 
-                             log_filename_prefix = "DataCleaner")
-cleaner_logger.get_logger()
+#cleaner_logger = LoggerSetup(logger_name         = "data_cleaner.py", 
+ #                            log_filename_prefix = "DataCleaner")
+#cleaner_logger.get_logger()
+
+cleaner_logger = LoggerSetup(logger_name="data_cleaner.py", log_filename_prefix="DataCleaner").get_logger()
+
 
 
 # Data Cleaning Utility Class

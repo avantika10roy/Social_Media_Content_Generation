@@ -10,6 +10,7 @@ data/curated_data/curated_images/
 data/preprocessed_data/
 data/raw_data/linkedin_raw_images/
 data/raw_data/facebook_raw_images/
+data/raw_data/instagram_raw_images/
 data/cleaned_data/facebook_cleaned_images/
 data/cleaned_data/linkedin_cleaned_images/
 data/cleaned_data/instagram_cleaned_images/
