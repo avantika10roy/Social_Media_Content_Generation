@@ -10,6 +10,14 @@ from src.utils.data_saver import DataSaver
 from src.data_cleaner.data_cleaner import DataCleaner
 from src.data_curator.data_curation import DataCuration
 from src.data_preprocesser.text_preprocessing import TextPreprocessing
+from src.utils.download_from_drive import DownloadData
+
+# DOWNLOADING DATA
+downloader = DownloadData(client_secrets_path = Config.CLIENT_SECRET_CREDENTIALS)
+downloader.download_google_drive_folder(Config.INSTAGRAM_RAW_IMAGE_DATA_LINK, Config.INSTAGRAM_RAW_IMAGE_DATA_PATH)
+downloader.download_google_drive_folder(Config.FACEBOOK_RAW_IMAGE_DATA_LINK, Config.FACEBOOK_RAW_IMAGE_DATA_PATH)
+downloader.download_google_drive_folder(Config.LINKEDIN_RAW_IMAGE_DATA_LINK, Config.LINKEDIN_RAW_IMAGE_DATA_PATH)
+
 
 # Set up logger
 logger = LoggerSetup(logger_name="run.py", log_filename_prefix="RunScript").get_logger()
@@ -80,7 +88,7 @@ def main():
         
         # Data preprocessing
         
-    
+       
     
     except Exception as e:
         logger.error(f"Error in data cleaning process: {e}")
