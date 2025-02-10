@@ -157,3 +157,7 @@ class DataCuration:
 #                        Config.FACEBOOK_CLEANED_POST_DATA_PATH
 #                        )
 # curator.data_curation()
+
+# curator.image_curation(json_path          = Config.CURATED_POST_DATA_PATH, 
+#                        curated_images_dir = Config.CURATED_IMAGE_DATA_PATH
+#                        )
