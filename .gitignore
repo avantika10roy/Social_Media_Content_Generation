@@ -13,4 +13,8 @@ data/raw_data/facebook_raw_images/
 data/cleaned_data/facebook_cleaned_images/
 data/cleaned_data/linkedin_cleaned_images/
 data/cleaned_data/instagram_cleaned_images/
+<<<<<<< HEAD
 data/preprocessed_data/linkedin_preprocessed_images/
+=======
+src/base_models/
+>>>>>>> c8056f5574035038db3ad6e7f1191c2f7b5b7ffa

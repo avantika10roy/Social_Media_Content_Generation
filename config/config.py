@@ -37,15 +37,17 @@ class Config:
     INSTAGRAM_CLEANED_IMAGE_DATA_PATH     = './data/cleaned_data/instagram_cleaned_images'
     
     # FACEBOOK CONFIGURATIONS
-    FACEBOOK_USERNAME                     = ""
+    FACEBOOK_API                          = 'apify_api_yZXdrMa7P6SXvEKcdOpLwen6xmtQzX3Dr7t1'
+    FACEBOOK_USERNAME                     = "/itobuz"
     FACEBOOK_RAW_POST_DATA_PATH           = "./data/raw_data/facebook_raw_data.json"
     FACEBOOK_RAW_IMAGE_DATA_PATH          = "./data/raw_data/facebook_raw_images"
-    FACEBOOK_RAW_IMAGE_DATA_LINK          = ""
+    FACEBOOK_RAW_IMAGE_DATA_LINK          = "https://drive.google.com/drive/folders/19PqGEF74OJWERR1B9k4Oc6-hXzuhJZ4Y?usp=sharing"
     FACEBOOK_CLEANED_POST_DATA_PATH       = './data/cleaned_data/facebook_cleaned_data.json'
     FACEBOOK_CLEANED_IMAGE_DATA_PATH      = './data/cleaned_data/facebook_cleaned_images'
-    FACEBOOK_API                          = 'apify_api_yZXdrMa7P6SXvEKcdOpLwen6xmtQzX3Dr7t1'
+    
     # CURATED DATA PATHS
-    CURATED_POST_DATA_PATH                = './data/curated_data/curated_post_data.json'
+    CURATED_POST_DATA_PATH                = './data/curated_data/curated_data.json'
+    CURATED_IMAGE_DATA_PATH               = "./data/curated_data/curated_images"
     
 
     @staticmethod
