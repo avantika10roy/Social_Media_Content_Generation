@@ -48,12 +48,9 @@ class Config:
     CURATED_IMAGE_DATA_PATH               = "./data/curated_data/curated_images"
     
     # PREPROCESSED DATA PATHS
-    PREPROCESSED_POST_DATA_PATH           = ''
+    PREPROCESSED_POST_DATA_PATH           = './data/preprocessed_data/preprocessed_data.json'
     PREPROCESSED_IMAGE_DATA_PATH          = "./data/preprocessed_data/preprocessed_images"
     
-    # PREPROCESSED DATA PATHS
-    PREPROCESSED_DATA_PATH                = './data/preprocessed_data/preprocessed_data.json'
-    PREPROCESSED_IMAGE_DATA_PATH          = './data/preprocessed_data/preprocessed_images'
 
     @staticmethod
     def setup_directories():
