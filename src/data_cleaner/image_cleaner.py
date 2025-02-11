@@ -58,3 +58,29 @@ class ImageCleaner:
         
         data["image_paths"] = updated_image_paths
         return data
+    
+    def filter_and_copy_images(self, data, platform):
+        """
+        Filter images and copy only the cleaned images to the respective platform folder.
+        
+        Parameters:
+        data (DataFrame): Data containing posts and image paths.
+        platform (str): The platform name (linkedin, facebook, instagram).
+        
+        Returns:
+        DataFrame: The cleaned dataset with updated image paths.
+        """
+        pattern = '|'.join(self.keywords)
+        
+        invalid_posts = data[(data['post_heading'].str.contains(pattern, case=False, na=False)) 
+                             | (data['post_content'].str.contains(pattern, case=False, na=False))]
+        
+        # Drop invalid posts
+        cleaned_data = data.drop(invalid_posts.index)
+        
+        # Define destination folder
+        destination_folder = f"./data/cleaned_data/{platform}_cleaned_images/"
+        cleaned_data = self.copy_images(cleaned_data, destination_folder)
+        
+        return cleaned_data
+    
