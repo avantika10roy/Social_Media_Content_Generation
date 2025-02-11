@@ -17,7 +17,7 @@ finetune_logger.info("Logger Successfully Initialized")
 
 
 
-def llm_ftmain():
+def llm_fine_tune_main():
     """
     Main function to run the fine tuner of llm.
     
@@ -28,13 +28,13 @@ def llm_ftmain():
         tokenizer_path     = 'src/base_models/falcon1b/tokenizer'
 
         if (not os.path.isdir(model_path)) or (not os.path.isdir(tokenizer_path)):
-            model = AutoModelForCausalLM.from_pretrained('tiiuae/Falcon3-1B-Instruct')
+            model = AutoModelForCausalLM.from_pretrained('tiiuae/Falcon3-1B-Instruct', device_map='cpu')
             tokenizer = AutoTokenizer.from_pretrained('tiiuae/Falcon3-1B-Instruct')
 
             model.save_pretrained(model_path)
             tokenizer.save_pretrained(tokenizer_path)
         else:
-            model = AutoModelForCausalLM.from_pretrained(model_path)
+            model = AutoModelForCausalLM.from_pretrained(model_path, device_map='cpu')
             tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
 
         with open("data/cleaned_data/linkedin_cleaned_data.json", "r", encoding="utf-8") as file:
@@ -56,8 +56,8 @@ def llm_ftmain():
         #     return tokenizer(examples["texts"], truncation=True, padding="max_length", max_length=128, return_tensors='pt')
         
         def tokenize_function(examples):
-            inputs = tokenizer(examples["texts"], padding="max_length", truncation=True, return_tensors='pt')
-            inputs["labels"] = torch.tensor(inputs["input_ids"]).clone().detach() # Add labels for causal LM training
+            inputs = tokenizer(examples["texts"], padding="max_length", truncation=True, return_tensors='pt', max_length=256)
+            inputs["labels"] = inputs["input_ids"].clone().detach() # Add labels for causal LM training
             return inputs
         
         tokenized_dataset = data.map(tokenize_function, batched=True)
@@ -72,18 +72,21 @@ def llm_ftmain():
         training_args = {
             'output_dir' : 'results/llm_results',
             'learning_rate': 2e-5,
-            'warmup_steps' : 500,
+            'warmup_steps' : 100,
             'per_device_train_batch_size' : 1,
             'per_device_eval_batch_size' :1,
-            'num_train_epochs':3,
+            'gradient_accumulation_steps':8,
+            'num_train_epochs':1,
             'weight_decay':0.01,
+            'bf16':False,
+            'fp16':False,
             'eval_strategy':"epoch",
             'use_cpu':True
         }
 
         lora_args = {
-            'r' : 32,
-            'lora_alpha' : 64,
+            'r' : 4,
+            'lora_alpha' : 8,
             'target_modules' : ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"], 
             'bias' :"none",
             'lora_dropout':0.05,
@@ -101,5 +104,5 @@ def llm_ftmain():
 
 if __name__ == '__main__':
     finetune_logger.info("Test Run")
-    llm_ftmain()
+    llm_fine_tune_main()
     finetune_logger.info("Test Run Successfully")
