@@ -47,37 +47,54 @@ def main():
         
 
         # Data Cleaning
+        
         # Facebook Cleaning
+        
         # Text Cleaning
         cleaned_facebook       = (cleaner.facebook_cleaner(facebook_data = raw_facebook_data_df ,
                                                             platform     ='facebook'))
-        DataSaver.data_saver(cleaned_facebook,cleaned_facebook_data)
-        # Image cleaning
-        fb_data                 = DataSaver.data_reader(cleaned_facebook_data)
-        cleaned_fb_image        = imageclean.filter_and_copy_images(fb_data,
-                                                                    platform='facebook')
         
+        DataSaver.data_saver(data             = cleaned_facebook,
+                             file_path        = cleaned_facebook_data)
+        
+        # Image cleaning
+        
+        fb_data                 = DataSaver.data_reader(cleaned_facebook_data)
+        cleaned_fb_image        = imageclean.filter_and_copy_images(data     = fb_data,
+                                                                    platform = 'facebook')
+        DataSaver.data_saver(data             = cleaned_fb_image,
+                             file_path        = cleaned_facebook_data)
 
         # Instagram Cleaning
+        
         # Text Cleaning
         cleaned_instagram       = (cleaner.instagram_clean_data(insta_data = raw_instagram_data_df,
-                                                               platform   ='instagram'))
-        DataSaver.data_saver(cleaned_instagram,cleaned_instagram_data)
-        insta_data              = DataSaver.data_reader(cleaned_instagram_data)
-        cleaned_instagram_image = imageclean.filter_and_copy_images(insta_data,
-                                                                    platform='instagram')
+                                                               platform    ='instagram'))
+        DataSaver.data_saver(data      = cleaned_instagram,
+                             file_path = cleaned_instagram_data)
         
-        # Linked Cleaning
+        # Image cleaning
+
+        insta_data              = DataSaver.data_reader(cleaned_instagram_data)
+        cleaned_instagram_image = imageclean.filter_and_copy_images(data     = insta_data,
+                                                                    platform = 'instagram')
+        DataSaver.data_saver(cleaned_instagram_image,cleaned_instagram_data)
+        
+        # Linkedin Cleaning
+        
         # Text Cleaning
+        
         cleaned_linkedin       = (cleaner.linkdln_clean_data(linkdln_data  = raw_linkdin_data_df,
                                                              platform      = 'linkedin'))
-        DataSaver.data_saver(cleaned_linkedin,cleaned_linkedin_data)
+        DataSaver.data_saver(data        = cleaned_linkedin,
+                             file_path   = cleaned_linkedin_data)
         
         # Image Cleaning
-        linkedin_data          = DataSaver.data_reader(cleaned_linkedin_data)
-        cleaned_linkedin_image = imageclean.filter_and_copy_images(linkedin_data,
-                                                                   platform='linkedin')
         
+        linkedin_data          = DataSaver.data_reader(cleaned_linkedin_data)
+        cleaned_linkedin_image = imageclean.filter_and_copy_images(data      = linkedin_data,
+                                                                   platform  = 'linkedin')
+        DataSaver.data_saver(cleaned_linkedin_image,cleaned_linkedin_data)
 
         logger.info("Data cleaning process completed successfully.")
         
@@ -87,14 +104,17 @@ def main():
 
         #         Data Curation
         #     --------------------
-        # Curated Data Path
-        curated_data_path = Config.CURATED_POST_DATA_PATH
 
-        # Data curation
-        curation = DataCuration(cleaned_linkedin_data, cleaned_instagram_data, cleaned_facebook_data)
+        # Setting Curated Data Path
+        curated_data_path        = Config.CURATED_POST_DATA_PATH
+
+        # Text Data curation
+        curation = DataCuration(linkedin_cleaned_data_path   = cleaned_linkedin_data,
+                                 instagram_cleaned_data_path = cleaned_instagram_data, 
+                                 facebook_cleaned_data_path  = cleaned_facebook_data)
         logger.info("Starting data curation process...")
 
-        curated_data = curation.text_curation()
+        curated_data             = curation.text_curation()
 
         # Curated Data saving
 
@@ -102,20 +122,34 @@ def main():
 
         logger.info("Data curation process completed successfully.")
 
+        # Image Data Curation
+        curation.image_curation(json_path                    = Config.CURATED_POST_DATA_PATH, 
+                                curated_images_dir           = Config.CURATED_IMAGE_DATA_PATH
+                                )
+
 
         #     Data Preprocessing
         #  ------------------------
 
-        # Preprocessed Data path
+        # Setting Preprocessed Data path
+        
         preprocessed_data_path = Config.PREPROCESSED_DATA_PATH
         text_preprocessor      = TextPreprocessing()
-        #print(type(text_preprocessor))
-        # Data preprocessing
+        
+        
+        # Text Data preprocessing
+
         preprocessed_df        = text_preprocessor.preprocess(curated_data = curated_data, 
                                                               text_column  = 'post_content')
         DataSaver.data_saver(preprocessed_df,preprocessed_data_path)
+
+        # Image Preprocessing
+
+        preprocessor          =ImagePreprocessor(raw_data_path     = Config.CURATED_IMAGE_DATA_PATH ,
+                                                 cleaned_data_path = Config.PREPROCESSED_IMAGE_DATA_PATH
+                                                 )
         
-        
+        preprocessor.preprocess_images()
         
         
     
