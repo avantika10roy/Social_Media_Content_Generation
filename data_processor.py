@@ -118,7 +118,7 @@ def main():
 
         # Curated Data saving
 
-        DataSaver.data_saver(curated_data,curated_data_path)
+        DataSaver.data_saver(curated_data, curated_data_path)
 
         logger.info("Data curation process completed successfully.")
 

@@ -85,6 +85,7 @@ class DataSaver:
 
         except Exception as e:
             dataSaver_logger.error(f"Error loading file {file_path}: {repr(e)}")
+<<<<<<< HEAD
             return None
         
         
@@ -165,3 +166,6 @@ class DataSaver:
             saver_logger.error(f"Error saving data to {file_path}: {str(e)}")
             return False
 '''
+=======
+            return None
+>>>>>>> d5d99dd429bd9bf0ec46a48552081a2acfd3fb62
