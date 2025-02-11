@@ -101,52 +101,57 @@ class DataCuration:
 
         Arguments:
         ----------
-            json_path (str)          : Path to the curated_post_data.json file.
+            json_path (str)          : Path to the curated JSON file.
             curated_images_dir (str) : Directory where images will be copied.
 
         Returns:
         --------
             None
-        """
         
+        """
+    
         try:
             os.makedirs(curated_images_dir, exist_ok = True)
 
-            with open(json_path, "r", encoding="utf-8") as f:
-                posts_data            = json.load(f)
-            
+            with open(json_path, "r", encoding = "utf-8") as f:
+                posts_data = json.load(f)
             f.close()
 
             for post in posts_data:
                 if "image_paths" in post and post["image_paths"]:
-                    
-                    image_paths       = [img.strip() for img in post["image_paths"].split(",")]
 
-                    updated_paths     = []
-                    
+                    if isinstance(post["image_paths"], str):
+                        image_paths  = [img.strip() for img in post["image_paths"].split(",")]
+                    else:
+                        image_paths  = post["image_paths"]
+
+                    updated_paths    = []
+
                     for img_path in image_paths:
-                        
-                        if os.path.exists(img_path): 
-                            filename  = os.path.basename(img_path)
-                            new_path  = os.path.join(curated_images_dir, filename)
+                        if os.path.exists(img_path):
+                            filename = os.path.basename(img_path)
+                            new_path = os.path.join(curated_images_dir, filename)
 
                             shutil.copy(img_path, new_path)
                             updated_paths.append(new_path.replace("\\", "/"))
-                            
-                            dataCurator_logger.info("Image Currated Successfully")
-                        
-                        else:
-                            dataCurator_logger.warning(f"Warning: Image not found - {img_path}")
 
-                    post["image_paths"] = ", ".join(updated_paths)
+                            dataCurator_logger.info(f"Image curated successfully: {new_path}")
+
+                        else:
+                            dataCurator_logger.warning(f"Image not found - {img_path}")
+
+                    post["image_paths"] = updated_paths
 
             with open(json_path, "w", encoding = "utf-8") as f:
                 json.dump(posts_data, f, indent = 4, ensure_ascii = False)
 
             dataCurator_logger.info("Images copied and JSON updated successfully!")
+            
+            # return posts_data
 
         except Exception as e:
             dataCurator_logger.error(f"Error in updating image paths: {repr(e)}")
+
         
         
         
@@ -157,3 +162,7 @@ class DataCuration:
 #                        Config.FACEBOOK_CLEANED_POST_DATA_PATH
 #                        )
 # curator.data_curation()
+
+# curator.image_curation(json_path          = Config.CURATED_POST_DATA_PATH, 
+#                        curated_images_dir = Config.CURATED_IMAGE_DATA_PATH
+#                        )

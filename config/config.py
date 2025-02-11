@@ -30,7 +30,7 @@ class Config:
     INSTAGRAM_USERNAME                    = "itobuztechnologies"
     INSTAGRAM_RAW_POST_DATA_PATH          = "./data/raw_data/instagram_raw_data.json"
     INSTAGRAM_RAW_IMAGE_DATA_PATH         = "./data/raw_data/instagram_images"
-    INSTAGRAM_RAW_IMAGE_DATA_LINK         = "https://drive.google.com/drive/folders/1kcXIbWs1qbs7vaPfUbGK8G3vWlphspnD?usp=drive_link"
+    INSTAGRAM_RAW_IMAGE_DATA_LINK         = "https://drive.google.com/drive/folders/1yt3LRxXKjp_U8U5sB5FFEAqLcFVhsElo?usp=sharing"
     INSTAGRAM_CLEANED_POST_DATA_PATH      = './data/cleaned_data/instagram_cleaned_data.json'
     INSTAGRAM_CLEANED_IMAGE_DATA_PATH     = './data/cleaned_data/instagram_cleaned_images'
     
@@ -47,6 +47,13 @@ class Config:
     CURATED_POST_DATA_PATH                = './data/curated_data/curated_data.json'
     CURATED_IMAGE_DATA_PATH               = "./data/curated_data/curated_images"
     
+    # PREPROCESSED DATA PATHS
+    PREPROCESSED_POST_DATA_PATH           = ''
+    PREPROCESSED_IMAGE_DATA_PATH          = "./data/preprocessed_data/preprocessed_images"
+    
+    # PREPROCESSED DATA PATHS
+    PREPROCESSED_DATA_PATH                = './data/preprocessed_data/preprocessed_data.json'
+    PREPROCESSED_IMAGE_DATA_PATH          = './data/preprocessed_data/preprocessed_images'
 
     @staticmethod
     def setup_directories():

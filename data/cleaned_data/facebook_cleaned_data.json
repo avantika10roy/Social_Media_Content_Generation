@@ -119,8 +119,8 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_103.jpg, ./data/raw_data/facebook_raw_images/image_104.jpg, ./data/raw_data/facebook_raw_images/image_105.jpg, ./data/raw_data/facebook_raw_images/image_106.jpg, ./data/raw_data/facebook_raw_images/image_107.jpg",
         "emoji": [
-            "🌟",
-            "🚀"
+            "🚀",
+            "🌟"
         ],
         "hashtags": [
             "#CrossPlatform",
@@ -249,11 +249,11 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_169.jpg, ./data/raw_data/facebook_raw_images/image_170.jpg, ./data/raw_data/facebook_raw_images/image_171.jpg, ./data/raw_data/facebook_raw_images/image_172.jpg, ./data/raw_data/facebook_raw_images/image_173.jpg",
         "emoji": [
+            "🌐",
+            "🌍",
             "💰",
             "🔄",
-            "🌐",
-            "⚡",
-            "🌍"
+            "⚡"
         ],
         "hashtags": [
             "#webappdevelopment",
@@ -465,12 +465,12 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_355.jpg, ./data/raw_data/facebook_raw_images/image_356.jpg, ./data/raw_data/facebook_raw_images/image_357.jpg, ./data/raw_data/facebook_raw_images/image_358.jpg, ./data/raw_data/facebook_raw_images/image_359.jpg",
         "emoji": [
-            "🚫",
-            "💼",
-            "📉",
-            "📋",
+            "📈",
             "💡",
-            "📈"
+            "📉",
+            "💼",
+            "📋",
+            "🚫"
         ],
         "hashtags": [
             "#inventorymanagementsoftware",
@@ -487,8 +487,8 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_350.jpg, ./data/raw_data/facebook_raw_images/image_351.jpg, ./data/raw_data/facebook_raw_images/image_352.jpg, ./data/raw_data/facebook_raw_images/image_353.jpg, ./data/raw_data/facebook_raw_images/image_354.jpg",
         "emoji": [
-            "🔧",
-            "🚀"
+            "🚀",
+            "🔧"
         ],
         "hashtags": [
             "#appdevelopment",
@@ -504,8 +504,8 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_307.jpg, ./data/raw_data/facebook_raw_images/image_308.jpg, ./data/raw_data/facebook_raw_images/image_309.jpg, ./data/raw_data/facebook_raw_images/image_310.jpg, ./data/raw_data/facebook_raw_images/image_311.jpg",
         "emoji": [
-            "🚀",
-            "🌐"
+            "🌐",
+            "🚀"
         ],
         "hashtags": [
             "#5GTechnology",
@@ -552,9 +552,9 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_330.jpg, ./data/raw_data/facebook_raw_images/image_331.jpg, ./data/raw_data/facebook_raw_images/image_332.jpg, ./data/raw_data/facebook_raw_images/image_333.jpg, ./data/raw_data/facebook_raw_images/image_334.jpg",
         "emoji": [
+            "🌐",
             "💻",
-            "🌟",
-            "🌐"
+            "🌟"
         ],
         "hashtags": [
             "#webdevelopment",
@@ -626,8 +626,8 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_284.jpg, ./data/raw_data/facebook_raw_images/image_285.jpg, ./data/raw_data/facebook_raw_images/image_286.jpg, ./data/raw_data/facebook_raw_images/image_287.jpg, ./data/raw_data/facebook_raw_images/image_288.jpg",
         "emoji": [
-            "🚗",
-            "✨"
+            "✨",
+            "🚗"
         ],
         "hashtags": [
             "#5GTechnology",
@@ -736,8 +736,8 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_267.jpg, ./data/raw_data/facebook_raw_images/image_268.jpg, ./data/raw_data/facebook_raw_images/image_269.jpg, ./data/raw_data/facebook_raw_images/image_270.jpg, ./data/raw_data/facebook_raw_images/image_271.jpg",
         "emoji": [
-            "🔏",
-            "🚀"
+            "🚀",
+            "🔏"
         ],
         "hashtags": [
             "#blockchainapps",
@@ -754,8 +754,8 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_237.jpg, ./data/raw_data/facebook_raw_images/image_238.jpg, ./data/raw_data/facebook_raw_images/image_239.jpg, ./data/raw_data/facebook_raw_images/image_240.jpg, ./data/raw_data/facebook_raw_images/image_241.jpg",
         "emoji": [
-            "🗣️",
             "🌐",
+            "🗣️",
             "💬"
         ],
         "hashtags": [
@@ -896,9 +896,9 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_154.jpg, ./data/raw_data/facebook_raw_images/image_155.jpg, ./data/raw_data/facebook_raw_images/image_156.jpg, ./data/raw_data/facebook_raw_images/image_157.jpg, ./data/raw_data/facebook_raw_images/image_158.jpg",
         "emoji": [
-            "🏆",
-            "🌟",
             "🚀",
+            "🌟",
+            "🏆",
             "🎉"
         ],
         "hashtags": [
@@ -1018,8 +1018,8 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_39.jpg, ./data/raw_data/facebook_raw_images/image_40.jpg, ./data/raw_data/facebook_raw_images/image_41.jpg, ./data/raw_data/facebook_raw_images/image_42.jpg, ./data/raw_data/facebook_raw_images/image_43.jpg",
         "emoji": [
-            "💼",
-            "🚀"
+            "🚀",
+            "💼"
         ],
         "hashtags": [
             "#enterpriseapps",
@@ -1148,9 +1148,9 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_10.jpg, ./data/raw_data/facebook_raw_images/image_11.jpg, ./data/raw_data/facebook_raw_images/image_12.jpg, ./data/raw_data/facebook_raw_images/image_13.jpg, ./data/raw_data/facebook_raw_images/image_14.jpg",
         "emoji": [
+            "✨",
             "💻",
-            "🌟",
-            "✨"
+            "🌟"
         ],
         "hashtags": [
             "#DigitalInnovation",
@@ -1280,8 +1280,8 @@
         "image_paths": "./data/raw_data/facebook_raw_images/image_302.jpg, ./data/raw_data/facebook_raw_images/image_303.jpg, ./data/raw_data/facebook_raw_images/image_304.jpg, ./data/raw_data/facebook_raw_images/image_305.jpg, ./data/raw_data/facebook_raw_images/image_306.jpg",
         "emoji": [
             "🌸",
-            "🙏",
             "🌆",
+            "🙏",
             "🎉"
         ],
         "hashtags": [
@@ -1354,10 +1354,10 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_280.jpg, ./data/raw_data/facebook_raw_images/image_281.jpg, ./data/raw_data/facebook_raw_images/image_282.jpg, ./data/raw_data/facebook_raw_images/image_283.jpg",
         "emoji": [
-            "🚀",
             "🌐",
-            "📊",
             "🔍",
+            "🚀",
+            "📊",
             "🏀"
         ],
         "hashtags": [
@@ -1469,8 +1469,8 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_0.jpg, ./data/raw_data/facebook_raw_images/image_1.jpg, ./data/raw_data/facebook_raw_images/image_2.jpg, ./data/raw_data/facebook_raw_images/image_3.jpg, ./data/raw_data/facebook_raw_images/image_4.jpg",
         "emoji": [
-            "💪",
-            "🚀"
+            "🚀",
+            "💪"
         ],
         "hashtags": [
             "#appdevelopment",
@@ -1540,9 +1540,9 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_360.jpg, ./data/raw_data/facebook_raw_images/image_361.jpg, ./data/raw_data/facebook_raw_images/image_362.jpg, ./data/raw_data/facebook_raw_images/image_363.jpg, ./data/raw_data/facebook_raw_images/image_364.jpg",
         "emoji": [
-            "🚀",
+            "🌐",
             "🔮",
-            "🌐"
+            "🚀"
         ],
         "hashtags": [
             "#AR",
@@ -1611,11 +1611,11 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_396.jpg, ./data/raw_data/facebook_raw_images/image_397.jpg, ./data/raw_data/facebook_raw_images/image_398.jpg, ./data/raw_data/facebook_raw_images/image_399.jpg, ./data/raw_data/facebook_raw_images/image_400.jpg",
         "emoji": [
-            "🌱",
-            "🌿",
-            "💡",
             "🌍",
-            "✨"
+            "💡",
+            "🌿",
+            "✨",
+            "🌱"
         ],
         "hashtags": [
             "#renewableenergy",
@@ -1633,28 +1633,28 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_365.jpg, ./data/raw_data/facebook_raw_images/image_366.jpg, ./data/raw_data/facebook_raw_images/image_367.jpg, ./data/raw_data/facebook_raw_images/image_368.jpg",
         "emoji": [
-            "📱",
-            "💹",
-            "💬",
-            "🤝",
-            "🎉",
-            "💻",
-            "🏅",
-            "💪",
-            "👉",
-            "⌛",
-            "🏆",
-            "🕗",
-            "🚀",
-            "🍽️",
-            "💡",
-            "👥",
-            "📈",
-            "✨",
-            "❤️",
-            "🍔",
             "📊",
-            "⏰"
+            "🍽️",
+            "⏰",
+            "❤️",
+            "👥",
+            "⌛",
+            "💡",
+            "🏅",
+            "💻",
+            "💹",
+            "✨",
+            "💪",
+            "🚀",
+            "📈",
+            "🕗",
+            "🤝",
+            "🍔",
+            "💬",
+            "👉",
+            "📱",
+            "🏆",
+            "🎉"
         ],
         "hashtags": [
             "#RestaurantTech",
@@ -1670,8 +1670,8 @@
         "image_paths": "./data/raw_data/facebook_raw_images/image_345.jpg, ./data/raw_data/facebook_raw_images/image_346.jpg, ./data/raw_data/facebook_raw_images/image_347.jpg, ./data/raw_data/facebook_raw_images/image_348.jpg, ./data/raw_data/facebook_raw_images/image_349.jpg",
         "emoji": [
             "🚀",
-            "🗣️",
             "🤖",
+            "🗣️",
             "💬"
         ],
         "hashtags": [
@@ -1689,11 +1689,11 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_386.jpg, ./data/raw_data/facebook_raw_images/image_387.jpg, ./data/raw_data/facebook_raw_images/image_388.jpg, ./data/raw_data/facebook_raw_images/image_389.jpg, ./data/raw_data/facebook_raw_images/image_390.jpg",
         "emoji": [
-            "💼",
-            "📱",
+            "🌟",
             "🚀",
+            "📱",
             "📲",
-            "🌟"
+            "💼"
         ],
         "hashtags": [
             "#appdevelopmentagency",
@@ -1713,19 +1713,19 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_373.jpg, ./data/raw_data/facebook_raw_images/image_374.jpg, ./data/raw_data/facebook_raw_images/image_375.jpg, ./data/raw_data/facebook_raw_images/image_376.jpg, ./data/raw_data/facebook_raw_images/image_377.jpg",
         "emoji": [
-            "💻",
-            "🏫",
+            "🔍",
+            "👩‍🎓",
             "🌟",
             "🚀",
+            "📊",
             "💡",
             "🎯",
-            "👩‍🎓",
-            "📚",
-            "🤝",
-            "📊",
             "✅",
-            "🔍",
-            "✨"
+            "💻",
+            "🤝",
+            "✨",
+            "🏫",
+            "📚"
         ],
         "hashtags": [
             "#EdTechSolutions",
@@ -1740,8 +1740,8 @@
     {
         "image_paths": "./data/raw_data/facebook_raw_images/image_5.jpg, ./data/raw_data/facebook_raw_images/image_6.jpg, ./data/raw_data/facebook_raw_images/image_7.jpg, ./data/raw_data/facebook_raw_images/image_8.jpg, ./data/raw_data/facebook_raw_images/image_9.jpg",
         "emoji": [
-            "📈",
             "👉",
+            "📈",
             "🚛",
             "💡"
         ],
