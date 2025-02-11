@@ -51,6 +51,8 @@ class Config:
     PREPROCESSED_POST_DATA_PATH           = './data/preprocessed_data/preprocessed_data.json'
     PREPROCESSED_IMAGE_DATA_PATH          = "./data/preprocessed_data/preprocessed_images"
     
+    RANDOM_SEED                           = 42
+    
 
     @staticmethod
     def setup_directories():
