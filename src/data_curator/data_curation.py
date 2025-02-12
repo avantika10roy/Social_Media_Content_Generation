@@ -58,7 +58,6 @@ class DataCuration:
     
         try:
             linked_cleaned_data     = DataSaver.data_reader(self.linkedin_cleaned_data_path)
-            print(linked_cleaned_data)
             facebook_cleaned_data   = DataSaver.data_reader(self.facebook_cleaned_data_path)
             instagram_cleaned_data  = DataSaver.data_reader(self.instagram_cleaned_data_path)
 
