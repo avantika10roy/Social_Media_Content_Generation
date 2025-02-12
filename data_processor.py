@@ -45,6 +45,8 @@ def main():
         cleaned_instagram_data = Config.INSTAGRAM_CLEANED_POST_DATA_PATH
         cleaned_linkedin_data  = Config.LINKEDIN_CLEANED_POST_DATA_PATH
         
+        # Setting Updated Curated Data Path
+        mixed_curated_data_path       = Config.MIXED_CURATED_DATA_PATH
 
         # Data Cleaning
         
@@ -130,7 +132,7 @@ def main():
             raw_facebook_data, 
             raw_instagram_data, 
             curated_data_path,
-            "data/mixed_curated/mixed_curated.json"
+            mixed_curated_data_path
         ) 
         
 
