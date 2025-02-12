@@ -23,7 +23,7 @@ def merge_post_contents(linkedin_json,fb_json, insta_json,  curated_json, output
     # Add post_contents to curated JSON
     for i, post in enumerate(curated_data):
         if i < len(all_posts):
-            post["post_contents"] = all_posts[i]  # Assign content from the list
+            post["raw_content"] = all_posts[i]  # Assign content from the list
 
     # Save the updated curated JSON to a new file
     with open(output_json, "w", encoding="utf-8") as output_file:
@@ -32,4 +32,4 @@ def merge_post_contents(linkedin_json,fb_json, insta_json,  curated_json, output
     print(f"Updated curated JSON saved as '{output_json}' with {len(curated_data)} posts.")
 
 # Example Usage
-merge_post_contents("data/raw_data/linkedin_raw_data.json", "data/raw_data/facebook_raw_data.json", "data/raw_data/instagram_raw_data.json", "data/curated_data/curated_data.json", "data/mixed_curated/updated_curated.json")
+merge_post_contents("data/raw_data/linkedin_raw_data.json", "data/raw_data/facebook_raw_data.json", "data/raw_data/instagram_raw_data.json", "data/curated_data/curated_data.json", "data/mixed_curated/mixed_curated.json")
