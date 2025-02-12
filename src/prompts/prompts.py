@@ -35,7 +35,7 @@ def llm_finetuning_prep(data_dict: dict) -> str :
     emojis = data_dict.get('emoji')
     emojis = ", ".join(emojis)
     hashtags = ", ".join(hashtags)
-    raw_post_content = data_dict.get('raw_post_content')
+    raw_post_content = data_dict.get('raw_content')
     
     
     # genrating data format from the finetuning
