@@ -7,7 +7,6 @@ notebooks/.ipynb_checkpoints
 data/raw_data/instagram_images/     
 data/raw_data/linkedin_images/
 data/curated_data/curated_images/
-# data/preprocessed_data/im
 data/raw_data/linkedin_raw_images/
 data/raw_data/facebook_raw_images/
 data/raw_data/instagram_raw_images/
@@ -15,3 +14,8 @@ data/cleaned_data/facebook_cleaned_images/
 data/cleaned_data/linkedin_cleaned_images/
 data/cleaned_data/instagram_cleaned_images/
 src/base_models/
+<<<<<<< HEAD
+data/preprocessed_data/preprocessed_images
+=======
+data/preprocessed_data/preprocessed_images
+>>>>>>> d5d99dd429bd9bf0ec46a48552081a2acfd3fb62

@@ -40,7 +40,7 @@ class Config:
     FACEBOOK_RAW_POST_DATA_PATH           = "./data/raw_data/facebook_raw_data.json"
     FACEBOOK_RAW_IMAGE_DATA_PATH          = "./data/raw_data/facebook_raw_images"
     FACEBOOK_RAW_IMAGE_DATA_LINK          = "https://drive.google.com/drive/folders/19PqGEF74OJWERR1B9k4Oc6-hXzuhJZ4Y?usp=sharing"
-    FACEBOOK_CLEANED_POST_DATA_PATH       = './data/cleaned_data/facebook_cleaned_data.json'
+    FACEBOOK_CLEANED_POST_DATA_PATH       = './data/cleaned_data/facebook_cleaned_data.json' 
     FACEBOOK_CLEANED_IMAGE_DATA_PATH      = './data/cleaned_data/facebook_cleaned_images'
     
     # CURATED DATA PATHS
@@ -48,12 +48,11 @@ class Config:
     CURATED_IMAGE_DATA_PATH               = "./data/curated_data/curated_images"
     
     # PREPROCESSED DATA PATHS
-    PREPROCESSED_POST_DATA_PATH           = ''
+    PREPROCESSED_POST_DATA_PATH           = './data/preprocessed_data/preprocessed_data.json'
     PREPROCESSED_IMAGE_DATA_PATH          = "./data/preprocessed_data/preprocessed_images"
     
-    # PREPROCESSED DATA PATHS
-    PREPROCESSED_DATA_PATH                = './data/preprocessed_data/preprocessed_data.json'
-    PREPROCESSED_IMAGE_DATA_PATH          = './data/preprocessed_data/preprocessed_images'
+    RANDOM_SEED                           = 42
+    
 
     @staticmethod
     def setup_directories():

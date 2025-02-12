@@ -1,6 +1,6 @@
 ## ----- DONE BY PRIYAM PAL -----
 
-'''# DEPENDENCIES
+# DEPENDENCIES
 import os
 import json
 import pandas as pd
@@ -41,7 +41,7 @@ class DataSaver:
             elif isinstance(data, list):
                 
                 with open(file_path, 'w', encoding = 'utf-8') as f:
-                    json.dump(data, f, indent = 4)
+                    json.dump(data, f, indent = 4, ensure_ascii = False)
                     dataSaver_logger.info("Data Saved into JSON Format")
             
             else:
@@ -73,7 +73,7 @@ class DataSaver:
                 data = json.load(f)
 
             if isinstance(data, list):  # Ensure data is a list of records
-                dataSaver_logger.error(f"Data loaded successfully from {file_path}")
+                dataSaver_logger.info(f"Data loaded successfully from {file_path}")
                 return pd.DataFrame(data)
 
             dataSaver_logger.error("Invalid JSON format. Expected a list.")
@@ -85,7 +85,11 @@ class DataSaver:
 
         except Exception as e:
             dataSaver_logger.error(f"Error loading file {file_path}: {repr(e)}")
-            return None'''
+<<<<<<< HEAD
+            return None
+        
+        
+'''
 
 import json
 import os
@@ -161,3 +165,7 @@ class DataSaver:
         except Exception as e:
             saver_logger.error(f"Error saving data to {file_path}: {str(e)}")
             return False
+'''
+=======
+            return None
+>>>>>>> d5d99dd429bd9bf0ec46a48552081a2acfd3fb62
