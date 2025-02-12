@@ -34,6 +34,7 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
 
             model.save_pretrained(model_path)
             tokenizer.save_pretrained(tokenizer_path)
+        # No need to write this part since model will be initialized in llm_fine_tuner.py if saved in path 
         else:
             model = AutoModelForCausalLM.from_pretrained(model_path, device_map='cpu')
             tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
@@ -51,6 +52,8 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
             for key, value in item.items():
                 text = text + "".join(value)
             data_list.append(text)
+
+        print(data_list)
 
         data = Dataset.from_dict({'texts':data_list})
         
