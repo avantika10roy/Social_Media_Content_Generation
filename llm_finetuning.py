@@ -12,6 +12,7 @@ from src.utils.set_seed import set_global_seed
 from sklearn.model_selection import train_test_split
 from src.model_finetuners.llm_fine_tuner import LLMFineTuner
 from transformers import AutoTokenizer, AutoModelForCausalLM
+from src.prompts.prompts import llm_finetuning_prompt
 
 finetune_logger = LoggerSetup(logger_name="llm_fine_tuner.py", log_filename_prefix="llm_fine_tuner").get_logger()
 finetune_logger.info("Logger Successfully Initialized")
@@ -34,6 +35,7 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
 
             model.save_pretrained(model_path)
             tokenizer.save_pretrained(tokenizer_path)
+        # No need to write this part since model will be initialized in llm_fine_tuner.py if saved in path 
         else:
             model = AutoModelForCausalLM.from_pretrained(model_path, device_map='cpu')
             tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
@@ -51,6 +53,8 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
             for key, value in item.items():
                 text = text + "".join(value)
             data_list.append(text)
+
+        print(data_list)
 
         data = Dataset.from_dict({'texts':data_list})
         
