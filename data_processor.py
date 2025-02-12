@@ -129,7 +129,7 @@ def main():
             raw_linkdin_data, 
             raw_facebook_data, 
             raw_instagram_data, 
-            curated_data_path
+            curated_data_path,
             "data/mixed_curated/mixed_curated.json"
         ) 
         
