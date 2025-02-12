@@ -1,7 +1,7 @@
-# ---------- Done By Manu Bhaskar -------------
+# ---------- Done By Manu Bhaskar & Arnab Chatterjee -------------
 
 # ---------- Dependencies ------------
-import os
+import os 
 import json
 import torch
 from datasets import Dataset
@@ -12,6 +12,7 @@ from src.utils.set_seed import set_global_seed
 from sklearn.model_selection import train_test_split
 from src.model_finetuners.llm_fine_tuner import LLMFineTuner
 from transformers import AutoTokenizer, AutoModelForCausalLM
+from src.prompts.prompts import llm_finetuning_prompt
 
 finetune_logger = LoggerSetup(logger_name="llm_fine_tuner.py", log_filename_prefix="llm_fine_tuner").get_logger()
 finetune_logger.info("Logger Successfully Initialized")
