@@ -1,38 +1,24 @@
-# Done by Amrit Bag
-
-# Dependencies
 import os
 import re
 import nltk
-import torch
 import pandas as pd
-from src.utils.logger import LoggerSetup
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
-
+from src.utils.logger import LoggerSetup 
 
 # LOGGING SETUP
-preprocessor_logger = LoggerSetup(logger_name = "text_preprocessor.py", log_filename_prefix = "text_preprocessor").get_logger()
-preprocessor_logger.info("Logger successfully initialized.")  # Test log entry
+preprocessor_logger = LoggerSetup(logger_name="text_preprocessor.py", log_filename_prefix="text_preprocessor").get_logger()
+preprocessor_logger.info("Logger successfully initialized.")
 
 class TextPreprocessing:
     """
-    This class performs text preprocessing through cleaning, tokenization, and normalization.
-
-    Attributes:
-    -----------
-    lemmatizer: WordNetLemmatizer instance for lemmatization.
-    stop_words: Set of English stop words.
+    This class performs text preprocessing, including cleaning, tokenization, and normalization.
     """
-
+    
     def __init__(self):
         """
-        Initialize the TextPreprocessor with required NLTK resources.
-
-        Raises:
-        -------
-        LookupError : If required NLTK resources cannot be downloaded.
+        Initialize the TextPreprocessing class with required NLTK resources.
         """
         try:
             nltk.download('punkt', quiet=True)
@@ -43,24 +29,17 @@ class TextPreprocessing:
             self.stop_words = set(stopwords.words('english'))
 
             preprocessor_logger.info("NLTK resources successfully downloaded and initialized.")
-
         except LookupError as e:
             preprocessor_logger.error(f"Failed to download NLTK resources: {e}", exc_info=True)
             raise
 
-    def clean_text(self, text: str) -> list:
+    def text_preprocess(self, text: str) -> list:
         """
-        Clean and normalize input text by removing HTML tags, special characters,
-        and applying text normalization techniques.
-
+        Clean and normalize input text by removing HTML tags, special characters, and stopwords.
+        
         Arguments:
         ----------
         text {str} : Input text to be cleaned.
-
-        Raises:
-        -------
-        ValueError        : If input text is None or empty.
-        Exception         : If any error occurs during text cleaning.
 
         Returns:
         --------
@@ -68,25 +47,51 @@ class TextPreprocessing:
         """
         if not text or not isinstance(text, str):
             preprocessor_logger.warning("Received an empty or invalid string for text cleaning.")
-            raise ValueError("Input text should not be an empty string.")
+            #raise ValueError("Input text should not be an empty string.")
+            pass
 
         try:
-            preprocessor_logger.info("Cleaning text: %s", text[:50])  # Log first 50 characters of input text
             # Remove HTML tags
-            text = re.sub('<[^>]*>', '', text)
+            text = re.sub(r'<[^>]*>', '', text)
             # Remove special characters
-            text = re.sub('[^a-zA-Z\s]', '', text)
-            # text = text.lower()
+            text = re.sub(r'[^a-zA-Z\s]', '', text)
+            # Tokenization
             tokens = word_tokenize(text)
-            tokens = [self.lemmatizer.lemmatize(token) for token in tokens if token not in self.stop_words]
+            # Lemmatization and stopword removal
+            tokens = [self.lemmatizer.lemmatize(token) for token in tokens if token.lower() not in self.stop_words]
 
             preprocessor_logger.info("Text successfully cleaned and tokenized.")
             return tokens
-
         except Exception as e:
             preprocessor_logger.error(f"Text cleaning error: {e}", exc_info=True)
             raise Exception(f"Text cleaning error: {e}")
-
     
-
     
+    def preprocess(self, curated_data: pd.DataFrame, text_column: str = 'post_content') -> pd.DataFrame:
+        """
+        Cleans a DataFrame by extracting cleaned tokens into a new column `tokenized_text`.
+        
+        Arguments:
+        ----------
+        curated_data {pd.DataFrame} : Input DataFrame with a text column.
+        text_column {str} : The name of the column to clean (default: 'post_content').
+
+        Returns:
+        --------
+        {pd.DataFrame} : Processed DataFrame with a new column `tokenized_text`.
+        """
+        try:
+            if text_column not in curated_data.columns:
+                raise KeyError(f"Missing '{text_column}' column in DataFrame.")
+
+            preprocessor_logger.info(f"Preprocessing '{text_column}' column...")
+
+            # Create a new column for tokenized text
+            curated_data["tokenized_text"] = curated_data[text_column].apply(self.text_preprocess)
+
+            preprocessor_logger.info("Text preprocessing completed successfully.")
+            return curated_data
+        
+        except Exception as e:
+            preprocessor_logger.error(f"Error in text preprocessing: {e}")
+            return pd.DataFrame()

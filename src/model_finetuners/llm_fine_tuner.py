@@ -38,10 +38,10 @@ class LLMFineTuner:
             self.trainer       = None
             self.logger        = finetune_logger
 
-        except Exception as e:
+        except Exception as LLMFineTunerInitializationError:
             self.logger        = finetune_logger
-            self.logger.error(e, exc_info=True)
-            raise
+            self.logger.error(repr(LLMFineTunerInitializationError), exc_info=True)
+            return repr(LLMFineTunerInitializationError)
 
 
     def define_lora_config(self, **kwargs) -> None:
@@ -53,9 +53,9 @@ class LLMFineTuner:
             self.lora_config   = LoraConfig(**kwargs)
             self.model         = get_peft_model(self.model, self.lora_config)
             
-        except Exception as e:
-            self.logger.error(e, exc_info=True)
-            raise
+        except Exception as LoraConfigDefinitionError:
+            self.logger.error(LoraConfigDefinitionError, exc_info=True)
+            return repr(LoraConfigDefinitionError)
 
 
     def define_training_args(self, **kwargs) -> None:
@@ -63,10 +63,10 @@ class LLMFineTuner:
         Defines the training arguments
         """
         try:
-            self.training_args = TrainingArguments(**kwargs)
-        except Exception as e:
-            self.logger.error(e, exc_info=True)
-            raise
+            self.training_args  = TrainingArguments(**kwargs)
+        except Exception as TrainingArgumentDefinitionError:
+            self.logger.error(repr(TrainingArgumentDefinitionError), exc_info=True)
+            return repr(TrainingArgumentDefinitionError)
 
 
     def define_trainer(self) -> None:
@@ -74,15 +74,15 @@ class LLMFineTuner:
         Defines the trainer that is used during fine tuning
         """
         try:
-            self.trainer = Trainer(model          = self.model,
-                                   args           = self.training_args,
-                                   train_dataset  = self.dataset['train'],
-                                   eval_dataset   = self.dataset['test'],
-                                   tokenizer      = self.tokenizer
-                                  )
-        except Exception as e:
-            self.logger.error(e, exc_info=True)
-            raise
+            self.trainer         = Trainer(model            = self.model,
+                                           args             = self.training_args,
+                                           train_dataset    = self.dataset['train'],
+                                           eval_dataset     = self.dataset['test'],
+                                           processing_class = self.tokenizer
+                                            )
+        except Exception as TrainerDefinitionError:
+            self.logger.error(repr(TrainerDefinitionError), exc_info=True)
+            return repr(TrainerDefinitionError)
 
 
     def start_fine_tuning(self) -> AutoModelForCausalLM:
