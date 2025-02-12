@@ -15,16 +15,16 @@
             "#ItobuzTechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DFfakZWNWgc_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DFfakZWNWgc_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DFfakZWNWgc_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DFfakZWNWgc_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DFfakZWNWgc_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DFfakZWNWgc_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFfakZWNWgc_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFfakZWNWgc_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFfakZWNWgc_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFfakZWNWgc_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFfakZWNWgc_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFfakZWNWgc_6.jpg"
         ],
         "emoji":[
-            "\ud83d\udcaa",
-            "\ud83d\ude80"
+            "\ud83d\ude80",
+            "\ud83d\udcaa"
         ],
         "platform":"instagram"
     },
@@ -38,7 +38,7 @@
             "#happyrepublicday"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DFRoNg2MFvm.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFRoNg2MFvm.jpg"
         ],
         "emoji":[
             "\ud83c\udf0d"
@@ -62,16 +62,16 @@
             "#LogisticsPlatform"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DFNT1nks7P2_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DFNT1nks7P2_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DFNT1nks7P2_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DFNT1nks7P2_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DFNT1nks7P2_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFNT1nks7P2_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFNT1nks7P2_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFNT1nks7P2_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFNT1nks7P2_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFNT1nks7P2_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udc49",
             "\ud83d\udcc8",
-            "\ud83d\udca1"
+            "\ud83d\udca1",
+            "\ud83d\udc49"
         ],
         "platform":"instagram"
     },
@@ -91,18 +91,18 @@
             "#appdevelopment"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DE7OYHnKZLU_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DE7OYHnKZLU_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DE7OYHnKZLU_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DE7OYHnKZLU_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DE7OYHnKZLU_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DE7OYHnKZLU_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DE7OYHnKZLU_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DE7OYHnKZLU_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DE7OYHnKZLU_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DE7OYHnKZLU_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DE7OYHnKZLU_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DE7OYHnKZLU_6.jpg"
         ],
         "emoji":[
-            "\ud83c\uddfa\ud83c\uddf8",
-            "\ud83c\udf1f",
             "\u2728",
-            "\ud83d\udcbb"
+            "\ud83d\udcbb",
+            "\ud83c\uddfa\ud83c\uddf8",
+            "\ud83c\udf1f"
         ],
         "platform":"instagram"
     },
@@ -120,12 +120,12 @@
             "#DigitalInnovation"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DEpV6jcveFh_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DEpV6jcveFh_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DEpV6jcveFh_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DEpV6jcveFh_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DEpV6jcveFh_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DEpV6jcveFh_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DEpV6jcveFh_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DEpV6jcveFh_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DEpV6jcveFh_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DEpV6jcveFh_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DEpV6jcveFh_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DEpV6jcveFh_6.jpg"
         ],
         "emoji":[
 
@@ -147,7 +147,7 @@
             "#smartapps"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DEUvirFPZiJ.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DEUvirFPZiJ.jpg"
         ],
         "emoji":[
             "\ud83c\udf1f"
@@ -176,15 +176,15 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DEFZnukM30T_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DEFZnukM30T_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DEFZnukM30T_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DEFZnukM30T_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DEFZnukM30T_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DEFZnukM30T_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DEFZnukM30T_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DEFZnukM30T_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DEFZnukM30T_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DEFZnukM30T_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udc49",
-            "\ud83d\ude80"
+            "\ud83d\ude80",
+            "\ud83d\udc49"
         ],
         "platform":"instagram"
     },
@@ -205,13 +205,13 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DD_OxrPKqVL.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DD_OxrPKqVL.jpg"
         ],
         "emoji":[
-            "\u2764\ufe0f",
             "\u2728",
             "\ud83c\udf85",
-            "\ud83d\udca1"
+            "\ud83d\udca1",
+            "\u2764\ufe0f"
         ],
         "platform":"instagram"
     },
@@ -232,10 +232,10 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DDzRN8TNkYd_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DDzRN8TNkYd_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DDzRN8TNkYd_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DDzRN8TNkYd_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDzRN8TNkYd_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDzRN8TNkYd_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDzRN8TNkYd_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDzRN8TNkYd_4.jpg"
         ],
         "emoji":[
 
@@ -264,12 +264,12 @@
             "#itobuztechnoloies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DDhPqdft7qK_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DDhPqdft7qK_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DDhPqdft7qK_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DDhPqdft7qK_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DDhPqdft7qK_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DDhPqdft7qK_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDhPqdft7qK_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDhPqdft7qK_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDhPqdft7qK_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDhPqdft7qK_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDhPqdft7qK_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDhPqdft7qK_6.jpg"
         ],
         "emoji":[
             "\u2728",
@@ -291,12 +291,12 @@
             "#appdevelopmentcompany"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DDPU9V5Pvb4_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DDPU9V5Pvb4_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DDPU9V5Pvb4_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DDPU9V5Pvb4_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DDPU9V5Pvb4_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DDPU9V5Pvb4_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDPU9V5Pvb4_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDPU9V5Pvb4_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDPU9V5Pvb4_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDPU9V5Pvb4_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDPU9V5Pvb4_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDPU9V5Pvb4_6.jpg"
         ],
         "emoji":[
             "\ud83c\udf1f"
@@ -323,16 +323,16 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DC9LykON97x_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DC9LykON97x_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DC9LykON97x_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DC9LykON97x_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DC9LykON97x_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DC9LykON97x_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DC9LykON97x_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DC9LykON97x_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DC9LykON97x_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DC9LykON97x_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DC9LykON97x_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DC9LykON97x_6.jpg"
         ],
         "emoji":[
-            "\ud83d\udcbc",
-            "\ud83d\ude80"
+            "\ud83d\ude80",
+            "\ud83d\udcbc"
         ],
         "platform":"instagram"
     },
@@ -355,7 +355,7 @@
             "#itobuztechnoloies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DC6o4ydAwdI.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DC6o4ydAwdI.jpg"
         ],
         "emoji":[
             "\u2728",
@@ -380,11 +380,11 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DCrR1P8pGb9_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DCrR1P8pGb9_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DCrR1P8pGb9_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DCrR1P8pGb9_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DCrR1P8pGb9_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCrR1P8pGb9_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCrR1P8pGb9_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCrR1P8pGb9_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCrR1P8pGb9_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCrR1P8pGb9_5.jpg"
         ],
         "emoji":[
 
@@ -404,12 +404,12 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DCZJZPEhvnk_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DCZJZPEhvnk_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DCZJZPEhvnk_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DCZJZPEhvnk_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DCZJZPEhvnk_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DCZJZPEhvnk_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCZJZPEhvnk_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCZJZPEhvnk_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCZJZPEhvnk_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCZJZPEhvnk_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCZJZPEhvnk_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCZJZPEhvnk_6.jpg"
         ],
         "emoji":[
 
@@ -433,12 +433,12 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DCHH0RXN6MS_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DCHH0RXN6MS_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DCHH0RXN6MS_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DCHH0RXN6MS_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DCHH0RXN6MS_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DCHH0RXN6MS_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCHH0RXN6MS_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCHH0RXN6MS_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCHH0RXN6MS_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCHH0RXN6MS_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCHH0RXN6MS_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DCHH0RXN6MS_6.jpg"
         ],
         "emoji":[
 
@@ -458,7 +458,7 @@
             "#itobuztechnoloies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DBxnEikgIMx.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DBxnEikgIMx.jpg"
         ],
         "emoji":[
             "\u2728",
@@ -480,7 +480,7 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DBvFtrfpOqW.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DBvFtrfpOqW.jpg"
         ],
         "emoji":[
             "\ud83c\udf83",
@@ -505,12 +505,12 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DBjLleLNiyN_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DBjLleLNiyN_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DBjLleLNiyN_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DBjLleLNiyN_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DBjLleLNiyN_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DBjLleLNiyN_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DBjLleLNiyN_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DBjLleLNiyN_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DBjLleLNiyN_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DBjLleLNiyN_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DBjLleLNiyN_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DBjLleLNiyN_6.jpg"
         ],
         "emoji":[
             "\ud83d\ude80"
@@ -537,11 +537,11 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DBRS7lBOmp3_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DBRS7lBOmp3_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DBRS7lBOmp3_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DBRS7lBOmp3_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DBRS7lBOmp3_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DBRS7lBOmp3_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DBRS7lBOmp3_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DBRS7lBOmp3_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DBRS7lBOmp3_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DBRS7lBOmp3_5.jpg"
         ],
         "emoji":[
 
@@ -566,12 +566,12 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DA_Ic3mKh_u_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DA_Ic3mKh_u_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DA_Ic3mKh_u_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DA_Ic3mKh_u_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DA_Ic3mKh_u_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DA_Ic3mKh_u_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DA_Ic3mKh_u_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DA_Ic3mKh_u_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DA_Ic3mKh_u_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DA_Ic3mKh_u_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DA_Ic3mKh_u_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DA_Ic3mKh_u_6.jpg"
         ],
         "emoji":[
             "\ud83d\ude80"
@@ -598,12 +598,12 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DAtG5Qai9vn_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DAtG5Qai9vn_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DAtG5Qai9vn_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DAtG5Qai9vn_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DAtG5Qai9vn_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DAtG5Qai9vn_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAtG5Qai9vn_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAtG5Qai9vn_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAtG5Qai9vn_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAtG5Qai9vn_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAtG5Qai9vn_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAtG5Qai9vn_6.jpg"
         ],
         "emoji":[
             "\ud83c\udf3e"
@@ -624,11 +624,11 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DAbB03tuqtt_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DAbB03tuqtt_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DAbB03tuqtt_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DAbB03tuqtt_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DAbB03tuqtt_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAbB03tuqtt_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAbB03tuqtt_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAbB03tuqtt_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAbB03tuqtt_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAbB03tuqtt_5.jpg"
         ],
         "emoji":[
 
@@ -652,12 +652,12 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/DAJASEypdgq_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DAJASEypdgq_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DAJASEypdgq_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DAJASEypdgq_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DAJASEypdgq_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/DAJASEypdgq_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAJASEypdgq_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAJASEypdgq_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAJASEypdgq_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAJASEypdgq_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAJASEypdgq_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DAJASEypdgq_6.jpg"
         ],
         "emoji":[
             "\ud83c\udf1f"
@@ -677,7 +677,7 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C_0dYZAMgTV.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_0dYZAMgTV.jpg"
         ],
         "emoji":[
             "\ud83d\udc68\u200d\ud83d\udcbb",
@@ -702,11 +702,11 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C_lAnk8NO1s_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C_lAnk8NO1s_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C_lAnk8NO1s_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C_lAnk8NO1s_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C_lAnk8NO1s_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_lAnk8NO1s_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_lAnk8NO1s_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_lAnk8NO1s_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_lAnk8NO1s_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_lAnk8NO1s_5.jpg"
         ],
         "emoji":[
             "\ud83c\udf1f"
@@ -730,11 +730,11 @@
             "#Itobuz"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C_S_DkTognT_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C_S_DkTognT_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C_S_DkTognT_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C_S_DkTognT_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C_S_DkTognT_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_S_DkTognT_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_S_DkTognT_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_S_DkTognT_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_S_DkTognT_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_S_DkTognT_5.jpg"
         ],
         "emoji":[
 
@@ -760,40 +760,15 @@
             "#Itobuz"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C_BA4RKPHYd_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C_BA4RKPHYd_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C_BA4RKPHYd_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C_BA4RKPHYd_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C_BA4RKPHYd_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_BA4RKPHYd_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_BA4RKPHYd_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_BA4RKPHYd_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_BA4RKPHYd_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_BA4RKPHYd_5.jpg"
         ],
         "emoji":[
-            "\ud83c\udf1f",
-            "\ud83d\ude80"
-        ],
-        "platform":"instagram"
-    },
-    {
-        "post_heading":"Our team took a break from the office grind to enjoy a delicious lunch together!",
-        "post_content":"It was a great time filled with laughter, great food, and even better company. Building strong bonds outside the office helps us work better together inside the office. Here's to many more team outings! ",
-        "hashtags":[
-            "#teamlunch",
-            "#officebreak",
-            "#teambuilding",
-            "#teamouting",
-            "#officeculture",
-            "#itobuz",
-            "#ItobuzTechnologies"
-        ],
-        "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C-o8_dIB5kP_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C-o8_dIB5kP_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C-o8_dIB5kP_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C-o8_dIB5kP_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C-o8_dIB5kP_5.jpg"
-        ],
-        "emoji":[
-            "\ud83e\udd73",
-            "\ud83d\ude4c"
+            "\ud83d\ude80",
+            "\ud83c\udf1f"
         ],
         "platform":"instagram"
     },
@@ -810,11 +785,11 @@
             "#Itobuz"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C-c6WFfCyY6_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C-c6WFfCyY6_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C-c6WFfCyY6_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C-c6WFfCyY6_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C-c6WFfCyY6_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C-c6WFfCyY6_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C-c6WFfCyY6_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C-c6WFfCyY6_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C-c6WFfCyY6_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C-c6WFfCyY6_5.jpg"
         ],
         "emoji":[
 
@@ -838,10 +813,10 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C-K8MD7NeXz_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C-K8MD7NeXz_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C-K8MD7NeXz_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C-K8MD7NeXz_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C-K8MD7NeXz_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C-K8MD7NeXz_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C-K8MD7NeXz_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C-K8MD7NeXz_4.jpg"
         ],
         "emoji":[
 
@@ -865,10 +840,10 @@
             "#Itobuz"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C94wXzis5Bb_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C94wXzis5Bb_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C94wXzis5Bb_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C94wXzis5Bb_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C94wXzis5Bb_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C94wXzis5Bb_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C94wXzis5Bb_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C94wXzis5Bb_4.jpg"
         ],
         "emoji":[
             "\ud83d\ude80"
@@ -889,11 +864,11 @@
             "#itobuztech"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C9m1sJeOVx3_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C9m1sJeOVx3_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C9m1sJeOVx3_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C9m1sJeOVx3_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C9m1sJeOVx3_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C9m1sJeOVx3_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C9m1sJeOVx3_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C9m1sJeOVx3_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C9m1sJeOVx3_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C9m1sJeOVx3_5.jpg"
         ],
         "emoji":[
 
@@ -914,11 +889,11 @@
             "#itobuztechnologies"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C9fDy3UN81d_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C9fDy3UN81d_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C9fDy3UN81d_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C9fDy3UN81d_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C9fDy3UN81d_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C9fDy3UN81d_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C9fDy3UN81d_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C9fDy3UN81d_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C9fDy3UN81d_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C9fDy3UN81d_5.jpg"
         ],
         "emoji":[
 
@@ -939,10 +914,10 @@
             "#itobuztech"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C9CvEffsvmf_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C9CvEffsvmf_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C9CvEffsvmf_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C9CvEffsvmf_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C9CvEffsvmf_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C9CvEffsvmf_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C9CvEffsvmf_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C9CvEffsvmf_4.jpg"
         ],
         "emoji":[
 
@@ -968,11 +943,11 @@
             "#Itobuz"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C8wtfHXttoL_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8wtfHXttoL_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8wtfHXttoL_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8wtfHXttoL_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8wtfHXttoL_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C8wtfHXttoL_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C8wtfHXttoL_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C8wtfHXttoL_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C8wtfHXttoL_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C8wtfHXttoL_5.jpg"
         ],
         "emoji":[
 
@@ -993,10 +968,10 @@
             "#Itobuz"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C8ehpjMKs-m_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8ehpjMKs-m_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8ehpjMKs-m_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8ehpjMKs-m_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C8ehpjMKs-m_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C8ehpjMKs-m_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C8ehpjMKs-m_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C8ehpjMKs-m_4.jpg"
         ],
         "emoji":[
 
@@ -1017,44 +992,14 @@
             "#Itobuz"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C8L-34RoMr-_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8L-34RoMr-_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8L-34RoMr-_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8L-34RoMr-_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8L-34RoMr-_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C8L-34RoMr-_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C8L-34RoMr-_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C8L-34RoMr-_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C8L-34RoMr-_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C8L-34RoMr-_5.jpg"
         ],
         "emoji":[
 
-        ],
-        "platform":"instagram"
-    },
-    {
-        "post_heading":"ITobuz Technologies is celebrating its 14th anniversary!",
-        "post_content":"Our office is filled with joy, laughter, and pride as we honor the journey we've traveled together.From our humble beginnings to becoming a leading force in the tech industry, our success is a testament to the hard work, dedication, and passion of our incredible team. The celebration features our annual awards ceremony, recognizing and applauding the outstanding achievements of our team members. Each award symbolizes our appreciation for their relentless commitment and exceptional contributions.We are immensely grateful to our clients, partners, and well-wishers for their continued support and trust in us. Here's to many more years of innovation, growth, and success!",
-        "hashtags":[
-            "#ITobuzAnniversary",
-            "#14YearsStrong",
-            "#TeamITobuz",
-            "#Innovation",
-            "#Excellence",
-            "#AwardCeremony",
-            "#Gratitude",
-            "#TechLeaders",
-            "#Itobuz"
-        ],
-        "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C8J_KHqgJ0u_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8J_KHqgJ0u_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8J_KHqgJ0u_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8J_KHqgJ0u_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8J_KHqgJ0u_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C8J_KHqgJ0u_6.jpg"
-        ],
-        "emoji":[
-            "\ud83c\udfc6",
-            "\ud83c\udf1f",
-            "\ud83d\ude80",
-            "\ud83c\udf89"
         ],
         "platform":"instagram"
     },
@@ -1071,12 +1016,12 @@
             "#itobuztech"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C751Vl4qZ8R_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C751Vl4qZ8R_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C751Vl4qZ8R_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C751Vl4qZ8R_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C751Vl4qZ8R_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C751Vl4qZ8R_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C751Vl4qZ8R_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C751Vl4qZ8R_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C751Vl4qZ8R_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C751Vl4qZ8R_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C751Vl4qZ8R_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C751Vl4qZ8R_6.jpg"
         ],
         "emoji":[
 
@@ -1096,12 +1041,12 @@
             "#itobuztech"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C7nwS_6u9pr_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7nwS_6u9pr_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7nwS_6u9pr_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7nwS_6u9pr_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7nwS_6u9pr_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7nwS_6u9pr_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7nwS_6u9pr_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7nwS_6u9pr_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7nwS_6u9pr_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7nwS_6u9pr_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7nwS_6u9pr_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7nwS_6u9pr_6.jpg"
         ],
         "emoji":[
 
@@ -1122,42 +1067,17 @@
             "#ItoubuzTech"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C7YW-x8RSSt_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7YW-x8RSSt_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7YW-x8RSSt_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7YW-x8RSSt_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7YW-x8RSSt_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7YW-x8RSSt_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7YW-x8RSSt_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7YW-x8RSSt_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7YW-x8RSSt_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7YW-x8RSSt_5.jpg"
         ],
         "emoji":[
-            "\u26a1",
-            "\ud83d\udd04",
+            "\ud83d\udcb0",
             "\ud83c\udf0d",
-            "\ud83d\udcb0"
-        ],
-        "platform":"instagram"
-    },
-    {
-        "post_heading":"Throwback to our Meta Quest Hackathon 2024 event in our office, where participants showcased their incredible skills and creativity.",
-        "post_content":"It was an inspiring event filled with hard work, innovation, and collaboration. The energy and enthusiasm were truly remarkable, making it a memorable experience for everyone involved",
-        "hashtags":[
-            "#Hackathon2024",
-            "#event",
-            "#metaquesthackathon2024",
-            "#innovation",
-            "#creativity",
-            "#teamwork",
-            "#TechEvent"
-        ],
-        "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C7T9c_PBBha_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7T9c_PBBha_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7T9c_PBBha_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7T9c_PBBha_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7T9c_PBBha_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7T9c_PBBha_6.jpg"
-        ],
-        "emoji":[
-
+            "\u26a1",
+            "\ud83d\udd04"
         ],
         "platform":"instagram"
     },
@@ -1172,12 +1092,12 @@
             "#itobuz"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C7EkHBWOmnm_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7EkHBWOmnm_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7EkHBWOmnm_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7EkHBWOmnm_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7EkHBWOmnm_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C7EkHBWOmnm_6.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7EkHBWOmnm_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7EkHBWOmnm_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7EkHBWOmnm_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7EkHBWOmnm_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7EkHBWOmnm_5.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7EkHBWOmnm_6.jpg"
         ],
         "emoji":[
 
@@ -1195,11 +1115,11 @@
             "#userinterface"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C6yiinPJZyl_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C6yiinPJZyl_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C6yiinPJZyl_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C6yiinPJZyl_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C6yiinPJZyl_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C6yiinPJZyl_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C6yiinPJZyl_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C6yiinPJZyl_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C6yiinPJZyl_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C6yiinPJZyl_5.jpg"
         ],
         "emoji":[
 
@@ -1218,10 +1138,10 @@
             "#itobuz"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C6gg-_xvIXO_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C6gg-_xvIXO_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C6gg-_xvIXO_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C6gg-_xvIXO_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C6gg-_xvIXO_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C6gg-_xvIXO_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C6gg-_xvIXO_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C6gg-_xvIXO_4.jpg"
         ],
         "emoji":[
 
@@ -1239,11 +1159,11 @@
             "#itobuz"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C6Ob_Imso9t_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C6Ob_Imso9t_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C6Ob_Imso9t_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C6Ob_Imso9t_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C6Ob_Imso9t_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C6Ob_Imso9t_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C6Ob_Imso9t_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C6Ob_Imso9t_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C6Ob_Imso9t_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C6Ob_Imso9t_5.jpg"
         ],
         "emoji":[
 
@@ -1262,10 +1182,10 @@
             "#businessanalytics"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C58Yyb-LHPS_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C58Yyb-LHPS_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C58Yyb-LHPS_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C58Yyb-LHPS_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C58Yyb-LHPS_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C58Yyb-LHPS_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C58Yyb-LHPS_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C58Yyb-LHPS_4.jpg"
         ],
         "emoji":[
 
@@ -1284,10 +1204,10 @@
             "#futuretech"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C5qDUufyjZN_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C5qDUufyjZN_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C5qDUufyjZN_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C5qDUufyjZN_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C5qDUufyjZN_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C5qDUufyjZN_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C5qDUufyjZN_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C5qDUufyjZN_4.jpg"
         ],
         "emoji":[
 
@@ -1305,36 +1225,13 @@
             "#technology"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C5X3qg5ScR2_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C5X3qg5ScR2_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C5X3qg5ScR2_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C5X3qg5ScR2_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C5X3qg5ScR2_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C5X3qg5ScR2_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C5X3qg5ScR2_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C5X3qg5ScR2_4.jpg"
         ],
         "emoji":[
 
-        ],
-        "platform":"instagram"
-    },
-    {
-        "post_heading":"What a colorful blast we had at Itobuz Technologies as we celebrated the joyous festival of Holi on March 23rd!",
-        "post_content":"From vibrant hues to infectious laughter, it was a day filled with pure delight and camaraderie. Let's cherish the memories made and carry the spirit of togetherness forward. Here's to many more celebrations ahead!",
-        "hashtags":[
-            "#holicelebrations",
-            "#ItobuzCulture",
-            "#memorablemoment",
-            "#holi2024"
-        ],
-        "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C5QDCocPRMO_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C5QDCocPRMO_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C5QDCocPRMO_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C5QDCocPRMO_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C5QDCocPRMO_5.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C5QDCocPRMO_6.jpg"
-        ],
-        "emoji":[
-            "\ud83c\udfa8",
-            "\ud83c\udf89"
         ],
         "platform":"instagram"
     },
@@ -1350,10 +1247,10 @@
             "#roboai"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C5GJnpiytcK_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C5GJnpiytcK_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C5GJnpiytcK_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C5GJnpiytcK_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C5GJnpiytcK_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C5GJnpiytcK_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C5GJnpiytcK_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C5GJnpiytcK_4.jpg"
         ],
         "emoji":[
 
@@ -1370,29 +1267,11 @@
             "#AIinTransportation"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C40SqspplGo_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C40SqspplGo_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C40SqspplGo_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C40SqspplGo_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C40SqspplGo_5.jpg"
-        ],
-        "emoji":[
-
-        ],
-        "platform":"instagram"
-    },
-    {
-        "post_heading":"Throwback to the incredible Women's Day celebration at Itobuz Technologies on 8 March.",
-        "post_content":"A day filled with joy, empowerment, and celebration of our amazing women\u2019s team!",
-        "hashtags":[
-            "#womenday",
-            "#womenempowerment",
-            "#womendaycelebration"
-        ],
-        "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C4p9152OA6U_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C4p9152OA6U_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C4p9152OA6U_3.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C40SqspplGo_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C40SqspplGo_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C40SqspplGo_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C40SqspplGo_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C40SqspplGo_5.jpg"
         ],
         "emoji":[
 
@@ -1410,11 +1289,11 @@
             "#mobiledevelopment"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C4htA1IyYyv_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C4htA1IyYyv_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C4htA1IyYyv_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C4htA1IyYyv_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C4htA1IyYyv_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C4htA1IyYyv_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C4htA1IyYyv_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C4htA1IyYyv_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C4htA1IyYyv_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C4htA1IyYyv_5.jpg"
         ],
         "emoji":[
 
@@ -1433,11 +1312,11 @@
             "#mobileapps"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C4QX9AiPtyZ_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C4QX9AiPtyZ_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C4QX9AiPtyZ_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C4QX9AiPtyZ_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C4QX9AiPtyZ_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C4QX9AiPtyZ_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C4QX9AiPtyZ_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C4QX9AiPtyZ_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C4QX9AiPtyZ_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C4QX9AiPtyZ_5.jpg"
         ],
         "emoji":[
 
@@ -1460,16 +1339,16 @@
             "#techtrends"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C39xu0UMiCZ_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C39xu0UMiCZ_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C39xu0UMiCZ_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C39xu0UMiCZ_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C39xu0UMiCZ_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C39xu0UMiCZ_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C39xu0UMiCZ_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C39xu0UMiCZ_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C39xu0UMiCZ_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C39xu0UMiCZ_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udcac",
+            "\ud83d\udde3\ufe0f",
             "\ud83c\udf10",
-            "\ud83d\udde3\ufe0f"
+            "\ud83d\udcac"
         ],
         "platform":"instagram"
     },
@@ -1483,11 +1362,11 @@
             "#technologytrends"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C3sMoa_Ms4Q_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C3sMoa_Ms4Q_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C3sMoa_Ms4Q_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C3sMoa_Ms4Q_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C3sMoa_Ms4Q_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3sMoa_Ms4Q_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3sMoa_Ms4Q_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3sMoa_Ms4Q_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3sMoa_Ms4Q_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3sMoa_Ms4Q_5.jpg"
         ],
         "emoji":[
 
@@ -1507,11 +1386,11 @@
             "#cybersecurity"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C3aLMG2o8TN_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C3aLMG2o8TN_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C3aLMG2o8TN_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C3aLMG2o8TN_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C3aLMG2o8TN_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3aLMG2o8TN_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3aLMG2o8TN_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3aLMG2o8TN_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3aLMG2o8TN_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3aLMG2o8TN_5.jpg"
         ],
         "emoji":[
 
@@ -1529,11 +1408,11 @@
             "#ai"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C3IJ3uhte99_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C3IJ3uhte99_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C3IJ3uhte99_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C3IJ3uhte99_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C3IJ3uhte99_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3IJ3uhte99_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3IJ3uhte99_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3IJ3uhte99_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3IJ3uhte99_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C3IJ3uhte99_5.jpg"
         ],
         "emoji":[
 
@@ -1564,11 +1443,11 @@
             "#webappdevelopmentservice"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C21-6k_Ko8v_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C21-6k_Ko8v_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C21-6k_Ko8v_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C21-6k_Ko8v_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C21-6k_Ko8v_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C21-6k_Ko8v_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C21-6k_Ko8v_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C21-6k_Ko8v_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C21-6k_Ko8v_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C21-6k_Ko8v_5.jpg"
         ],
         "emoji":[
             "\ud83d\ude80"
@@ -1587,11 +1466,11 @@
             "#indiaproudmoment"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C2i_jQ9xkGh.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C2i_jQ9xkGh.jpg"
         ],
         "emoji":[
-            "\ud83c\uddee\ud83c\uddf3",
-            "\u2728"
+            "\u2728",
+            "\ud83c\uddee\ud83c\uddf3"
         ],
         "platform":"instagram"
     },
@@ -1610,11 +1489,11 @@
             "#futureofsoftware"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C2R9t5uow2C_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C2R9t5uow2C_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C2R9t5uow2C_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C2R9t5uow2C_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C2R9t5uow2C_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C2R9t5uow2C_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C2R9t5uow2C_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C2R9t5uow2C_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C2R9t5uow2C_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C2R9t5uow2C_5.jpg"
         ],
         "emoji":[
             "\ud83c\udf10"
@@ -1646,11 +1525,11 @@
             "#technologyinnovation"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C1_6NVDrzBc_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C1_6NVDrzBc_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C1_6NVDrzBc_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C1_6NVDrzBc_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C1_6NVDrzBc_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1_6NVDrzBc_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1_6NVDrzBc_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1_6NVDrzBc_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1_6NVDrzBc_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1_6NVDrzBc_5.jpg"
         ],
         "emoji":[
             "\ud83d\ude80",
@@ -1672,14 +1551,14 @@
             "#airevolution"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C1uAX17skLV_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C1uAX17skLV_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C1uAX17skLV_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C1uAX17skLV_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1uAX17skLV_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1uAX17skLV_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1uAX17skLV_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1uAX17skLV_4.jpg"
         ],
         "emoji":[
-            "\ud83c\udf10",
-            "\u2728"
+            "\u2728",
+            "\ud83c\udf10"
         ],
         "platform":"instagram"
     },
@@ -1697,10 +1576,10 @@
             "#metaversemagic"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C1cBbQniN0k_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C1cBbQniN0k_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C1cBbQniN0k_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C1cBbQniN0k_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1cBbQniN0k_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1cBbQniN0k_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1cBbQniN0k_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1cBbQniN0k_4.jpg"
         ],
         "emoji":[
             "\ud83c\udf08",
@@ -1717,17 +1596,17 @@
             "#AIinSports"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C1KHezhr8yr_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C1KHezhr8yr_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C1KHezhr8yr_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C1KHezhr8yr_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1KHezhr8yr_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1KHezhr8yr_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1KHezhr8yr_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1KHezhr8yr_4.jpg"
         ],
         "emoji":[
-            "\ud83c\udf10",
+            "\ud83d\ude80",
+            "\ud83d\udcca",
             "\ud83c\udfc0",
             "\ud83d\udd0d",
-            "\ud83d\ude80",
-            "\ud83d\udcca"
+            "\ud83c\udf10"
         ],
         "platform":"instagram"
     },
@@ -1743,15 +1622,15 @@
             "#technologysolutions"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C0346bbMSKC_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C0346bbMSKC_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C0346bbMSKC_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C0346bbMSKC_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C0346bbMSKC_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0346bbMSKC_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0346bbMSKC_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0346bbMSKC_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0346bbMSKC_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0346bbMSKC_5.jpg"
         ],
         "emoji":[
-            "\u2728",
-            "\ud83d\ude97"
+            "\ud83d\ude97",
+            "\u2728"
         ],
         "platform":"instagram"
     },
@@ -1770,11 +1649,11 @@
             "#technologyinnovation"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C0l8kVWSUlq_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C0l8kVWSUlq_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C0l8kVWSUlq_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C0l8kVWSUlq_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C0l8kVWSUlq_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0l8kVWSUlq_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0l8kVWSUlq_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0l8kVWSUlq_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0l8kVWSUlq_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0l8kVWSUlq_5.jpg"
         ],
         "emoji":[
             "\ud83c\udf10"
@@ -1797,10 +1676,10 @@
             "#technologyfacts"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C0UCK8gvqCH_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C0UCK8gvqCH_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C0UCK8gvqCH_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C0UCK8gvqCH_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0UCK8gvqCH_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0UCK8gvqCH_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0UCK8gvqCH_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0UCK8gvqCH_4.jpg"
         ],
         "emoji":[
 
@@ -1821,10 +1700,10 @@
             "#crossplatformappdevelopment"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/C0CHUAVvyN-_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C0CHUAVvyN-_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C0CHUAVvyN-_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/C0CHUAVvyN-_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0CHUAVvyN-_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0CHUAVvyN-_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0CHUAVvyN-_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0CHUAVvyN-_4.jpg"
         ],
         "emoji":[
             "\u2728",
@@ -1846,15 +1725,15 @@
             "#technologyisawesome"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/Czd6qI0tJxU_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Czd6qI0tJxU_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Czd6qI0tJxU_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Czd6qI0tJxU_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Czd6qI0tJxU_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Czd6qI0tJxU_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Czd6qI0tJxU_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Czd6qI0tJxU_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Czd6qI0tJxU_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Czd6qI0tJxU_5.jpg"
         ],
         "emoji":[
-            "\ud83c\udf10",
-            "\ud83d\ude80"
+            "\ud83d\ude80",
+            "\ud83c\udf10"
         ],
         "platform":"instagram"
     },
@@ -1871,11 +1750,11 @@
             "#softwaredevelopmentservices"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CzL6Pe9PW1P_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CzL6Pe9PW1P_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CzL6Pe9PW1P_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CzL6Pe9PW1P_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CzL6Pe9PW1P_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CzL6Pe9PW1P_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CzL6Pe9PW1P_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CzL6Pe9PW1P_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CzL6Pe9PW1P_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CzL6Pe9PW1P_5.jpg"
         ],
         "emoji":[
 
@@ -1897,14 +1776,14 @@
             "#blockchainapplications"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/Cy5yNRgBOxt_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cy5yNRgBOxt_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cy5yNRgBOxt_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cy5yNRgBOxt_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cy5yNRgBOxt_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cy5yNRgBOxt_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cy5yNRgBOxt_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cy5yNRgBOxt_4.jpg"
         ],
         "emoji":[
-            "\ud83d\udd10",
-            "\ud83d\ude80"
+            "\ud83d\ude80",
+            "\ud83d\udd10"
         ],
         "platform":"instagram"
     },
@@ -1924,10 +1803,10 @@
             "#lowcodevelopment"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CygDZlEJQqU_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CygDZlEJQqU_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CygDZlEJQqU_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CygDZlEJQqU_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CygDZlEJQqU_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CygDZlEJQqU_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CygDZlEJQqU_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CygDZlEJQqU_4.jpg"
         ],
         "emoji":[
 
@@ -1949,11 +1828,11 @@
             "#learnappdevelopmentonline"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CyDu2vVhO4Q_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CyDu2vVhO4Q_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CyDu2vVhO4Q_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CyDu2vVhO4Q_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CyDu2vVhO4Q_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CyDu2vVhO4Q_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CyDu2vVhO4Q_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CyDu2vVhO4Q_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CyDu2vVhO4Q_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CyDu2vVhO4Q_5.jpg"
         ],
         "emoji":[
 
@@ -1975,16 +1854,16 @@
             "#webdevelopmenttips2023"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CxvGIrAh6rN_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CxvGIrAh6rN_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CxvGIrAh6rN_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CxvGIrAh6rN_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CxvGIrAh6rN_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CxvGIrAh6rN_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CxvGIrAh6rN_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CxvGIrAh6rN_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CxvGIrAh6rN_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CxvGIrAh6rN_5.jpg"
         ],
         "emoji":[
-            "\ud83c\udf1f",
+            "\ud83d\udcbb",
             "\ud83c\udf10",
-            "\ud83d\udcbb"
+            "\ud83c\udf1f"
         ],
         "platform":"instagram"
     },
@@ -2004,11 +1883,11 @@
             "#appdevelopmentcompany"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/Cxag6_vS8wU_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cxag6_vS8wU_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cxag6_vS8wU_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cxag6_vS8wU_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cxag6_vS8wU_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cxag6_vS8wU_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cxag6_vS8wU_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cxag6_vS8wU_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cxag6_vS8wU_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cxag6_vS8wU_5.jpg"
         ],
         "emoji":[
             "\ud83d\ude80"
@@ -2029,16 +1908,16 @@
             "#integratedchatbot"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CwxOTwbBAZr_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CwxOTwbBAZr_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CwxOTwbBAZr_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CwxOTwbBAZr_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CwxOTwbBAZr_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwxOTwbBAZr_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwxOTwbBAZr_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwxOTwbBAZr_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwxOTwbBAZr_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwxOTwbBAZr_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udcac",
+            "\ud83d\ude80",
             "\ud83e\udd16",
-            "\ud83d\ude80"
+            "\ud83d\udcac"
         ],
         "platform":"instagram"
     },
@@ -2056,15 +1935,15 @@
             "#androidapplication"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CwfhV7uhXPO_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CwfhV7uhXPO_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CwfhV7uhXPO_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CwfhV7uhXPO_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CwfhV7uhXPO_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwfhV7uhXPO_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwfhV7uhXPO_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwfhV7uhXPO_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwfhV7uhXPO_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwfhV7uhXPO_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udd27",
-            "\ud83d\ude80"
+            "\ud83d\ude80",
+            "\ud83d\udd27"
         ],
         "platform":"instagram"
     },
@@ -2084,19 +1963,19 @@
             "#softwaresolutionscompany"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CwP6RrONI8l_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CwP6RrONI8l_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CwP6RrONI8l_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CwP6RrONI8l_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CwP6RrONI8l_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwP6RrONI8l_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwP6RrONI8l_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwP6RrONI8l_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwP6RrONI8l_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwP6RrONI8l_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udcbc",
-            "\ud83d\udcc9",
             "\ud83d\udcc8",
-            "\ud83d\udca1",
+            "\ud83d\udcc9",
+            "\ud83d\udccb",
             "\ud83d\udeab",
-            "\ud83d\udccb"
+            "\ud83d\udcbc",
+            "\ud83d\udca1"
         ],
         "platform":"instagram"
     },
@@ -2121,61 +2000,15 @@
             "#softwaredevelopment"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CvzliTgBr_e_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CvzliTgBr_e_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CvzliTgBr_e_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CvzliTgBr_e_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CvzliTgBr_e_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CvzliTgBr_e_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CvzliTgBr_e_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CvzliTgBr_e_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CvzliTgBr_e_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CvzliTgBr_e_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udd2e",
-            "\ud83d\ude80"
-        ],
-        "platform":"instagram"
-    },
-    {
-        "post_heading":"Boost Your Restaurant Business with Custom Software Solutions!",
-        "post_content":"Tired of managing your restaurant the old-fashioned way? Say hello to the future of dining with our tailor-made software solutions! From seamless online ordering to efficient table management, we've got you covered. Streamline your operations and serve your customers better with our custom apps and digital tools. Embrace innovation and stay ahead of the competition. Maximize profits and minimize hassles with our user-friendly POS systems and data-driven insights. Watch your revenue soar as you make data-driven decisions. Time is money! Let our software handle the mundane tasks so you can focus on what matters most \u2013 providing an unforgettable dining experience. Customer satisfaction is our priority! With our solutions, you'll build stronger relationships and foster loyalty among your patrons. Stand out from the crowd and give your restaurant the tech-savvy edge it deserves. Experience the power of custom software solutions today!",
-        "hashtags":[
-            "#RestaurantTech",
-            "#CustomSoftware",
-            "#DigitalSolutions",
-            "#InnovationInDining",
-            "#customsoftwaresolutions",
-            "#restaurantappdevelopment",
-            "#restaurantappdesign",
-            "#restaurantmanagementsoftware",
-            "#restaurantmanagementsoftwaredevelopmentservices",
-            "#customsoftwaredevelopmentcompany"
-        ],
-        "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CvhZqsyPLKE_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CvhZqsyPLKE_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CvhZqsyPLKE_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CvhZqsyPLKE_4.jpg"
-        ],
-        "emoji":[
-            "\ud83d\udca1",
             "\ud83d\ude80",
-            "\ud83c\udfc5",
-            "\u2764\ufe0f",
-            "\ud83d\udc65",
-            "\u23f0",
-            "\u2728",
-            "\ud83d\udc49",
-            "\ud83d\udcbb",
-            "\ud83c\udfc6",
-            "\ud83e\udd1d",
-            "\ud83d\udcf1",
-            "\ud83d\udcaa",
-            "\ud83c\udf7d\ufe0f",
-            "\ud83d\udcca",
-            "\ud83d\udcb9",
-            "\ud83c\udf89",
-            "\ud83d\udcac",
-            "\u231b",
-            "\ud83d\udd57",
-            "\ud83d\udcc8"
+            "\ud83d\udd2e"
         ],
         "platform":"instagram"
     },
@@ -2193,10 +2026,10 @@
             "#appdevelopment"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CvPeRWyhzEH_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CvPeRWyhzEH_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CvPeRWyhzEH_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CvPeRWyhzEH_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CvPeRWyhzEH_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CvPeRWyhzEH_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CvPeRWyhzEH_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CvPeRWyhzEH_4.jpg"
         ],
         "emoji":[
 
@@ -2217,25 +2050,25 @@
             "#edtechteam"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/Cu9demaPg7x_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cu9demaPg7x_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cu9demaPg7x_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cu9demaPg7x_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cu9demaPg7x_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cu9demaPg7x_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cu9demaPg7x_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cu9demaPg7x_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cu9demaPg7x_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cu9demaPg7x_5.jpg"
         ],
         "emoji":[
-            "\u2705",
-            "\ud83d\udcca",
-            "\ud83d\udcda",
-            "\ud83d\udcbb",
-            "\ud83d\udca1",
-            "\ud83c\udfaf",
-            "\ud83d\udd0d",
-            "\ud83e\udd1d",
-            "\ud83c\udf1f",
             "\ud83d\udc69\u200d\ud83c\udf93",
+            "\ud83d\udcca",
+            "\ud83c\udfeb",
+            "\ud83d\udcda",
             "\u2728",
-            "\ud83c\udfeb"
+            "\ud83c\udfaf",
+            "\ud83d\udcbb",
+            "\ud83e\udd1d",
+            "\ud83d\udd0d",
+            "\u2705",
+            "\ud83d\udca1",
+            "\ud83c\udf1f"
         ],
         "platform":"instagram"
     },
@@ -2253,10 +2086,10 @@
             "#healthcaresoftwarecompany"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CurS3-FBhmx_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CurS3-FBhmx_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CurS3-FBhmx_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CurS3-FBhmx_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CurS3-FBhmx_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CurS3-FBhmx_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CurS3-FBhmx_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CurS3-FBhmx_4.jpg"
         ],
         "emoji":[
             "\ud83c\udf10",
@@ -2278,14 +2111,14 @@
             "#customsoftwaredevelopmentcompany"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CuWdKhTMylu_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CuWdKhTMylu_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CuWdKhTMylu_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CuWdKhTMylu_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CuWdKhTMylu_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CuWdKhTMylu_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CuWdKhTMylu_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CuWdKhTMylu_4.jpg"
         ],
         "emoji":[
-            "\ud83d\udca1",
-            "\ud83d\ude80"
+            "\ud83d\ude80",
+            "\ud83d\udca1"
         ],
         "platform":"instagram"
     },
@@ -2303,17 +2136,17 @@
             "#appdevelopmentsolutions"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CteWSzVv7pa_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CteWSzVv7pa_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CteWSzVv7pa_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CteWSzVv7pa_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CteWSzVv7pa_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CteWSzVv7pa_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CteWSzVv7pa_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CteWSzVv7pa_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CteWSzVv7pa_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CteWSzVv7pa_5.jpg"
         ],
         "emoji":[
+            "\ud83d\udcf1",
             "\ud83d\udcbc",
-            "\ud83c\udf1f",
             "\ud83d\udcf2",
-            "\ud83d\udcf1"
+            "\ud83c\udf1f"
         ],
         "platform":"instagram"
     },
@@ -2335,11 +2168,11 @@
             "#appdevelopmentagency"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CtL104tPKcq_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CtL104tPKcq_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CtL104tPKcq_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CtL104tPKcq_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CtL104tPKcq_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CtL104tPKcq_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CtL104tPKcq_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CtL104tPKcq_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CtL104tPKcq_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CtL104tPKcq_5.jpg"
         ],
         "emoji":[
 
@@ -2365,18 +2198,18 @@
             "#renewableenergysolutions"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/Cs2-5SIyX-N_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cs2-5SIyX-N_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cs2-5SIyX-N_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cs2-5SIyX-N_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Cs2-5SIyX-N_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cs2-5SIyX-N_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cs2-5SIyX-N_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cs2-5SIyX-N_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cs2-5SIyX-N_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cs2-5SIyX-N_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udca1",
             "\ud83c\udf0d",
-            "\ud83c\udf31",
+            "\u267b\ufe0f",
             "\u2728",
-            "\u267b\ufe0f"
+            "\ud83c\udf31",
+            "\ud83d\udca1"
         ],
         "platform":"instagram"
     },
@@ -2400,15 +2233,15 @@
             "#mobileapp"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/Csk0tbIy30t_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Csk0tbIy30t_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Csk0tbIy30t_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Csk0tbIy30t_4.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/Csk0tbIy30t_5.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Csk0tbIy30t_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Csk0tbIy30t_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Csk0tbIy30t_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Csk0tbIy30t_4.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Csk0tbIy30t_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udd25",
-            "\ud83d\udc47"
+            "\ud83d\udc47",
+            "\ud83d\udd25"
         ],
         "platform":"instagram"
     },
@@ -2426,10 +2259,10 @@
             "#Itobuz"
         ],
         "image_paths":[
-            ".\/data\/raw_data\/instagram_raw_images\/CrknfxaMREl_1.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CrknfxaMREl_2.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CrknfxaMREl_3.jpg",
-            ".\/data\/raw_data\/instagram_raw_images\/CrknfxaMREl_4.jpg"
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CrknfxaMREl_1.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CrknfxaMREl_2.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CrknfxaMREl_3.jpg",
+            ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CrknfxaMREl_4.jpg"
         ],
         "emoji":[
 
