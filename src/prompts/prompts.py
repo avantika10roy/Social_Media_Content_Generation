@@ -33,7 +33,7 @@ def llm_finetuning_prep(data_dict: dict) -> str :
     content = data_dict.get('post_content')
     hashtags = data_dict.get('hashtags')
     emojis = data_dict.get('emoji')
-    emojis = ", ".join(emojis)
+    emojis = ", ".join(emojis) if len(data_dict.get('emoji'))>0 else "No emoji needed"
     hashtags = ", ".join(hashtags)
     raw_post_content = data_dict.get('raw_content')
     

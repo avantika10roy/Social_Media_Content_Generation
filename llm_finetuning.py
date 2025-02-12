@@ -47,15 +47,9 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
         for item in data:
             item.pop('image_paths',None)
 
-        print()
-        # data_list = []
-        # for item in data:
-        #     text = ""
-        #     for key, value in item.items():
-        #         text = text + "".join(value)
-        #     data_list.append(text)
+        data_list = [llm_finetuning_prep(item) for item in data]
 
-        # print(data_list)
+        print(data_list[0])
 
         # data = Dataset.from_dict({'texts':data_list})
         
