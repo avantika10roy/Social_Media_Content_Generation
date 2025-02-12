@@ -133,7 +133,7 @@ def main():
 
         # Setting Preprocessed Data path
         
-        preprocessed_data_path = Config.PREPROCESSED_DATA_PATH
+        preprocessed_data_path = Config.PREPROCESSED_POST_DATA_PATH
         text_preprocessor      = TextPreprocessing()
         
         
