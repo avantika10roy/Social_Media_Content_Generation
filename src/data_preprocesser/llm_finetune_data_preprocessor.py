@@ -31,5 +31,5 @@ def merge_post_contents(linkedin_json,fb_json, insta_json,  curated_json, output
 
     print(f"Updated curated JSON saved as '{output_json}' with {len(curated_data)} posts.")
 
-# Example Usage
-merge_post_contents("data/raw_data/linkedin_raw_data.json", "data/raw_data/facebook_raw_data.json", "data/raw_data/instagram_raw_data.json", "data/curated_data/curated_data.json", "data/mixed_curated/mixed_curated.json")
+
+

@@ -10,7 +10,7 @@ from src.data_cleaner.image_cleaner import ImageCleaner
 from src.data_curator.data_curation import DataCuration
 from src.data_preprocesser.text_preprocessing import TextPreprocessing
 from src.data_preprocesser.image_preprocessing import ImagePreprocessor
-
+from src.data_preprocesser.llm_finetune_data_preprocessor import merge_post_contents
 """
 # To download Data From Drive run this lines
 downloader = DownloadData(client_secrets_path = Config.CLIENT_SECRET_CREDENTIALS)
@@ -121,6 +121,18 @@ def main():
         DataSaver.data_saver(curated_data, curated_data_path)
 
         logger.info("Data curation process completed successfully.")
+        
+        
+        # Generate LLM Finetuning Data
+        
+        merge_post_contents(
+            raw_linkdin_data, 
+            raw_facebook_data, 
+            raw_instagram_data, 
+            curated_data_path
+            "data/mixed_curated/mixed_curated.json"
+        ) 
+        
 
         # Image Data Curation
         curation.image_curation(json_path                    = Config.CURATED_POST_DATA_PATH, 
@@ -150,6 +162,8 @@ def main():
                                                  )
         
         preprocessor.preprocess_images()
+        
+        
         
         
     
