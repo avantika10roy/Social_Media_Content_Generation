@@ -1,3 +1,5 @@
+# Written By Arnab Chatterjee
+
 import json
 
 def merge_post_contents(linkedin_json,fb_json, insta_json,  curated_json, output_json):
