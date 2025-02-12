@@ -83,7 +83,7 @@ class ImagePreprocessor:
         except Exception as e:
             imagePreprocessor_logger.error(f"Error processing {image_path}: {e}")
         
-        return False
+            return False
 
     
     def process_image(self, image_path):
@@ -124,10 +124,12 @@ class ImagePreprocessor:
             if os.path.isfile(file_path):
                 if self.is_gif(file_path):
                     os.remove(file_path)
+                    
                     continue
                 
                 if self.contains_face(file_path):
                     imagePreprocessor_logger.info(f"Skipping {file_name} because it contains a face.")
+                    
                     continue
                 
                 try:
@@ -145,6 +147,7 @@ class ImagePreprocessor:
                 
                 except Exception as e:
                     imagePreprocessor_logger.error(f"Error processing {file_name}: {e}")
+                    
                     continue
 
 # TO RUN THE PROGRAM 

@@ -15,3 +15,4 @@ data/cleaned_data/facebook_cleaned_images/
 data/cleaned_data/linkedin_cleaned_images/
 data/cleaned_data/instagram_cleaned_images/
 src/base_models/
+data/preprocessed_data/preprocessed_images
