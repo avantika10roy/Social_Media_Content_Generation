@@ -40,15 +40,13 @@ def llm_finetuning_prep(data_dict: dict) -> str :
     
     # genrating data format from the finetuning
     DATA_FORMAT = f""" 
-                    - Company Name : {company_name}
-                    - Platform: {platform}
-                    - Heading : {heading} 
-                    - Content : {content}
-                    - emojis : {emojis}
-                    - hashtags : {hashtags}
-                    - Response: {raw_post_content}
-                    """
+    - Company Name : {company_name}
+    - Platform: {platform}
+    - Heading : {heading} 
+    - Content : {content}
+    - emojis : {emojis}
+    - hashtags : {hashtags}
+    - Response: {raw_post_content}"""
 
     return DATA_FORMAT
 # -------------------------------------
-
