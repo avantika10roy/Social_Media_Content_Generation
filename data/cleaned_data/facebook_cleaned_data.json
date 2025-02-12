@@ -1,34 +1,55 @@
 [
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_427.jpg, ./data/raw_data/facebook_raw_images/image_428.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_427.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_428.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#CopingUp",
             "#StressManagement",
             "#Covid19",
             "#DailyPractice",
             "#ItobuzTechnologies"
         ],
-        "post_heading": "A stress management guide with practical skills to help cope with stress during COVID-19.",
-        "post_content": "A few minutes daily to practice self-help techniques.",
-        "platform": "facebook"
+        "post_heading":"A stress management guide with practical skills to help cope with stress during COVID-19.",
+        "post_content":"A few minutes daily to practice self-help techniques.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_325.jpg, ./data/raw_data/facebook_raw_images/image_326.jpg, ./data/raw_data/facebook_raw_images/image_327.jpg, ./data/raw_data/facebook_raw_images/image_328.jpg, ./data/raw_data/facebook_raw_images/image_329.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_325.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_326.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_327.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_328.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_329.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#AppDevelopment",
             "#appdevelopmenttips",
             "#appdevelopmentjourney"
         ],
-        "post_heading": "App Development Tips or Best Practices 2023App development wisdom in one place!",
-        "post_content": "From stunning UI/UX to robust security and user feedback, these tips are your guide to success.",
-        "platform": "facebook"
+        "post_heading":"App Development Tips or Best Practices 2023App development wisdom in one place!",
+        "post_content":"From stunning UI\/UX to robust security and user feedback, these tips are your guide to success.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_113.jpg, ./data/raw_data/facebook_raw_images/image_114.jpg, ./data/raw_data/facebook_raw_images/image_115.jpg, ./data/raw_data/facebook_raw_images/image_116.jpg, ./data/raw_data/facebook_raw_images/image_117.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_113.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_114.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_115.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_116.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_117.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#techvsnontech",
             "#techtrends",
             "#innovation",
@@ -37,14 +58,22 @@
             "#techhumor",
             "#Itobuz"
         ],
-        "post_heading": "Are you a tech-savvy individual who sometimes feels like you're speaking a different language?",
-        "post_content": "Or perhaps you're a non-tech person who's constantly confused by all the jargon flying around. Either way, this presentation explores the dual meanings of common terms that can have vastly different interpretations for Techies and Non-Techies. Get ready to bridge the gap between the two worlds!",
-        "platform": "facebook"
+        "post_heading":"Are you a tech-savvy individual who sometimes feels like you're speaking a different language?",
+        "post_content":"Or perhaps you're a non-tech person who's constantly confused by all the jargon flying around. Either way, this presentation explores the dual meanings of common terms that can have vastly different interpretations for Techies and Non-Techies. Get ready to bridge the gap between the two worlds!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_83.jpg, ./data/raw_data/facebook_raw_images/image_84.jpg, ./data/raw_data/facebook_raw_images/image_85.jpg, ./data/raw_data/facebook_raw_images/image_86.jpg, ./data/raw_data/facebook_raw_images/image_87.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_83.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_84.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_85.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_86.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_87.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#cybersecurity",
             "#dataprotection",
             "#infosec",
@@ -54,16 +83,22 @@
             "#protectyourdata",
             "#itobuztechnologies"
         ],
-        "post_heading": "As we navigate the digital landscape of 2024, safeguarding your data and systems has never been more crucial.",
-        "post_content": "Our comprehensive guide highlights the top cybersecurity practices you need to implement to stay protected",
-        "platform": "facebook"
+        "post_heading":"As we navigate the digital landscape of 2024, safeguarding your data and systems has never been more crucial.",
+        "post_content":"Our comprehensive guide highlights the top cybersecurity practices you need to implement to stay protected",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_88.jpg, ./data/raw_data/facebook_raw_images/image_89.jpg, ./data/raw_data/facebook_raw_images/image_90.jpg, ./data/raw_data/facebook_raw_images/image_91.jpg, ./data/raw_data/facebook_raw_images/image_92.jpg",
-        "emoji": [
-            "🌟"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_88.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_89.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_90.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_91.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_92.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83c\udf1f"
+        ],
+        "hashtags":[
             "#nodejs",
             "#webdevelopment",
             "#javascript",
@@ -76,27 +111,43 @@
             "#fullstackdevelopment",
             "#itobuztechnologies"
         ],
-        "post_heading": "Boost Your Node.",
-        "post_content": "js Game! Discover top strategies to make your Node.js apps scalable and high-performance. From event-driven architecture to effective caching and monitoring, these tips will help you optimize every aspect of your app. Get ready to elevate your development process!",
-        "platform": "facebook"
+        "post_heading":"Boost Your Node.",
+        "post_content":"js Game! Discover top strategies to make your Node.js apps scalable and high-performance. From event-driven architecture to effective caching and monitoring, these tips will help you optimize every aspect of your app. Get ready to elevate your development process!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_439.jpg, ./data/raw_data/facebook_raw_images/image_440.jpg, ./data/raw_data/facebook_raw_images/image_441.jpg, ./data/raw_data/facebook_raw_images/image_442.jpg, ./data/raw_data/facebook_raw_images/image_443.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_439.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_440.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_441.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_442.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_443.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#SoftwareDevelopmentProject",
             "#BrainstromingProcess",
             "#Projectmanagement",
             "#ItobuzTechnologies"
         ],
-        "post_heading": "Brainstorming is typically conducted in a facilitated session or workshop environment to stimulate creative thinking, to create novel or innovative solutions to a problem, and to introduce \"controlled chaos\" into the thought process.",
-        "post_content": "It is the most widely used technique to cultivate ideas. The objective is quantity, not necessarily quality, and is based on the principle that \"many brains are often better than one.\"",
-        "platform": "facebook"
+        "post_heading":"Brainstorming is typically conducted in a facilitated session or workshop environment to stimulate creative thinking, to create novel or innovative solutions to a problem, and to introduce \"controlled chaos\" into the thought process.",
+        "post_content":"It is the most widely used technique to cultivate ideas. The objective is quantity, not necessarily quality, and is based on the principle that \"many brains are often better than one.\"",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_64.jpg, ./data/raw_data/facebook_raw_images/image_65.jpg, ./data/raw_data/facebook_raw_images/image_66.jpg, ./data/raw_data/facebook_raw_images/image_67.jpg, ./data/raw_data/facebook_raw_images/image_68.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_64.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_65.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_66.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_67.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_68.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#devops",
             "#fasterreleases",
             "#betterteamwork",
@@ -112,17 +163,23 @@
             "#techinnovation",
             "#itobuztechnologies"
         ],
-        "post_heading": "Curious about how DevOps can make a real difference?",
-        "post_content": "It’s all about faster releases, better teamwork, top-notch quality, and scaling effortlessly. Imagine quicker updates, smoother collaboration, fewer bugs, and systems that grow with you. DevOps is here to help you achieve just that! Let’s chat about how DevOps can work for you. Reach out and let’s make it happen!",
-        "platform": "facebook"
+        "post_heading":"Curious about how DevOps can make a real difference?",
+        "post_content":"It\u2019s all about faster releases, better teamwork, top-notch quality, and scaling effortlessly. Imagine quicker updates, smoother collaboration, fewer bugs, and systems that grow with you. DevOps is here to help you achieve just that! Let\u2019s chat about how DevOps can work for you. Reach out and let\u2019s make it happen!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_103.jpg, ./data/raw_data/facebook_raw_images/image_104.jpg, ./data/raw_data/facebook_raw_images/image_105.jpg, ./data/raw_data/facebook_raw_images/image_106.jpg, ./data/raw_data/facebook_raw_images/image_107.jpg",
-        "emoji": [
-            "🚀",
-            "🌟"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_103.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_104.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_105.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_106.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_107.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83c\udf1f",
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#CrossPlatform",
             "#AppDevelopment",
             "#iOS",
@@ -137,14 +194,21 @@
             "#TechTrends",
             "#Itobuz"
         ],
-        "post_heading": "Curious why cross-platform development could be a great fit for your app?",
-        "post_content": "Imagine creating your app just once and having it work seamlessly on both iOS and Android. That’s the beauty of using a single codebase! It means quicker launches, a consistent user experience across devices, and simpler updates. Plus, you’ll reach a wider audience and make a bigger impact with less effort. Ready to simplify your app strategy and broaden your reach? Discover the benefits of cross-platform development today!",
-        "platform": "facebook"
+        "post_heading":"Curious why cross-platform development could be a great fit for your app?",
+        "post_content":"Imagine creating your app just once and having it work seamlessly on both iOS and Android. That\u2019s the beauty of using a single codebase! It means quicker launches, a consistent user experience across devices, and simpler updates. Plus, you\u2019ll reach a wider audience and make a bigger impact with less effort. Ready to simplify your app strategy and broaden your reach? Discover the benefits of cross-platform development today!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_406.jpg, ./data/raw_data/facebook_raw_images/image_407.jpg, ./data/raw_data/facebook_raw_images/image_408.jpg, ./data/raw_data/facebook_raw_images/image_409.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_406.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_407.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_408.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_409.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#customsoftwaredevelopment",
             "#customsoftwaresolutions",
             "#appdevelopmentagency",
@@ -154,14 +218,22 @@
             "#appdevelopmentagency",
             "#Itobuz"
         ],
-        "post_heading": "Custom software development allows for greater flexibility and control over the development process, resulting in a tailored solution that meets specific business needs.",
-        "post_content": "While zero code platforms offer pre-built modules, they may lack the customization required for complex projects.",
-        "platform": "facebook"
+        "post_heading":"Custom software development allows for greater flexibility and control over the development process, resulting in a tailored solution that meets specific business needs.",
+        "post_content":"While zero code platforms offer pre-built modules, they may lack the customization required for complex projects.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_54.jpg, ./data/raw_data/facebook_raw_images/image_55.jpg, ./data/raw_data/facebook_raw_images/image_56.jpg, ./data/raw_data/facebook_raw_images/image_57.jpg, ./data/raw_data/facebook_raw_images/image_58.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_54.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_55.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_56.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_57.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_58.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#ai",
             "#businessgrowth",
             "#aitechnology",
@@ -174,14 +246,22 @@
             "#technology",
             "#itobuztechnologies"
         ],
-        "post_heading": "Discover how AI can transform your business!",
-        "post_content": "From boosting efficiency to enhancing customer experiences, these five benefits show why integrating AI is essential for growth. Embrace the future of business today!",
-        "platform": "facebook"
+        "post_heading":"Discover how AI can transform your business!",
+        "post_content":"From boosting efficiency to enhancing customer experiences, these five benefits show why integrating AI is essential for growth. Embrace the future of business today!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_232.jpg, ./data/raw_data/facebook_raw_images/image_233.jpg, ./data/raw_data/facebook_raw_images/image_234.jpg, ./data/raw_data/facebook_raw_images/image_235.jpg, ./data/raw_data/facebook_raw_images/image_236.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_232.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_233.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_234.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_235.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_236.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#reactnative",
             "#appdevelopment",
             "#mobiledevelopment",
@@ -190,14 +270,21 @@
             "#crossplatform",
             "#mobileapp"
         ],
-        "post_heading": "Discover how React Native is revolutionizing app development, offering unparalleled efficiency, speed, and cost-effectiveness.",
-        "post_content": "Dive into the future of mobile app creation with this groundbreaking technology",
-        "platform": "facebook"
+        "post_heading":"Discover how React Native is revolutionizing app development, offering unparalleled efficiency, speed, and cost-effectiveness.",
+        "post_content":"Dive into the future of mobile app creation with this groundbreaking technology",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_198.jpg, ./data/raw_data/facebook_raw_images/image_199.jpg, ./data/raw_data/facebook_raw_images/image_200.jpg, ./data/raw_data/facebook_raw_images/image_201.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_198.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_199.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_200.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_201.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#technology",
             "#data",
             "#datafication",
@@ -205,14 +292,22 @@
             "#businessdata",
             "#businessanalytics"
         ],
-        "post_heading": "Discover how datafication is revolutionizing businesses, leveraging technology to transform operations, personalize marketing, and drive efficiency gains.",
-        "post_content": "Explore real-world examples and the top benefits of embracing data-driven strategies.",
-        "platform": "facebook"
+        "post_heading":"Discover how datafication is revolutionizing businesses, leveraging technology to transform operations, personalize marketing, and drive efficiency gains.",
+        "post_content":"Explore real-world examples and the top benefits of embracing data-driven strategies.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_149.jpg, ./data/raw_data/facebook_raw_images/image_150.jpg, ./data/raw_data/facebook_raw_images/image_151.jpg, ./data/raw_data/facebook_raw_images/image_152.jpg, ./data/raw_data/facebook_raw_images/image_153.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_149.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_150.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_151.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_152.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_153.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#lowcode",
             "#nocode",
             "#appdevelopment",
@@ -222,14 +317,22 @@
             "#NoCodeDevelopment",
             "#Itobuz"
         ],
-        "post_heading": "Discover how low-code/no-code platforms are transforming app development, making it faster, more cost-effective, and fostering greater collaboration and innovation",
-        "post_content": "",
-        "platform": "facebook"
+        "post_heading":"Discover how low-code\/no-code platforms are transforming app development, making it faster, more cost-effective, and fostering greater collaboration and innovation",
+        "post_content":"",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_98.jpg, ./data/raw_data/facebook_raw_images/image_99.jpg, ./data/raw_data/facebook_raw_images/image_100.jpg, ./data/raw_data/facebook_raw_images/image_101.jpg, ./data/raw_data/facebook_raw_images/image_102.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_98.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_99.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_100.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_101.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_102.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#NativeApps",
             "#MobileDevelopment",
             "#UserExperience",
@@ -242,20 +345,26 @@
             "#MobileUX",
             "#Itobuz"
         ],
-        "post_heading": "Discover how native apps deliver smooth performance, enhanced user experiences, quick adoption of the latest updates, and stronger security.",
-        "post_content": "Elevate your mobile app game with the power of native development!",
-        "platform": "facebook"
+        "post_heading":"Discover how native apps deliver smooth performance, enhanced user experiences, quick adoption of the latest updates, and stronger security.",
+        "post_content":"Elevate your mobile app game with the power of native development!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_169.jpg, ./data/raw_data/facebook_raw_images/image_170.jpg, ./data/raw_data/facebook_raw_images/image_171.jpg, ./data/raw_data/facebook_raw_images/image_172.jpg, ./data/raw_data/facebook_raw_images/image_173.jpg",
-        "emoji": [
-            "🌐",
-            "🌍",
-            "💰",
-            "🔄",
-            "⚡"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_169.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_170.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_171.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_172.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_173.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83c\udf10",
+            "\u26a1",
+            "\ud83d\udd04",
+            "\ud83c\udf0d",
+            "\ud83d\udcb0"
+        ],
+        "hashtags":[
             "#webappdevelopment",
             "#techinnovations",
             "#webdevelopments",
@@ -265,27 +374,42 @@
             "#webappdevelopmentsolutions",
             "#ItoubuzTech"
         ],
-        "post_heading": "Discover the advantages of web app development: Reach users on any device with cross-platform compatibility.",
-        "post_content": "Save on costs with a single app for multiple platforms. Easily maintain and update your app centrally. Provide instant updates to users for a seamless experience. Access your app from anywhere, perfect for remote work. Join the web app revolution today!",
-        "platform": "facebook"
+        "post_heading":"Discover the advantages of web app development: Reach users on any device with cross-platform compatibility.",
+        "post_content":"Save on costs with a single app for multiple platforms. Easily maintain and update your app centrally. Provide instant updates to users for a seamless experience. Access your app from anywhere, perfect for remote work. Join the web app revolution today!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_219.jpg, ./data/raw_data/facebook_raw_images/image_220.jpg, ./data/raw_data/facebook_raw_images/image_221.jpg, ./data/raw_data/facebook_raw_images/image_222.jpg, ./data/raw_data/facebook_raw_images/image_223.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_219.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_220.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_221.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_222.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_223.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#ai",
             "#artificicalintelligence",
             "#transpotation",
             "#AIinTransportation"
         ],
-        "post_heading": "Discover the groundbreaking impact of AI on transportation.",
-        "post_content": "From optimized insurance processes to smarter traffic management and intelligent driver care, AI is revolutionizing the way we travel",
-        "platform": "facebook"
+        "post_heading":"Discover the groundbreaking impact of AI on transportation.",
+        "post_content":"From optimized insurance processes to smarter traffic management and intelligent driver care, AI is revolutionizing the way we travel",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_202.jpg, ./data/raw_data/facebook_raw_images/image_203.jpg, ./data/raw_data/facebook_raw_images/image_204.jpg, ./data/raw_data/facebook_raw_images/image_205.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_202.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_203.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_204.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_205.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#artrends",
             "#augmentedreality",
             "#ai",
@@ -294,17 +418,22 @@
             "#TechnologyTrends",
             "#futuretech"
         ],
-        "post_heading": "Discover the latest advancements shaping the world of augmented reality in 2024.",
-        "post_content": "From AI-powered innovations to the evolution of mobile AR, explore the new frontiers of immersive technology",
-        "platform": "facebook"
+        "post_heading":"Discover the latest advancements shaping the world of augmented reality in 2024.",
+        "post_content":"From AI-powered innovations to the evolution of mobile AR, explore the new frontiers of immersive technology",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_272.jpg, ./data/raw_data/facebook_raw_images/image_273.jpg, ./data/raw_data/facebook_raw_images/image_274.jpg, ./data/raw_data/facebook_raw_images/image_275.jpg",
-        "emoji": [
-            "🌐",
-            "✨"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_272.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_273.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_274.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_275.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\u2728",
+            "\ud83c\udf10"
+        ],
+        "hashtags":[
             "#aitrends",
             "#aitrends2024",
             "#FutureTech",
@@ -312,16 +441,22 @@
             "#TechTrends2024",
             "#AI"
         ],
-        "post_heading": "Dive into the cutting-edge world of Generative AI as we unravel the transformative trends of 2024.",
-        "post_content": "From multi-modal marvels to political transformations, explore the evolution shaping the future of AI.",
-        "platform": "facebook"
+        "post_heading":"Dive into the cutting-edge world of Generative AI as we unravel the transformative trends of 2024.",
+        "post_content":"From multi-modal marvels to political transformations, explore the evolution shaping the future of AI.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_59.jpg, ./data/raw_data/facebook_raw_images/image_60.jpg, ./data/raw_data/facebook_raw_images/image_61.jpg, ./data/raw_data/facebook_raw_images/image_62.jpg, ./data/raw_data/facebook_raw_images/image_63.jpg",
-        "emoji": [
-            "🚀"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_59.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_60.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_61.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_62.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_63.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#technology",
             "#python",
             "#innovation",
@@ -334,30 +469,44 @@
             "#code",
             "#itobuztechnologies"
         ],
-        "post_heading": "Dive into the dynamic world of technology as we explore the profound impact of Python.",
-        "post_content": "From its unparalleled versatility to decades of proven excellence, Python stands as a beacon of innovation. Discover why it leads in AI, streamlines automation, and unifies a global community of developers. Join us on this tech journey!",
-        "platform": "facebook"
+        "post_heading":"Dive into the dynamic world of technology as we explore the profound impact of Python.",
+        "post_content":"From its unparalleled versatility to decades of proven excellence, Python stands as a beacon of innovation. Discover why it leads in AI, streamlines automation, and unifies a global community of developers. Join us on this tech journey!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_312.jpg, ./data/raw_data/facebook_raw_images/image_313.jpg, ./data/raw_data/facebook_raw_images/image_314.jpg, ./data/raw_data/facebook_raw_images/image_315.jpg, ./data/raw_data/facebook_raw_images/image_316.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_312.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_313.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_314.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_315.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_316.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#hotelmanagementsoftware",
             "#hotelmanagement",
             "#customsoftwaresolutions",
             "#softwaredevelopment",
             "#customsoftwaredevelopment"
         ],
-        "post_heading": "Dive into the future of hospitality management and discover why Hotel Management Software is the cornerstone of a modern, efficient, and guest-centric hotel experience.",
-        "post_content": "Elevate your hotel's operations, delight your guests, and stay ahead in the dynamic world of hospitality with the power of technology",
-        "platform": "facebook"
+        "post_heading":"Dive into the future of hospitality management and discover why Hotel Management Software is the cornerstone of a modern, efficient, and guest-centric hotel experience.",
+        "post_content":"Elevate your hotel's operations, delight your guests, and stay ahead in the dynamic world of hospitality with the power of technology",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_257.jpg, ./data/raw_data/facebook_raw_images/image_258.jpg, ./data/raw_data/facebook_raw_images/image_259.jpg, ./data/raw_data/facebook_raw_images/image_260.jpg, ./data/raw_data/facebook_raw_images/image_261.jpg",
-        "emoji": [
-            "🚀"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_257.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_258.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_259.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_260.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_261.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#pwa",
             "#webapplication",
             "#MobileApps",
@@ -367,16 +516,22 @@
             "#webappdevelopment",
             "#webapps"
         ],
-        "post_heading": "Dive into the world of Progressive Web Applications (PWAs) where websites and mobile apps converge for efficiency and convenience.",
-        "post_content": "Explore the potential for small businesses, learn from trailblazing examples, and join the rise of PWAs shaping a brighter future in digital interaction.",
-        "platform": "facebook"
+        "post_heading":"Dive into the world of Progressive Web Applications (PWAs) where websites and mobile apps converge for efficiency and convenience.",
+        "post_content":"Explore the potential for small businesses, learn from trailblazing examples, and join the rise of PWAs shaping a brighter future in digital interaction.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_262.jpg, ./data/raw_data/facebook_raw_images/image_263.jpg, ./data/raw_data/facebook_raw_images/image_264.jpg, ./data/raw_data/facebook_raw_images/image_265.jpg, ./data/raw_data/facebook_raw_images/image_266.jpg",
-        "emoji": [
-            "🌐"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_262.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_263.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_264.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_265.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_266.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83c\udf10"
+        ],
+        "hashtags":[
             "#SaaS",
             "#verticalsaas",
             "#DigitalInnovation",
@@ -386,31 +541,44 @@
             "#SaaSRevolution",
             "#TechTransformation"
         ],
-        "post_heading": "Dive into the world of Vertical SaaS with our curated slides!",
-        "post_content": "Explore tailored solutions, precision targeting of industry pain points, productivity boosts through automation, the benefits of customization, and witness the transformative impact on industries. Reshape the software landscape with Vertical SaaS—where excellence meets specialization!",
-        "platform": "facebook"
+        "post_heading":"Dive into the world of Vertical SaaS with our curated slides!",
+        "post_content":"Explore tailored solutions, precision targeting of industry pain points, productivity boosts through automation, the benefits of customization, and witness the transformative impact on industries. Reshape the software landscape with Vertical SaaS\u2014where excellence meets specialization!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_298.jpg, ./data/raw_data/facebook_raw_images/image_299.jpg, ./data/raw_data/facebook_raw_images/image_300.jpg, ./data/raw_data/facebook_raw_images/image_301.jpg",
-        "emoji": [
-            "🚀",
-            "✨"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_298.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_299.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_300.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_301.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\u2728",
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#appdevelopmenttrends",
             "#CrossPlatformApp",
             "#crossplatformappdevelopment",
             "#flutter",
             "#flutterdevelopment"
         ],
-        "post_heading": "Dive into the world of app development evolution with Flutter!",
-        "post_content": "Explore how Flutter simplifies UI consistency across six platforms, making cross-platform development efficient and cost-effective. From the native vs. cross-platform debate to the unique features that set Flutter apart, join us on a visual journey through the transformative landscape of app development",
-        "platform": "facebook"
+        "post_heading":"Dive into the world of app development evolution with Flutter!",
+        "post_content":"Explore how Flutter simplifies UI consistency across six platforms, making cross-platform development efficient and cost-effective. From the native vs. cross-platform debate to the unique features that set Flutter apart, join us on a visual journey through the transformative landscape of app development",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_140.jpg, ./data/raw_data/facebook_raw_images/image_141.jpg, ./data/raw_data/facebook_raw_images/image_142.jpg, ./data/raw_data/facebook_raw_images/image_143.jpg, ./data/raw_data/facebook_raw_images/image_144.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_140.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_141.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_142.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_143.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_144.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#programming",
             "#javascript",
             "#python",
@@ -425,14 +593,21 @@
             "#TechTrends",
             "#Itobuz"
         ],
-        "post_heading": "Dive into the world of programming languages, with a focus on JavaScript, Python, and Swift.",
-        "post_content": "Learn about their unique features and discover how they are used in app and web development",
-        "platform": "facebook"
+        "post_heading":"Dive into the world of programming languages, with a focus on JavaScript, Python, and Swift.",
+        "post_content":"Learn about their unique features and discover how they are used in app and web development",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_145.jpg, ./data/raw_data/facebook_raw_images/image_146.jpg, ./data/raw_data/facebook_raw_images/image_147.jpg, ./data/raw_data/facebook_raw_images/image_148.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_145.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_146.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_147.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_148.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#webapps",
             "#frameworks",
             "#webdevelopment",
@@ -442,14 +617,22 @@
             "#frontenddevelopment",
             "#Itobuz"
         ],
-        "post_heading": "Dive into the world of web app frameworks and discover which one suits your project best!",
-        "post_content": "From the robust Angular to the flexible Vue.js, find your perfect match today",
-        "platform": "facebook"
+        "post_heading":"Dive into the world of web app frameworks and discover which one suits your project best!",
+        "post_content":"From the robust Angular to the flexible Vue.js, find your perfect match today",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_49.jpg, ./data/raw_data/facebook_raw_images/image_50.jpg, ./data/raw_data/facebook_raw_images/image_51.jpg, ./data/raw_data/facebook_raw_images/image_52.jpg, ./data/raw_data/facebook_raw_images/image_53.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_49.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_50.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_51.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_52.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_53.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#customsoftware",
             "#businessgrowth",
             "#customsolutions",
@@ -458,21 +641,27 @@
             "#techtips",
             "#itobuztechnologies"
         ],
-        "post_heading": "Elevate your business with custom software tailored to your unique needs.",
-        "post_content": "From enhanced security to lower operational costs, discover the key benefits of bespoke solutions designed to give you a competitive edge",
-        "platform": "facebook"
+        "post_heading":"Elevate your business with custom software tailored to your unique needs.",
+        "post_content":"From enhanced security to lower operational costs, discover the key benefits of bespoke solutions designed to give you a competitive edge",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_355.jpg, ./data/raw_data/facebook_raw_images/image_356.jpg, ./data/raw_data/facebook_raw_images/image_357.jpg, ./data/raw_data/facebook_raw_images/image_358.jpg, ./data/raw_data/facebook_raw_images/image_359.jpg",
-        "emoji": [
-            "📈",
-            "💡",
-            "📉",
-            "💼",
-            "📋",
-            "🚫"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_355.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_356.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_357.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_358.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_359.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\udeab",
+            "\ud83d\udcc9",
+            "\ud83d\udccb",
+            "\ud83d\udca1",
+            "\ud83d\udcc8",
+            "\ud83d\udcbc"
+        ],
+        "hashtags":[
             "#inventorymanagementsoftware",
             "#softwaresolutionscompany",
             "#inventorysoftware",
@@ -480,50 +669,68 @@
             "#technologies",
             "#softwaredevelopment"
         ],
-        "post_heading": "Elevate your inventory game with our intelligent software solution!",
-        "post_content": "Wave goodbye to overstocking and understocking woes. Experience streamlined operations and happier balance sheets.",
-        "platform": "facebook"
+        "post_heading":"Elevate your inventory game with our intelligent software solution!",
+        "post_content":"Wave goodbye to overstocking and understocking woes. Experience streamlined operations and happier balance sheets.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_350.jpg, ./data/raw_data/facebook_raw_images/image_351.jpg, ./data/raw_data/facebook_raw_images/image_352.jpg, ./data/raw_data/facebook_raw_images/image_353.jpg, ./data/raw_data/facebook_raw_images/image_354.jpg",
-        "emoji": [
-            "🚀",
-            "🔧"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_350.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_351.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_352.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_353.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_354.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\udd27",
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#appdevelopment",
             "#androidapplication",
             "#androidappdeveloper",
             "#appdevelopmentagency",
             "#appdevelopmentjourney"
         ],
-        "post_heading": "Embark on a behind-the-scenes tour of our Android app development journey!",
-        "post_content": "Follow along as our talented team turns ideas into interactive realities. From brainstorming innovative features to fine-tuning UI/UX design, we're committed to crafting a seamless user experience",
-        "platform": "facebook"
+        "post_heading":"Embark on a behind-the-scenes tour of our Android app development journey!",
+        "post_content":"Follow along as our talented team turns ideas into interactive realities. From brainstorming innovative features to fine-tuning UI\/UX design, we're committed to crafting a seamless user experience",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_307.jpg, ./data/raw_data/facebook_raw_images/image_308.jpg, ./data/raw_data/facebook_raw_images/image_309.jpg, ./data/raw_data/facebook_raw_images/image_310.jpg, ./data/raw_data/facebook_raw_images/image_311.jpg",
-        "emoji": [
-            "🌐",
-            "🚀"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_307.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_308.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_309.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_310.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_311.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83c\udf10",
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#5GTechnology",
             "#5G",
             "#technology",
             "#technologysolutions",
             "#technologies"
         ],
-        "post_heading": "Embark on a journey into the heart of technological innovation as we explore the transformative power of 5G.",
-        "post_content": "Discover how this emerging trend is set to redefine connectivity and revolutionize industries.",
-        "platform": "facebook"
+        "post_heading":"Embark on a journey into the heart of technological innovation as we explore the transformative power of 5G.",
+        "post_content":"Discover how this emerging trend is set to redefine connectivity and revolutionize industries.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_289.jpg, ./data/raw_data/facebook_raw_images/image_290.jpg, ./data/raw_data/facebook_raw_images/image_291.jpg, ./data/raw_data/facebook_raw_images/image_292.jpg, ./data/raw_data/facebook_raw_images/image_293.jpg",
-        "emoji": [
-            "🌐"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_289.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_290.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_291.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_292.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_293.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83c\udf10"
+        ],
+        "hashtags":[
             "#cloudlogisitics",
             "#clould",
             "#technologyinnovation",
@@ -532,31 +739,45 @@
             "#technologysolutions",
             "#technologychallenges"
         ],
-        "post_heading": "Embark on a transformative journey through the Cloud Logistics market!",
-        "post_content": "From streamlining operations and ensuring scalability to driving cost savings and enabling data-driven decisions, Cloud Logistics reshapes the future of logistics. Dive into the power of technology and logistics convergence.",
-        "platform": "facebook"
+        "post_heading":"Embark on a transformative journey through the Cloud Logistics market!",
+        "post_content":"From streamlining operations and ensuring scalability to driving cost savings and enabling data-driven decisions, Cloud Logistics reshapes the future of logistics. Dive into the power of technology and logistics convergence.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_252.jpg, ./data/raw_data/facebook_raw_images/image_253.jpg, ./data/raw_data/facebook_raw_images/image_254.jpg, ./data/raw_data/facebook_raw_images/image_255.jpg, ./data/raw_data/facebook_raw_images/image_256.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_252.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_253.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_254.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_255.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_256.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#AIRevolution",
             "#ecommerce",
             "#ecommercetips",
             "#aiecommerce"
         ],
-        "post_heading": "Embark on an eCommerce journey transformed by AI.",
-        "post_content": "From virtual assistants providing 24/7 support to smart search, personalization, and streamlined automation – witness the revolution reshaping the online shopping experience",
-        "platform": "facebook"
+        "post_heading":"Embark on an eCommerce journey transformed by AI.",
+        "post_content":"From virtual assistants providing 24\/7 support to smart search, personalization, and streamlined automation \u2013 witness the revolution reshaping the online shopping experience",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_330.jpg, ./data/raw_data/facebook_raw_images/image_331.jpg, ./data/raw_data/facebook_raw_images/image_332.jpg, ./data/raw_data/facebook_raw_images/image_333.jpg, ./data/raw_data/facebook_raw_images/image_334.jpg",
-        "emoji": [
-            "🌐",
-            "💻",
-            "🌟"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_330.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_331.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_332.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_333.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_334.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83c\udf1f",
+            "\ud83c\udf10",
+            "\ud83d\udcbb"
+        ],
+        "hashtags":[
             "#webdevelopment",
             "#webdevelopmentrends",
             "#digitaltransformation",
@@ -564,14 +785,21 @@
             "#webdevelopmentservices",
             "#webdevelopmentagency"
         ],
-        "post_heading": "Embrace the Future of Web Development in 2023!",
-        "post_content": "Get ready to witness some game-changing trends that are reshaping the digital landscape.",
-        "platform": "facebook"
+        "post_heading":"Embrace the Future of Web Development in 2023!",
+        "post_content":"Get ready to witness some game-changing trends that are reshaping the digital landscape.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_136.jpg, ./data/raw_data/facebook_raw_images/image_137.jpg, ./data/raw_data/facebook_raw_images/image_138.jpg, ./data/raw_data/facebook_raw_images/image_139.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_136.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_137.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_138.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_139.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#webdevelopment",
             "#Coding",
             "#programming",
@@ -581,16 +809,21 @@
             "#Itobuz",
             "#itobuztech"
         ],
-        "post_heading": "Enhance your coding skills with our essential best practices!",
-        "post_content": "Learn how clean code, thorough documentation, and consistent testing can streamline your workflow. Explore our tips and join the conversation in the comments!",
-        "platform": "facebook"
+        "post_heading":"Enhance your coding skills with our essential best practices!",
+        "post_content":"Learn how clean code, thorough documentation, and consistent testing can streamline your workflow. Explore our tips and join the conversation in the comments!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_122.jpg, ./data/raw_data/facebook_raw_images/image_123.jpg, ./data/raw_data/facebook_raw_images/image_124.jpg, ./data/raw_data/facebook_raw_images/image_125.jpg",
-        "emoji": [
-            "🚀"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_122.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_123.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_124.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_125.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#code",
             "#codingbasics",
             "#learntocode",
@@ -603,14 +836,22 @@
             "#programming",
             "#Itobuz"
         ],
-        "post_heading": "Ever wondered about the role of brackets [], {}, and [] in coding?",
-        "post_content": "Discover how these symbols help you manage arrays and define code blocks. Learn the power of =, ==, and != for assigning values and comparing them effectively. Plus, master the art of using ;, ', and \" to punctuate and encapsulate in various programming languages. Ready to elevate your coding skills? Let's decode these fundamental symbols together!",
-        "platform": "facebook"
+        "post_heading":"Ever wondered about the role of brackets [], {}, and [] in coding?",
+        "post_content":"Discover how these symbols help you manage arrays and define code blocks. Learn the power of =, ==, and != for assigning values and comparing them effectively. Plus, master the art of using ;, ', and \" to punctuate and encapsulate in various programming languages. Ready to elevate your coding skills? Let's decode these fundamental symbols together!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_159.jpg, ./data/raw_data/facebook_raw_images/image_160.jpg, ./data/raw_data/facebook_raw_images/image_161.jpg, ./data/raw_data/facebook_raw_images/image_162.jpg, ./data/raw_data/facebook_raw_images/image_163.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_159.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_160.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_161.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_162.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_163.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#softwaredevelopment",
             "#techlanguage",
             "#techculture",
@@ -619,17 +860,23 @@
             "#tech",
             "#itobuztech"
         ],
-        "post_heading": "Ever wondered how everyday terms take on a whole new meaning in the world of technology?",
-        "post_content": "Swipe through to discover the fascinating dual meanings of words that everyone uses but developers see differently. From bugs to cookies, explore the unique tech twist behind common terms",
-        "platform": "facebook"
+        "post_heading":"Ever wondered how everyday terms take on a whole new meaning in the world of technology?",
+        "post_content":"Swipe through to discover the fascinating dual meanings of words that everyone uses but developers see differently. From bugs to cookies, explore the unique tech twist behind common terms",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_284.jpg, ./data/raw_data/facebook_raw_images/image_285.jpg, ./data/raw_data/facebook_raw_images/image_286.jpg, ./data/raw_data/facebook_raw_images/image_287.jpg, ./data/raw_data/facebook_raw_images/image_288.jpg",
-        "emoji": [
-            "✨",
-            "🚗"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_284.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_285.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_286.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_287.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_288.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\ude97",
+            "\u2728"
+        ],
+        "hashtags":[
             "#5GTechnology",
             "#automotive",
             "#automotiveindustry",
@@ -637,27 +884,42 @@
             "#technologysolutions",
             "#technologyinnovation"
         ],
-        "post_heading": "Experience the automotive evolution with the game-changing power of 5G technology!",
-        "post_content": "From supercharged connectivity and real-time data analytics to a seamless driving experience, the road ahead is transforming into a tech-driven journey. Buckle up for innovation and connectivity merging on a whole new level",
-        "platform": "facebook"
+        "post_heading":"Experience the automotive evolution with the game-changing power of 5G technology!",
+        "post_content":"From supercharged connectivity and real-time data analytics to a seamless driving experience, the road ahead is transforming into a tech-driven journey. Buckle up for innovation and connectivity merging on a whole new level",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_242.jpg, ./data/raw_data/facebook_raw_images/image_243.jpg, ./data/raw_data/facebook_raw_images/image_244.jpg, ./data/raw_data/facebook_raw_images/image_245.jpg, ./data/raw_data/facebook_raw_images/image_246.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_242.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_243.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_244.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_245.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_246.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#ai",
             "#applevisionpro",
             "#aifuture",
             "#technologytrends"
         ],
-        "post_heading": "Experience the magic of Apple Vision Pro as it transforms your digital world into an immersive, personalized space.",
-        "post_content": "From customizing your workspace to reliving cherished memories in stunning 3D, Apple Vision Pro brings a touch of enchantment to your everyday tech experience",
-        "platform": "facebook"
+        "post_heading":"Experience the magic of Apple Vision Pro as it transforms your digital world into an immersive, personalized space.",
+        "post_content":"From customizing your workspace to reliving cherished memories in stunning 3D, Apple Vision Pro brings a touch of enchantment to your everyday tech experience",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_294.jpg, ./data/raw_data/facebook_raw_images/image_295.jpg, ./data/raw_data/facebook_raw_images/image_296.jpg, ./data/raw_data/facebook_raw_images/image_297.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_294.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_295.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_296.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_297.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#SamsungZ",
             "#technology",
             "#innovation",
@@ -666,14 +928,21 @@
             "#technologytrends",
             "#technologysolution"
         ],
-        "post_heading": "Explore the foldable future with Samsung's groundbreaking Z Flip and Z Flip 3 smartphones, leading the charge in foldable technology.",
-        "post_content": "Dive into the synergy of Android 12 and foldable screens, as Google paves the way for a revolutionary user experience.",
-        "platform": "facebook"
+        "post_heading":"Explore the foldable future with Samsung's groundbreaking Z Flip and Z Flip 3 smartphones, leading the charge in foldable technology.",
+        "post_content":"Dive into the synergy of Android 12 and foldable screens, as Google paves the way for a revolutionary user experience.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_118.jpg, ./data/raw_data/facebook_raw_images/image_119.jpg, ./data/raw_data/facebook_raw_images/image_120.jpg, ./data/raw_data/facebook_raw_images/image_121.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_118.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_119.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_120.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_121.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#mobileappdevelopment",
             "#mobileappdevelopmentservices",
             "#mobileappdevelopmentsolutions",
@@ -686,14 +955,22 @@
             "#Itobuz",
             "#itobuztechnologies"
         ],
-        "post_heading": "Explore the leading trends shaping mobile app development in 2024!",
-        "post_content": "From cross-platform development to AR/VR integration and Progressive Web Apps (PWAs), discover how these innovations are transforming user experiences and pushing app boundaries. Stay ahead with insights into the future of mobile technology!",
-        "platform": "facebook"
+        "post_heading":"Explore the leading trends shaping mobile app development in 2024!",
+        "post_content":"From cross-platform development to AR\/VR integration and Progressive Web Apps (PWAs), discover how these innovations are transforming user experiences and pushing app boundaries. Stay ahead with insights into the future of mobile technology!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_126.jpg, ./data/raw_data/facebook_raw_images/image_127.jpg, ./data/raw_data/facebook_raw_images/image_128.jpg, ./data/raw_data/facebook_raw_images/image_129.jpg, ./data/raw_data/facebook_raw_images/image_130.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_126.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_127.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_128.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_129.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_130.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#webdevelopment",
             "#apis",
             "#techinnovation",
@@ -703,43 +980,64 @@
             "#programming",
             "#itobuztech"
         ],
-        "post_heading": "Explore the power of APIs in web development!",
-        "post_content": "APIs act as bridges, connecting software applications to share data and integrate third-party services. Discover how APIs are transforming websites with new features like real-time data and secure payment processing. Embrace the benefits of APIs for streamlined development and enhanced functionality",
-        "platform": "facebook"
+        "post_heading":"Explore the power of APIs in web development!",
+        "post_content":"APIs act as bridges, connecting software applications to share data and integrate third-party services. Discover how APIs are transforming websites with new features like real-time data and secure payment processing. Embrace the benefits of APIs for streamlined development and enhanced functionality",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_184.jpg, ./data/raw_data/facebook_raw_images/image_185.jpg, ./data/raw_data/facebook_raw_images/image_186.jpg, ./data/raw_data/facebook_raw_images/image_187.jpg, ./data/raw_data/facebook_raw_images/image_188.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_184.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_185.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_186.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_187.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_188.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#mobileappdevelopment",
             "#appdevelopment",
             "#CustomMobileApps",
             "#userinterfaces",
             "#Itobuz"
         ],
-        "post_heading": "Explore the transformative potential of custom mobile apps, offering tailored solutions that cater to your business needs.",
-        "post_content": "From intuitive user interfaces to enhanced productivity, these apps are designed to scale with your business and give you a competitive edge in the market",
-        "platform": "facebook"
+        "post_heading":"Explore the transformative potential of custom mobile apps, offering tailored solutions that cater to your business needs.",
+        "post_content":"From intuitive user interfaces to enhanced productivity, these apps are designed to scale with your business and give you a competitive edge in the market",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_215.jpg, ./data/raw_data/facebook_raw_images/image_216.jpg, ./data/raw_data/facebook_raw_images/image_217.jpg, ./data/raw_data/facebook_raw_images/image_218.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_215.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_216.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_217.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_218.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#tech",
             "#technology",
             "#roboadvisor"
         ],
-        "post_heading": "Explore the world of robo advisors, automated investment platforms driven by algorithms and AI.",
-        "post_content": "Learn about their benefits, key features, and how they can revolutionize your investment strategy",
-        "platform": "facebook"
+        "post_heading":"Explore the world of robo advisors, automated investment platforms driven by algorithms and AI.",
+        "post_content":"Learn about their benefits, key features, and how they can revolutionize your investment strategy",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_267.jpg, ./data/raw_data/facebook_raw_images/image_268.jpg, ./data/raw_data/facebook_raw_images/image_269.jpg, ./data/raw_data/facebook_raw_images/image_270.jpg, ./data/raw_data/facebook_raw_images/image_271.jpg",
-        "emoji": [
-            "🚀",
-            "🔏"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_267.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_268.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_269.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_270.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_271.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\udd0f",
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#blockchainapps",
             "#appdevelopmenttips",
             "#technology",
@@ -747,18 +1045,24 @@
             "#TechTrends2024",
             "#blockchaintechnology"
         ],
-        "post_heading": "Find out how creating blockchain apps can change the game!",
-        "post_content": "See the transformative benefits that can completely change your app solutions, from increased security to unparalleled transparency, immutability, cost effectiveness, and scalability.",
-        "platform": "facebook"
+        "post_heading":"Find out how creating blockchain apps can change the game!",
+        "post_content":"See the transformative benefits that can completely change your app solutions, from increased security to unparalleled transparency, immutability, cost effectiveness, and scalability.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_237.jpg, ./data/raw_data/facebook_raw_images/image_238.jpg, ./data/raw_data/facebook_raw_images/image_239.jpg, ./data/raw_data/facebook_raw_images/image_240.jpg, ./data/raw_data/facebook_raw_images/image_241.jpg",
-        "emoji": [
-            "🌐",
-            "🗣️",
-            "💬"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_237.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_238.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_239.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_240.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_241.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\udcac",
+            "\ud83c\udf10",
+            "\ud83d\udde3\ufe0f"
+        ],
+        "hashtags":[
             "#ai",
             "#futureofwork",
             "#chatbots",
@@ -770,17 +1074,23 @@
             "#aiinbusiness",
             "#techtrends"
         ],
-        "post_heading": "From chatbots streamlining tasks to voice assistants powering meetings, discover how AI is reshaping the future of work.",
-        "post_content": "",
-        "platform": "facebook"
+        "post_heading":"From chatbots streamlining tasks to voice assistants powering meetings, discover how AI is reshaping the future of work.",
+        "post_content":"",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_29.jpg, ./data/raw_data/facebook_raw_images/image_30.jpg, ./data/raw_data/facebook_raw_images/image_31.jpg, ./data/raw_data/facebook_raw_images/image_32.jpg, ./data/raw_data/facebook_raw_images/image_33.jpg",
-        "emoji": [
-            "✨",
-            "🚚"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_29.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_30.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_31.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_32.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_33.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\u2728",
+            "\ud83d\ude9a"
+        ],
+        "hashtags":[
             "#generativeai",
             "#supplychaininnovation",
             "#smartsupplychains",
@@ -798,16 +1108,22 @@
             "#supplychaintechnology",
             "#itobuztechnoloies"
         ],
-        "post_heading": "Generative AI is making supply chains smarter and faster!",
-        "post_content": "From predicting demand to finding the best routes, AI is helping companies reduce costs, cut waste, and lower risks. Discover how AI is transforming supply chains for a more efficient and sustainable future!",
-        "platform": "facebook"
+        "post_heading":"Generative AI is making supply chains smarter and faster!",
+        "post_content":"From predicting demand to finding the best routes, AI is helping companies reduce costs, cut waste, and lower risks. Discover how AI is transforming supply chains for a more efficient and sustainable future!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_34.jpg, ./data/raw_data/facebook_raw_images/image_35.jpg, ./data/raw_data/facebook_raw_images/image_36.jpg, ./data/raw_data/facebook_raw_images/image_37.jpg, ./data/raw_data/facebook_raw_images/image_38.jpg",
-        "emoji": [
-            "🌟"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_34.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_35.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_36.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_37.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_38.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83c\udf1f"
+        ],
+        "hashtags":[
             "#appdevelopmentexperts",
             "#iosappdevelopment",
             "#appdevelopmenttrends",
@@ -816,14 +1132,22 @@
             "#usa",
             "#Itobuz"
         ],
-        "post_heading": "Get ready for an exciting year in iOS app development!",
-        "post_content": "From AI-powered coding tools to the latest in AR, VR, and IoT integration—2025 is bringing endless possibilities. Stay ahead of the curve with smarter apps, faster coding, and immersive experiences.",
-        "platform": "facebook"
+        "post_heading":"Get ready for an exciting year in iOS app development!",
+        "post_content":"From AI-powered coding tools to the latest in AR, VR, and IoT integration\u20142025 is bringing endless possibilities. Stay ahead of the curve with smarter apps, faster coding, and immersive experiences.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_193.jpg, ./data/raw_data/facebook_raw_images/image_194.jpg, ./data/raw_data/facebook_raw_images/image_195.jpg, ./data/raw_data/facebook_raw_images/image_196.jpg, ./data/raw_data/facebook_raw_images/image_197.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_193.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_194.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_195.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_196.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_197.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#technology",
             "#technologytrends",
             "#futuretech",
@@ -831,28 +1155,40 @@
             "#TechInnovation",
             "#Itobuz"
         ],
-        "post_heading": "Get ready to explore the future of technology!",
-        "post_content": "From managing cyber threats to sustainable solutions, from building trust in AI to boosting development with AI, these trends are shaping the tech landscape of 2024. Stay tuned for more updates!",
-        "platform": "facebook"
+        "post_heading":"Get ready to explore the future of technology!",
+        "post_content":"From managing cyber threats to sustainable solutions, from building trust in AI to boosting development with AI, these trends are shaping the tech landscape of 2024. Stay tuned for more updates!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_369.jpg, ./data/raw_data/facebook_raw_images/image_370.jpg, ./data/raw_data/facebook_raw_images/image_371.jpg, ./data/raw_data/facebook_raw_images/image_372.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_369.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_370.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_371.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_372.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#softwaresolutions",
             "#fitnessjourney",
             "#appdevelopmentagency",
             "#appdevelopmentservices",
             "#healthapp"
         ],
-        "post_heading": "Get ready to take your health and fitness journey to the next level with our innovative software solutions!",
-        "post_content": "At Itobuz Technologies, we specialize in developing top-notch software that empowers individuals, trainers, and businesses in the health and fitness industry",
-        "platform": "facebook"
+        "post_heading":"Get ready to take your health and fitness journey to the next level with our innovative software solutions!",
+        "post_content":"At Itobuz Technologies, we specialize in developing top-notch software that empowers individuals, trainers, and businesses in the health and fitness industry",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_425.jpg, ./data/raw_data/facebook_raw_images/image_426.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_425.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_426.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#Coronavirus",
             "#CopingWithStress",
             "#BeHealthy",
@@ -860,26 +1196,42 @@
             "#GuideToStayHappy",
             "#ItobuzTechnologies"
         ],
-        "post_heading": "Here is a guide to COVID-19, what you can do to cope with stress amid concerns over the COVID19 second wave.",
-        "post_content": "",
-        "platform": "facebook"
+        "post_heading":"Here is a guide to COVID-19, what you can do to cope with stress amid concerns over the COVID19 second wave.",
+        "post_content":"",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_420.jpg, ./data/raw_data/facebook_raw_images/image_421.jpg, ./data/raw_data/facebook_raw_images/image_422.jpg, ./data/raw_data/facebook_raw_images/image_423.jpg, ./data/raw_data/facebook_raw_images/image_424.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_420.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_421.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_422.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_423.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_424.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#GuideOfDoingGood",
             "#MondayMotivation",
             "#StartNow"
         ],
-        "post_heading": "Here is a guide to how the best of the best approach their work lives.",
-        "post_content": "The good news? Every one of these habits is something that you can start doing—today.",
-        "platform": "facebook"
+        "post_heading":"Here is a guide to how the best of the best approach their work lives.",
+        "post_content":"The good news? Every one of these habits is something that you can start doing\u2014today.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_15.jpg, ./data/raw_data/facebook_raw_images/image_16.jpg, ./data/raw_data/facebook_raw_images/image_17.jpg, ./data/raw_data/facebook_raw_images/image_18.jpg, ./data/raw_data/facebook_raw_images/image_19.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_15.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_16.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_17.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_18.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_19.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#apptrends",
             "#appdevelopment",
             "#apptrends2025",
@@ -889,40 +1241,22 @@
             "#mobileappideas",
             "#DigitalInnovation"
         ],
-        "post_heading": "Here's to an exciting 2025!",
-        "post_content": "Let’s kick off the year by adding these essential features to your app. Ready to make this the year of seamless experiences?",
-        "platform": "facebook"
+        "post_heading":"Here's to an exciting 2025!",
+        "post_content":"Let\u2019s kick off the year by adding these essential features to your app. Ready to make this the year of seamless experiences?",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_154.jpg, ./data/raw_data/facebook_raw_images/image_155.jpg, ./data/raw_data/facebook_raw_images/image_156.jpg, ./data/raw_data/facebook_raw_images/image_157.jpg, ./data/raw_data/facebook_raw_images/image_158.jpg",
-        "emoji": [
-            "🚀",
-            "🌟",
-            "🏆",
-            "🎉"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_276.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_277.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_278.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_279.jpg"
         ],
-        "hashtags": [
-            "#ITobuzAnniversary",
-            "#14YearsStrong",
-            "#TeamITobuz",
-            "#Innovation",
-            "#Excellence",
-            "#AwardCeremony",
-            "#Gratitude",
-            "#TechLeaders",
-            "#Itobuz"
+        "emoji":[
+            "\ud83d\ude80",
+            "\ud83c\udf08"
         ],
-        "post_heading": "ITobuz Technologies is celebrating its 14th anniversary!",
-        "post_content": "Our office is filled with joy, laughter, and pride as we honor the journey we've traveled together.From our humble beginnings to becoming a leading force in the tech industry, our success is a testament to the hard work, dedication, and passion of our incredible team. The celebration features our annual awards ceremony, recognizing and applauding the outstanding achievements of our team members. Each award symbolizes our appreciation for their relentless commitment and exceptional contributions.We are immensely grateful to our clients, partners, and well-wishers for their continued support and trust in us. Here's to many more years of innovation, growth, and success!",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_276.jpg, ./data/raw_data/facebook_raw_images/image_277.jpg, ./data/raw_data/facebook_raw_images/image_278.jpg, ./data/raw_data/facebook_raw_images/image_279.jpg",
-        "emoji": [
-            "🚀",
-            "🌈"
-        ],
-        "hashtags": [
+        "hashtags":[
             "#metaverse",
             "#virtualreality",
             "#ARVR",
@@ -932,14 +1266,22 @@
             "#augmentedreality",
             "#digitalfuture"
         ],
-        "post_heading": "Immerse yourself in the metaverse, a digital frontier where socialization, gaming, and commerce collide!",
-        "post_content": "Explore the current landscape, witness businesses like Skechers and IKEA pioneering the metaverse, and envision the limitless possibilities that await. Join the conversation as we dive into the evolution of virtual experiences!",
-        "platform": "facebook"
+        "post_heading":"Immerse yourself in the metaverse, a digital frontier where socialization, gaming, and commerce collide!",
+        "post_content":"Explore the current landscape, witness businesses like Skechers and IKEA pioneering the metaverse, and envision the limitless possibilities that await. Join the conversation as we dive into the evolution of virtual experiences!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_131.jpg, ./data/raw_data/facebook_raw_images/image_132.jpg, ./data/raw_data/facebook_raw_images/image_133.jpg, ./data/raw_data/facebook_raw_images/image_134.jpg, ./data/raw_data/facebook_raw_images/image_135.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_131.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_132.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_133.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_134.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_135.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#techtipsandtricks",
             "#techtips",
             "#techinsights",
@@ -949,28 +1291,42 @@
             "#Itobuz",
             "#itobuztechnologies"
         ],
-        "post_heading": "Learn how to improve your dashboard's performance with these simple yet effective tips.",
-        "post_content": "From simplifying data queries to implementing data caching, these strategies will help you achieve quick load times and smooth interactions, enhancing user experience and decision-making",
-        "platform": "facebook"
+        "post_heading":"Learn how to improve your dashboard's performance with these simple yet effective tips.",
+        "post_content":"From simplifying data queries to implementing data caching, these strategies will help you achieve quick load times and smooth interactions, enhancing user experience and decision-making",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_206.jpg, ./data/raw_data/facebook_raw_images/image_207.jpg, ./data/raw_data/facebook_raw_images/image_208.jpg, ./data/raw_data/facebook_raw_images/image_209.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_206.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_207.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_208.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_209.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#tech",
             "#technology",
             "#fintechsecurity",
             "#AppSecurity",
             "#Cybersecurity"
         ],
-        "post_heading": "Learn the essential practices to secure your fintech apps and protect sensitive data.",
-        "post_content": "From secure coding to data storage and industry compliance, ensure your app meets the highest cybersecurity standards",
-        "platform": "facebook"
+        "post_heading":"Learn the essential practices to secure your fintech apps and protect sensitive data.",
+        "post_content":"From secure coding to data storage and industry compliance, ensure your app meets the highest cybersecurity standards",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_25.jpg, ./data/raw_data/facebook_raw_images/image_26.jpg, ./data/raw_data/facebook_raw_images/image_27.jpg, ./data/raw_data/facebook_raw_images/image_28.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_25.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_26.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_27.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_28.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#nocode",
             "#websitebuilding",
             "#webdesign",
@@ -983,17 +1339,23 @@
             "#digitalinnovation",
             "#itobuztechnologies"
         ],
-        "post_heading": "Looking to build a stunning website without writing a single line of code?",
-        "post_content": "No-code platforms are here to make your life easier. Whether you're a small business owner, an entrepreneur, or just someone with a great idea, no-code tools offer a fast, cost-effective, and user-friendly way to create professional websites",
-        "platform": "facebook"
+        "post_heading":"Looking to build a stunning website without writing a single line of code?",
+        "post_content":"No-code platforms are here to make your life easier. Whether you're a small business owner, an entrepreneur, or just someone with a great idea, no-code tools offer a fast, cost-effective, and user-friendly way to create professional websites",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_20.jpg, ./data/raw_data/facebook_raw_images/image_21.jpg, ./data/raw_data/facebook_raw_images/image_22.jpg, ./data/raw_data/facebook_raw_images/image_23.jpg, ./data/raw_data/facebook_raw_images/image_24.jpg",
-        "emoji": [
-            "🚀",
-            "👉"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_20.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_21.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_22.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_23.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_24.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\udc49",
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#mobileappdevelopment",
             "#reactnative",
             "#flutter",
@@ -1011,17 +1373,23 @@
             "#techstack",
             "#itobuztechnologies"
         ],
-        "post_heading": "Looking to kickstart your next mobile app project?",
-        "post_content": "Check out the top frameworks that will shape mobile app development in 2025. From React Native to Flutter, we've covered all the tools you need for cross-platform brilliance and efficiency. Click the link to dive into the full details! https://itobuz.com/blog/top-mobile-app-development-frameworks/",
-        "platform": "facebook"
+        "post_heading":"Looking to kickstart your next mobile app project?",
+        "post_content":"Check out the top frameworks that will shape mobile app development in 2025. From React Native to Flutter, we've covered all the tools you need for cross-platform brilliance and efficiency. Click the link to dive into the full details! https:\/\/itobuz.com\/blog\/top-mobile-app-development-frameworks\/",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_39.jpg, ./data/raw_data/facebook_raw_images/image_40.jpg, ./data/raw_data/facebook_raw_images/image_41.jpg, ./data/raw_data/facebook_raw_images/image_42.jpg, ./data/raw_data/facebook_raw_images/image_43.jpg",
-        "emoji": [
-            "🚀",
-            "💼"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_39.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_40.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_41.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_42.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_43.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\udcbc",
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#enterpriseapps",
             "#mobileapps",
             "#businesssolutions",
@@ -1037,14 +1405,21 @@
             "#appdevelopment",
             "#itobuztechnologies"
         ],
-        "post_heading": "Looking to transform your business operations?",
-        "post_content": "Enterprise mobile apps offer features like robust security, user role management, seamless system integration, real-time analytics, and offline capabilities to keep your team productive anywhere. Discover how custom solutions can empower your enterprise today!",
-        "platform": "facebook"
+        "post_heading":"Looking to transform your business operations?",
+        "post_content":"Enterprise mobile apps offer features like robust security, user role management, seamless system integration, real-time analytics, and offline capabilities to keep your team productive anywhere. Discover how custom solutions can empower your enterprise today!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_321.jpg, ./data/raw_data/facebook_raw_images/image_322.jpg, ./data/raw_data/facebook_raw_images/image_323.jpg, ./data/raw_data/facebook_raw_images/image_324.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_321.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_322.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_323.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_324.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#lowcodedevelopment",
             "#nocodevelopment",
             "#lowcodedeveloper",
@@ -1056,14 +1431,22 @@
             "#nocodedevelopmentplatform",
             "#lowcodevelopment"
         ],
-        "post_heading": "Low-Code vs.",
-        "post_content": "No-Code: Which Development Approach is Right for You?Comment your views!!",
-        "platform": "facebook"
+        "post_heading":"Low-Code vs.",
+        "post_content":"No-Code: Which Development Approach is Right for You?Comment your views!!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_44.jpg, ./data/raw_data/facebook_raw_images/image_45.jpg, ./data/raw_data/facebook_raw_images/image_46.jpg, ./data/raw_data/facebook_raw_images/image_47.jpg, ./data/raw_data/facebook_raw_images/image_48.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_44.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_45.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_46.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_47.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_48.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#machinelearning",
             "#bankinginnovation",
             "#aiinbanking",
@@ -1076,14 +1459,21 @@
             "#techinfinance",
             "#itobuztechnologies"
         ],
-        "post_heading": "Machine Learning is changing the way we bank!",
-        "post_content": "From better security to faster loans and personalized services, ML is making banking smarter and safer. Curious about how it works? Swipe through to see the benefits!",
-        "platform": "facebook"
+        "post_heading":"Machine Learning is changing the way we bank!",
+        "post_content":"From better security to faster loans and personalized services, ML is making banking smarter and safer. Curious about how it works? Swipe through to see the benefits!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_189.jpg, ./data/raw_data/facebook_raw_images/image_190.jpg, ./data/raw_data/facebook_raw_images/image_191.jpg, ./data/raw_data/facebook_raw_images/image_192.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_189.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_190.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_191.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_192.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#appdevelopment",
             "#technology",
             "#tech",
@@ -1091,33 +1481,22 @@
             "#ondemandapps",
             "#mobileapps"
         ],
-        "post_heading": "Our on-demand apps are designed to transform your business.",
-        "post_content": "Whether you need a taxi booking app, a delivery app, home services app, or a laundry app, we've got you covered. Connect with us today to explore how our on-demand apps can revolutionize your business!",
-        "platform": "facebook"
+        "post_heading":"Our on-demand apps are designed to transform your business.",
+        "post_content":"Whether you need a taxi booking app, a delivery app, home services app, or a laundry app, we've got you covered. Connect with us today to explore how our on-demand apps can revolutionize your business!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_108.jpg, ./data/raw_data/facebook_raw_images/image_109.jpg, ./data/raw_data/facebook_raw_images/image_110.jpg, ./data/raw_data/facebook_raw_images/image_111.jpg, ./data/raw_data/facebook_raw_images/image_112.jpg",
-        "emoji": [
-            "🙌",
-            "🥳"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_391.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_392.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_393.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_394.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_395.jpg"
         ],
-        "hashtags": [
-            "#teamlunch",
-            "#officebreak",
-            "#teambuilding",
-            "#teamouting",
-            "#officeculture",
-            "#itobuz",
-            "#ItobuzTechnologies"
+        "emoji":[
+
         ],
-        "post_heading": "Our team took a break from the office grind to enjoy a delicious lunch together!",
-        "post_content": "It was a great time filled with laughter, great food, and even better company. Building strong bonds outside the office helps us work better together inside the office. Here's to many more team outings!",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_391.jpg, ./data/raw_data/facebook_raw_images/image_392.jpg, ./data/raw_data/facebook_raw_images/image_393.jpg, ./data/raw_data/facebook_raw_images/image_394.jpg, ./data/raw_data/facebook_raw_images/image_395.jpg",
-        "emoji": [],
-        "hashtags": [
+        "hashtags":[
             "#itobuz",
             "#software",
             "#transportation",
@@ -1130,29 +1509,24 @@
             "#TransportationTechnology",
             "#softwareservices"
         ],
-        "post_heading": "Pioneer a new era of logistics and transportation excellence with our advanced software solutions.",
-        "post_content": "Seamlessly connect global supply chains, streamline operations, and ensure reliable deliveries. Experience the power of efficiency, connectivity, and reliability in your logistics journey",
-        "platform": "facebook"
+        "post_heading":"Pioneer a new era of logistics and transportation excellence with our advanced software solutions.",
+        "post_content":"Seamlessly connect global supply chains, streamline operations, and ensure reliable deliveries. Experience the power of efficiency, connectivity, and reliability in your logistics journey",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_429.jpg, ./data/raw_data/facebook_raw_images/image_430.jpg, ./data/raw_data/facebook_raw_images/image_431.jpg, ./data/raw_data/facebook_raw_images/image_432.jpg, ./data/raw_data/facebook_raw_images/image_433.jpg",
-        "emoji": [],
-        "hashtags": [
-            "#ItobuzTechnologies",
-            "#TeamOuting2021"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_10.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_11.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_12.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_13.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_14.jpg"
         ],
-        "post_heading": "Planning for an office-outing might look a lot different amid the pandemic.",
-        "post_content": "But the Itobuzians have moved forward with their traditional holiday work party maintaining their employee's health and safety.---A journey well shared is a journey well enjoyed.",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_10.jpg, ./data/raw_data/facebook_raw_images/image_11.jpg, ./data/raw_data/facebook_raw_images/image_12.jpg, ./data/raw_data/facebook_raw_images/image_13.jpg, ./data/raw_data/facebook_raw_images/image_14.jpg",
-        "emoji": [
-            "✨",
-            "💻",
-            "🌟"
+        "emoji":[
+            "\u2728",
+            "\ud83c\udf1f",
+            "\ud83d\udcbb"
         ],
-        "hashtags": [
+        "hashtags":[
             "#DigitalInnovation",
             "#DigitalTransformation",
             "#TechTrends2025",
@@ -1162,17 +1536,22 @@
             "#technologychallenges",
             "#USATechnology"
         ],
-        "post_heading": "Ready to see where technology is heading in 2025?",
-        "post_content": "From AI breakthroughs to the rise of Web3, we’ve got you covered with the top trends set to shape our world!",
-        "platform": "facebook"
+        "post_heading":"Ready to see where technology is heading in 2025?",
+        "post_content":"From AI breakthroughs to the rise of Web3, we\u2019ve got you covered with the top trends set to shape our world!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_317.jpg, ./data/raw_data/facebook_raw_images/image_318.jpg, ./data/raw_data/facebook_raw_images/image_319.jpg, ./data/raw_data/facebook_raw_images/image_320.jpg",
-        "emoji": [
-            "🚀",
-            "🔐"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_317.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_318.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_319.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_320.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\udd10",
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#blockchain",
             "#blockchaindevelopment",
             "#blockchainappdevelopment",
@@ -1183,14 +1562,22 @@
             "#blockchainrevolution",
             "#blockchainapplications"
         ],
-        "post_heading": "Revolutionize your digital landscape with our Blockchain Development services.",
-        "post_content": "We craft secure, transparent, and innovative solutions, scripting the future of decentralized technology. Join us in the evolution of trust and innovation!",
-        "platform": "facebook"
+        "post_heading":"Revolutionize your digital landscape with our Blockchain Development services.",
+        "post_content":"We craft secure, transparent, and innovative solutions, scripting the future of decentralized technology. Join us in the evolution of trust and innovation!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_227.jpg, ./data/raw_data/facebook_raw_images/image_228.jpg, ./data/raw_data/facebook_raw_images/image_229.jpg, ./data/raw_data/facebook_raw_images/image_230.jpg, ./data/raw_data/facebook_raw_images/image_231.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_227.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_228.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_229.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_230.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_231.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#fitnessapp",
             "#fitness",
             "#FitnessRevolution",
@@ -1198,142 +1585,65 @@
             "#mobileapp",
             "#mobiledevelopment"
         ],
-        "post_heading": "Revolutionize your fitness journey with our cutting-edge app.",
-        "post_content": "Elevate workouts with engaging visuals and seamless navigation. Stay connected with real-time updates for an empowering fitness experience. Your safety is our priority – trust a secure environment for confident workouts. Start your fitness revolution today!",
-        "platform": "facebook"
+        "post_heading":"Revolutionize your fitness journey with our cutting-edge app.",
+        "post_content":"Elevate workouts with engaging visuals and seamless navigation. Stay connected with real-time updates for an empowering fitness experience. Your safety is our priority \u2013 trust a secure environment for confident workouts. Start your fitness revolution today!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_434.jpg, ./data/raw_data/facebook_raw_images/image_435.jpg, ./data/raw_data/facebook_raw_images/image_436.jpg, ./data/raw_data/facebook_raw_images/image_437.jpg, ./data/raw_data/facebook_raw_images/image_438.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_434.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_435.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_436.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_437.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_438.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#SelfCare",
             "#TeachersAndStudents",
             "#MentalHealth",
             "#SundaySocial",
             "#ItobuzTechnologies"
         ],
-        "post_heading": "Self-care is an important component of a teacher’s mental health, but there are misconceptions about what it is.",
-        "post_content": "It’s common for educators to dismiss the self-care movement as “selfish” or “superficial.” But for teachers, self-care is so much more than breakfast in bed or treating yourself to a spa day. It’s about taking care of your health so that you’re prepared to be the best teacher you can be for yourself and your students.",
-        "platform": "facebook"
+        "post_heading":"Self-care is an important component of a teacher\u2019s mental health, but there are misconceptions about what it is.",
+        "post_content":"It\u2019s common for educators to dismiss the self-care movement as \u201cselfish\u201d or \u201csuperficial.\u201d But for teachers, self-care is so much more than breakfast in bed or treating yourself to a spa day. It\u2019s about taking care of your health so that you\u2019re prepared to be the best teacher you can be for yourself and your students.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_179.jpg, ./data/raw_data/facebook_raw_images/image_180.jpg, ./data/raw_data/facebook_raw_images/image_181.jpg, ./data/raw_data/facebook_raw_images/image_182.jpg, ./data/raw_data/facebook_raw_images/image_183.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_179.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_180.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_181.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_182.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_183.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#technology",
             "#6gtechnology",
             "#techinnovation",
             "#itobuztech"
         ],
-        "post_heading": "Step into the future with us as we uncover the transformative potential of 6G technology and its six groundbreaking benefits.",
-        "post_content": "From instantaneous downloads to eco-friendly solutions, 6G is poised to revolutionize connectivity and innovation. Join the conversation and stay ahead of the curve",
-        "platform": "facebook"
+        "post_heading":"Step into the future with us as we uncover the transformative potential of 6G technology and its six groundbreaking benefits.",
+        "post_content":"From instantaneous downloads to eco-friendly solutions, 6G is poised to revolutionize connectivity and innovation. Join the conversation and stay ahead of the curve",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_74.jpg, ./data/raw_data/facebook_raw_images/image_75.jpg, ./data/raw_data/facebook_raw_images/image_76.jpg, ./data/raw_data/facebook_raw_images/image_77.jpg",
-        "emoji": [
-            "🎉"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_69.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_70.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_71.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_72.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_73.jpg"
         ],
-        "hashtags": [
-            "#Throwback",
-            "#DurgaPuja2024",
-            "#ItobuzCelebrates",
-            "#Teamwork",
-            "#MemorableMoments",
-            "#GrowingTogether",
-            "#DurgapujaCelebration2024",
-            "#Itobuz"
+        "emoji":[
+            "\ud83d\ude80"
         ],
-        "post_heading": "Throwback to 5th October 2024, when Itobuz Technologies lit up the stage with our spectacular Durga Puja Function!",
-        "post_content": "From incredible performances to recognizing our team's hard work and dedication, it was a night of celebration, laughter, and camaraderie. Grateful for the amazing memories we created together. Here's to many more milestones ahead!",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_174.jpg, ./data/raw_data/facebook_raw_images/image_175.jpg, ./data/raw_data/facebook_raw_images/image_176.jpg, ./data/raw_data/facebook_raw_images/image_177.jpg, ./data/raw_data/facebook_raw_images/image_178.jpg",
-        "emoji": [],
-        "hashtags": [
-            "#Hackathon2024",
-            "#event",
-            "#metaquesthackathon2024",
-            "#innovation",
-            "#creativity",
-            "#teamwork",
-            "#TechEvent"
-        ],
-        "post_heading": "Throwback to our Meta Quest Hackathon 2024 event in our office, where participants showcased their incredible skills and creativity.",
-        "post_content": "It was an inspiring event filled with hard work, innovation, and collaboration. The energy and enthusiasm were truly remarkable, making it a memorable experience for everyone involved",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_224.jpg, ./data/raw_data/facebook_raw_images/image_225.jpg, ./data/raw_data/facebook_raw_images/image_226.jpg",
-        "emoji": [],
-        "hashtags": [
-            "#womenday",
-            "#womenempowerment",
-            "#womendaycelebration"
-        ],
-        "post_heading": "Throwback to the incredible Women's Day celebration at Itobuz Technologies on 8 March.",
-        "post_content": "A day filled with joy, empowerment, and celebration of our amazing women’s team!",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_302.jpg, ./data/raw_data/facebook_raw_images/image_303.jpg, ./data/raw_data/facebook_raw_images/image_304.jpg, ./data/raw_data/facebook_raw_images/image_305.jpg, ./data/raw_data/facebook_raw_images/image_306.jpg",
-        "emoji": [
-            "🌸",
-            "🌆",
-            "🙏",
-            "🎉"
-        ],
-        "hashtags": [
-            "#ThrowbackDurgaPuja",
-            "#ItobuzMemories",
-            "#KolkataFestivals",
-            "#TraditionMeetsTech",
-            "#DurgaPujaNostalgia",
-            "#DurgaPuja",
-            "#KolkataDurgaPuja",
-            "#DurgaPuja2023",
-            "#DurgaPujaFestival"
-        ],
-        "post_heading": "Throwback to the unforgettable moments of Durga Puja festivities with Itobuz Technologies!",
-        "post_content": "Reliving the magic of past celebrations. From the mesmerizing idol of Goddess Durga to the rhythmic beats of the dhak, every year has been a unique tapestry of culture and modernity. Our team's dedication to making every Puja special is what has made these moments truly unforgettable.Let's continue to cherish these beautiful memories and look forward to the promise of more memorable Durga Puja celebrations in the future with Itobuz Technologies.",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_414.jpg, ./data/raw_data/facebook_raw_images/image_415.jpg, ./data/raw_data/facebook_raw_images/image_416.jpg, ./data/raw_data/facebook_raw_images/image_417.jpg",
-        "emoji": [],
-        "hashtags": [
-            "#ItobuzHoli2023",
-            "#celebratingtogetherness",
-            "#JoyousMoments",
-            "#goodtimeswithgreatpeople",
-            "#HoliMemories",
-            "#loveforcolors"
-        ],
-        "post_heading": "Throwing back to the most colourful and fun-filled Holi celebrations at Itobuz Technologies!",
-        "post_content": "It was an amazing day filled with joy, laughter, and endless memories",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_410.jpg, ./data/raw_data/facebook_raw_images/image_411.jpg, ./data/raw_data/facebook_raw_images/image_412.jpg, ./data/raw_data/facebook_raw_images/image_413.jpg",
-        "emoji": [],
-        "hashtags": [
-            "#throwback",
-            "#internationalwomensday",
-            "#womenintech",
-            "#ItobuzTechnologies",
-            "#womenempowement"
-        ],
-        "post_heading": "Throwing it back to an amazing Women's Day celebration at Itobuz Technologies!",
-        "post_content": "We are grateful for the contributions and achievements of the women who have been a part of our journey. Here's to continuing to create a workplace that supports and empowers women in tech.",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_69.jpg, ./data/raw_data/facebook_raw_images/image_70.jpg, ./data/raw_data/facebook_raw_images/image_71.jpg, ./data/raw_data/facebook_raw_images/image_72.jpg, ./data/raw_data/facebook_raw_images/image_73.jpg",
-        "emoji": [
-            "🚀"
-        ],
-        "hashtags": [
+        "hashtags":[
             "#aiappdevelopment",
             "#mobileappinnovation",
             "#smartapps",
@@ -1347,80 +1657,110 @@
             "#aiapp",
             "#itobuztechnologies"
         ],
-        "post_heading": "Transform your mobile app with cutting-edge AI!",
-        "post_content": "From streamlining customer support with smart chatbots to enhancing security and personalizing user experiences, discover how these 6 AI innovations can set your app apart. Dive into the future of app development and make every interaction smarter and more efficient.",
-        "platform": "facebook"
+        "post_heading":"Transform your mobile app with cutting-edge AI!",
+        "post_content":"From streamlining customer support with smart chatbots to enhancing security and personalizing user experiences, discover how these 6 AI innovations can set your app apart. Dive into the future of app development and make every interaction smarter and more efficient.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_280.jpg, ./data/raw_data/facebook_raw_images/image_281.jpg, ./data/raw_data/facebook_raw_images/image_282.jpg, ./data/raw_data/facebook_raw_images/image_283.jpg",
-        "emoji": [
-            "🌐",
-            "🔍",
-            "🚀",
-            "📊",
-            "🏀"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_280.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_281.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_282.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_283.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83c\udf10",
+            "\ud83d\udcca",
+            "\ud83d\ude80",
+            "\ud83c\udfc0",
+            "\ud83d\udd0d"
+        ],
+        "hashtags":[
             "#AISportsRevolution",
             "#AI",
             "#AIinSports"
         ],
-        "post_heading": "Unleash the Power of AI in Sports!",
-        "post_content": "From transforming player performance analysis to tailoring personalized diets, AI is rewriting the playbook of success in the sports industry! Join us on this exhilarating journey as we explore the cutting-edge innovations propelling sports into the future. Let's redefine the game together!",
-        "platform": "facebook"
+        "post_heading":"Unleash the Power of AI in Sports!",
+        "post_content":"From transforming player performance analysis to tailoring personalized diets, AI is rewriting the playbook of success in the sports industry! Join us on this exhilarating journey as we explore the cutting-edge innovations propelling sports into the future. Let's redefine the game together!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_340.jpg, ./data/raw_data/facebook_raw_images/image_341.jpg, ./data/raw_data/facebook_raw_images/image_342.jpg, ./data/raw_data/facebook_raw_images/image_343.jpg, ./data/raw_data/facebook_raw_images/image_344.jpg",
-        "emoji": [
-            "🚀"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_340.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_341.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_342.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_343.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_344.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#businessprocess",
             "#businessprocessautomation",
             "#businessautomation",
             "#businessprocessmanagement"
         ],
-        "post_heading": "Unlock the Future of Work with Business Process Automation!",
-        "post_content": "Say goodbye to repetitive tasks and hello to efficiency, productivity, and innovation. Let's streamline your business processes for a brighter tomorrow!",
-        "platform": "facebook"
+        "post_heading":"Unlock the Future of Work with Business Process Automation!",
+        "post_content":"Say goodbye to repetitive tasks and hello to efficiency, productivity, and innovation. Let's streamline your business processes for a brighter tomorrow!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_382.jpg, ./data/raw_data/facebook_raw_images/image_383.jpg, ./data/raw_data/facebook_raw_images/image_384.jpg, ./data/raw_data/facebook_raw_images/image_385.jpg",
-        "emoji": [
-            "🚀",
-            "💡"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_382.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_383.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_384.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_385.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\udca1",
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#cryptocurrencyapp",
             "#appdevelopmentagency",
             "#appdevelopmentcompany",
             "#softwaredevelopment",
             "#customsoftwaredevelopment"
         ],
-        "post_heading": "Unlock the potential of cryptocurrency with our top-notch app development services.",
-        "post_content": "From digital wallets to trading platforms, we build secure and user-friendly solutions that put you ahead in the crypto game. Join the revolution today!",
-        "platform": "facebook"
+        "post_heading":"Unlock the potential of cryptocurrency with our top-notch app development services.",
+        "post_content":"From digital wallets to trading platforms, we build secure and user-friendly solutions that put you ahead in the crypto game. Join the revolution today!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_335.jpg, ./data/raw_data/facebook_raw_images/image_336.jpg, ./data/raw_data/facebook_raw_images/image_337.jpg, ./data/raw_data/facebook_raw_images/image_338.jpg, ./data/raw_data/facebook_raw_images/image_339.jpg",
-        "emoji": [
-            "🚀"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_335.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_336.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_337.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_338.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_339.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#enterprisemobility",
             "#mobility",
             "#mobilitysolutions",
             "#EnterpriseTransformation",
             "#enterprisesoftware"
         ],
-        "post_heading": "Unlock the potential of your business with Enterprise Mobility Solutions!",
-        "post_content": "Stay connected, productive, and agile from anywhere, anytime. Say goodbye to boundaries and hello to limitless opportunities.",
-        "platform": "facebook"
+        "post_heading":"Unlock the potential of your business with Enterprise Mobility Solutions!",
+        "post_content":"Stay connected, productive, and agile from anywhere, anytime. Say goodbye to boundaries and hello to limitless opportunities.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_164.jpg, ./data/raw_data/facebook_raw_images/image_165.jpg, ./data/raw_data/facebook_raw_images/image_166.jpg, ./data/raw_data/facebook_raw_images/image_167.jpg, ./data/raw_data/facebook_raw_images/image_168.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_164.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_165.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_166.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_167.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_168.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#SaaS",
             "#Cybersecurity",
             "#Software",
@@ -1429,31 +1769,44 @@
             "#itobuz",
             "#itobuztech"
         ],
-        "post_heading": "Unlock the power of essential SaaS applications!",
-        "post_content": "Enhance teamwork, streamline file sharing, manage customer relationships effectively, simplify financial management, and protect your business with top-notch cybersecurity tools",
-        "platform": "facebook"
+        "post_heading":"Unlock the power of essential SaaS applications!",
+        "post_content":"Enhance teamwork, streamline file sharing, manage customer relationships effectively, simplify financial management, and protect your business with top-notch cybersecurity tools",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_378.jpg, ./data/raw_data/facebook_raw_images/image_379.jpg, ./data/raw_data/facebook_raw_images/image_380.jpg, ./data/raw_data/facebook_raw_images/image_381.jpg",
-        "emoji": [
-            "🌐",
-            "💡"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_378.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_379.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_380.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_381.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\udca1",
+            "\ud83c\udf10"
+        ],
+        "hashtags":[
             "#softwaresolutions",
             "#erpsoftwaresolutions",
             "#healthcaresoftware",
             "#softwaredevelopment",
             "#customsoftwaresolutions"
         ],
-        "post_heading": "Unlock the power of technology in healthcare with our innovative software solutions!",
-        "post_content": "Our healthcare software offers a wide range of features including patient portals, electronic health records, telemedicine, and more.Streamline your operations, improve patient outcomes, and stay ahead in the digital age of healthcare. Experience the transformative potential of our software today!",
-        "platform": "facebook"
+        "post_heading":"Unlock the power of technology in healthcare with our innovative software solutions!",
+        "post_content":"Our healthcare software offers a wide range of features including patient portals, electronic health records, telemedicine, and more.Streamline your operations, improve patient outcomes, and stay ahead in the digital age of healthcare. Experience the transformative potential of our software today!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_247.jpg, ./data/raw_data/facebook_raw_images/image_248.jpg, ./data/raw_data/facebook_raw_images/image_249.jpg, ./data/raw_data/facebook_raw_images/image_250.jpg, ./data/raw_data/facebook_raw_images/image_251.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_247.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_248.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_249.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_250.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_251.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#cloudsecurity",
             "#cloudcomputing",
             "#cloudnative",
@@ -1462,17 +1815,23 @@
             "#futuretech",
             "#cybersecurity"
         ],
-        "post_heading": "Unveil the future of cloud computing as innovative startups pioneer cloud-native security solutions.",
-        "post_content": "Dive into a realm where software-driven simplicity meets the unique challenges of cloud-native architectures. Explore how these solutions redefine security for the evolving landscape of applications and microservices",
-        "platform": "facebook"
+        "post_heading":"Unveil the future of cloud computing as innovative startups pioneer cloud-native security solutions.",
+        "post_content":"Dive into a realm where software-driven simplicity meets the unique challenges of cloud-native architectures. Explore how these solutions redefine security for the evolving landscape of applications and microservices",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_0.jpg, ./data/raw_data/facebook_raw_images/image_1.jpg, ./data/raw_data/facebook_raw_images/image_2.jpg, ./data/raw_data/facebook_raw_images/image_3.jpg, ./data/raw_data/facebook_raw_images/image_4.jpg",
-        "emoji": [
-            "🚀",
-            "💪"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_0.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_1.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_2.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_3.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_4.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\udcaa",
+            "\ud83d\ude80"
+        ],
+        "hashtags":[
             "#appdevelopment",
             "#healthtech",
             "#fitnessapp",
@@ -1484,44 +1843,41 @@
             "#appdevelopment",
             "#ItobuzTechnologies"
         ],
-        "post_heading": "Want to create a standout health & fitness app?",
-        "post_content": "Focus on features like personalization, gamification, and progress tracking to deliver an engaging experience. Get inspired with these tips and design a solution users will keep coming back to!",
-        "platform": "facebook"
+        "post_heading":"Want to create a standout health & fitness app?",
+        "post_content":"Focus on features like personalization, gamification, and progress tracking to deliver an engaging experience. Get inspired with these tips and design a solution users will keep coming back to!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_418.jpg, ./data/raw_data/facebook_raw_images/image_419.jpg",
-        "emoji": [],
-        "hashtags": [
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_418.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_419.jpg"
+        ],
+        "emoji":[
+
+        ],
+        "hashtags":[
             "#RaiseAwareness",
             "#SelfQuarantine",
             "#COVID19",
             "#FollowProcedures",
             "#ItobuzTechnologies"
         ],
-        "post_heading": "Watch for symptoms until 14 days after exposure.",
-        "post_content": "If you have symptoms, immediately self-isolate and contact your local public health authority or healthcare provider. Wear a mask, stay at least 6 feet from others, wash your hands, avoid crowds, and take other steps to prevent the spread of COVID-19.",
-        "platform": "facebook"
+        "post_heading":"Watch for symptoms until 14 days after exposure.",
+        "post_content":"If you have symptoms, immediately self-isolate and contact your local public health authority or healthcare provider. Wear a mask, stay at least 6 feet from others, wash your hands, avoid crowds, and take other steps to prevent the spread of COVID-19.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_210.jpg, ./data/raw_data/facebook_raw_images/image_211.jpg, ./data/raw_data/facebook_raw_images/image_212.jpg, ./data/raw_data/facebook_raw_images/image_213.jpg, ./data/raw_data/facebook_raw_images/image_214.jpg",
-        "emoji": [
-            "🎨",
-            "🎉"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_401.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_402.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_403.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_404.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_405.jpg"
         ],
-        "hashtags": [
-            "#holicelebrations",
-            "#ItobuzCulture",
-            "#memorablemoment",
-            "#holi2024"
+        "emoji":[
+
         ],
-        "post_heading": "What a colorful blast we had at Itobuz Technologies as we celebrated the joyous festival of Holi on March 23rd!",
-        "post_content": "From vibrant hues to infectious laughter, it was a day filled with pure delight and camaraderie. Let's cherish the memories made and carry the spirit of togetherness forward. Here's to many more celebrations ahead!",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_401.jpg, ./data/raw_data/facebook_raw_images/image_402.jpg, ./data/raw_data/facebook_raw_images/image_403.jpg, ./data/raw_data/facebook_raw_images/image_404.jpg, ./data/raw_data/facebook_raw_images/image_405.jpg",
-        "emoji": [],
-        "hashtags": [
+        "hashtags":[
             "#HealthcareAppDevelopment",
             "#InnovationAtItsBest",
             "#Itobuz",
@@ -1533,18 +1889,24 @@
             "#logisticsapp",
             "#BlockchainApp"
         ],
-        "post_heading": "With the increasing use of mobile devices, businesses that invest in app development can enhance user experience, boost revenue, and stay ahead of the competition.",
-        "post_content": "By tailoring mobile apps to their unique business needs, companies can create seamless experiences that delight users and drive business growth.To learn more about Industries, Scroll Down Healthcare App Development :Medical apps facilitate patient care, efficiency, engagement, remote monitoring, and personalization. On Demand App Development :An on-demand app connects users to the services or products they need in real-time.Transportation & Logistics App Development :Modern logistics & transportation applications are aimed at improving the flow of goods and people.Blockchain App Development :Blockchain app development provides secure, efficient, and decentralized transactions.",
-        "platform": "facebook"
+        "post_heading":"With the increasing use of mobile devices, businesses that invest in app development can enhance user experience, boost revenue, and stay ahead of the competition.",
+        "post_content":"By tailoring mobile apps to their unique business needs, companies can create seamless experiences that delight users and drive business growth.To learn more about Industries, Scroll Down Healthcare App Development :Medical apps facilitate patient care, efficiency, engagement, remote monitoring, and personalization. On Demand App Development :An on-demand app connects users to the services or products they need in real-time.Transportation & Logistics App Development :Modern logistics & transportation applications are aimed at improving the flow of goods and people.Blockchain App Development :Blockchain app development provides secure, efficient, and decentralized transactions.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_360.jpg, ./data/raw_data/facebook_raw_images/image_361.jpg, ./data/raw_data/facebook_raw_images/image_362.jpg, ./data/raw_data/facebook_raw_images/image_363.jpg, ./data/raw_data/facebook_raw_images/image_364.jpg",
-        "emoji": [
-            "🌐",
-            "🔮",
-            "🚀"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_360.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_361.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_362.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_363.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_364.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83c\udf10",
+            "\ud83d\ude80",
+            "\ud83d\udd2e"
+        ],
+        "hashtags":[
             "#AR",
             "#VR",
             "#VirtualReality",
@@ -1557,16 +1919,22 @@
             "#virtualrealityexperience",
             "#Itobuz"
         ],
-        "post_heading": "Embrace the Future of Reality!",
-        "post_content": "Discover the magic of and technology as you step into a world of boundless possibilities. From escapades to enhancements, these transformative technologies are reshaping how we learn, work, and play",
-        "platform": "facebook"
+        "post_heading":"Embrace the Future of Reality!",
+        "post_content":"Discover the magic of and technology as you step into a world of boundless possibilities. From escapades to enhancements, these transformative technologies are reshaping how we learn, work, and play",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_93.jpg, ./data/raw_data/facebook_raw_images/image_94.jpg, ./data/raw_data/facebook_raw_images/image_95.jpg, ./data/raw_data/facebook_raw_images/image_96.jpg, ./data/raw_data/facebook_raw_images/image_97.jpg",
-        "emoji": [
-            "🌟"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_93.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_94.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_95.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_96.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_97.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83c\udf1f"
+        ],
+        "hashtags":[
             "#airevolution",
             "#machinelearning",
             "#ondemandapps",
@@ -1578,17 +1946,23 @@
             "#mobileapp",
             "#itobuztechnologies"
         ],
-        "post_heading": "Explore How AI & ML Are Revolutionizing On-Demand Apps!",
-        "post_content": "From personalized experiences to smart forecasting and automated support, AI and Machine Learning are enhancing the way we interact with on-demand services. Swipe through our slides to see how these innovations are shaping the future!",
-        "platform": "facebook"
+        "post_heading":"Explore How AI & ML Are Revolutionizing On-Demand Apps!",
+        "post_content":"From personalized experiences to smart forecasting and automated support, AI and Machine Learning are enhancing the way we interact with on-demand services. Swipe through our slides to see how these innovations are shaping the future!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_78.jpg, ./data/raw_data/facebook_raw_images/image_79.jpg, ./data/raw_data/facebook_raw_images/image_80.jpg, ./data/raw_data/facebook_raw_images/image_81.jpg, ./data/raw_data/facebook_raw_images/image_82.jpg",
-        "emoji": [
-            "🌾",
-            "🌱"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_78.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_79.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_80.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_81.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_82.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83c\udf31",
+            "\ud83c\udf3e"
+        ],
+        "hashtags":[
             "#iot",
             "#technology",
             "#smartfarming",
@@ -1604,20 +1978,26 @@
             "#iotinagriculture",
             "#itobuztechnologies"
         ],
-        "post_heading": "Smart farming is here!",
-        "post_content": "With IoT, farmers can boost crop yields, save water, cut labor costs, and even monitor livestock health—all in real-time. Discover how technology is transforming agriculture for a more sustainable future.",
-        "platform": "facebook"
+        "post_heading":"Smart farming is here!",
+        "post_content":"With IoT, farmers can boost crop yields, save water, cut labor costs, and even monitor livestock health\u2014all in real-time. Discover how technology is transforming agriculture for a more sustainable future.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_396.jpg, ./data/raw_data/facebook_raw_images/image_397.jpg, ./data/raw_data/facebook_raw_images/image_398.jpg, ./data/raw_data/facebook_raw_images/image_399.jpg, ./data/raw_data/facebook_raw_images/image_400.jpg",
-        "emoji": [
-            "🌍",
-            "💡",
-            "🌿",
-            "✨",
-            "🌱"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_396.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_397.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_398.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_399.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_400.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\u2728",
+            "\ud83c\udf3f",
+            "\ud83d\udca1",
+            "\ud83c\udf0d",
+            "\ud83c\udf31"
+        ],
+        "hashtags":[
             "#renewableenergy",
             "#softwaresolutions",
             "#softwaredevelopment",
@@ -1626,55 +2006,25 @@
             "#customsoftwaredevelopmentcompany",
             "#renewableenergysolutions"
         ],
-        "post_heading": "Embrace the Power of Renewable Energy!",
-        "post_content": "Discover how Itobuz's cutting-edge Renewable Energy Management Software is transforming the sustainability landscape.",
-        "platform": "facebook"
+        "post_heading":"Embrace the Power of Renewable Energy!",
+        "post_content":"Discover how Itobuz's cutting-edge Renewable Energy Management Software is transforming the sustainability landscape.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_365.jpg, ./data/raw_data/facebook_raw_images/image_366.jpg, ./data/raw_data/facebook_raw_images/image_367.jpg, ./data/raw_data/facebook_raw_images/image_368.jpg",
-        "emoji": [
-            "📊",
-            "🍽️",
-            "⏰",
-            "❤️",
-            "👥",
-            "⌛",
-            "💡",
-            "🏅",
-            "💻",
-            "💹",
-            "✨",
-            "💪",
-            "🚀",
-            "📈",
-            "🕗",
-            "🤝",
-            "🍔",
-            "💬",
-            "👉",
-            "📱",
-            "🏆",
-            "🎉"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_345.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_346.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_347.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_348.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_349.jpg"
         ],
-        "hashtags": [
-            "#RestaurantTech",
-            "#CustomSoftware",
-            "#DigitalSolutions",
-            "#InnovationInDining"
+        "emoji":[
+            "\ud83d\udcac",
+            "\ud83d\udde3\ufe0f",
+            "\ud83e\udd16",
+            "\ud83d\ude80"
         ],
-        "post_heading": "Boost Your Restaurant Business with Custom Software Solutions!",
-        "post_content": "Tired of managing your restaurant the old-fashioned way? Say hello to the future of dining with our tailor-made software solutions! From seamless online ordering to efficient table management, we've got you covered. Streamline your operations and serve your customers better with our custom apps and digital tools. Embrace innovation and stay ahead of the competition. Maximize profits and minimize hassles with our user-friendly POS systems and data-driven insights. Watch your revenue soar as you make data-driven decisions. Time is money! Let our software handle the mundane tasks so you can focus on what matters most – providing an unforgettable dining experience. Customer satisfaction is our priority! With our solutions, you'll build stronger relationships and foster loyalty among your patrons. Stand out from the crowd and give your restaurant the tech-savvy edge it deserves. Experience the power of custom software solutions today!",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_345.jpg, ./data/raw_data/facebook_raw_images/image_346.jpg, ./data/raw_data/facebook_raw_images/image_347.jpg, ./data/raw_data/facebook_raw_images/image_348.jpg, ./data/raw_data/facebook_raw_images/image_349.jpg",
-        "emoji": [
-            "🚀",
-            "🤖",
-            "🗣️",
-            "💬"
-        ],
-        "hashtags": [
+        "hashtags":[
             "#voicetechnology",
             "#chatbots",
             "#technologytrends2023",
@@ -1682,20 +2032,26 @@
             "#technologyinnovation",
             "#technologytrends"
         ],
-        "post_heading": "Bridging the Gap: When Voice Meets Chatbot!",
-        "post_content": "Explore the seamless integration of voice technology with chatbots, revolutionizing customer interactions and boosting engagement.",
-        "platform": "facebook"
+        "post_heading":"Bridging the Gap: When Voice Meets Chatbot!",
+        "post_content":"Explore the seamless integration of voice technology with chatbots, revolutionizing customer interactions and boosting engagement.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_386.jpg, ./data/raw_data/facebook_raw_images/image_387.jpg, ./data/raw_data/facebook_raw_images/image_388.jpg, ./data/raw_data/facebook_raw_images/image_389.jpg, ./data/raw_data/facebook_raw_images/image_390.jpg",
-        "emoji": [
-            "🌟",
-            "🚀",
-            "📱",
-            "📲",
-            "💼"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_386.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_387.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_388.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_389.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_390.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83c\udf1f",
+            "\ud83d\udcf2",
+            "\ud83d\ude80",
+            "\ud83d\udcf1",
+            "\ud83d\udcbc"
+        ],
+        "hashtags":[
             "#appdevelopmentagency",
             "#ondemandappdevelopment",
             "#ondemandapps",
@@ -1706,46 +2062,58 @@
             "#logisticsapp",
             "#fooddeliveryappdevelopment"
         ],
-        "post_heading": "Elevate Your Business with On-Demand App Development!",
-        "post_content": "From transportation and food delivery to healthcare and home services, Itobuz Technologies has the expertise to take your brand to new heights. Discover the power of convenience and seamless experiences today!",
-        "platform": "facebook"
+        "post_heading":"Elevate Your Business with On-Demand App Development!",
+        "post_content":"From transportation and food delivery to healthcare and home services, Itobuz Technologies has the expertise to take your brand to new heights. Discover the power of convenience and seamless experiences today!",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_373.jpg, ./data/raw_data/facebook_raw_images/image_374.jpg, ./data/raw_data/facebook_raw_images/image_375.jpg, ./data/raw_data/facebook_raw_images/image_376.jpg, ./data/raw_data/facebook_raw_images/image_377.jpg",
-        "emoji": [
-            "🔍",
-            "👩‍🎓",
-            "🌟",
-            "🚀",
-            "📊",
-            "💡",
-            "🎯",
-            "✅",
-            "💻",
-            "🤝",
-            "✨",
-            "🏫",
-            "📚"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_373.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_374.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_375.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_376.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_377.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83c\udf1f",
+            "\ud83e\udd1d",
+            "\ud83d\udcca",
+            "\ud83d\udc69\u200d\ud83c\udf93",
+            "\ud83d\ude80",
+            "\u2705",
+            "\ud83c\udfaf",
+            "\u2728",
+            "\ud83d\udcbb",
+            "\ud83d\udcda",
+            "\ud83d\udca1",
+            "\ud83d\udd0d",
+            "\ud83c\udfeb"
+        ],
+        "hashtags":[
             "#EdTechSolutions",
             "#edtechinnovation",
             "#customsoftwaresolutions",
             "#softwaredevelopmentagency"
         ],
-        "post_heading": "Revolutionize your learning experience with our cutting-edge edtech software solutions!",
-        "post_content": "Unlock the true potential of education with our innovative tools designed to inspire and empower both educators and students. Personalized learning paths? We've got you covered! Real-time progress tracking? Absolutely! Seamless collaboration between teachers and students? You bet! Embrace the future of education and embrace success. Whether you're an educational institution or an eager learner, our edtech software is tailored to meet your unique needs.",
-        "platform": "facebook"
+        "post_heading":"Revolutionize your learning experience with our cutting-edge edtech software solutions!",
+        "post_content":"Unlock the true potential of education with our innovative tools designed to inspire and empower both educators and students. Personalized learning paths? We've got you covered! Real-time progress tracking? Absolutely! Seamless collaboration between teachers and students? You bet! Embrace the future of education and embrace success. Whether you're an educational institution or an eager learner, our edtech software is tailored to meet your unique needs.",
+        "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_5.jpg, ./data/raw_data/facebook_raw_images/image_6.jpg, ./data/raw_data/facebook_raw_images/image_7.jpg, ./data/raw_data/facebook_raw_images/image_8.jpg, ./data/raw_data/facebook_raw_images/image_9.jpg",
-        "emoji": [
-            "👉",
-            "📈",
-            "🚛",
-            "💡"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_5.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_6.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_7.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_8.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_9.jpg"
         ],
-        "hashtags": [
+        "emoji":[
+            "\ud83d\udca1",
+            "\ud83d\udc49",
+            "\ud83d\udcc8",
+            "\ud83d\ude9b"
+        ],
+        "hashtags":[
             "#ItobuzTechnologies",
             "#technology",
             "#logistic",
@@ -1758,8 +2126,8 @@
             "#LogisticsSoftware",
             "#LogisticsPlatform"
         ],
-        "post_heading": "Struggling with delays and inefficiencies in logistics?",
-        "post_content": "ITobuz Technologies delivers smarter automation to optimize routes, track inventory in real-time, and streamline communication. Save costs, boost efficiency, and enhance customer satisfaction. Ready to transform your logistics? Contact us today!",
-        "platform": "facebook"
+        "post_heading":"Struggling with delays and inefficiencies in logistics?",
+        "post_content":"ITobuz Technologies delivers smarter automation to optimize routes, track inventory in real-time, and streamline communication. Save costs, boost efficiency, and enhance customer satisfaction. Ready to transform your logistics? Contact us today!",
+        "platform":"facebook"
     }
 ]
