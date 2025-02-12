@@ -4,10 +4,11 @@
 import os
 import json
 import torch
-from datasets import Dataset, DatasetDict
+from datasets import Dataset
 from config.config import Config
 from transformers import set_seed
 from src.utils.logger import LoggerSetup
+from src.utils.set_seed import set_global_seed
 from sklearn.model_selection import train_test_split
 from src.model_finetuners.llm_fine_tuner import LLMFineTuner
 from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -17,12 +18,12 @@ finetune_logger.info("Logger Successfully Initialized")
 
 
 
-def llm_fine_tune_main():
+def llm_fine_tune_main(logger:LoggerSetup) -> None:
     """
     Main function to run the fine tuner of llm.
     
     """
-    set_seed(42)
+    set_global_seed(logger=logger, seed=42)
     try:
         model_path         = 'src/base_models/falcon1b/model'
         tokenizer_path     = 'src/base_models/falcon1b/tokenizer'
@@ -52,8 +53,6 @@ def llm_fine_tune_main():
             data_list.append(text)
 
         data = Dataset.from_dict({'texts':data_list})
-        # def tokenize_function(examples):
-        #     return tokenizer(examples["texts"], truncation=True, padding="max_length", max_length=128, return_tensors='pt')
         
         def tokenize_function(examples):
             inputs = tokenizer(examples["texts"], padding="max_length", truncation=True, return_tensors='pt', max_length=256)
@@ -104,5 +103,5 @@ def llm_fine_tune_main():
 
 if __name__ == '__main__':
     finetune_logger.info("Test Run")
-    llm_fine_tune_main()
+    llm_fine_tune_main(logger=finetune_logger)
     finetune_logger.info("Test Run Successfully")

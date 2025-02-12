@@ -42,7 +42,7 @@ class Config:
     FACEBOOK_RAW_POST_DATA_PATH           = "./data/raw_data/facebook_raw_data.json"
     FACEBOOK_RAW_IMAGE_DATA_PATH          = "./data/raw_data/facebook_raw_images"
     FACEBOOK_RAW_IMAGE_DATA_LINK          = "https://drive.google.com/drive/folders/19PqGEF74OJWERR1B9k4Oc6-hXzuhJZ4Y?usp=sharing"
-    FACEBOOK_CLEANED_POST_DATA_PATH       = './data/cleaned_data/facebook_cleaned_data.json'
+    FACEBOOK_CLEANED_POST_DATA_PATH       = './data/cleaned_data/facebook_cleaned_data.json' 
     FACEBOOK_CLEANED_IMAGE_DATA_PATH      = './data/cleaned_data/facebook_cleaned_images'
     
     # CURATED DATA PATHS
