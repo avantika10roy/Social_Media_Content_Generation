@@ -5,6 +5,8 @@ requests
 pandas
 beautifulsoup4
 
+opencv-python
+torchvision
 selenium
 webdriver-manager
 

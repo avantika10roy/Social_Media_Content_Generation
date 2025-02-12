@@ -101,29 +101,31 @@ class DataCuration:
 
         Arguments:
         ----------
-            json_path (str)          : Path to the curated_post_data.json file.
+            json_path (str)          : Path to the curated JSON file.
             curated_images_dir (str) : Directory where images will be copied.
 
         Returns:
         --------
             None
-        """
         
+        """
+    
         try:
             os.makedirs(curated_images_dir, exist_ok = True)
 
-            with open(json_path, "r", encoding="utf-8") as f:
+            with open(json_path, "r", encoding = "utf-8") as f:
                 posts_data = json.load(f)
+            f.close()
 
             for post in posts_data:
                 if "image_paths" in post and post["image_paths"]:
 
                     if isinstance(post["image_paths"], str):
-                        image_paths = [img.strip() for img in post["image_paths"].split(",")]
+                        image_paths  = [img.strip() for img in post["image_paths"].split(",")]
                     else:
-                        image_paths = post["image_paths"]
+                        image_paths  = post["image_paths"]
 
-                    updated_paths = []
+                    updated_paths    = []
 
                     for img_path in image_paths:
                         if os.path.exists(img_path):
@@ -137,16 +139,19 @@ class DataCuration:
 
                         else:
                             dataCurator_logger.warning(f"Image not found - {img_path}")
-                            
+
                     post["image_paths"] = updated_paths
 
             with open(json_path, "w", encoding = "utf-8") as f:
                 json.dump(posts_data, f, indent = 4, ensure_ascii = False)
 
             dataCurator_logger.info("Images copied and JSON updated successfully!")
+            
+            # return posts_data
 
         except Exception as e:
             dataCurator_logger.error(f"Error in updating image paths: {repr(e)}")
+
         
         
         

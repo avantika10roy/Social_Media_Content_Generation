@@ -10,6 +10,7 @@ from src.utils.data_saver import DataSaver
 from src.data_cleaner.data_cleaner import DataCleaner
 from src.data_curator.data_curation import DataCuration
 from src.data_preprocesser.text_preprocessing import TextPreprocessing
+from src.data_preprocesser.image_preprocessing import ImagePreprocessor
 
 # Set up logger
 logger = LoggerSetup(logger_name="run.py", log_filename_prefix="RunScript").get_logger()
@@ -60,7 +61,7 @@ def main():
 
         # Curated Data saving
 
-        DataSaver.data_saver(curated_data,curated_data_path)
+        DataSaver.data_saver(curated_data, curated_data_path)
 
         logger.info("Data curation process completed successfully.")
 
