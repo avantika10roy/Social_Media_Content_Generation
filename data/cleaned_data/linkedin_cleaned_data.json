@@ -6,9 +6,15 @@
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/1_1738312196922.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/1_1738312196468.png"
         ],
+        "image_paths":[
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/1_1738312196716.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/1_1738312196977.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/1_1738312196922.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/1_1738312196468.png"
+        ],
         "emoji":[
-            "\ud83d\udcaa",
-            "\ud83d\ude80"
+            "\ud83d\ude80",
+            "\ud83d\udcaa"
         ],
         "hashtags":[
             "#appdevelopment",
@@ -30,6 +36,9 @@
         "image_paths":[
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/3_1737555174045.png"
         ],
+        "image_paths":[
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/3_1737555174045.png"
+        ],
         "emoji":[
             "\ud83c\uddee\ud83c\uddf3"
         ],
@@ -47,6 +56,12 @@
         "platform":"linkedin"
     },
     {
+        "image_paths":[
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635023231.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635022675.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635023102.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635022735.png"
+        ],
         "image_paths":[
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635023231.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635022675.png",
@@ -83,6 +98,12 @@
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437605.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437527.png"
         ],
+        "image_paths":[
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437522.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437904.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437605.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437527.png"
+        ],
         "emoji":[
             "\u2728",
             "\ud83c\udf1f",
@@ -110,6 +131,12 @@
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496817549.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496816186.png"
         ],
+        "image_paths":[
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496816718.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496817340.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496817549.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496816186.png"
+        ],
         "emoji":[
 
         ],
@@ -128,6 +155,12 @@
         "platform":"linkedin"
     },
     {
+        "image_paths":[
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682262966.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682263629.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682264512.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682264831.png"
+        ],
         "image_paths":[
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682262966.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682263629.png",
@@ -181,6 +214,12 @@
         "platform":"linkedin"
     },
     {
+        "image_paths":[
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263433266.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263432895.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263433124.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263433871.png"
+        ],
         "image_paths":[
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263433266.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263432895.png",
