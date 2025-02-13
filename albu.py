@@ -23,7 +23,7 @@ class PreProcessor:
         #A.RandomCrop(height=512,width=512,p=0.5),
         A.HorizontalFlip(p=0.5),
         A.GaussNoise(p=0.1),
-        A.resize(1024,1024),
+        A.Resize(1024,1024),
         #ToTensorV2()
     ])
     
