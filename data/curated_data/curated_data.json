@@ -54,9 +54,9 @@
             "./data/curated_data/curated_images/5_1737635022735.png"
         ],
         "emoji": [
+            "👉",
             "💡",
             "🚛",
-            "👉",
             "📈"
         ],
         "hashtags": [
@@ -84,9 +84,9 @@
             "./data/curated_data/curated_images/7_1737113437527.png"
         ],
         "emoji": [
+            "🌟",
             "✨",
-            "💻",
-            "🌟"
+            "💻"
         ],
         "hashtags": [
             "#techtrendshashtag",
@@ -127,35 +127,6 @@
     },
     {
         "image_paths": [
-            "./data/curated_data/curated_images/11_1735301567012.png",
-            "./data/curated_data/curated_images/11_1735301558867.png",
-            "./data/curated_data/curated_images/11_1735301558398.png",
-            "./data/curated_data/curated_images/11_1735301560125.png"
-        ],
-        "emoji": [
-            "👉",
-            "🚀"
-        ],
-        "hashtags": [
-            "#mobileappdevelopmenthashtag",
-            "#reactnativehashtag",
-            "#appdevelopment2025hashtag",
-            "#devtoolshashtag",
-            "#appdevtipshashtag",
-            "#mobiledevtrendshashtag",
-            "#techtrends2025hashtag",
-            "#developerlifehashtag",
-            "#codingcommunityhashtag",
-            "#mobileappshashtag",
-            "#techstackhashtag",
-            "#itobuztechnologies"
-        ],
-        "post_heading": "Looking to kickstart your next mobile app project?",
-        "post_content": "Check out the top frameworks that will shape mobile app development in 2025. From React Native to Flutter, we've covered all the tools you need for cross-platform brilliance and efficiency.Click the link to dive into the full details! https://lnkd.in/gx6dCBjVhashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
             "./data/curated_data/curated_images/13_1734682262966.png",
             "./data/curated_data/curated_images/13_1734682263629.png",
             "./data/curated_data/curated_images/13_1734682264512.png",
@@ -181,61 +152,14 @@
     },
     {
         "image_paths": [
-            "./data/curated_data/curated_images/15_1734086237986.png",
-            "./data/curated_data/curated_images/15_1734086237093.png",
-            "./data/curated_data/curated_images/15_1734086238947.png",
-            "./data/curated_data/curated_images/15_1734086239665.png"
-        ],
-        "emoji": [
-            "🚚",
-            "✨"
-        ],
-        "hashtags": [
-            "#aihashtag",
-            "#supplychainhashtag",
-            "#generativeaihashtag",
-            "#aiapplicationshashtag",
-            "#techtransformationhashtag",
-            "#logisticssolutionshashtag",
-            "#aiinbusinesshashtag",
-            "#supplychainmanagementhashtag",
-            "#techhashtag",
-            "#webdevelopmenthashtag",
-            "#itobuztechnoloies"
-        ],
-        "post_heading": "Generative AI is making supply chains smarter and faster!",
-        "post_content": "From predicting demand to finding the best routes, AI is helping companies reduce costs, cut waste, and lower risks. Discover how AI is transforming supply chains for a more efficient and sustainable future! hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": "",
-        "emoji": [
-            "🌟"
-        ],
-        "hashtags": [
-            "#iosapphashtag",
-            "#iosappdevelopmenthashtag",
-            "#apptrendshashtag",
-            "#appdevelopmenthashtag",
-            "#itobuzhashtag",
-            "#mobileapphashtag",
-            "#webdevelopmenthashtag",
-            "#technology"
-        ],
-        "post_heading": "Get ready for an exciting year in iOS app development!",
-        "post_content": "From AI-powered coding tools to the latest in AR, VR, and IoT integration—2025 is bringing endless possibilities.Stay ahead of the curve with smarter apps, faster coding, and immersive experiences. hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
             "./data/curated_data/curated_images/19_1732882868948.png",
             "./data/curated_data/curated_images/19_1732882869469.png",
             "./data/curated_data/curated_images/19_1732882869324.png",
             "./data/curated_data/curated_images/19_1732882869496.png"
         ],
         "emoji": [
-            "💼",
-            "🚀"
+            "🚀",
+            "💼"
         ],
         "hashtags": [
             "#enterpriseappshashtag",
@@ -250,25 +174,6 @@
         ],
         "post_heading": "Looking to transform your business operations?",
         "post_content": "Enterprise mobile apps offer features like robust security, user role management, seamless system integration, real-time analytics, and offline capabilities to keep your team productive anywhere. Discover how custom solutions can empower your enterprise today!hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": "",
-        "emoji": [
-            "🚀"
-        ],
-        "hashtags": [
-            "#mobileappshashtag",
-            "#appengagementhashtag",
-            "#appfeatureshashtag",
-            "#techinnovationhashtag",
-            "#mobileappdevelopmenthashtag",
-            "#mobiletrendshashtag",
-            "#itobuztechnologieshashtag",
-            "#appdevelopment"
-        ],
-        "post_heading": "Every app has that one feature that keeps us coming back.",
-        "post_content": "Whether it’s how easy it is to use, the little reminders that keep us engaged, or features that feel tailor-made for us—what do you think makes the biggest impact?Vote and let us know! hashtag",
         "platform": "linkedin"
     },
     {
@@ -293,30 +198,6 @@
         ],
         "post_heading": "Machine learning is changing the way we bank!",
         "post_content": "From better security to faster loans and personalized services, ML is making banking smarter and safer. Curious about how it works?Swipe through to see the benefits!hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": "",
-        "emoji": [
-            "🌟",
-            "💡",
-            "✨"
-        ],
-        "hashtags": [
-            "#appdevelopmenthashtag",
-            "#futureofappshashtag",
-            "#arvrhashtag",
-            "#technologyhashtag",
-            "#apptrends2025hashtag",
-            "#appdevelopmenttrendshashtag",
-            "#smartappshashtag",
-            "#2025innovationshashtag",
-            "#itobuztechnologieshashtag",
-            "#newyear2025hashtag",
-            "#digitaltransformation"
-        ],
-        "post_heading": "2025 is all about pushing boundaries in app development: AI-powered personalization AR/VR-enhanced experiences Lightning-fast performanceWe’re excited to lead the way.",
-        "post_content": "Are you ready to join us? hashtag",
         "platform": "linkedin"
     },
     {
@@ -365,61 +246,6 @@
         ],
         "post_heading": "Transform your mobile app with cutting-edge AI!",
         "post_content": "From streamlining customer support with smart chatbots to enhancing security and personalizing user experiences, discover how these 6 AI innovations can set your app apart.Dive into the future of app development and make every interaction smarter and more efficienthashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/31_1728474811958.png",
-            "./data/curated_data/curated_images/31_1728474813087.png",
-            "./data/curated_data/curated_images/31_1728474811765.png",
-            "./data/curated_data/curated_images/31_1728474811626.png"
-        ],
-        "emoji": [
-            "🎉"
-        ],
-        "hashtags": [
-            "#Throwbackhashtag",
-            "#DurgaPuja2024hashtag",
-            "#ItobuzCelebrateshashtag",
-            "#Teamworkhashtag",
-            "#MemorableMomentshashtag",
-            "#GrowingTogetherhashtag",
-            "#DurgapujaCelebration2024hashtag",
-            "#Itobuz"
-        ],
-        "post_heading": "Throwback to 5th October 2024, when Itobuz Technologies lit up the stage with our spectacular Durga Puja Function!",
-        "post_content": "From incredible performances to recognizing our team's hard work and dedication, it was a night of celebration, laughter, and camaraderie.Grateful for the amazing memories we created together. Here's to many more milestones ahead!hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/33_1727974429975.png",
-            "./data/curated_data/curated_images/33_1727974415001.png",
-            "./data/curated_data/curated_images/33_1727974406783.png",
-            "./data/curated_data/curated_images/33_1727974422689.png"
-        ],
-        "emoji": [
-            "🌾",
-            "🌱"
-        ],
-        "hashtags": [
-            "#iothashtag",
-            "#technologyhashtag",
-            "#smartfarminghashtag",
-            "#sustainabilityhashtag",
-            "#innovationhashtag",
-            "#futureoffarminghashtag",
-            "#greentechhashtag",
-            "#smartagriculturehashtag",
-            "#techtrendshashtag",
-            "#farmtechhashtag",
-            "#digitaltransformationhashtag",
-            "#sustainablelivinghashtag",
-            "#iotinagriculturehashtag",
-            "#itobuztechnologies"
-        ],
-        "post_heading": "Smart farming is here!",
-        "post_content": "With IoT, farmers can boost crop yields, save water, cut labor costs, and even monitor livestock health—all in real-time.Discover how technology is transforming agriculture for a more sustainable future. hashtag",
         "platform": "linkedin"
     },
     {
@@ -607,22 +433,6 @@
         "platform": "linkedin"
     },
     {
-        "image_paths": "",
-        "emoji": [],
-        "hashtags": [
-            "#webdevelopmenthashtag",
-            "#userexperiencehashtag",
-            "#appdevelopmenthashtag",
-            "#techinnovationhashtag",
-            "#webappshashtag",
-            "#uxdesignshashtag",
-            "#itobuz"
-        ],
-        "post_heading": "Building a successful web application involves a careful balance of key factors.",
-        "post_content": "Each element contributes uniquely to the user experience and effectiveness of the app. We're curious: which aspect do you consider the most critical?Share your opinion on what feature you think is most important for a web application's success!Vote now!hashtag",
-        "platform": "linkedin"
-    },
-    {
         "image_paths": [
             "./data/curated_data/curated_images/53_1718347551239.png",
             "./data/curated_data/curated_images/53_1718347551827.png",
@@ -642,58 +452,6 @@
         ],
         "post_heading": "Discover how low-code/no-code platforms are transforming app development, making it faster, more cost-effective, and fostering greater collaboration and innovationhashtag",
         "post_content": "",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/55_1718181811432.png",
-            "./data/curated_data/curated_images/55_1718181796385.png",
-            "./data/curated_data/curated_images/55_1718181796749.png",
-            "./data/curated_data/curated_images/55_1718181799844.png"
-        ],
-        "emoji": [
-            "🎉",
-            "🚀",
-            "🌟",
-            "🏆"
-        ],
-        "hashtags": [
-            "#itobuzanniversaryhashtag",
-            "#14yearshashtag",
-            "#teamitobuzhashtag",
-            "#innovationhashtag",
-            "#excellencehashtag",
-            "#awardceremonyhashtag",
-            "#gratitudehashtag",
-            "#techleadershashtag",
-            "#itobuz"
-        ],
-        "post_heading": "ITobuz Technologies is celebrating its 14th anniversary!",
-        "post_content": "Our office is filled with joy, laughter, and pride as we honor the journey we've traveled together.From our humble beginnings to becoming a leading force in the tech industry, our success is a testament to the hard work, dedication, and passion of our incredible team. The celebration features our annual awards ceremony, recognizing and applauding the outstanding achievements of our team members. Each award symbolizes our appreciation for their relentless commitment and exceptional contributions.We are immensely grateful to our clients, partners, and well-wishers for their continued support and trust in us. Here's to many more years of innovation, growth, and success! hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/57_1719125877770.png",
-            "./data/curated_data/curated_images/57_1719199506279.png",
-            "./data/curated_data/curated_images/57_1719030746126.png",
-            "./data/curated_data/curated_images/57_1719200085686.png"
-        ],
-        "emoji": [
-            "🌿",
-            "🌱"
-        ],
-        "hashtags": [
-            "#worldenvironmentdayhashtag",
-            "#sustainabilityhashtag",
-            "#ecofriendlyhashtag",
-            "#greeninitiativeshashtag",
-            "#environmentalawarenesshashtag",
-            "#itobuzhashtag",
-            "#itobuztech"
-        ],
-        "post_heading": "On June 5th, our team celebrated World Environment Day in a unique and engaging way.",
-        "post_content": "We exchanged plants as a symbol of our commitment to the environment and enjoyed a fun, eco-themed game together. It was a day filled with enthusiasm and dedication to fostering a greener, healthier planet for future generations. hashtag",
         "platform": "linkedin"
     },
     {
@@ -718,139 +476,6 @@
         "platform": "linkedin"
     },
     {
-        "image_paths": "",
-        "emoji": [],
-        "hashtags": [
-            "#softwaredevelopmenthashtag",
-            "#codinghashtag",
-            "#problemsolvinghashtag",
-            "#techinnovation"
-        ],
-        "post_heading": "Which aspect of software development sparks your passion?",
-        "post_content": "Whether it's the hands-on coding, the exhilarating problem-solving, the collaborative teamwork, or the gratifying sight of your work in action, we're eager to know!Cast your vote and join the discussionhashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/63_1715328961652.png",
-            "./data/curated_data/curated_images/63_1715328964848.png",
-            "./data/curated_data/curated_images/63_1715328968198.png",
-            "./data/curated_data/curated_images/63_1715328968369.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#mobileappdevelopmenthashtag",
-            "#appdevelopmenthashtag",
-            "#itobuzhashtag",
-            "#custommobileappshashtag",
-            "#userinterfaces"
-        ],
-        "post_heading": "Explore the transformative potential of custom mobile apps, offering tailored solutions that cater to your business needs.",
-        "post_content": "From intuitive user interfaces to enhanced productivity, these apps are designed to scale with your business and give you a competitive edge in the markethashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/65_1714731017819.png",
-            "./data/curated_data/curated_images/65_1714731008942.png",
-            "./data/curated_data/curated_images/65_1714731015916.png",
-            "./data/curated_data/curated_images/65_1714731016339.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#appdevelopmenthashtag",
-            "#technologyhashtag",
-            "#techhashtag",
-            "#itobuzhashtag",
-            "#ondemandappshashtag",
-            "#mobileapps"
-        ],
-        "post_heading": "Our on-demand apps are designed to transform your business.",
-        "post_content": "Whether you need a taxi booking app, a delivery app, home services app, or a laundry app, we've got you covered.Connect with us today to explore how our on-demand apps can revolutionize your business!hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/67_1714119986892.png",
-            "./data/curated_data/curated_images/67_1714119983070.png",
-            "./data/curated_data/curated_images/67_1714119991123.png",
-            "./data/curated_data/curated_images/67_1714119984710.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#technologyhashtag",
-            "#techtrends2024hashtag",
-            "#futuretechhashtag",
-            "#itobuztech"
-        ],
-        "post_heading": "Get ready to explore the future of technology!",
-        "post_content": "From managing cyber threats to sustainable solutions, from building trust in AI to boosting development with AI, these trends are shaping the tech landscape of 2024.Stay tuned for more updates!hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/69_1713509784707.png",
-            "./data/curated_data/curated_images/69_1713509780169.png",
-            "./data/curated_data/curated_images/69_1713509780108.png",
-            "./data/curated_data/curated_images/69_1713509783351.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#technologyhashtag",
-            "#datahashtag",
-            "#dataficationhashtag",
-            "#itobuztechhashtag",
-            "#businessdatahashtag",
-            "#businessanalytics"
-        ],
-        "post_heading": "Discover how datafication is revolutionizing businesses, leveraging technology to transform operations, personalize marketing, and drive efficiency gains.",
-        "post_content": "Explore real-world examples and the top benefits of embracing data-driven strategies.hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/71_1711710033194.png",
-            "./data/curated_data/curated_images/71_1711710024180.png",
-            "./data/curated_data/curated_images/71_1711710028346.png",
-            "./data/curated_data/curated_images/71_1711710021687.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#roboaihashtag",
-            "#roboadvisorhashtag",
-            "#itobuzhashtag",
-            "#aihashtag",
-            "#itobuztech"
-        ],
-        "post_heading": "Explore the world of robo advisors, automated investment platforms driven by algorithms and AI.",
-        "post_content": "Learn about their benefits, key features, and how they can revolutionize your investment strategyhashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/73_1711535664998.png",
-            "./data/curated_data/curated_images/73_1711535665031.png",
-            "./data/curated_data/curated_images/73_1711535665098.png",
-            "./data/curated_data/curated_images/73_1711535664490.png"
-        ],
-        "emoji": [
-            "🤩"
-        ],
-        "hashtags": [
-            "#officetriphashtag",
-            "#teambuildinghashtag",
-            "#sundarbansadventurehashtag",
-            "#memoriesmadehashtag",
-            "#teamoutinghashtag",
-            "#joyfulmomentshashtag",
-            "#teamspirithashtag",
-            "#workFunbalance"
-        ],
-        "post_heading": "From thrilling adventures to unforgettable moments, our office trip to Sundarbans was a day of pure joy and team spirit.",
-        "post_content": "Check out the fun we had and the memories we made! hashtag",
-        "platform": "linkedin"
-    },
-    {
         "image_paths": [
             "./data/curated_data/curated_images/75_1711101863951.png",
             "./data/curated_data/curated_images/75_1711101863651.png",
@@ -869,35 +494,6 @@
         "platform": "linkedin"
     },
     {
-        "image_paths": "",
-        "emoji": [],
-        "hashtags": [
-            "#softwaredevelopmenthashtag",
-            "#softwareengineeringhashtag",
-            "#techtrendshashtag",
-            "#polling"
-        ],
-        "post_heading": "Software development methodologies play a crucial role in project success.",
-        "post_content": "We want to know: which approach do you prefer?Vote now and share your thoughts!hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/79_1710764870813.png",
-            "./data/curated_data/curated_images/79_1710764871747.png",
-            "./data/curated_data/curated_images/79_1710764870927.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#womenempowermenthashtag",
-            "#womendayhashtag",
-            "#womendaycelebration"
-        ],
-        "post_heading": "Throwback to the incredible Women's Day celebration at Itobuz Technologies on 8th March 2024.",
-        "post_content": "A day filled with joy, empowerment, and celebration of our amazing women’s team!hashtag",
-        "platform": "linkedin"
-    },
-    {
         "image_paths": [
             "./data/curated_data/curated_images/81_1709642323839.png"
         ],
@@ -909,47 +505,6 @@
         ],
         "post_heading": "Unlock the potential of Robotic Process Automation (RPA) with our comprehensive guide.",
         "post_content": "Explore its benefits, industries using it, implementation challenges, and future prospectshashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/83_1709283826129.png",
-            "./data/curated_data/curated_images/83_1709283848189.png",
-            "./data/curated_data/curated_images/83_1709283902645.png",
-            "./data/curated_data/curated_images/83_1709283765917.png",
-            "./data/curated_data/curated_images/83_1709283766355.png"
-        ],
-        "emoji": [
-            "🌐",
-            "💬",
-            "🗣️"
-        ],
-        "hashtags": [
-            "#aihashtag",
-            "#futureofworkhashtag",
-            "#chatbotshashtag",
-            "#voiceassistantshashtag",
-            "#artificialintelligencehashtag",
-            "#workplacetechnologyhashtag",
-            "#digitaltransformationhashtag",
-            "#automationhashtag",
-            "#aiinbusinesshashtag",
-            "#techtrends"
-        ],
-        "post_heading": "From chatbots streamlining tasks to voice assistants powering meetings, discover how AI is reshaping the future of work.",
-        "post_content": "hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": "",
-        "emoji": [],
-        "hashtags": [
-            "#aiineducationhashtag",
-            "#futureoflearninghashtag",
-            "#edtech"
-        ],
-        "post_heading": "Which aspect of AI in education excites you the most?",
-        "post_content": "Vote now!hashtag",
         "platform": "linkedin"
     },
     {
@@ -984,22 +539,6 @@
         ],
         "post_heading": "Experience the magic of Apple Vision Pro as it transforms your digital world into an immersive, personalized space.",
         "post_content": "From customizing your workspace to reliving cherished memories in stunning 3D, Apple Vision Pro brings a touch of enchantment to your everyday tech experiencehashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": "",
-        "emoji": [
-            "💻",
-            "📱"
-        ],
-        "hashtags": [
-            "#mobileappdevelopmenthashtag",
-            "#mobileappdevhashtag",
-            "#mobileapphashtag",
-            "#mobileappsolutions"
-        ],
-        "post_heading": "What's your preferred approach for mobile app development?",
-        "post_content": "Cast your vote now and let's discover which option captures the developer community's preference! hashtag",
         "platform": "linkedin"
     },
     {
@@ -1050,8 +589,8 @@
             "./data/curated_data/curated_images/97_1730210049822.png"
         ],
         "emoji": [
-            "🎃",
-            "✨"
+            "✨",
+            "🎃"
         ],
         "hashtags": [
             "#halloweenvibeshashtag",
@@ -1064,24 +603,6 @@
         ],
         "post_heading": "Got scary bugs haunting your web app?",
         "post_content": "Don’t worry! We’re here to debug and deliver a smooth, seamless experience.Say goodbye to those code nightmares! hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/99_1723641789314.png"
-        ],
-        "emoji": [
-            "🇮🇳"
-        ],
-        "hashtags": [
-            "#independencedayhashtag",
-            "#independenceday2024hashtag",
-            "#ProudToBeIndianhashtag",
-            "#CelebratingFreedomhashtag",
-            "#itobuztechnologies"
-        ],
-        "post_heading": "On this special day, we celebrate the independence that unites us and gives us the freedom to pursue our dreams.",
-        "post_content": "It’s a day to remember the strength in our diversity and the endless possibilities when we work together. Here’s to continuing the legacy of progress and unity.Wishing everyone a very Happy Independence Day! hashtag",
         "platform": "linkedin"
     },
     {
@@ -1249,8 +770,8 @@
             "./data/curated_data/curated_images/image_107.jpg"
         ],
         "emoji": [
-            "🚀",
-            "🌟"
+            "🌟",
+            "🚀"
         ],
         "hashtags": [
             "#CrossPlatform",
@@ -1419,11 +940,11 @@
             "./data/curated_data/curated_images/image_173.jpg"
         ],
         "emoji": [
-            "💰",
-            "🌍",
+            "🔄",
             "🌐",
+            "🌍",
             "⚡",
-            "🔄"
+            "💰"
         ],
         "hashtags": [
             "#webappdevelopment",
@@ -1608,8 +1129,8 @@
             "./data/curated_data/curated_images/image_301.jpg"
         ],
         "emoji": [
-            "🚀",
-            "✨"
+            "✨",
+            "🚀"
         ],
         "hashtags": [
             "#appdevelopmenttrends",
@@ -1703,12 +1224,12 @@
             "./data/curated_data/curated_images/image_359.jpg"
         ],
         "emoji": [
-            "🚫",
-            "📈",
-            "📋",
+            "💼",
             "💡",
-            "📉",
-            "💼"
+            "🚫",
+            "📋",
+            "📈",
+            "📉"
         ],
         "hashtags": [
             "#inventorymanagementsoftware",
@@ -1731,8 +1252,8 @@
             "./data/curated_data/curated_images/image_354.jpg"
         ],
         "emoji": [
-            "🔧",
-            "🚀"
+            "🚀",
+            "🔧"
         ],
         "hashtags": [
             "#appdevelopment",
@@ -2065,8 +1586,8 @@
             "./data/curated_data/curated_images/image_271.jpg"
         ],
         "emoji": [
-            "🚀",
-            "🔏"
+            "🔏",
+            "🚀"
         ],
         "hashtags": [
             "#blockchainapps",
@@ -2090,8 +1611,8 @@
         ],
         "emoji": [
             "🌐",
-            "💬",
-            "🗣️"
+            "🗣️",
+            "💬"
         ],
         "hashtags": [
             "#ai",
@@ -2118,8 +1639,8 @@
             "./data/curated_data/curated_images/image_33.jpg"
         ],
         "emoji": [
-            "🚚",
-            "✨"
+            "✨",
+            "🚚"
         ],
         "hashtags": [
             "#generativeai",
@@ -2268,35 +1789,6 @@
     },
     {
         "image_paths": [
-            "./data/curated_data/curated_images/image_154.jpg",
-            "./data/curated_data/curated_images/image_155.jpg",
-            "./data/curated_data/curated_images/image_156.jpg",
-            "./data/curated_data/curated_images/image_157.jpg",
-            "./data/curated_data/curated_images/image_158.jpg"
-        ],
-        "emoji": [
-            "🏆",
-            "🎉",
-            "🚀",
-            "🌟"
-        ],
-        "hashtags": [
-            "#ITobuzAnniversary",
-            "#14YearsStrong",
-            "#TeamITobuz",
-            "#Innovation",
-            "#Excellence",
-            "#AwardCeremony",
-            "#Gratitude",
-            "#TechLeaders",
-            "#Itobuz"
-        ],
-        "post_heading": "ITobuz Technologies is celebrating its 14th anniversary!",
-        "post_content": "Our office is filled with joy, laughter, and pride as we honor the journey we've traveled together.From our humble beginnings to becoming a leading force in the tech industry, our success is a testament to the hard work, dedication, and passion of our incredible team. The celebration features our annual awards ceremony, recognizing and applauding the outstanding achievements of our team members. Each award symbolizes our appreciation for their relentless commitment and exceptional contributions.We are immensely grateful to our clients, partners, and well-wishers for their continued support and trust in us. Here's to many more years of innovation, growth, and success!",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": [
             "./data/curated_data/curated_images/image_276.jpg",
             "./data/curated_data/curated_images/image_277.jpg",
             "./data/curated_data/curated_images/image_278.jpg",
@@ -2430,8 +1922,8 @@
             "./data/curated_data/curated_images/image_43.jpg"
         ],
         "emoji": [
-            "💼",
-            "🚀"
+            "🚀",
+            "💼"
         ],
         "hashtags": [
             "#enterpriseapps",
@@ -2525,31 +2017,6 @@
     },
     {
         "image_paths": [
-            "./data/curated_data/curated_images/image_108.jpg",
-            "./data/curated_data/curated_images/image_109.jpg",
-            "./data/curated_data/curated_images/image_110.jpg",
-            "./data/curated_data/curated_images/image_111.jpg",
-            "./data/curated_data/curated_images/image_112.jpg"
-        ],
-        "emoji": [
-            "🥳",
-            "🙌"
-        ],
-        "hashtags": [
-            "#teamlunch",
-            "#officebreak",
-            "#teambuilding",
-            "#teamouting",
-            "#officeculture",
-            "#itobuz",
-            "#ItobuzTechnologies"
-        ],
-        "post_heading": "Our team took a break from the office grind to enjoy a delicious lunch together!",
-        "post_content": "It was a great time filled with laughter, great food, and even better company. Building strong bonds outside the office helps us work better together inside the office. Here's to many more team outings!",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": [
             "./data/curated_data/curated_images/image_391.jpg",
             "./data/curated_data/curated_images/image_392.jpg",
             "./data/curated_data/curated_images/image_393.jpg",
@@ -2576,23 +2043,6 @@
     },
     {
         "image_paths": [
-            "./data/curated_data/curated_images/image_429.jpg",
-            "./data/curated_data/curated_images/image_430.jpg",
-            "./data/curated_data/curated_images/image_431.jpg",
-            "./data/curated_data/curated_images/image_432.jpg",
-            "./data/curated_data/curated_images/image_433.jpg"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#ItobuzTechnologies",
-            "#TeamOuting2021"
-        ],
-        "post_heading": "Planning for an office-outing might look a lot different amid the pandemic.",
-        "post_content": "But the Itobuzians have moved forward with their traditional holiday work party maintaining their employee's health and safety.---A journey well shared is a journey well enjoyed.",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": [
             "./data/curated_data/curated_images/image_10.jpg",
             "./data/curated_data/curated_images/image_11.jpg",
             "./data/curated_data/curated_images/image_12.jpg",
@@ -2600,9 +2050,9 @@
             "./data/curated_data/curated_images/image_14.jpg"
         ],
         "emoji": [
-            "💻",
             "🌟",
-            "✨"
+            "✨",
+            "💻"
         ],
         "hashtags": [
             "#DigitalInnovation",
@@ -2626,8 +2076,8 @@
             "./data/curated_data/curated_images/image_320.jpg"
         ],
         "emoji": [
-            "🔐",
-            "🚀"
+            "🚀",
+            "🔐"
         ],
         "hashtags": [
             "#blockchain",
@@ -2706,136 +2156,6 @@
     },
     {
         "image_paths": [
-            "./data/curated_data/curated_images/image_74.jpg",
-            "./data/curated_data/curated_images/image_75.jpg",
-            "./data/curated_data/curated_images/image_76.jpg",
-            "./data/curated_data/curated_images/image_77.jpg"
-        ],
-        "emoji": [
-            "🎉"
-        ],
-        "hashtags": [
-            "#Throwback",
-            "#DurgaPuja2024",
-            "#ItobuzCelebrates",
-            "#Teamwork",
-            "#MemorableMoments",
-            "#GrowingTogether",
-            "#DurgapujaCelebration2024",
-            "#Itobuz"
-        ],
-        "post_heading": "Throwback to 5th October 2024, when Itobuz Technologies lit up the stage with our spectacular Durga Puja Function!",
-        "post_content": "From incredible performances to recognizing our team's hard work and dedication, it was a night of celebration, laughter, and camaraderie. Grateful for the amazing memories we created together. Here's to many more milestones ahead!",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/image_174.jpg",
-            "./data/curated_data/curated_images/image_175.jpg",
-            "./data/curated_data/curated_images/image_176.jpg",
-            "./data/curated_data/curated_images/image_177.jpg",
-            "./data/curated_data/curated_images/image_178.jpg"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#Hackathon2024",
-            "#event",
-            "#metaquesthackathon2024",
-            "#innovation",
-            "#creativity",
-            "#teamwork",
-            "#TechEvent"
-        ],
-        "post_heading": "Throwback to our Meta Quest Hackathon 2024 event in our office, where participants showcased their incredible skills and creativity.",
-        "post_content": "It was an inspiring event filled with hard work, innovation, and collaboration. The energy and enthusiasm were truly remarkable, making it a memorable experience for everyone involved",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/image_224.jpg",
-            "./data/curated_data/curated_images/image_225.jpg",
-            "./data/curated_data/curated_images/image_226.jpg"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#womenday",
-            "#womenempowerment",
-            "#womendaycelebration"
-        ],
-        "post_heading": "Throwback to the incredible Women's Day celebration at Itobuz Technologies on 8 March.",
-        "post_content": "A day filled with joy, empowerment, and celebration of our amazing women’s team!",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/image_302.jpg",
-            "./data/curated_data/curated_images/image_303.jpg",
-            "./data/curated_data/curated_images/image_304.jpg",
-            "./data/curated_data/curated_images/image_305.jpg",
-            "./data/curated_data/curated_images/image_306.jpg"
-        ],
-        "emoji": [
-            "🌸",
-            "🌆",
-            "🎉",
-            "🙏"
-        ],
-        "hashtags": [
-            "#ThrowbackDurgaPuja",
-            "#ItobuzMemories",
-            "#KolkataFestivals",
-            "#TraditionMeetsTech",
-            "#DurgaPujaNostalgia",
-            "#DurgaPuja",
-            "#KolkataDurgaPuja",
-            "#DurgaPuja2023",
-            "#DurgaPujaFestival"
-        ],
-        "post_heading": "Throwback to the unforgettable moments of Durga Puja festivities with Itobuz Technologies!",
-        "post_content": "Reliving the magic of past celebrations. From the mesmerizing idol of Goddess Durga to the rhythmic beats of the dhak, every year has been a unique tapestry of culture and modernity. Our team's dedication to making every Puja special is what has made these moments truly unforgettable.Let's continue to cherish these beautiful memories and look forward to the promise of more memorable Durga Puja celebrations in the future with Itobuz Technologies.",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/image_414.jpg",
-            "./data/curated_data/curated_images/image_415.jpg",
-            "./data/curated_data/curated_images/image_416.jpg",
-            "./data/curated_data/curated_images/image_417.jpg"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#ItobuzHoli2023",
-            "#celebratingtogetherness",
-            "#JoyousMoments",
-            "#goodtimeswithgreatpeople",
-            "#HoliMemories",
-            "#loveforcolors"
-        ],
-        "post_heading": "Throwing back to the most colourful and fun-filled Holi celebrations at Itobuz Technologies!",
-        "post_content": "It was an amazing day filled with joy, laughter, and endless memories",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/image_410.jpg",
-            "./data/curated_data/curated_images/image_411.jpg",
-            "./data/curated_data/curated_images/image_412.jpg",
-            "./data/curated_data/curated_images/image_413.jpg"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#throwback",
-            "#internationalwomensday",
-            "#womenintech",
-            "#ItobuzTechnologies",
-            "#womenempowement"
-        ],
-        "post_heading": "Throwing it back to an amazing Women's Day celebration at Itobuz Technologies!",
-        "post_content": "We are grateful for the contributions and achievements of the women who have been a part of our journey. Here's to continuing to create a workplace that supports and empowers women in tech.",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": [
             "./data/curated_data/curated_images/image_69.jpg",
             "./data/curated_data/curated_images/image_70.jpg",
             "./data/curated_data/curated_images/image_71.jpg",
@@ -2871,10 +2191,10 @@
             "./data/curated_data/curated_images/image_283.jpg"
         ],
         "emoji": [
-            "🏀",
             "🚀",
-            "🌐",
             "📊",
+            "🌐",
+            "🏀",
             "🔍"
         ],
         "hashtags": [
@@ -3026,8 +2346,8 @@
             "./data/curated_data/curated_images/image_4.jpg"
         ],
         "emoji": [
-            "🚀",
-            "💪"
+            "💪",
+            "🚀"
         ],
         "hashtags": [
             "#appdevelopment",
@@ -3060,28 +2380,6 @@
         ],
         "post_heading": "Watch for symptoms until 14 days after exposure.",
         "post_content": "If you have symptoms, immediately self-isolate and contact your local public health authority or healthcare provider. Wear a mask, stay at least 6 feet from others, wash your hands, avoid crowds, and take other steps to prevent the spread of COVID-19.",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/image_210.jpg",
-            "./data/curated_data/curated_images/image_211.jpg",
-            "./data/curated_data/curated_images/image_212.jpg",
-            "./data/curated_data/curated_images/image_213.jpg",
-            "./data/curated_data/curated_images/image_214.jpg"
-        ],
-        "emoji": [
-            "🎉",
-            "🎨"
-        ],
-        "hashtags": [
-            "#holicelebrations",
-            "#ItobuzCulture",
-            "#memorablemoment",
-            "#holi2024"
-        ],
-        "post_heading": "What a colorful blast we had at Itobuz Technologies as we celebrated the joyous festival of Holi on March 23rd!",
-        "post_content": "From vibrant hues to infectious laughter, it was a day filled with pure delight and camaraderie. Let's cherish the memories made and carry the spirit of togetherness forward. Here's to many more celebrations ahead!",
         "platform": "facebook"
     },
     {
@@ -3119,8 +2417,8 @@
         ],
         "emoji": [
             "🌐",
-            "🚀",
-            "🔮"
+            "🔮",
+            "🚀"
         ],
         "hashtags": [
             "#AR",
@@ -3175,8 +2473,8 @@
             "./data/curated_data/curated_images/image_82.jpg"
         ],
         "emoji": [
-            "🌱",
-            "🌾"
+            "🌾",
+            "🌱"
         ],
         "hashtags": [
             "#iot",
@@ -3207,10 +2505,10 @@
             "./data/curated_data/curated_images/image_400.jpg"
         ],
         "emoji": [
-            "🌍",
-            "✨",
             "🌿",
+            "✨",
             "💡",
+            "🌍",
             "🌱"
         ],
         "hashtags": [
@@ -3228,47 +2526,6 @@
     },
     {
         "image_paths": [
-            "./data/curated_data/curated_images/image_365.jpg",
-            "./data/curated_data/curated_images/image_366.jpg",
-            "./data/curated_data/curated_images/image_367.jpg",
-            "./data/curated_data/curated_images/image_368.jpg"
-        ],
-        "emoji": [
-            "🤝",
-            "💹",
-            "🚀",
-            "✨",
-            "🏅",
-            "💬",
-            "👥",
-            "🍽️",
-            "📱",
-            "🍔",
-            "🏆",
-            "📈",
-            "🎉",
-            "⏰",
-            "💻",
-            "⌛",
-            "👉",
-            "🕗",
-            "💪",
-            "📊",
-            "💡",
-            "❤️"
-        ],
-        "hashtags": [
-            "#RestaurantTech",
-            "#CustomSoftware",
-            "#DigitalSolutions",
-            "#InnovationInDining"
-        ],
-        "post_heading": "Boost Your Restaurant Business with Custom Software Solutions!",
-        "post_content": "Tired of managing your restaurant the old-fashioned way? Say hello to the future of dining with our tailor-made software solutions! From seamless online ordering to efficient table management, we've got you covered. Streamline your operations and serve your customers better with our custom apps and digital tools. Embrace innovation and stay ahead of the competition. Maximize profits and minimize hassles with our user-friendly POS systems and data-driven insights. Watch your revenue soar as you make data-driven decisions. Time is money! Let our software handle the mundane tasks so you can focus on what matters most – providing an unforgettable dining experience. Customer satisfaction is our priority! With our solutions, you'll build stronger relationships and foster loyalty among your patrons. Stand out from the crowd and give your restaurant the tech-savvy edge it deserves. Experience the power of custom software solutions today!",
-        "platform": "facebook"
-    },
-    {
-        "image_paths": [
             "./data/curated_data/curated_images/image_345.jpg",
             "./data/curated_data/curated_images/image_346.jpg",
             "./data/curated_data/curated_images/image_347.jpg",
@@ -3278,8 +2535,8 @@
         "emoji": [
             "💬",
             "🗣️",
-            "🚀",
-            "🤖"
+            "🤖",
+            "🚀"
         ],
         "hashtags": [
             "#voicetechnology",
@@ -3302,11 +2559,11 @@
             "./data/curated_data/curated_images/image_390.jpg"
         ],
         "emoji": [
+            "🌟",
             "🚀",
-            "📱",
-            "📲",
             "💼",
-            "🌟"
+            "📲",
+            "📱"
         ],
         "hashtags": [
             "#appdevelopmentagency",
@@ -3332,19 +2589,19 @@
             "./data/curated_data/curated_images/image_377.jpg"
         ],
         "emoji": [
-            "🤝",
-            "💻",
-            "✅",
+            "🌟",
             "👩‍🎓",
             "🚀",
-            "✨",
-            "📊",
-            "💡",
             "📚",
-            "🏫",
+            "✨",
             "🎯",
+            "📊",
+            "✅",
+            "💡",
+            "💻",
             "🔍",
-            "🌟"
+            "🤝",
+            "🏫"
         ],
         "hashtags": [
             "#EdTechSolutions",
@@ -3365,10 +2622,10 @@
             "./data/curated_data/curated_images/image_9.jpg"
         ],
         "emoji": [
-            "📈",
-            "🚛",
             "👉",
-            "💡"
+            "💡",
+            "🚛",
+            "📈"
         ],
         "hashtags": [
             "#ItobuzTechnologies",
@@ -3442,9 +2699,9 @@
             "./data/curated_data/curated_images/post_DFNT1nks7P2_5.jpg"
         ],
         "emoji": [
+            "👉",
             "💡",
-            "📈",
-            "👉"
+            "📈"
         ],
         "hashtags": [
             "#ItobuzTechnologies",
@@ -3474,9 +2731,9 @@
         ],
         "emoji": [
             "🌟",
-            "🇺🇸",
             "✨",
-            "💻"
+            "💻",
+            "🇺🇸"
         ],
         "hashtags": [
             "#technology",
@@ -3549,8 +2806,8 @@
             "./data/curated_data/curated_images/post_DEFZnukM30T_5.jpg"
         ],
         "emoji": [
-            "👉",
-            "🚀"
+            "🚀",
+            "👉"
         ],
         "hashtags": [
             "#mobileappdevelopment",
@@ -3579,10 +2836,10 @@
             "./data/curated_data/curated_images/post_DD_OxrPKqVL.jpg"
         ],
         "emoji": [
-            "💡",
-            "❤️",
             "✨",
-            "🎅"
+            "🎅",
+            "💡",
+            "❤️"
         ],
         "hashtags": [
             "#merrychristmas",
@@ -3636,8 +2893,8 @@
             "./data/curated_data/curated_images/post_DDhPqdft7qK_6.jpg"
         ],
         "emoji": [
-            "🚚",
-            "✨"
+            "✨",
+            "🚚"
         ],
         "hashtags": [
             "#generativeai",
@@ -3697,8 +2954,8 @@
             "./data/curated_data/curated_images/post_DC9LykON97x_6.jpg"
         ],
         "emoji": [
-            "💼",
-            "🚀"
+            "🚀",
+            "💼"
         ],
         "hashtags": [
             "#enterpriseapps",
@@ -3725,8 +2982,8 @@
             "./data/curated_data/curated_images/post_DC6o4ydAwdI.jpg"
         ],
         "emoji": [
-            "🍂",
-            "✨"
+            "✨",
+            "🍂"
         ],
         "hashtags": [
             "#thanksgiving",
@@ -3828,8 +3085,8 @@
             "./data/curated_data/curated_images/post_DBxnEikgIMx.jpg"
         ],
         "emoji": [
-            "🪔",
-            "✨"
+            "✨",
+            "🪔"
         ],
         "hashtags": [
             "#happydiwali",
@@ -3849,8 +3106,8 @@
             "./data/curated_data/curated_images/post_DBvFtrfpOqW.jpg"
         ],
         "emoji": [
-            "🎃",
-            "✨"
+            "✨",
+            "🎃"
         ],
         "hashtags": [
             "#halloweenvibes",
@@ -4043,9 +3300,9 @@
             "./data/curated_data/curated_images/post_C_0dYZAMgTV.jpg"
         ],
         "emoji": [
+            "🎉",
             "👩‍💻",
-            "👨‍💻",
-            "🎉"
+            "👨‍💻"
         ],
         "hashtags": [
             "#internationalprogrammersday",
@@ -4142,31 +3399,6 @@
         ],
         "post_heading": "Curious why cross-platform development could be a great fit for your app?",
         "post_content": "Imagine creating your app just once and having it work seamlessly on both iOS and Android. That’s the beauty of using a single codebase! It means quicker launches, a consistent user experience across devices, and simpler updates. Plus, you’ll reach a wider audience and make a bigger impact with less effort. Ready to simplify your app strategy and broaden your reach? Discover the benefits of cross-platform development today! ",
-        "platform": "instagram"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/post_C-o8_dIB5kP_1.jpg",
-            "./data/curated_data/curated_images/post_C-o8_dIB5kP_2.jpg",
-            "./data/curated_data/curated_images/post_C-o8_dIB5kP_3.jpg",
-            "./data/curated_data/curated_images/post_C-o8_dIB5kP_4.jpg",
-            "./data/curated_data/curated_images/post_C-o8_dIB5kP_5.jpg"
-        ],
-        "emoji": [
-            "🙌",
-            "🥳"
-        ],
-        "hashtags": [
-            "#teamlunch",
-            "#officebreak",
-            "#teambuilding",
-            "#teamouting",
-            "#officeculture",
-            "#itobuz",
-            "#ItobuzTechnologies"
-        ],
-        "post_heading": "Our team took a break from the office grind to enjoy a delicious lunch together!",
-        "post_content": "It was a great time filled with laughter, great food, and even better company. Building strong bonds outside the office helps us work better together inside the office. Here's to many more team outings! ",
         "platform": "instagram"
     },
     {
@@ -4386,36 +3618,6 @@
     },
     {
         "image_paths": [
-            "./data/curated_data/curated_images/post_C8J_KHqgJ0u_1.jpg",
-            "./data/curated_data/curated_images/post_C8J_KHqgJ0u_2.jpg",
-            "./data/curated_data/curated_images/post_C8J_KHqgJ0u_3.jpg",
-            "./data/curated_data/curated_images/post_C8J_KHqgJ0u_4.jpg",
-            "./data/curated_data/curated_images/post_C8J_KHqgJ0u_5.jpg",
-            "./data/curated_data/curated_images/post_C8J_KHqgJ0u_6.jpg"
-        ],
-        "emoji": [
-            "🏆",
-            "🌟",
-            "🎉",
-            "🚀"
-        ],
-        "hashtags": [
-            "#ITobuzAnniversary",
-            "#14YearsStrong",
-            "#TeamITobuz",
-            "#Innovation",
-            "#Excellence",
-            "#AwardCeremony",
-            "#Gratitude",
-            "#TechLeaders",
-            "#Itobuz"
-        ],
-        "post_heading": "ITobuz Technologies is celebrating its 14th anniversary!",
-        "post_content": "Our office is filled with joy, laughter, and pride as we honor the journey we've traveled together.From our humble beginnings to becoming a leading force in the tech industry, our success is a testament to the hard work, dedication, and passion of our incredible team. The celebration features our annual awards ceremony, recognizing and applauding the outstanding achievements of our team members. Each award symbolizes our appreciation for their relentless commitment and exceptional contributions.We are immensely grateful to our clients, partners, and well-wishers for their continued support and trust in us. Here's to many more years of innovation, growth, and success!",
-        "platform": "instagram"
-    },
-    {
-        "image_paths": [
             "./data/curated_data/curated_images/post_C751Vl4qZ8R_1.jpg",
             "./data/curated_data/curated_images/post_C751Vl4qZ8R_2.jpg",
             "./data/curated_data/curated_images/post_C751Vl4qZ8R_3.jpg",
@@ -4469,9 +3671,9 @@
             "./data/curated_data/curated_images/post_C7YW-x8RSSt_5.jpg"
         ],
         "emoji": [
-            "⚡",
             "🌍",
             "🔄",
+            "⚡",
             "💰"
         ],
         "hashtags": [
@@ -4486,29 +3688,6 @@
         ],
         "post_heading": "Discover the advantages of web app development: Reach users on any device with cross-platform compatibility.",
         "post_content": "Save on costs with a single app for multiple platforms. Easily maintain and update your app centrally. Provide instant updates to users for a seamless experience. Access your app from anywhere, perfect for remote work. Join the web app revolution today!",
-        "platform": "instagram"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/post_C7T9c_PBBha_1.jpg",
-            "./data/curated_data/curated_images/post_C7T9c_PBBha_2.jpg",
-            "./data/curated_data/curated_images/post_C7T9c_PBBha_3.jpg",
-            "./data/curated_data/curated_images/post_C7T9c_PBBha_4.jpg",
-            "./data/curated_data/curated_images/post_C7T9c_PBBha_5.jpg",
-            "./data/curated_data/curated_images/post_C7T9c_PBBha_6.jpg"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#Hackathon2024",
-            "#event",
-            "#metaquesthackathon2024",
-            "#innovation",
-            "#creativity",
-            "#teamwork",
-            "#TechEvent"
-        ],
-        "post_heading": "Throwback to our Meta Quest Hackathon 2024 event in our office, where participants showcased their incredible skills and creativity.",
-        "post_content": "It was an inspiring event filled with hard work, innovation, and collaboration. The energy and enthusiasm were truly remarkable, making it a memorable experience for everyone involved",
         "platform": "instagram"
     },
     {
@@ -4653,29 +3832,6 @@
     },
     {
         "image_paths": [
-            "./data/curated_data/curated_images/post_C5QDCocPRMO_1.jpg",
-            "./data/curated_data/curated_images/post_C5QDCocPRMO_2.jpg",
-            "./data/curated_data/curated_images/post_C5QDCocPRMO_3.jpg",
-            "./data/curated_data/curated_images/post_C5QDCocPRMO_4.jpg",
-            "./data/curated_data/curated_images/post_C5QDCocPRMO_5.jpg",
-            "./data/curated_data/curated_images/post_C5QDCocPRMO_6.jpg"
-        ],
-        "emoji": [
-            "🎨",
-            "🎉"
-        ],
-        "hashtags": [
-            "#holicelebrations",
-            "#ItobuzCulture",
-            "#memorablemoment",
-            "#holi2024"
-        ],
-        "post_heading": "What a colorful blast we had at Itobuz Technologies as we celebrated the joyous festival of Holi on March 23rd!",
-        "post_content": "From vibrant hues to infectious laughter, it was a day filled with pure delight and camaraderie. Let's cherish the memories made and carry the spirit of togetherness forward. Here's to many more celebrations ahead!",
-        "platform": "instagram"
-    },
-    {
-        "image_paths": [
             "./data/curated_data/curated_images/post_C5GJnpiytcK_1.jpg",
             "./data/curated_data/curated_images/post_C5GJnpiytcK_2.jpg",
             "./data/curated_data/curated_images/post_C5GJnpiytcK_3.jpg",
@@ -4711,22 +3867,6 @@
         ],
         "post_heading": "Discover the groundbreaking impact of AI on transportation.",
         "post_content": "From optimized insurance processes to smarter traffic management and intelligent driver care, AI is revolutionizing the way we travel",
-        "platform": "instagram"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/post_C4p9152OA6U_1.jpg",
-            "./data/curated_data/curated_images/post_C4p9152OA6U_2.jpg",
-            "./data/curated_data/curated_images/post_C4p9152OA6U_3.jpg"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#womenday",
-            "#womenempowerment",
-            "#womendaycelebration"
-        ],
-        "post_heading": "Throwback to the incredible Women's Day celebration at Itobuz Technologies on 8 March.",
-        "post_content": "A day filled with joy, empowerment, and celebration of our amazing women’s team!",
         "platform": "instagram"
     },
     {
@@ -4900,8 +4040,8 @@
             "./data/curated_data/curated_images/post_C2i_jQ9xkGh.jpg"
         ],
         "emoji": [
-            "🇮🇳",
-            "✨"
+            "✨",
+            "🇮🇳"
         ],
         "hashtags": [
             "#indiaproud",
@@ -5011,8 +4151,8 @@
             "./data/curated_data/curated_images/post_C1cBbQniN0k_4.jpg"
         ],
         "emoji": [
-            "🌈",
-            "🚀"
+            "🚀",
+            "🌈"
         ],
         "hashtags": [
             "#metaverse",
@@ -5036,11 +4176,11 @@
             "./data/curated_data/curated_images/post_C1KHezhr8yr_4.jpg"
         ],
         "emoji": [
-            "🌐",
-            "🔍",
-            "🏀",
+            "🚀",
             "📊",
-            "🚀"
+            "🌐",
+            "🏀",
+            "🔍"
         ],
         "hashtags": [
             "#AISportsRevolution",
@@ -5060,8 +4200,8 @@
             "./data/curated_data/curated_images/post_C0346bbMSKC_5.jpg"
         ],
         "emoji": [
-            "🚗",
-            "✨"
+            "✨",
+            "🚗"
         ],
         "hashtags": [
             "#5gtechnology",
@@ -5206,8 +4346,8 @@
             "./data/curated_data/curated_images/post_Cy5yNRgBOxt_4.jpg"
         ],
         "emoji": [
-            "🔐",
-            "🚀"
+            "🚀",
+            "🔐"
         ],
         "hashtags": [
             "#blockchain",
@@ -5281,9 +4421,9 @@
             "./data/curated_data/curated_images/post_CxvGIrAh6rN_5.jpg"
         ],
         "emoji": [
-            "🌟",
             "🌐",
-            "💻"
+            "💻",
+            "🌟"
         ],
         "hashtags": [
             "#webdevelopment",
@@ -5337,8 +4477,8 @@
         ],
         "emoji": [
             "💬",
-            "🤖",
-            "🚀"
+            "🚀",
+            "🤖"
         ],
         "hashtags": [
             "#voicetechnology",
@@ -5363,8 +4503,8 @@
             "./data/curated_data/curated_images/post_CwfhV7uhXPO_5.jpg"
         ],
         "emoji": [
-            "🔧",
-            "🚀"
+            "🚀",
+            "🔧"
         ],
         "hashtags": [
             "#appdevelopmentjourney",
@@ -5389,12 +4529,12 @@
             "./data/curated_data/curated_images/post_CwP6RrONI8l_5.jpg"
         ],
         "emoji": [
-            "📉",
             "💼",
-            "📈",
-            "📋",
             "💡",
-            "🚫"
+            "🚫",
+            "📋",
+            "📈",
+            "📉"
         ],
         "hashtags": [
             "#inventorymanagementapp",
@@ -5447,52 +4587,6 @@
     },
     {
         "image_paths": [
-            "./data/curated_data/curated_images/post_CvhZqsyPLKE_1.jpg",
-            "./data/curated_data/curated_images/post_CvhZqsyPLKE_2.jpg",
-            "./data/curated_data/curated_images/post_CvhZqsyPLKE_3.jpg",
-            "./data/curated_data/curated_images/post_CvhZqsyPLKE_4.jpg"
-        ],
-        "emoji": [
-            "🏆",
-            "📈",
-            "👥",
-            "📱",
-            "🤝",
-            "👉",
-            "💡",
-            "🚀",
-            "⏰",
-            "🏅",
-            "💬",
-            "💹",
-            "🕗",
-            "🎉",
-            "❤️",
-            "✨",
-            "⌛",
-            "💪",
-            "🍽️",
-            "📊",
-            "💻"
-        ],
-        "hashtags": [
-            "#RestaurantTech",
-            "#CustomSoftware",
-            "#DigitalSolutions",
-            "#InnovationInDining",
-            "#customsoftwaresolutions",
-            "#restaurantappdevelopment",
-            "#restaurantappdesign",
-            "#restaurantmanagementsoftware",
-            "#restaurantmanagementsoftwaredevelopmentservices",
-            "#customsoftwaredevelopmentcompany"
-        ],
-        "post_heading": "Boost Your Restaurant Business with Custom Software Solutions!",
-        "post_content": "Tired of managing your restaurant the old-fashioned way? Say hello to the future of dining with our tailor-made software solutions! From seamless online ordering to efficient table management, we've got you covered. Streamline your operations and serve your customers better with our custom apps and digital tools. Embrace innovation and stay ahead of the competition. Maximize profits and minimize hassles with our user-friendly POS systems and data-driven insights. Watch your revenue soar as you make data-driven decisions. Time is money! Let our software handle the mundane tasks so you can focus on what matters most – providing an unforgettable dining experience. Customer satisfaction is our priority! With our solutions, you'll build stronger relationships and foster loyalty among your patrons. Stand out from the crowd and give your restaurant the tech-savvy edge it deserves. Experience the power of custom software solutions today!",
-        "platform": "instagram"
-    },
-    {
-        "image_paths": [
             "./data/curated_data/curated_images/post_CvPeRWyhzEH_1.jpg",
             "./data/curated_data/curated_images/post_CvPeRWyhzEH_2.jpg",
             "./data/curated_data/curated_images/post_CvPeRWyhzEH_3.jpg",
@@ -5522,18 +4616,18 @@
             "./data/curated_data/curated_images/post_Cu9demaPg7x_5.jpg"
         ],
         "emoji": [
-            "🎯",
-            "🏫",
-            "🤝",
-            "🔍",
             "🌟",
-            "✨",
             "👩‍🎓",
-            "💡",
+            "📚",
+            "✨",
+            "🎯",
             "📊",
             "✅",
+            "💡",
             "💻",
-            "📚"
+            "🔍",
+            "🤝",
+            "🏫"
         ],
         "hashtags": [
             "#edtechsoftware",
@@ -5557,8 +4651,8 @@
             "./data/curated_data/curated_images/post_CurS3-FBhmx_4.jpg"
         ],
         "emoji": [
-            "💡",
-            "🌐"
+            "🌐",
+            "💡"
         ],
         "hashtags": [
             "#softwaresolutions",
@@ -5582,8 +4676,8 @@
             "./data/curated_data/curated_images/post_CuWdKhTMylu_4.jpg"
         ],
         "emoji": [
-            "💡",
-            "🚀"
+            "🚀",
+            "💡"
         ],
         "hashtags": [
             "#cryptocurrencyappdevelopment",
@@ -5608,10 +4702,10 @@
             "./data/curated_data/curated_images/post_CteWSzVv7pa_5.jpg"
         ],
         "emoji": [
-            "📲",
             "🌟",
-            "📱",
-            "💼"
+            "📲",
+            "💼",
+            "📱"
         ],
         "hashtags": [
             "#appdevelopmentagency",
@@ -5663,10 +4757,10 @@
             "./data/curated_data/curated_images/post_Cs2-5SIyX-N_5.jpg"
         ],
         "emoji": [
-            "🌱",
-            "🌍",
             "✨",
             "💡",
+            "🌍",
+            "🌱",
             "♻️"
         ],
         "hashtags": [
@@ -5697,8 +4791,8 @@
             "./data/curated_data/curated_images/post_Csk0tbIy30t_5.jpg"
         ],
         "emoji": [
-            "🔥",
-            "👇"
+            "👇",
+            "🔥"
         ],
         "hashtags": [
             "#HealthcareAppDevelopment",
