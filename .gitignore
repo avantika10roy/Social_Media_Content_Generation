@@ -17,8 +17,4 @@ data/cleaned_data/instagram_cleaned_images/
 data/preprocessed_data/linkedin_preprocessed_images/
 =======
 src/base_models/
-<<<<<<< HEAD
 data/preprocessed_data/preprocessed_images
-=======
-data/preprocessed_data/preprocessed_images
->>>>>>> d5d99dd429bd9bf0ec46a48552081a2acfd3fb62

@@ -48,6 +48,7 @@ class Config:
     # CURATED DATA PATHS
     CURATED_POST_DATA_PATH                = './data/curated_data/curated_data.json'
     CURATED_IMAGE_DATA_PATH               = "./data/curated_data/curated_images"
+    MIXED_CURATED_DATA_PATH               = "./data/mixed_curated/mixed_curated.json" 
     
     # PREPROCESSED DATA PATHS
     PREPROCESSED_POST_DATA_PATH           = './data/preprocessed_data/preprocessed_data.json'

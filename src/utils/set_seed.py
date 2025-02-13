@@ -2,14 +2,14 @@
 
 # -------- Dependencies ------------
 from src.utils.logger import LoggerSetup
-# from config.config import RANDOM_SEED
+from config.config import Config
 from transformers import set_seed
 import numpy as np
 import random
 import torch
 import os
 
-def set_global_seed(logger: LoggerSetup ,seed: int = 42) -> None:
+def set_global_seed(logger: LoggerSetup ,seed: int = Config.RANDOM_SEED) -> None:
     np.random.seed(seed)
     random.seed(seed)
     set_seed(seed=seed)
