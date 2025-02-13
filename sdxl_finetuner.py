@@ -15,7 +15,7 @@ class SDXLFineTuner:
     """
         This class finetunes the Stable Diffusion XL model.
     """
-    def __init__(self, model_name = "stabilityai/stable-diffusion-xl-base-1.0", data_path = df):
+    def __init__(self, model_name = "stabilityai/stable-diffusion-xl-base-1.0", data_path = ):
         """
             Initialization of Fine Tuner
  
@@ -52,3 +52,34 @@ class SDXLFineTuner:
         pipe.vae = vae.to(self.device)
         pipe.to(self.device)
         return pipe
+    
+    def fine_tune(self, lora_adapter, output_dir="sdxl_finetuned", num_epochs=5):
+        self.pipe = lora_adapter.apply(self.pipe)
+        
+        # Optimizer
+        optimizer = torch.optim.AdamW(self.pipe.unet.parameters(), lr=1e-5)
+        
+        # Training loop
+        for epoch in range(num_epochs):
+            for batch in self.dataset:
+                image_path = batch["image"]
+                captions = batch["caption"]
+                
+                images = torch.tensor(cv2.imread(image_path)).permute(2, 0, 1).to(self.device)
+                input_ids = self.tokenizer(text=captions, return_tensors="pt", padding=True).input_ids.to(self.device)
+                
+                # Forward pass
+                loss = self.pipe.unet(images, input_ids)["loss"]
+                loss.backward()
+                optimizer.step()
+                optimizer.zero_grad()
+            print(f"Epoch {epoch + 1} completed.")
+        
+        # Save the fine-tuned model
+        self.pipe.save_pretrained(output_dir)
+        print(f"Model saved to {output_dir}")
+
+# if __name__ == "__main__":
+#     lora_adapter = LoraAdapter()
+#     finetuner = SDXLFinetuner()
+#     finetuner.fine_tune(lora_adapter)
