@@ -4,11 +4,10 @@ from datasets import Dataset
 from peft import LoraConfig, get_peft_model, PeftModel
 from transformers import AutoTokenizer, AutoModelForCausalLM, QuantoConfig
 
-prompt = """Generate a high-quality, engaging social media post for a business in a descriptive format. Follow the example structure and ensure clarity, creativity, and audience engagement.
-
+prompt = """Generate a high-quality, engaging and professional social media post for a company called Itobuz in a descriptive format. Follow the example structure and ensure clarity, creativity, context awareness, and audience engagement.
     Context:
-    - Platform: facebook 
-    - Topic: Republic Day
+    - Platform: Instagram
+    - Topic: Product launch of fittness band
     - Language: English
     - Word Limit: 250
 
@@ -16,6 +15,7 @@ prompt = """Generate a high-quality, engaging social media post for a business i
     - Craft a compelling opening that grabs attention.  
     - Highlight key details about the business or occasion.  
     - Maintain a consistent and engaging tone throughout.  
+    - Use emojis for a more expressive post.
     - Tone should be determined by the platform.
     - Use persuasive language and storytelling where applicable.  
     - Include a strong call to action (CTA) to encourage engagement.  
