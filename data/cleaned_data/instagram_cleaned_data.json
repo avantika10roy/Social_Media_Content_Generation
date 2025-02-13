@@ -69,9 +69,9 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFNT1nks7P2_5.jpg"
         ],
         "emoji":[
+            "\ud83d\udc49",
             "\ud83d\udcc8",
-            "\ud83d\udca1",
-            "\ud83d\udc49"
+            "\ud83d\udca1"
         ],
         "platform":"instagram"
     },
@@ -99,10 +99,10 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DE7OYHnKZLU_6.jpg"
         ],
         "emoji":[
-            "\u2728",
-            "\ud83d\udcbb",
             "\ud83c\uddfa\ud83c\uddf8",
-            "\ud83c\udf1f"
+            "\ud83c\udf1f",
+            "\u2728",
+            "\ud83d\udcbb"
         ],
         "platform":"instagram"
     },
@@ -483,8 +483,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DBvFtrfpOqW.jpg"
         ],
         "emoji":[
-            "\ud83c\udf83",
-            "\u2728"
+            "\u2728",
+            "\ud83c\udf83"
         ],
         "platform":"instagram"
     },
@@ -680,9 +680,9 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_0dYZAMgTV.jpg"
         ],
         "emoji":[
-            "\ud83d\udc68\u200d\ud83d\udcbb",
             "\ud83c\udf89",
-            "\ud83d\udc69\u200d\ud83d\udcbb"
+            "\ud83d\udc69\u200d\ud83d\udcbb",
+            "\ud83d\udc68\u200d\ud83d\udcbb"
         ],
         "platform":"instagram"
     },
@@ -767,8 +767,33 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_BA4RKPHYd_5.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83c\udf1f"
+            "\ud83c\udf1f",
+            "\ud83d\ude80"
+        ],
+        "platform":"instagram"
+    },
+    {
+        "post_heading":"Our team took a break from the office grind to enjoy a delicious lunch together!",
+        "post_content":"It was a great time filled with laughter, great food, and even better company. Building strong bonds outside the office helps us work better together inside the office. Here's to many more team outings! ",
+        "hashtags":[
+            "#teamlunch",
+            "#officebreak",
+            "#teambuilding",
+            "#teamouting",
+            "#officeculture",
+            "#itobuz",
+            "#ItobuzTechnologies"
+        ],
+        "image_paths":[
+            ".\/data\/raw_data\/instagram_raw_images\/C-o8_dIB5kP_1.jpg",
+            ".\/data\/raw_data\/instagram_raw_images\/C-o8_dIB5kP_2.jpg",
+            ".\/data\/raw_data\/instagram_raw_images\/C-o8_dIB5kP_3.jpg",
+            ".\/data\/raw_data\/instagram_raw_images\/C-o8_dIB5kP_4.jpg",
+            ".\/data\/raw_data\/instagram_raw_images\/C-o8_dIB5kP_5.jpg"
+        ],
+        "emoji":[
+            "\ud83e\udd73",
+            "\ud83d\ude4c"
         ],
         "platform":"instagram"
     },
@@ -1074,10 +1099,35 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7YW-x8RSSt_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udcb0",
-            "\ud83c\udf0d",
             "\u26a1",
-            "\ud83d\udd04"
+            "\ud83d\udd04",
+            "\ud83c\udf0d",
+            "\ud83d\udcb0"
+        ],
+        "platform":"instagram"
+    },
+    {
+        "post_heading":"Throwback to our Meta Quest Hackathon 2024 event in our office, where participants showcased their incredible skills and creativity.",
+        "post_content":"It was an inspiring event filled with hard work, innovation, and collaboration. The energy and enthusiasm were truly remarkable, making it a memorable experience for everyone involved",
+        "hashtags":[
+            "#Hackathon2024",
+            "#event",
+            "#metaquesthackathon2024",
+            "#innovation",
+            "#creativity",
+            "#teamwork",
+            "#TechEvent"
+        ],
+        "image_paths":[
+            ".\/data\/raw_data\/instagram_raw_images\/C7T9c_PBBha_1.jpg",
+            ".\/data\/raw_data\/instagram_raw_images\/C7T9c_PBBha_2.jpg",
+            ".\/data\/raw_data\/instagram_raw_images\/C7T9c_PBBha_3.jpg",
+            ".\/data\/raw_data\/instagram_raw_images\/C7T9c_PBBha_4.jpg",
+            ".\/data\/raw_data\/instagram_raw_images\/C7T9c_PBBha_5.jpg",
+            ".\/data\/raw_data\/instagram_raw_images\/C7T9c_PBBha_6.jpg"
+        ],
+        "emoji":[
+
         ],
         "platform":"instagram"
     },
@@ -1346,9 +1396,9 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C39xu0UMiCZ_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udde3\ufe0f",
+            "\ud83d\udcac",
             "\ud83c\udf10",
-            "\ud83d\udcac"
+            "\ud83d\udde3\ufe0f"
         ],
         "platform":"instagram"
     },
@@ -1532,8 +1582,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1_6NVDrzBc_5.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udd0f"
+            "\ud83d\udd0f",
+            "\ud83d\ude80"
         ],
         "platform":"instagram"
     },
@@ -1582,8 +1632,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1cBbQniN0k_4.jpg"
         ],
         "emoji":[
-            "\ud83c\udf08",
-            "\ud83d\ude80"
+            "\ud83d\ude80",
+            "\ud83c\udf08"
         ],
         "platform":"instagram"
     },
@@ -1602,11 +1652,11 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1KHezhr8yr_4.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcca",
+            "\ud83c\udf10",
             "\ud83c\udfc0",
             "\ud83d\udd0d",
-            "\ud83c\udf10"
+            "\ud83d\ude80",
+            "\ud83d\udcca"
         ],
         "platform":"instagram"
     },
@@ -1861,9 +1911,9 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CxvGIrAh6rN_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udcbb",
+            "\ud83c\udf1f",
             "\ud83c\udf10",
-            "\ud83c\udf1f"
+            "\ud83d\udcbb"
         ],
         "platform":"instagram"
     },
@@ -1915,9 +1965,9 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwxOTwbBAZr_5.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
+            "\ud83d\udcac",
             "\ud83e\udd16",
-            "\ud83d\udcac"
+            "\ud83d\ude80"
         ],
         "platform":"instagram"
     },
@@ -1970,12 +2020,12 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwP6RrONI8l_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udcc8",
-            "\ud83d\udcc9",
-            "\ud83d\udccb",
-            "\ud83d\udeab",
             "\ud83d\udcbc",
-            "\ud83d\udca1"
+            "\ud83d\udcc9",
+            "\ud83d\udcc8",
+            "\ud83d\udca1",
+            "\ud83d\udeab",
+            "\ud83d\udccb"
         ],
         "platform":"instagram"
     },
@@ -2007,8 +2057,54 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CvzliTgBr_e_5.jpg"
         ],
         "emoji":[
+            "\ud83d\udd2e",
+            "\ud83d\ude80"
+        ],
+        "platform":"instagram"
+    },
+    {
+        "post_heading":"Boost Your Restaurant Business with Custom Software Solutions!",
+        "post_content":"Tired of managing your restaurant the old-fashioned way? Say hello to the future of dining with our tailor-made software solutions! From seamless online ordering to efficient table management, we've got you covered. Streamline your operations and serve your customers better with our custom apps and digital tools. Embrace innovation and stay ahead of the competition. Maximize profits and minimize hassles with our user-friendly POS systems and data-driven insights. Watch your revenue soar as you make data-driven decisions. Time is money! Let our software handle the mundane tasks so you can focus on what matters most \u2013 providing an unforgettable dining experience. Customer satisfaction is our priority! With our solutions, you'll build stronger relationships and foster loyalty among your patrons. Stand out from the crowd and give your restaurant the tech-savvy edge it deserves. Experience the power of custom software solutions today!",
+        "hashtags":[
+            "#RestaurantTech",
+            "#CustomSoftware",
+            "#DigitalSolutions",
+            "#InnovationInDining",
+            "#customsoftwaresolutions",
+            "#restaurantappdevelopment",
+            "#restaurantappdesign",
+            "#restaurantmanagementsoftware",
+            "#restaurantmanagementsoftwaredevelopmentservices",
+            "#customsoftwaredevelopmentcompany"
+        ],
+        "image_paths":[
+            ".\/data\/raw_data\/instagram_raw_images\/CvhZqsyPLKE_1.jpg",
+            ".\/data\/raw_data\/instagram_raw_images\/CvhZqsyPLKE_2.jpg",
+            ".\/data\/raw_data\/instagram_raw_images\/CvhZqsyPLKE_3.jpg",
+            ".\/data\/raw_data\/instagram_raw_images\/CvhZqsyPLKE_4.jpg"
+        ],
+        "emoji":[
+            "\ud83d\udca1",
             "\ud83d\ude80",
-            "\ud83d\udd2e"
+            "\ud83c\udfc5",
+            "\u2764\ufe0f",
+            "\ud83d\udc65",
+            "\u23f0",
+            "\u2728",
+            "\ud83d\udc49",
+            "\ud83d\udcbb",
+            "\ud83c\udfc6",
+            "\ud83e\udd1d",
+            "\ud83d\udcf1",
+            "\ud83d\udcaa",
+            "\ud83c\udf7d\ufe0f",
+            "\ud83d\udcca",
+            "\ud83d\udcb9",
+            "\ud83c\udf89",
+            "\ud83d\udcac",
+            "\u231b",
+            "\ud83d\udd57",
+            "\ud83d\udcc8"
         ],
         "platform":"instagram"
     },
@@ -2057,18 +2153,17 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cu9demaPg7x_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udc69\u200d\ud83c\udf93",
+            "\u2705",
             "\ud83d\udcca",
-            "\ud83c\udfeb",
             "\ud83d\udcda",
             "\u2728",
             "\ud83c\udfaf",
-            "\ud83d\udcbb",
-            "\ud83e\udd1d",
             "\ud83d\udd0d",
-            "\u2705",
-            "\ud83d\udca1",
-            "\ud83c\udf1f"
+            "\ud83e\udd1d",
+            "\ud83c\udf1f",
+            "\ud83d\udc69\u200d\ud83c\udf93",
+            "\u2728",
+            "\ud83c\udfeb"
         ],
         "platform":"instagram"
     },
@@ -2143,10 +2238,10 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CteWSzVv7pa_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udcf1",
             "\ud83d\udcbc",
+            "\ud83c\udf1f",
             "\ud83d\udcf2",
-            "\ud83c\udf1f"
+            "\ud83d\udcf1"
         ],
         "platform":"instagram"
     },
@@ -2205,11 +2300,11 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cs2-5SIyX-N_5.jpg"
         ],
         "emoji":[
+            "\ud83d\udca1",
             "\ud83c\udf0d",
-            "\u267b\ufe0f",
-            "\u2728",
             "\ud83c\udf31",
-            "\ud83d\udca1"
+            "\u2728",
+            "\u267b\ufe0f"
         ],
         "platform":"instagram"
     },

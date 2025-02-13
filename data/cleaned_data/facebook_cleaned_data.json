@@ -168,16 +168,10 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_103.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_104.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_105.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_106.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_107.jpg"
-        ],
-        "emoji":[
-            "\ud83d\ude80",
-            "\ud83c\udf1f"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_103.jpg, ./data/raw_data/facebook_raw_images/image_104.jpg, ./data/raw_data/facebook_raw_images/image_105.jpg, ./data/raw_data/facebook_raw_images/image_106.jpg, ./data/raw_data/facebook_raw_images/image_107.jpg",
+        "emoji": [
+            "🚀",
+            "🌟"
         ],
         "hashtags":[
             "#CrossPlatform",
@@ -350,19 +344,13 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_169.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_170.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_171.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_172.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_173.jpg"
-        ],
-        "emoji":[
-            "\ud83c\udf0d",
-            "\u26a1",
-            "\ud83d\udcb0",
-            "\ud83c\udf10",
-            "\ud83d\udd04"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_169.jpg, ./data/raw_data/facebook_raw_images/image_170.jpg, ./data/raw_data/facebook_raw_images/image_171.jpg, ./data/raw_data/facebook_raw_images/image_172.jpg, ./data/raw_data/facebook_raw_images/image_173.jpg",
+        "emoji": [
+            "🌐",
+            "🌍",
+            "💰",
+            "🔄",
+            "⚡"
         ],
         "hashtags":[
             "#webappdevelopment",
@@ -423,15 +411,10 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_272.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_273.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_274.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_275.jpg"
-        ],
-        "emoji":[
-            "\u2728",
-            "\ud83c\udf10"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_272.jpg, ./data/raw_data/facebook_raw_images/image_273.jpg, ./data/raw_data/facebook_raw_images/image_274.jpg, ./data/raw_data/facebook_raw_images/image_275.jpg",
+        "emoji": [
+            "🌐",
+            "✨"
         ],
         "hashtags":[
             "#aitrends",
@@ -646,20 +629,14 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_355.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_356.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_357.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_358.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_359.jpg"
-        ],
-        "emoji":[
-            "\ud83d\udcc8",
-            "\ud83d\udcc9",
-            "\ud83d\udccb",
-            "\ud83d\udeab",
-            "\ud83d\udcbc",
-            "\ud83d\udca1"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_355.jpg, ./data/raw_data/facebook_raw_images/image_356.jpg, ./data/raw_data/facebook_raw_images/image_357.jpg, ./data/raw_data/facebook_raw_images/image_358.jpg, ./data/raw_data/facebook_raw_images/image_359.jpg",
+        "emoji": [
+            "📈",
+            "💡",
+            "📉",
+            "💼",
+            "📋",
+            "🚫"
         ],
         "hashtags":[
             "#inventorymanagementsoftware",
@@ -697,16 +674,10 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_307.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_308.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_309.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_310.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_311.jpg"
-        ],
-        "emoji":[
-            "\ud83d\ude80",
-            "\ud83c\udf10"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_307.jpg, ./data/raw_data/facebook_raw_images/image_308.jpg, ./data/raw_data/facebook_raw_images/image_309.jpg, ./data/raw_data/facebook_raw_images/image_310.jpg, ./data/raw_data/facebook_raw_images/image_311.jpg",
+        "emoji": [
+            "🌐",
+            "🚀"
         ],
         "hashtags":[
             "#5GTechnology",
@@ -765,17 +736,11 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_330.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_331.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_332.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_333.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_334.jpg"
-        ],
-        "emoji":[
-            "\ud83d\udcbb",
-            "\ud83c\udf10",
-            "\ud83c\udf1f"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_330.jpg, ./data/raw_data/facebook_raw_images/image_331.jpg, ./data/raw_data/facebook_raw_images/image_332.jpg, ./data/raw_data/facebook_raw_images/image_333.jpg, ./data/raw_data/facebook_raw_images/image_334.jpg",
+        "emoji": [
+            "🌐",
+            "💻",
+            "🌟"
         ],
         "hashtags":[
             "#webdevelopment",
@@ -865,16 +830,10 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_284.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_285.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_286.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_287.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_288.jpg"
-        ],
-        "emoji":[
-            "\ud83d\ude97",
-            "\u2728"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_284.jpg, ./data/raw_data/facebook_raw_images/image_285.jpg, ./data/raw_data/facebook_raw_images/image_286.jpg, ./data/raw_data/facebook_raw_images/image_287.jpg, ./data/raw_data/facebook_raw_images/image_288.jpg",
+        "emoji": [
+            "✨",
+            "🚗"
         ],
         "hashtags":[
             "#5GTechnology",
@@ -1026,16 +985,10 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_267.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_268.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_269.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_270.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_271.jpg"
-        ],
-        "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udd0f"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_267.jpg, ./data/raw_data/facebook_raw_images/image_268.jpg, ./data/raw_data/facebook_raw_images/image_269.jpg, ./data/raw_data/facebook_raw_images/image_270.jpg, ./data/raw_data/facebook_raw_images/image_271.jpg",
+        "emoji": [
+            "🚀",
+            "🔏"
         ],
         "hashtags":[
             "#blockchainapps",
@@ -1050,17 +1003,11 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_237.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_238.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_239.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_240.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_241.jpg"
-        ],
-        "emoji":[
-            "\ud83d\udde3\ufe0f",
-            "\ud83c\udf10",
-            "\ud83d\udcac"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_237.jpg, ./data/raw_data/facebook_raw_images/image_238.jpg, ./data/raw_data/facebook_raw_images/image_239.jpg, ./data/raw_data/facebook_raw_images/image_240.jpg, ./data/raw_data/facebook_raw_images/image_241.jpg",
+        "emoji": [
+            "🌐",
+            "🗣️",
+            "💬"
         ],
         "hashtags":[
             "#ai",
@@ -1246,15 +1193,33 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_276.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_277.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_278.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_279.jpg"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_154.jpg, ./data/raw_data/facebook_raw_images/image_155.jpg, ./data/raw_data/facebook_raw_images/image_156.jpg, ./data/raw_data/facebook_raw_images/image_157.jpg, ./data/raw_data/facebook_raw_images/image_158.jpg",
+        "emoji": [
+            "🚀",
+            "🌟",
+            "🏆",
+            "🎉"
         ],
-        "emoji":[
-            "\ud83c\udf08",
-            "\ud83d\ude80"
+        "hashtags": [
+            "#ITobuzAnniversary",
+            "#14YearsStrong",
+            "#TeamITobuz",
+            "#Innovation",
+            "#Excellence",
+            "#AwardCeremony",
+            "#Gratitude",
+            "#TechLeaders",
+            "#Itobuz"
+        ],
+        "post_heading": "ITobuz Technologies is celebrating its 14th anniversary!",
+        "post_content": "Our office is filled with joy, laughter, and pride as we honor the journey we've traveled together.From our humble beginnings to becoming a leading force in the tech industry, our success is a testament to the hard work, dedication, and passion of our incredible team. The celebration features our annual awards ceremony, recognizing and applauding the outstanding achievements of our team members. Each award symbolizes our appreciation for their relentless commitment and exceptional contributions.We are immensely grateful to our clients, partners, and well-wishers for their continued support and trust in us. Here's to many more years of innovation, growth, and success!",
+        "platform": "facebook"
+    },
+    {
+        "image_paths": "./data/raw_data/facebook_raw_images/image_276.jpg, ./data/raw_data/facebook_raw_images/image_277.jpg, ./data/raw_data/facebook_raw_images/image_278.jpg, ./data/raw_data/facebook_raw_images/image_279.jpg",
+        "emoji": [
+            "🚀",
+            "🌈"
         ],
         "hashtags":[
             "#metaverse",
@@ -1514,17 +1479,22 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_10.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_11.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_12.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_13.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_14.jpg"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_429.jpg, ./data/raw_data/facebook_raw_images/image_430.jpg, ./data/raw_data/facebook_raw_images/image_431.jpg, ./data/raw_data/facebook_raw_images/image_432.jpg, ./data/raw_data/facebook_raw_images/image_433.jpg",
+        "emoji": [],
+        "hashtags": [
+            "#ItobuzTechnologies",
+            "#TeamOuting2021"
         ],
-        "emoji":[
-            "\u2728",
-            "\ud83d\udcbb",
-            "\ud83c\udf1f"
+        "post_heading": "Planning for an office-outing might look a lot different amid the pandemic.",
+        "post_content": "But the Itobuzians have moved forward with their traditional holiday work party maintaining their employee's health and safety.---A journey well shared is a journey well enjoyed.",
+        "platform": "facebook"
+    },
+    {
+        "image_paths": "./data/raw_data/facebook_raw_images/image_10.jpg, ./data/raw_data/facebook_raw_images/image_11.jpg, ./data/raw_data/facebook_raw_images/image_12.jpg, ./data/raw_data/facebook_raw_images/image_13.jpg, ./data/raw_data/facebook_raw_images/image_14.jpg",
+        "emoji": [
+            "✨",
+            "💻",
+            "🌟"
         ],
         "hashtags":[
             "#DigitalInnovation",
@@ -1662,18 +1632,13 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_280.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_281.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_282.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_283.jpg"
-        ],
-        "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcca",
-            "\ud83c\udfc0",
-            "\ud83d\udd0d",
-            "\ud83c\udf10"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_280.jpg, ./data/raw_data/facebook_raw_images/image_281.jpg, ./data/raw_data/facebook_raw_images/image_282.jpg, ./data/raw_data/facebook_raw_images/image_283.jpg",
+        "emoji": [
+            "🌐",
+            "🔍",
+            "🚀",
+            "📊",
+            "🏀"
         ],
         "hashtags":[
             "#AISportsRevolution",
@@ -1820,16 +1785,10 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_0.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_1.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_2.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_3.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_4.jpg"
-        ],
-        "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcaa"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_0.jpg, ./data/raw_data/facebook_raw_images/image_1.jpg, ./data/raw_data/facebook_raw_images/image_2.jpg, ./data/raw_data/facebook_raw_images/image_3.jpg, ./data/raw_data/facebook_raw_images/image_4.jpg",
+        "emoji": [
+            "🚀",
+            "💪"
         ],
         "hashtags":[
             "#appdevelopment",
@@ -1894,17 +1853,11 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_360.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_361.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_362.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_363.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_364.jpg"
-        ],
-        "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udd2e",
-            "\ud83c\udf10"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_360.jpg, ./data/raw_data/facebook_raw_images/image_361.jpg, ./data/raw_data/facebook_raw_images/image_362.jpg, ./data/raw_data/facebook_raw_images/image_363.jpg, ./data/raw_data/facebook_raw_images/image_364.jpg",
+        "emoji": [
+            "🌐",
+            "🔮",
+            "🚀"
         ],
         "hashtags":[
             "#AR",
@@ -1951,16 +1904,10 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_78.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_79.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_80.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_81.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_82.jpg"
-        ],
-        "emoji":[
-            "\ud83c\udf31",
-            "\ud83c\udf3e"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_78.jpg, ./data/raw_data/facebook_raw_images/image_79.jpg, ./data/raw_data/facebook_raw_images/image_80.jpg, ./data/raw_data/facebook_raw_images/image_81.jpg, ./data/raw_data/facebook_raw_images/image_82.jpg",
+        "emoji": [
+            "🌾",
+            "🌱"
         ],
         "hashtags":[
             "#iot",
@@ -1983,19 +1930,13 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_396.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_397.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_398.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_399.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_400.jpg"
-        ],
-        "emoji":[
-            "\ud83c\udf0d",
-            "\ud83c\udf31",
-            "\u2728",
-            "\ud83c\udf3f",
-            "\ud83d\udca1"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_396.jpg, ./data/raw_data/facebook_raw_images/image_397.jpg, ./data/raw_data/facebook_raw_images/image_398.jpg, ./data/raw_data/facebook_raw_images/image_399.jpg, ./data/raw_data/facebook_raw_images/image_400.jpg",
+        "emoji": [
+            "🌍",
+            "💡",
+            "🌿",
+            "✨",
+            "🌱"
         ],
         "hashtags":[
             "#renewableenergy",
@@ -2011,18 +1952,48 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_345.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_346.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_347.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_348.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_349.jpg"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_365.jpg, ./data/raw_data/facebook_raw_images/image_366.jpg, ./data/raw_data/facebook_raw_images/image_367.jpg, ./data/raw_data/facebook_raw_images/image_368.jpg",
+        "emoji": [
+            "📊",
+            "🍽️",
+            "⏰",
+            "❤️",
+            "👥",
+            "⌛",
+            "💡",
+            "🏅",
+            "💻",
+            "💹",
+            "✨",
+            "💪",
+            "🚀",
+            "📈",
+            "🕗",
+            "🤝",
+            "🍔",
+            "💬",
+            "👉",
+            "📱",
+            "🏆",
+            "🎉"
         ],
-        "emoji":[
-            "\ud83d\udde3\ufe0f",
-            "\ud83e\udd16",
-            "\ud83d\ude80",
-            "\ud83d\udcac"
+        "hashtags": [
+            "#RestaurantTech",
+            "#CustomSoftware",
+            "#DigitalSolutions",
+            "#InnovationInDining"
+        ],
+        "post_heading": "Boost Your Restaurant Business with Custom Software Solutions!",
+        "post_content": "Tired of managing your restaurant the old-fashioned way? Say hello to the future of dining with our tailor-made software solutions! From seamless online ordering to efficient table management, we've got you covered. Streamline your operations and serve your customers better with our custom apps and digital tools. Embrace innovation and stay ahead of the competition. Maximize profits and minimize hassles with our user-friendly POS systems and data-driven insights. Watch your revenue soar as you make data-driven decisions. Time is money! Let our software handle the mundane tasks so you can focus on what matters most – providing an unforgettable dining experience. Customer satisfaction is our priority! With our solutions, you'll build stronger relationships and foster loyalty among your patrons. Stand out from the crowd and give your restaurant the tech-savvy edge it deserves. Experience the power of custom software solutions today!",
+        "platform": "facebook"
+    },
+    {
+        "image_paths": "./data/raw_data/facebook_raw_images/image_345.jpg, ./data/raw_data/facebook_raw_images/image_346.jpg, ./data/raw_data/facebook_raw_images/image_347.jpg, ./data/raw_data/facebook_raw_images/image_348.jpg, ./data/raw_data/facebook_raw_images/image_349.jpg",
+        "emoji": [
+            "🚀",
+            "🤖",
+            "🗣️",
+            "💬"
         ],
         "hashtags":[
             "#voicetechnology",
@@ -2037,19 +2008,13 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_386.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_387.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_388.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_389.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_390.jpg"
-        ],
-        "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcf1",
-            "\ud83d\udcbc",
-            "\ud83d\udcf2",
-            "\ud83c\udf1f"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_386.jpg, ./data/raw_data/facebook_raw_images/image_387.jpg, ./data/raw_data/facebook_raw_images/image_388.jpg, ./data/raw_data/facebook_raw_images/image_389.jpg, ./data/raw_data/facebook_raw_images/image_390.jpg",
+        "emoji": [
+            "🌟",
+            "🚀",
+            "📱",
+            "📲",
+            "💼"
         ],
         "hashtags":[
             "#appdevelopmentagency",
@@ -2067,27 +2032,21 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_373.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_374.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_375.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_376.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_377.jpg"
-        ],
-        "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcca",
-            "\ud83d\udc69\u200d\ud83c\udf93",
-            "\ud83c\udfeb",
-            "\ud83d\udcda",
-            "\u2728",
-            "\ud83c\udfaf",
-            "\ud83d\udcbb",
-            "\ud83e\udd1d",
-            "\ud83d\udd0d",
-            "\u2705",
-            "\ud83d\udca1",
-            "\ud83c\udf1f"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_373.jpg, ./data/raw_data/facebook_raw_images/image_374.jpg, ./data/raw_data/facebook_raw_images/image_375.jpg, ./data/raw_data/facebook_raw_images/image_376.jpg, ./data/raw_data/facebook_raw_images/image_377.jpg",
+        "emoji": [
+            "🔍",
+            "👩‍🎓",
+            "🌟",
+            "🚀",
+            "📊",
+            "💡",
+            "🎯",
+            "✅",
+            "💻",
+            "🤝",
+            "✨",
+            "🏫",
+            "📚"
         ],
         "hashtags":[
             "#EdTechSolutions",
@@ -2100,18 +2059,12 @@
         "platform":"facebook"
     },
     {
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_5.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_6.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_7.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_8.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_9.jpg"
-        ],
-        "emoji":[
-            "\ud83d\udcc8",
-            "\ud83d\udc49",
-            "\ud83d\udca1",
-            "\ud83d\ude9b"
+        "image_paths": "./data/raw_data/facebook_raw_images/image_5.jpg, ./data/raw_data/facebook_raw_images/image_6.jpg, ./data/raw_data/facebook_raw_images/image_7.jpg, ./data/raw_data/facebook_raw_images/image_8.jpg, ./data/raw_data/facebook_raw_images/image_9.jpg",
+        "emoji": [
+            "👉",
+            "📈",
+            "🚛",
+            "💡"
         ],
         "hashtags":[
             "#ItobuzTechnologies",
