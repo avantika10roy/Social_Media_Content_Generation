@@ -84,6 +84,8 @@ class LLMFineTuner:
             self.logger.error(repr(TrainerDefinitionError), exc_info=True)
             return repr(TrainerDefinitionError)
 
+    def use_mps(self):
+        self.model.to("mps")
 
     def start_fine_tuning(self) -> AutoModelForCausalLM:
         """

@@ -1,7 +1,7 @@
-# ---------- Done By Manu Bhaskar -------------
+# ---------- Done By Manu Bhaskar & Arnab Chatterjee -------------
 
 # ---------- Dependencies ------------
-import os
+import os 
 import json
 import torch
 from datasets import Dataset
@@ -12,6 +12,7 @@ from src.utils.set_seed import set_global_seed
 from sklearn.model_selection import train_test_split
 from src.model_finetuners.llm_fine_tuner import LLMFineTuner
 from transformers import AutoTokenizer, AutoModelForCausalLM
+from src.prompts.prompts import llm_finetuning_prep
 
 finetune_logger = LoggerSetup(logger_name="llm_fine_tuner.py", log_filename_prefix="llm_fine_tuner").get_logger()
 finetune_logger.info("Logger Successfully Initialized")
@@ -34,23 +35,20 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
 
             model.save_pretrained(model_path)
             tokenizer.save_pretrained(tokenizer_path)
+        # No need to write this part since model will be initialized in llm_fine_tuner.py if saved in path 
         else:
             model = AutoModelForCausalLM.from_pretrained(model_path, device_map='cpu')
             tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
 
-        with open("data/cleaned_data/linkedin_cleaned_data.json", "r", encoding="utf-8") as file:
+        with open(Config.MIXED_CURATED_DATA_PATH, "r", encoding="utf-8") as file:
             data = json.load(file)
 
         # Data Preparation
         for item in data:
             item.pop('image_paths',None)
 
-        data_list = []
-        for item in data:
-            text = ""
-            for key, value in item.items():
-                text = text + "".join(value)
-            data_list.append(text)
+        data_list = [llm_finetuning_prep(item) for item in data]
+
 
         data = Dataset.from_dict({'texts':data_list})
         
@@ -69,13 +67,13 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
                                   finetune_logger=finetune_logger)
         
         training_args = {
-            'output_dir' : 'results/llm_results',
-            'learning_rate': 2e-5,
+            'output_dir' : 'results/llm_results/fine_tuning_results_v1',
+            'learning_rate': 2e-7,
             'warmup_steps' : 100,
             'per_device_train_batch_size' : 1,
             'per_device_eval_batch_size' :1,
             'gradient_accumulation_steps':8,
-            'num_train_epochs':1,
+            'num_train_epochs':5,
             'weight_decay':0.01,
             'bf16':False,
             'fp16':False,
@@ -94,6 +92,7 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
 
         fine_tuner.define_lora_config(**lora_args)
         fine_tuner.define_training_args(**training_args)
+        fine_tuner.use_mps()
         fine_tuner.define_trainer()
         model = fine_tuner.start_fine_tuning()
 
