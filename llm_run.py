@@ -17,7 +17,7 @@ torch.mps.manual_seed(seed)
 prompt = """Generate a high-quality, engaging and professional social media post for a company called Itobuz in a descriptive format. Follow the example structure, fulfil the requirements and ensure clarity, creativity, context awareness, and audience engagement.
     Context:
     - Platform: Linkedin
-    - Topic: Product launch of fittness band
+    - Topic: Republic Day
     - Language: English
     - Word Limit: 250
 
@@ -39,7 +39,7 @@ base_model = AutoModelForCausalLM.from_pretrained('src/base_models/falcon1b/mode
 tokenizer = AutoTokenizer.from_pretrained('src/base_models/falcon1b/tokenizer')
 
 # Load LoRA adapters on top of the base model
-model = PeftModel.from_pretrained(base_model, 'results/llm_results/fine_tuning_results_v2/checkpoint-110')
+model = PeftModel.from_pretrained(base_model, 'results/llm_results/fine_tuning_by_sir/falcon_1b_base_lora')
 
 # Move to MPS (Mac) or CPU
 # device = "mps"  # Use "cpu" if you don’t have Metal enabled
