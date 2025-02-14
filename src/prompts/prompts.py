@@ -1,14 +1,11 @@
     
 
 # -------- Done By Manu --------------
-def llm_prompt(platform:str, theme:str, target:str, tone:str, lang:str, word_lim:int) -> str :
-    LLM_PROMPT = f"""Generate a high-quality, engaging social media post for a business in a descriptive format. Follow the example structure and ensure clarity, creativity, and audience engagement.
-
+def llm_prompt(platform:str, topic:str, company_name:str, lang:str = 'English', word_lim:int = 250) -> str :
+    LLM_PROMPT = f"""Generate a high-quality, engaging and professional social media post for a {company_name} in a descriptive format. Follow the example structure and ensure clarity, creativity, context awareness, and audience engagement.
     Context:
     - Platform: {platform}  
-    - Theme: {theme}
-    - Target Audience: {target}  
-    - Tone: {tone}
+    - Topic: {topic}
     - Language: {lang}  
     - Word Limit: {word_lim}
 
@@ -16,6 +13,7 @@ def llm_prompt(platform:str, theme:str, target:str, tone:str, lang:str, word_lim
     - Craft a compelling opening that grabs attention.  
     - Highlight key details about the business or occasion.  
     - Maintain a consistent and engaging tone throughout.  
+    - Tone should be determined by the platform.
     - Use persuasive language and storytelling where applicable.  
     - Include a strong call to action (CTA) to encourage engagement.  
 
