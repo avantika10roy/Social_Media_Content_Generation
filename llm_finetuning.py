@@ -26,16 +26,15 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
     """
     set_global_seed(logger=logger, seed=42)
     try:
-        model_path         = 'src/base_models/falcon1b/model'
-        tokenizer_path     = 'src/base_models/falcon1b/tokenizer'
+        model_path         = 'src/base_models/mistral7b/model'
+        tokenizer_path     = 'src/base_models/mistral7b/tokenizer'
 
         if (not os.path.isdir(model_path)) or (not os.path.isdir(tokenizer_path)):
-            model = AutoModelForCausalLM.from_pretrained('tiiuae/Falcon3-1B-Instruct', device_map='cpu')
-            tokenizer = AutoTokenizer.from_pretrained('tiiuae/Falcon3-1B-Instruct')
+            model = AutoModelForCausalLM.from_pretrained('mistralai/Mistral-7B-Instruct-v0.3', device_map='cpu')
+            tokenizer = AutoTokenizer.from_pretrained('mistralai/Mistral-7B-Instruct-v0.3')
 
             model.save_pretrained(model_path)
             tokenizer.save_pretrained(tokenizer_path)
-        # No need to write this part since model will be initialized in llm_fine_tuner.py if saved in path 
         else:
             model = AutoModelForCausalLM.from_pretrained(model_path, device_map='cpu')
             tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
@@ -53,7 +52,8 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
         data = Dataset.from_dict({'texts':data_list})
         
         def tokenize_function(examples):
-            inputs = tokenizer(examples["texts"], padding="max_length", truncation=True, return_tensors='pt', max_length=256)
+            tokenizer.pad_token = tokenizer.eos_token
+            inputs = tokenizer(examples["texts"], padding="max_length", truncation=True, return_tensors='pt', max_length=128)
             inputs["labels"] = inputs["input_ids"].clone().detach() # Add labels for causal LM training
             return inputs
         
@@ -67,13 +67,16 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
                                   finetune_logger=finetune_logger)
         
         training_args = {
-            'output_dir' : 'results/llm_results/fine_tuning_results_v1',
-            'learning_rate': 2e-7,
+            'output_dir' : 'results/llm_results/mistral_fine_tuning_results_v2',
+            'learning_rate': 5e-5,
             'warmup_steps' : 100,
-            'per_device_train_batch_size' : 1,
-            'per_device_eval_batch_size' :1,
+            'logging_first_step':True,
+            'logging_steps':5,
+            'per_device_train_batch_size' : 2,
+            'per_device_eval_batch_size' :2,
             'gradient_accumulation_steps':8,
-            'num_train_epochs':5,
+            'num_train_epochs':10,
+            'logging_dir' : 'logs/llm_finetune_logs/mistralv1',
             'weight_decay':0.01,
             'bf16':False,
             'fp16':False,
