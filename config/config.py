@@ -57,6 +57,9 @@ class Config:
     # BLIP IMAGE TO TEXT PATHS
     BLIP_OUTPUT_PATH                      = './data/Blip_with_context'
 
+    # Logo information 
+    LOGO_INFO_OUTPUT_PATH                 = './data/logo_identification_result/output_with_logo_info_and_uploads.json'
+
     @staticmethod
     def setup_directories():
         """
