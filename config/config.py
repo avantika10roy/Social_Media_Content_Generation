@@ -54,6 +54,14 @@ class Config:
     PREPROCESSED_POST_DATA_PATH           = './data/preprocessed_data/preprocessed_data.json'
     PREPROCESSED_IMAGE_DATA_PATH          = "./data/preprocessed_data/preprocessed_images"
     
+    # AUGMENTED DATA PATHS
+    AUGMENTED_NEW_DATA_PATH               = './data/augmented_data/new_data.json'
+    AUGMENTED_IMAGES_PATH                 = './data/augmented_data/augmented_images'
+    AUGMENTED_DATA_PATH                   = "./data/augmented_data/augmented_data.json"
+    AUGMENTED_LOGO_PATH                   = "./data/augmented_data/logo_data.json"
+    
+
+    LOGO_PATH                             = "data/logo.jpg"
     RANDOM_SEED                           = 42
     
 
