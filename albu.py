@@ -22,34 +22,6 @@ class PreProcessor:
         A.Resize(1024,1024),
         #ToTensorV2()
     ])
-    
-    '''def convert_to_separate_rows(self, data, save_dir='new_data.json'):
-        separated_data = []
-        for post in data:
-            post_heading = post.get("post_heading", "")
-            post_content = post.get("post_content", "")
-            hashtags = post.get("hashtags", [])
-            emojis = post.get("emoji", [])
-            platform_name = post.get("platform", "")
-            image_paths = post.get("image_paths", [])
-            
-            for image_path in image_paths:
-                if os.path.exists(image_path):  
-                    separated_data.append({
-                        "post_heading": post_heading,
-                        "post_content": post_content,
-                        "hashtags": hashtags,
-                        "image_path": image_path,
-                        "emoji": emojis,
-                        "platform": platform_name
-                    })
-                else:
-                    print(f"Image file not found: {image_path}")
-        
-        with open(save_dir, "w") as file:
-            json.dump(separated_data, file, indent=4, ensure_ascii=False)
-            print(f"Data successfully converted and saved to {save_dir}")'''
-
 
     def augment_and_save(self):
         image_files = [f for f in os.listdir(self.input_dir) if f.endswith(('.jpg', '.png', '.jpeg'))]
@@ -79,39 +51,6 @@ class PreProcessor:
 
         print(f"Augmentation complete! Augmented images saved in {self.output_dir}")
         return augmented_mapping
-
-    '''def check_logo(self, image_path, logo_path, threshold=0.5):
-        """Check if a specific logo is present in the given image."""
-        image = cv2.imread(image_path, cv2.IMREAD_COLOR)
-        logo = cv2.imread(logo_path, cv2.IMREAD_COLOR)
-
-        logo = cv2.resize(logo, (16,16))
-
-        if image is None or logo is None:
-            print(f"Error: Image or logo not found ({image_path} or {logo_path})!")
-            return False
-        
-        result = cv2.matchTemplate(image, logo, cv2.TM_CCOEFF_NORMED)
-        _, max_val, _, max_loc= cv2.minMaxLoc(result)
-
-        if max_val >= threshold:
-            h,w = image.shape[:2]
-            x,y = max_loc
-
-            if x < w / 3 and y < h / 3:
-                position = "top-left"
-            elif x > 2 * w / 3 and y < h / 3:
-                position = "top-right"
-            elif x < w / 3 and y > 2 * h / 3:
-                position = "bottom-left"
-            elif x > 2 * w / 3 and y > 2 * h / 3:
-                position = "bottom-right"
-            else:
-                position = "center"
-
-            return True, position
-        else:
-            return False, None'''
 
 
     def check_logo(self, image_path, logo_path, threshold=0.5):
@@ -165,15 +104,6 @@ class PreProcessor:
                     # Draw the bounding box for visualization (optional)
                     cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
                     break
-
-        #     if match_found:
-        #         break
-
-        # # Display the result (optional)
-        # if match_found:
-        #     cv2.imshow("Detected Logo", image)
-        #     cv2.waitKey(0)
-        #     cv2.destroyAllWindows()
 
         return match_found, position
         

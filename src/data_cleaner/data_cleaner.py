@@ -75,7 +75,7 @@ class DataCleaner():
             removed_html_tags = removed_hashtags.str.replace(self.HTML_TAG_PATTERN, '', regex=True)  # Remove HTML tags
             removed_n = removed_html_tags.str.replace(self.NEWLINE_PATTERN, '', regex=True)  # Remove '\n'
             removed_dots = removed_n.str.replace(self.EXTRA_DOTS_PATTERN, '', regex=True)  # Remove extra dots
-            cleaned_text = removed_dots.str.replace(self.EXTRA_SPACES_PATTERN, ' ', regex=True)  # Remove extra spaces
+            cleaned_text = removed_dots.str.replace(r'\bhashtag\b','',regex=True).str.replace(self.EXTRA_SPACES_PATTERN, ' ', regex=True)  # Remove extra spaces
             
             cleaner_logger.info("Text cleaning complete.")
             return cleaned_text

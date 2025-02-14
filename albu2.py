@@ -4,6 +4,7 @@ import cv2
 from tqdm import tqdm
 import json
 import numpy as np
+import pytesseract
 
 
 class PreProcessor:
@@ -21,67 +22,58 @@ class PreProcessor:
             A.Resize(1024, 1024),
         ])
 
-    def check_logo(image_path, logo_path, threshold=10):  
-        """Check if a specific logo is present in an image using ORB + RANSAC and determine its position."""
-        image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
-        logo = cv2.imread(logo_path, cv2.IMREAD_GRAYSCALE)
+    def check_logo(self, image_path, logo_path, text_to_detect="IB"):
+        """Check if a specific logo is present in the image using contour detection and OCR."""
+        # Load images
+        image = cv2.imread(image_path, cv2.IMREAD_COLOR)
+        logo = cv2.imread(logo_path, cv2.IMREAD_COLOR)
 
         if image is None or logo is None:
             print(f"Error: Image or logo not found ({image_path} or {logo_path})!")
             return False, None
 
-        orb = cv2.ORB_create()
-        
-        # Detect keypoints and descriptors
-        kp1, des1 = orb.detectAndCompute(logo, None)
-        kp2, des2 = orb.detectAndCompute(image, None)
+        # Convert to grayscale
+        logo_gray = cv2.cvtColor(logo, cv2.COLOR_BGR2GRAY)
+        image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-        if des1 is None or des2 is None:
-            return False, None  
+        # Apply binary threshold
+        _, logo_thresh = cv2.threshold(logo_gray, 127, 255, cv2.THRESH_BINARY)
+        _, image_thresh = cv2.threshold(image_gray, 127, 255, cv2.THRESH_BINARY)
 
-        # Use BFMatcher with cross-check
-        bf = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
-        matches = bf.match(des1, des2)
-        matches = sorted(matches, key=lambda x: x.distance)
+        # Find contours
+        logo_contours, _ = cv2.findContours(logo_thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        image_contours, _ = cv2.findContours(image_thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
-        if len(matches) < threshold:
-            return False, None  
+        logo_found = False
+        position = None
 
-        # Extract matched keypoints
-        src_pts = np.float32([kp1[m.queryIdx].pt for m in matches]).reshape(-1, 1, 2)
-        dst_pts = np.float32([kp2[m.trainIdx].pt for m in matches]).reshape(-1, 1, 2)
+        for contour in image_contours:
+            x, y, w, h = cv2.boundingRect(contour)
+            roi = image[y:y+h, x:x+w]  # Extract the region of interest (ROI)
 
-        # Find Homography to filter out bad matches
-        M, mask = cv2.findHomography(src_pts, dst_pts, cv2.RANSAC, 5.0)
-        matchesMask = mask.ravel().tolist()
+            # OCR on the extracted region
+            extracted_text = pytesseract.image_to_string(roi, config="--psm 6").strip()
 
-        if M is None or sum(matchesMask) < threshold:
-            return False, None  
+            # Check if detected text contains "IB" or company name
+            if text_to_detect.lower() in extracted_text.lower():
+                logo_found = True
 
-        # Get bounding box of detected logo
-        h, w = logo.shape[:2]
-        pts = np.float32([[0, 0], [w, 0], [w, h], [0, h]]).reshape(-1, 1, 2)
-        dst = cv2.perspectiveTransform(pts, M)
+                # Determine position of detected logo
+                img_h, img_w = image.shape[:2]
+                if x < img_w / 3 and y < img_h / 3:
+                    position = "top-left"
+                elif x > 2 * img_w / 3 and y < img_h / 3:
+                    position = "top-right"
+                elif x < img_w / 3 and y > 2 * img_h / 3:
+                    position = "bottom-left"
+                elif x > 2 * img_w / 3 and y > 2 * img_h / 3:
+                    position = "bottom-right"
+                else:
+                    position = "center"
 
-        # Compute center of detected region
-        center_x = np.mean(dst[:, 0, 0])
-        center_y = np.mean(dst[:, 0, 1])
+                break  # Stop after detecting the first valid match
 
-        # Determine logo position
-        img_h, img_w = image.shape[:2]
-
-        if center_x < img_w / 3 and center_y < img_h / 3:
-            position = "top-left"
-        elif center_x > 2 * img_w / 3 and center_y < img_h / 3:
-            position = "top-right"
-        elif center_x < img_w / 3 and center_y > 2 * img_h / 3:
-            position = "bottom-left"
-        elif center_x > 2 * img_w / 3 and center_y > img_h / 3:
-            position = "bottom-right"
-        else:
-            position = "center"
-
-        return True, position
+        return logo_found, position
 
     def augment_and_save(self):
         image_files = [f for f in os.listdir(self.input_dir) if f.endswith(('.jpg', '.png', '.jpeg'))]
