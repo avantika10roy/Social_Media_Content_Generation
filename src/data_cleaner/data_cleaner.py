@@ -75,7 +75,7 @@ class DataCleaner():
             removed_html_tags = removed_hashtags.str.replace(self.HTML_TAG_PATTERN, '', regex=True)  # Remove HTML tags
             removed_n = removed_html_tags.str.replace(self.NEWLINE_PATTERN, '', regex=True)  # Remove '\n'
             removed_dots = removed_n.str.replace(self.EXTRA_DOTS_PATTERN, '', regex=True)  # Remove extra dots
-            cleaned_text = removed_dots.str.replace(self.EXTRA_SPACES_PATTERN, ' ', regex=True)  # Remove extra spaces
+            cleaned_text = removed_dots.str.replace(r'\bhashtag\b','',regex=True).str.replace(self.EXTRA_SPACES_PATTERN, ' ', regex=True)  # Remove extra spaces
             
             cleaner_logger.info("Text cleaning complete.")
             return cleaned_text
@@ -160,6 +160,19 @@ class DataCleaner():
                                                  errors  = 'ignore')
 
             linkdln_data['platform'] = 'linkedin'
+            cleaned_hashtags = []
+            for hashtag_list in linkdln_data['hashtags']:  # Iterate through the list of lists
+                cleaned_hashtags_for_post = []  # To store cleaned hashtags for each post
+                for hashtag in hashtag_list:  # Iterate through individual hashtags
+                    if isinstance(hashtag, str) and hashtag.endswith('hashtag'):
+                        cleaned_hashtags_for_post.append(hashtag[:-7])  # Remove 'hashtag' (7 characters)
+                    else:
+                        cleaned_hashtags_for_post.append(hashtag)
+                cleaned_hashtags.append(cleaned_hashtags_for_post)  # Append the cleaned list for each post
+            
+            # Update the DataFrame with the cleaned hashtags
+            linkdln_data['hashtags'] = cleaned_hashtags
+
             cleaner_logger.info(f"{platform} data cleaned successfully.")
             return linkdln_data
 
