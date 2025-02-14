@@ -64,6 +64,8 @@ class Config:
     LOGO_PATH                             = "data/logo.jpg"
     RANDOM_SEED                           = 42
     
+    # BLIP IMAGE TO TEXT PATHS
+    BLIP_OUTPUT_PATH                      = './data/Blip_with_context'
 
     @staticmethod
     def setup_directories():
