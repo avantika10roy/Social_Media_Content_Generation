@@ -2,8 +2,6 @@ import albumentations as A
 import cv2
 import json
 import pandas as pd
-import numpy as np
-from PIL import Image
 import os
 
 class PreProcessor:
@@ -16,7 +14,7 @@ class PreProcessor:
             A.Resize(*self.img_size)
         ])
     
-    def convert_to_separate_rows(self, df, save_path='new_data.json'):
+    def convert_to_separate_rows(self, df):
         separated_data = []
         for _, post in df.iterrows():
             post_heading = post.get("post_heading", "")
@@ -40,55 +38,8 @@ class PreProcessor:
                     print(f"Image file not found: {image_path}")
         
         separated_df = pd.DataFrame(separated_data)
-        separated_df.to_json(save_path, orient='records', indent=4, force_ascii=False)
-        print(f"Data successfully converted and saved to {save_path}")
-        
         return separated_df
     
-    def image_augmentation(self, df, save_dir='augmented_images', num_augmented_copies=3):
-        if not os.path.exists(save_dir):
-            os.makedirs(save_dir)
-        
-        augmented_data = []
-        
-        for _, item in df.iterrows():
-            image_path = item["image_path"]
-            
-            if os.path.exists(image_path):
-                # Read image using OpenCV
-                image = cv2.imread(image_path)
-                image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-                
-                image_resized = cv2.resize(image, self.img_size)
-
-                resized_file_name = f"{os.path.splitext(os.path.basename(image_path))[0]}_resized.jpg"
-                resized_image_path = os.path.join(save_dir, resized_file_name)
-                cv2.imwrite(resized_image_path, cv2.cvtColor(image_resized, cv2.COLOR_RGB2BGR))
-                
-                augmented_paths = []
-                
-                # Apply augmentation for the specified number of copies
-                for i in range(num_augmented_copies):
-                    augmented = self.transform(image=image_resized)["image"]
-                    
-                    file_name = f"{os.path.splitext(os.path.basename(image_path))[0]}_aug_{i}.jpg"
-                    save_path = os.path.join(save_dir, file_name)
-                    
-                    cv2.imwrite(save_path, cv2.cvtColor(augmented, cv2.COLOR_RGB2BGR))
-                    augmented_paths.append(save_path)
-                    
-                new_item = item.to_dict()
-                new_item["resized_image_path"] = resized_image_path
-                new_item["augmented_image_path_1"] = augmented_paths[0]
-                new_item["augmented_image_path_2"] = augmented_paths[1]
-                new_item["augmented_image_path_3"] = augmented_paths[2]
-                
-                augmented_data.append(new_item)
-            
-            else:
-                print(f"Skipping augmentation: Image file not found {image_path}")
-        
-        return pd.DataFrame(augmented_data)
     
     def image_augmentation(self, df, save_dir='augmented_images', num_augmented_copies=3):
         if not os.path.exists(save_dir):
@@ -111,7 +62,6 @@ class PreProcessor:
                 resized_image_path = os.path.join(save_dir, resized_file_name)
                 cv2.imwrite(resized_image_path, cv2.cvtColor(image_resized, cv2.COLOR_RGB2BGR))
                 
-                # Append resized image (without original image)
                 augmented_data.append({
                     "post_heading": item["post_heading"],
                     "post_content": item["post_content"],
@@ -129,7 +79,6 @@ class PreProcessor:
                     
                     cv2.imwrite(save_path, cv2.cvtColor(augmented, cv2.COLOR_RGB2BGR))
                     
-                    # Append each augmented image (without original image)
                     augmented_data.append({
                         "post_heading": item["post_heading"],
                         "post_content": item["post_content"],
@@ -142,7 +91,6 @@ class PreProcessor:
             else:
                 print(f"Skipping augmentation: Image file not found {image_path}")
         
-        # Return the augmented dataset as a DataFrame
         return pd.DataFrame(augmented_data)
 
 
@@ -155,8 +103,4 @@ separated_df = pp.convert_to_separate_rows(df)
 
 augmented_df = pp.image_augmentation(separated_df)
 augmented_df.to_json("augmented_data.json", orient="records", indent=4, force_ascii=False)
-
-#augmented_df = pd.read_json('augmented_data.json')
-logo_df = pp.detect_logo(augmented_df, logo_path="data/logo.jpg")
-logo_df.to_json("logo_data.json", orient="records", indent=4, force_ascii=False)
 
