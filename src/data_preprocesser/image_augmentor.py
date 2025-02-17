@@ -90,38 +90,60 @@ class PreProcessor:
         
         return pd.DataFrame(augmented_data)
     
-    def detect_logo(self, df, logo_path=None, threshold=0.2):
-        if logo_path is None or not os.path.exists(logo_path):
-            print("Logo image not found!")
-            return df
-
-        # Read the logo image and resize it to fit the resized image size
-        logo = cv2.imread(logo_path, 0)
-        logo_w, logo_h = logo.shape[::-1]
-
-        detected_data = []
+    def image_augmentation(self, df, save_dir='augmented_images', num_augmented_copies=3):
+        if not os.path.exists(save_dir):
+            os.makedirs(save_dir)
+        
+        augmented_data = []
         
         for _, item in df.iterrows():
-            resized_image_path = item["resized_image_path"]
+            image_path = item["image_path"]
             
-            if os.path.exists(resized_image_path):
-                # Read the resized image
-                img = cv2.imread(resized_image_path, 0)
+            if os.path.exists(image_path):
+                # Read image using OpenCV
+                image = cv2.imread(image_path)
+                image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
                 
-                # Perform logo detection
-                result = cv2.matchTemplate(img, logo, cv2.TM_CCOEFF_NORMED)
-                _, max_val, _, max_loc = cv2.minMaxLoc(result)
+                # Resize image
+                image_resized = cv2.resize(image, self.img_size)
+
+                resized_file_name = f"{os.path.splitext(os.path.basename(image_path))[0]}_resized.jpg"
+                resized_image_path = os.path.join(save_dir, resized_file_name)
+                cv2.imwrite(resized_image_path, cv2.cvtColor(image_resized, cv2.COLOR_RGB2BGR))
                 
-                # Check if the logo is detected based on the threshold
-                logo_present = max_val >= threshold
-                new_item = item.to_dict()
-                new_item["logo_present"] = logo_present
-                new_item["logo_position"] = max_loc if logo_present else None
-                detected_data.append(new_item)
+                # Append resized image (without original image)
+                augmented_data.append({
+                    "post_heading": item["post_heading"],
+                    "post_content": item["post_content"],
+                    "hashtags": item["hashtags"],
+                    "emojis": item["emojis"],
+                    "platform_name": item["platform_name"],
+                    "image_path": resized_image_path
+                })
+                
+                for i in range(num_augmented_copies):
+                    augmented = self.transform(image=image_resized)["image"]
+                    
+                    file_name = f"{os.path.splitext(os.path.basename(image_path))[0]}_aug_{i}.jpg"
+                    save_path = os.path.join(save_dir, file_name)
+                    
+                    cv2.imwrite(save_path, cv2.cvtColor(augmented, cv2.COLOR_RGB2BGR))
+                    
+                    # Append each augmented image (without original image)
+                    augmented_data.append({
+                        "post_heading": item["post_heading"],
+                        "post_content": item["post_content"],
+                        "hashtags": item["hashtags"],
+                        "emojis": item["emojis"],
+                        "platform_name": item["platform_name"],
+                        "image_path": save_path
+                    })
+            
             else:
-                print(f"Skipping logo detection: Resized image file not found {resized_image_path}")
+                print(f"Skipping augmentation: Image file not found {image_path}")
         
-        return pd.DataFrame(detected_data)
+        # Return the augmented dataset as a DataFrame
+        return pd.DataFrame(augmented_data)
 
 
 

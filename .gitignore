@@ -21,3 +21,5 @@ src/base_models/
 data/preprocessed_data/preprocessed_images
 curated_new_cleaned_images/
 data/raw_data/logo_image/
+curated_new_cleaned_images_2/
+data/
