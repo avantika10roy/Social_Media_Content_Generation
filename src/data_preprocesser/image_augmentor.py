@@ -14,7 +14,7 @@ class PreProcessor:
             A.Resize(*self.img_size)
         ])
     
-    def convert_to_separate_rows(self, df, save_path='new_data.json'):
+    def convert_to_separate_rows(self, df):
         separated_data = []
         for _, post in df.iterrows():
             post_heading = post.get("post_heading", "")
@@ -38,9 +38,6 @@ class PreProcessor:
                     print(f"Image file not found: {image_path}")
         
         separated_df = pd.DataFrame(separated_data)
-        separated_df.to_json(save_path, orient='records', indent=4, force_ascii=False)
-        print(f"Data successfully converted and saved to {save_path}")
-        
         return separated_df
     
     
