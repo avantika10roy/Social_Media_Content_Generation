@@ -3,6 +3,7 @@
 # ---- Dependencies -----
 
 import pandas
+import torch
 import transformers
 from datasets import Dataset
 from peft import LoraConfig, get_peft_model
@@ -88,6 +89,11 @@ class LLMFineTuner:
 
     def use_mps(self):
         self.model.to("mps")
+    
+    def use_mps_mistral(self):
+        for name, param in self.model.named_parameters():
+            if ("q_proj" in name) or ("k_proj" in name) or ("v_proj" in name) or ("o_proj" in name):# or ("gate_proj" in name) or ("up_proj" in name) or ("down_proj" in name):
+                param.data = param.data.to("mps")
 
     def start_fine_tuning(self) -> AutoModelForCausalLM:
         """
