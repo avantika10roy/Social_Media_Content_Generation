@@ -1,3 +1,4 @@
+#---------------------Done by Avantika Roy---------------------------
 # DEPENDENCIES
 import os
 import json
@@ -101,36 +102,37 @@ class StableDiffusionWithBLIP:
         print("All images generated and saved!")
 #-------------------------------------------------------------------------------------------------------------------------------
 
-class StableDiffusionWithCLIP:
+class CustomDiffusionPipeline(DiffusionPipeline):
+    def __init__(self, unet, scheduler):
+        super().__init__()
+        self.unet      = unet
+        self.scheduler = scheduler
+
+    def forward(self, latent: torch.FloatTensor, num_inference_steps: int = 50):
+        # Apply the denoising process
+        for i in range(num_inference_steps):
+            latent = self.scheduler.step(self.unet(latent), t=i).prev_sample
+        return latent
+        
+class StableDiffusionWithCLIP(CustomDiffusionPipeline):
     def __init__(self, json_file, output_dir, device=None):
+        super().__init__()
         self.json_file = json_file
         self.output_dir = output_dir
         self.device = device if device else ("cuda" if torch.cuda.is_available() else "cpu")
         os.makedirs(self.output_dir, exist_ok=True)
 
         # Load Models
-        self.unet = UNet2DConditionModel.from_pretrained("runwayml/stable-diffusion-v1-5", subfolder="unet").to(self.device)
-        self.scheduler = EulerDiscreteScheduler.from_pretrained("runwayml/stable-diffusion-v1-5", subfolder="scheduler")
-        self.text2img_pipeline = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-2-1").to(self.device)
+        self.unet                = UNet2DConditionModel.from_pretrained("runwayml/stable-diffusion-v1-5", subfolder="unet").to(self.device)
+        self.scheduler           = EulerDiscreteScheduler.from_pretrained("runwayml/stable-diffusion-v1-5", subfolder="scheduler")
+        self.text2img_pipeline   = DiffusionPipeline.from_pretrained("stabilityai/stable-diffusion-2-1").to(self.device)
         self.inpainting_pipeline = StableDiffusionInpaintPipeline.from_pretrained("runwayml/stable-diffusion-inpainting").to(self.device)
-        self.controlnet = ControlNetModel.from_pretrained("lllyasviel/sd-controlnet-depth").to(self.device)
+        self.controlnet          = ControlNetModel.from_pretrained("lllyasviel/sd-controlnet-depth").to(self.device)
         self.controlnet_pipeline = StableDiffusionControlNetPipeline.from_pretrained("runwayml/stable-diffusion-v1-5", controlnet=self.controlnet).to(self.device)
 
         # Load CLIP components
         self.tokenizer = CLIPTokenizer.from_pretrained("openai/clip-vit-large-patch14")
         self.text_encoder = CLIPTextModel.from_pretrained("openai/clip-vit-large-patch14").to(self.device)
-
-    class CustomDiffusionPipeline(DiffusionPipeline):
-        def __init__(self, unet, scheduler):
-            super().__init__()
-            self.unet = unet
-            self.scheduler = scheduler
-
-        def forward(self, latent: torch.FloatTensor, num_inference_steps: int = 50):
-            # Apply the denoising process
-            for i in range(num_inference_steps):
-                latent = self.scheduler.step(self.unet(latent), t=i).prev_sample
-            return latent
 
     def load_data(self):
         # Load input JSON data
@@ -151,8 +153,8 @@ class StableDiffusionWithCLIP:
     def process_json(self):
 
         for idx, item in enumerate(self.json_file):
-            prompt = item["text"]  # Assuming "text" contains the prompt
-            image_path = item.get("image_path")  # Optional: Path for inpainting if available
+            prompt = item["text"] 
+            image_path = item.get("image_path")  
             print(f"Processing {idx + 1}/{len(self.json_file)}: {prompt}")
 
             base_image = None
@@ -160,7 +162,7 @@ class StableDiffusionWithCLIP:
 
             if image_path and os.path.exists(image_path):
                 base_image = Image.open(image_path).convert("RGB")
-                mask_image = Image.new("L", base_image.size, 255)  # Placeholder mask (full white)
+                mask_image = Image.new("L", base_image.size, 255)  
 
             # Generate image
             image = self.generate_image(prompt, mask_image, base_image)
@@ -189,12 +191,12 @@ class StableDiffusionWithCLIP:
 
 #-------------------------------------------------------------------------------------------------------------------------------
 
-data   = .......
-output = ....... 
-# Object for class1
-sdxlBLIP = StableDiffusionWithBLIP(data, output, device= "cuda" if torch.cuda.is_available() else "cpu")
-# Object for class2
-sdxlCLIP = StableDiffusionWithCLIP(data, output, device= "cuda" if torch.cuda.is_available() else "cpu")
+# data   = # path to input json file
+# output = # path to output directory
+# # Object for class1
+# sdxlBLIP = StableDiffusionWithBLIP(data, output, device= "cuda" if torch.cuda.is_available() else "cpu")
+# # Object for class2
+# sdxlCLIP = StableDiffusionWithCLIP(data, output, device= "cuda" if torch.cuda.is_available() else "cpu")
 
-sdxlBLIP.run()
-sdxlCLIP.run()
+# sdxlBLIP.run()
+# sdxlCLIP.run()
