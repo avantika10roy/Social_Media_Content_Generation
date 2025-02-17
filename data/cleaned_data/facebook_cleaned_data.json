@@ -176,8 +176,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_107.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83c\udf1f"
+            "\ud83c\udf1f",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#CrossPlatform",
@@ -358,11 +358,13 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_173.jpg"
         ],
         "emoji":[
-            "\ud83c\udf10",
             "\u26a1",
-            "\ud83d\udd04",
             "\ud83c\udf0d",
-            "\ud83d\udcb0"
+            "\ud83d\udcb0",
+            "\ud83c\udf0d",
+            "\ud83c\udf10",
+            "\ud83d\udd04",
+            "\u26a1"
         ],
         "hashtags":[
             "#webappdevelopment",
@@ -423,10 +425,15 @@
         "platform":"facebook"
     },
     {
-        "image_paths": "./data/raw_data/facebook_raw_images/image_272.jpg, ./data/raw_data/facebook_raw_images/image_273.jpg, ./data/raw_data/facebook_raw_images/image_274.jpg, ./data/raw_data/facebook_raw_images/image_275.jpg",
-        "emoji": [
-            "🌐",
-            "✨"
+        "image_paths":[
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_272.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_273.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_274.jpg",
+            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_275.jpg"
+        ],
+        "emoji":[
+            "\ud83c\udf10",
+            "\u2728"
         ],
         "hashtags":[
             "#aitrends",
@@ -548,8 +555,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_301.jpg"
         ],
         "emoji":[
-            "\u2728",
-            "\ud83d\ude80"
+            "\ud83d\ude80",
+            "\u2728"
         ],
         "hashtags":[
             "#appdevelopmenttrends",
@@ -649,12 +656,12 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_359.jpg"
         ],
         "emoji":[
-            "\ud83d\udeab",
-            "\ud83d\udcc9",
             "\ud83d\udccb",
-            "\ud83d\udca1",
+            "\ud83d\udcbc",
+            "\ud83d\udcc9",
             "\ud83d\udcc8",
-            "\ud83d\udcbc"
+            "\ud83d\udca1",
+            "\ud83d\udeab"
         ],
         "hashtags":[
             "#inventorymanagementsoftware",
@@ -700,8 +707,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_311.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83c\udf10"
+            "\ud83c\udf10",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#5GTechnology",
@@ -768,8 +775,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_334.jpg"
         ],
         "emoji":[
-            "\ud83c\udf1f",
             "\ud83c\udf10",
+            "\ud83c\udf1f",
             "\ud83d\udcbb"
         ],
         "hashtags":[
@@ -868,20 +875,9 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_288.jpg"
         ],
         "emoji":[
-            "\ud83d\ude97",
-            "\u2728"
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_284.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_285.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_286.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_287.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_288.jpg"
+            "\u2728",
+            "\ud83d\ude97"
         ],
-        "emoji":[
-            "\ud83d\ude97",
-            "\u2728"
-        ],
-        "hashtags":[
         "hashtags":[
             "#5GTechnology",
             "#automotive",
@@ -1064,9 +1060,9 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_241.jpg"
         ],
         "emoji":[
-            "\ud83d\udde3\ufe0f",
             "\ud83c\udf10",
-            "\ud83d\udcac"
+            "\ud83d\udcac",
+            "\ud83d\udde3\ufe0f"
         ],
         "hashtags":[
             "#ai",
@@ -1093,8 +1089,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_33.jpg"
         ],
         "emoji":[
-            "\u2728",
-            "\ud83d\ude9a"
+            "\ud83d\ude9a",
+            "\u2728"
         ],
         "hashtags":[
             "#generativeai",
@@ -1358,8 +1354,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_24.jpg"
         ],
         "emoji":[
-            "\ud83d\udc49",
-            "\ud83d\ude80"
+            "\ud83d\ude80",
+            "\ud83d\udc49"
         ],
         "hashtags":[
             "#mobileappdevelopment",
@@ -1392,8 +1388,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_43.jpg"
         ],
         "emoji":[
-            "\ud83d\udcbc",
-            "\ud83d\ude80"
+            "\ud83d\ude80",
+            "\ud83d\udcbc"
         ],
         "hashtags":[
             "#enterpriseapps",
@@ -1528,9 +1524,9 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_14.jpg"
         ],
         "emoji":[
-            "\u2728",
             "\ud83d\udcbb",
-            "\ud83c\udf1f"
+            "\ud83c\udf1f",
+            "\u2728"
         ],
         "hashtags":[
             "#DigitalInnovation",
@@ -1675,11 +1671,11 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_283.jpg"
         ],
         "emoji":[
-            "\ud83c\udf10",
-            "\ud83d\udcca",
-            "\ud83d\ude80",
             "\ud83c\udfc0",
-            "\ud83d\udd0d"
+            "\ud83d\udcca",
+            "\ud83d\udd0d",
+            "\ud83c\udf10",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#AISportsRevolution",
@@ -1787,8 +1783,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_381.jpg"
         ],
         "emoji":[
-            "\ud83d\udca1",
-            "\ud83c\udf10"
+            "\ud83c\udf10",
+            "\ud83d\udca1"
         ],
         "hashtags":[
             "#softwaresolutions",
@@ -1834,20 +1830,9 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_4.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcaa"
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_0.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_1.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_2.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_3.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_4.jpg"
-        ],
-        "emoji":[
             "\ud83d\udcaa",
             "\ud83d\ude80"
         ],
-        "hashtags":[
         "hashtags":[
             "#appdevelopment",
             "#healthtech",
@@ -1919,9 +1904,9 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_364.jpg"
         ],
         "emoji":[
+            "\ud83c\udf10",
             "\ud83d\ude80",
-            "\ud83d\udd2e",
-            "\ud83c\udf10"
+            "\ud83d\udd2e"
         ],
         "hashtags":[
             "#AR",
@@ -1976,20 +1961,9 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_82.jpg"
         ],
         "emoji":[
-            "\ud83c\udf31",
-            "\ud83c\udf3e"
-        "image_paths":[
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_78.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_79.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_80.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_81.jpg",
-            ".\/data\/cleaned_data\/facebook_cleaned_images\/image_82.jpg"
+            "\ud83c\udf3e",
+            "\ud83c\udf31"
         ],
-        "emoji":[
-            "\ud83c\udf31",
-            "\ud83c\udf3e"
-        ],
-        "hashtags":[
         "hashtags":[
             "#iot",
             "#technology",
@@ -2019,11 +1993,13 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_400.jpg"
         ],
         "emoji":[
+            "\ud83c\udf3f",
+            "\ud83d\udca1",
             "\ud83c\udf0d",
-            "\ud83c\udf31",
+            "\ud83d\udca1",
             "\u2728",
             "\ud83c\udf3f",
-            "\ud83d\udca1"
+            "\ud83c\udf31"
         ],
         "hashtags":[
             "#renewableenergy",
@@ -2047,10 +2023,11 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_349.jpg"
         ],
         "emoji":[
+            "\ud83d\udcac",
             "\ud83d\udde3\ufe0f",
             "\ud83d\ude80",
-            "\ud83e\udd16",
-            "\ud83d\ude80"
+            "\ud83d\udcac",
+            "\ud83e\udd16"
         ],
         "hashtags":[
             "#voicetechnology",
@@ -2073,11 +2050,11 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_390.jpg"
         ],
         "emoji":[
+            "\ud83d\udcbc",
+            "\ud83d\udcf1",
             "\ud83c\udf1f",
             "\ud83d\udcf2",
-            "\ud83d\ude80",
-            "\ud83d\udcf1",
-            "\ud83d\udcbc"
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#appdevelopmentagency",
@@ -2103,21 +2080,20 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_377.jpg"
         ],
         "emoji":[
-            "\ud83c\udf1f",
-            "\ud83e\udd1d",
-            "\ud83d\udcca",
-            "\ud83d\udc69\u200d\ud83c\udf93",
-            "\ud83d\ude80",
-            "\u2705",
-            "\ud83c\udfaf",
-            "\u2728",
             "\ud83d\udcbb",
-            "\ud83d\udcda",
+            "\ud83c\udfaf",
+            "\ud83d\udcca",
+            "\ud83c\udf1f",
+            "\ud83c\udfeb",
+            "\ud83e\udd1d",
             "\ud83d\udca1",
+            "\u2728",
+            "\ud83d\udc69\u200d\ud83c\udf93",
             "\ud83d\udd0d",
-            "\ud83c\udfeb"
+            "\ud83d\udcda",
+            "\ud83d\ude80",
+            "\u2705"
         ],
-        "hashtags":[
         "hashtags":[
             "#EdTechSolutions",
             "#edtechinnovation",
@@ -2138,9 +2114,9 @@
         ],
         "emoji":[
             "\ud83d\udca1",
+            "\ud83d\ude9b",
             "\ud83d\udc49",
-            "\ud83d\udcc8",
-            "\ud83d\ude9b"
+            "\ud83d\udcc8"
         ],
         "hashtags":[
             "#ItobuzTechnologies",

@@ -7,8 +7,8 @@
             "./data/curated_data/curated_images/1_1738312196468.png"
         ],
         "emoji": [
-            "💪",
-            "🚀"
+            "🚀",
+            "💪"
         ],
         "hashtags": [
             "#appdevelopment",
@@ -55,9 +55,9 @@
         ],
         "emoji": [
             "💡",
+            "🚛",
             "👉",
-            "📈",
-            "🚛"
+            "📈"
         ],
         "hashtags": [
             "#softwaredevelopment",
@@ -84,9 +84,9 @@
             "./data/curated_data/curated_images/7_1737113437527.png"
         ],
         "emoji": [
-            "✨",
             "💻",
-            "🌟"
+            "🌟",
+            "✨"
         ],
         "hashtags": [
             "#techtrends",
@@ -158,8 +158,8 @@
             "./data/curated_data/curated_images/19_1732882869496.png"
         ],
         "emoji": [
-            "💼",
-            "🚀"
+            "🚀",
+            "💼"
         ],
         "hashtags": [
             "#enterpriseapps",
@@ -546,8 +546,8 @@
             "./data/curated_data/curated_images/93_1732799288559.png"
         ],
         "emoji": [
-            "✨",
-            "🍂"
+            "🍂",
+            "✨"
         ],
         "hashtags": [
             "#thanksgiving",
@@ -589,8 +589,8 @@
             "./data/curated_data/curated_images/97_1730210049822.png"
         ],
         "emoji": [
-            "✨",
-            "🎃"
+            "🎃",
+            "✨"
         ],
         "hashtags": [
             "#halloweenvibes",
@@ -603,411 +603,6 @@
         ],
         "post_heading": "Got scary bugs haunting your web app?",
         "post_content": "Don’t worry! We’re here to debug and deliver a smooth, seamless experience.Say goodbye to those code nightmares!",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/27_1729247371623.png",
-            "./data/curated_data/curated_images/27_1729247371597.png",
-            "./data/curated_data/curated_images/27_1729247371598.png",
-            "./data/curated_data/curated_images/27_1729247372907.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#devopshashtag",
-            "#scalabilityhashtag",
-            "#automationhashtag",
-            "#techinnovationhashtag",
-            "#softwaredevelopmenthashtag",
-            "#cloudcomputinghashtag",
-            "#devopscommunityhashtag",
-            "#itobuztechnologies"
-        ],
-        "post_heading": "Curious about how DevOps can make a real difference?",
-        "post_content": "It’s all about faster releases, better teamwork, top-notch quality, and scaling effortlessly. Imagine quicker updates, smoother collaboration, fewer bugs, and systems that grow with you.DevOps is here to help you achieve just that!Let’s chat about how DevOps can work for you.Reach out and let’s make it happen!hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/29_1728458998048.png",
-            "./data/curated_data/curated_images/29_1728458999912.png",
-            "./data/curated_data/curated_images/29_1728458999815.png",
-            "./data/curated_data/curated_images/29_1728458998864.png"
-        ],
-        "emoji": [
-            "🚀"
-        ],
-        "hashtags": [
-            "#aiappdevelopmenthashtag",
-            "#mobileapphashtag",
-            "#smartappshashtag",
-            "#appdevelopmenttrendshashtag",
-            "#aitechnologyhashtag",
-            "#futureofappshashtag",
-            "#appdesignhashtag",
-            "#mobileinnovationhashtag",
-            "#aiapphashtag",
-            "#itobuztechnologies"
-        ],
-        "post_heading": "Transform your mobile app with cutting-edge AI!",
-        "post_content": "From streamlining customer support with smart chatbots to enhancing security and personalizing user experiences, discover how these 6 AI innovations can set your app apart.Dive into the future of app development and make every interaction smarter and more efficienthashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/35_1727428838748.png",
-            "./data/curated_data/curated_images/35_1727428838537.png",
-            "./data/curated_data/curated_images/35_1727428837946.png",
-            "./data/curated_data/curated_images/35_1727428837932.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#cybersecurityhashtag",
-            "#dataprotectionhashtag",
-            "#infosechashtag",
-            "#cyberawarenesshashtag",
-            "#onlinesafetyhashtag",
-            "#securitybestpracticeshashtag",
-            "#protectyourdatahashtag",
-            "#itobuztechnologies"
-        ],
-        "post_heading": "As we navigate the digital landscape of 2024, safeguarding your data and systems has never been more crucial.",
-        "post_content": "Our comprehensive guide highlights the top cybersecurity practices you need to implement to stay protectedhashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/37_1726836476720.png",
-            "./data/curated_data/curated_images/37_1726836477345.png",
-            "./data/curated_data/curated_images/37_1726836476705.png",
-            "./data/curated_data/curated_images/37_1726836476442.png"
-        ],
-        "emoji": [
-            "🌟"
-        ],
-        "hashtags": [
-            "#nodejshashtag",
-            "#webdevelopmenthashtag",
-            "#javascripthashtag",
-            "#appdevelopmenthashtag",
-            "#scalableappshashtag",
-            "#backenddevelopmenthashtag",
-            "#techtipshashtag",
-            "#softwareengineeringhashtag",
-            "#performanceoptimizationhashtag",
-            "#fullstackdevelopmenthashtag",
-            "#itobuztechnologies"
-        ],
-        "post_heading": "Boost Your Node.",
-        "post_content": "js Game! Discover top strategies to make your Node.js apps scalable and high-performance. From event-driven architecture to effective caching and monitoring, these tips will help you optimize every aspect of your app.Get ready to elevate your development process!hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/39_1725604186741.png",
-            "./data/curated_data/curated_images/39_1725604185534.png",
-            "./data/curated_data/curated_images/39_1725604185076.png",
-            "./data/curated_data/curated_images/39_1725604185742.png"
-        ],
-        "emoji": [
-            "🌟"
-        ],
-        "hashtags": [
-            "#airevolutionhashtag",
-            "#machinelearninghashtag",
-            "#ondemandappshashtag",
-            "#techinnovationhashtag",
-            "#AIhashtag",
-            "#mobileapptrendshashtag",
-            "#appdevelopmenthashtag",
-            "#itobuztechnologies"
-        ],
-        "post_heading": "Explore How AI & ML Are Revolutionizing On-Demand Apps!",
-        "post_content": "From personalized experiences to smart forecasting and automated support, AI and Machine Learning are enhancing the way we interact with on-demand services.Swipe through our slides to see how these innovations are shaping the future!hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/41_1722603743213.png",
-            "./data/curated_data/curated_images/41_1722603743030.png",
-            "./data/curated_data/curated_images/41_1722603743360.png",
-            "./data/curated_data/curated_images/41_1722603742185.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#mobileappdevelopmenthashtag",
-            "#apptrends2024hashtag",
-            "#mobiletechhashtag",
-            "#techtrendshashtag",
-            "#appdesignhashtag",
-            "#softwaredevelopmenthashtag",
-            "#mobileapptrendshashtag",
-            "#itobuztechnologies"
-        ],
-        "post_heading": "Explore the leading trends shaping mobile app development in 2024!",
-        "post_content": "From cross-platform development to AR/VR integration and Progressive Web Apps (PWAs), discover how these innovations are transforming user experiences and pushing app boundaries.Stay ahead with insights into the future of mobile technology!hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/43_1721982010343.png",
-            "./data/curated_data/curated_images/43_1721982010111.png",
-            "./data/curated_data/curated_images/43_1721982010305.png",
-            "./data/curated_data/curated_images/43_1721982010284.png"
-        ],
-        "emoji": [
-            "🚀"
-        ],
-        "hashtags": [
-            "#codingbasicshashtag",
-            "#learntocodehashtag",
-            "#programmingtipshashtag",
-            "#codelifehashtag",
-            "#techcommunityhashtag",
-            "#devlifehashtag",
-            "#codelearninghashtag",
-            "#itobuztech"
-        ],
-        "post_heading": "Ever wondered about the role of brackets [], {}, and [] in coding?",
-        "post_content": "Discover how these symbols help you manage arrays and define code blocks. Learn the power of =, ==, and != for assigning values and comparing them effectively. Plus, master the art of using ;, ', and \" to punctuate and encapsulate in various programming languages.Are you ready to elevate your coding skills?Let's decode these fundamental symbols together! hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/45_1721380723696.png",
-            "./data/curated_data/curated_images/45_1721380723645.png",
-            "./data/curated_data/curated_images/45_1721380723655.png",
-            "./data/curated_data/curated_images/45_1721380723481.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#webdevelopmenthashtag",
-            "#apishashtag",
-            "#techinnovationhashtag",
-            "#codinghashtag",
-            "#techtrendshashtag",
-            "#webdevtipshashtag",
-            "#programminghashtag",
-            "#itobuztech"
-        ],
-        "post_heading": "Explore the power of APIs in web development!",
-        "post_content": "APIs act as bridges, connecting software applications to share data and integrate third-party services.Discover how APIs are transforming websites with new features like real-time data and secure payment processing.Embrace the benefits of APIs for streamlined development and enhanced functionalityhashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/47_1721048271030.png",
-            "./data/curated_data/curated_images/47_1721048271403.png",
-            "./data/curated_data/curated_images/47_1721048271355.png",
-            "./data/curated_data/curated_images/47_1721048271200.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#dashboarddesignhashtag",
-            "#userexperiencehashtag",
-            "#techtipshashtag",
-            "#devtipshashtag",
-            "#webdevelopmenthashtag",
-            "#dashboardperformancehashtag",
-            "#techinsightshashtag",
-            "#itobuz"
-        ],
-        "post_heading": "Learn how to improve your dashboard's performance with these simple yet effective tips.",
-        "post_content": "From simplifying data queries to implementing data caching, these strategies will help you achieve quick load times and smooth interactions, enhancing the user experience and decision-makinghashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/49_1720165548293.png",
-            "./data/curated_data/curated_images/49_1720165548491.png",
-            "./data/curated_data/curated_images/49_1720165548344.png",
-            "./data/curated_data/curated_images/49_1720165548528.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#codinghashtag",
-            "#programminghashtag",
-            "#devtipshashtag",
-            "#codingbestpracticeshashtag",
-            "#techtipshashtag",
-            "#itobuzhashtag",
-            "#itobuztech"
-        ],
-        "post_heading": "Enhance your coding skills with our essential best practices!",
-        "post_content": "Learn how clean code, thorough documentation, and consistent testing can streamline your workflow.Explore our tips and join the conversation in the comments!hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/53_1718347551239.png",
-            "./data/curated_data/curated_images/53_1718347551827.png",
-            "./data/curated_data/curated_images/53_1718347552270.png",
-            "./data/curated_data/curated_images/53_1718347551246.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#nocodedevelopmenthashtag",
-            "#lowcodehashtag",
-            "#nocodehashtag",
-            "#appdevelopmenthashtag",
-            "#innovationhashtag",
-            "#techtrendshashtag",
-            "#softwaredevelopmenthashtag",
-            "#itobuztech"
-        ],
-        "post_heading": "Discover how low-code/no-code platforms are transforming app development, making it faster, more cost-effective, and fostering greater collaboration and innovationhashtag",
-        "post_content": "",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/59_1719140641165.png",
-            "./data/curated_data/curated_images/59_1719038305932.png",
-            "./data/curated_data/curated_images/59_1719150897408.png",
-            "./data/curated_data/curated_images/59_1719039833308.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#softwaredevelopmenthashtag",
-            "#techlanguagehashtag",
-            "#techculturehashtag",
-            "#developerlifehashtag",
-            "#developerhashtag",
-            "#techhashtag",
-            "#itobuztech"
-        ],
-        "post_heading": "Ever wondered how everyday terms take on a whole new meaning in the world of technology?",
-        "post_content": "Swipe through to discover the fascinating dual meanings of words that everyone uses but developers see differently. From bugs to cookies, explore the unique tech twist behind common termshashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/75_1711101863951.png",
-            "./data/curated_data/curated_images/75_1711101863651.png",
-            "./data/curated_data/curated_images/75_1711101863812.png",
-            "./data/curated_data/curated_images/75_1711101863415.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#aihashtag",
-            "#artificialintelligencehashtag",
-            "#aIintransportationhashtag",
-            "#transportation"
-        ],
-        "post_heading": "Discover the groundbreaking impact of AI on transportation.",
-        "post_content": "From optimized insurance processes to smarter traffic management and intelligent driver care, AI is revolutionizing the way we travelhashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/81_1709642323839.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#rpahashtag",
-            "#automationhashtag",
-            "#technology"
-        ],
-        "post_heading": "Unlock the potential of Robotic Process Automation (RPA) with our comprehensive guide.",
-        "post_content": "Explore its benefits, industries using it, implementation challenges, and future prospectshashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/87_1709039250140.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#5ghashtag",
-            "#5gtechnologyhashtag",
-            "#5gconnectivityhashtag",
-            "#technology"
-        ],
-        "post_heading": "Unlock the power of 5G with blazing speeds, minimal latency, and seamless device connectivity.",
-        "post_content": "Dive into its benefits, navigate through challenges, and witness its global embracehashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/89_1708691398290.png",
-            "./data/curated_data/curated_images/89_1708691396630.png",
-            "./data/curated_data/curated_images/89_1708691396358.png",
-            "./data/curated_data/curated_images/89_1708691396573.png",
-            "./data/curated_data/curated_images/89_1708691396894.png"
-        ],
-        "emoji": [],
-        "hashtags": [
-            "#aihashtag",
-            "#applevisionprohashtag",
-            "#aifuturehashtag",
-            "#technologytrends"
-        ],
-        "post_heading": "Experience the magic of Apple Vision Pro as it transforms your digital world into an immersive, personalized space.",
-        "post_content": "From customizing your workspace to reliving cherished memories in stunning 3D, Apple Vision Pro brings a touch of enchantment to your everyday tech experiencehashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/93_1732799288559.png"
-        ],
-        "emoji": [
-            "✨",
-            "🍂"
-        ],
-        "hashtags": [
-            "#thanksgivinghashtag",
-            "#gratitudehashtag",
-            "#clientappreciationhashtag",
-            "#teamworkhashtag",
-            "#innovationhashtag",
-            "#collaborationhashtag",
-            "#thanksgiving2024hashtag",
-            "#technologyhashtag",
-            "#techcommunityhashtag",
-            "#itobuztechnoloies"
-        ],
-        "post_heading": "This Thanksgiving, we’re filled with gratitude for both the amazing clients we get to work with and the incredible team that makes it all possible.",
-        "post_content": "Your trust, dedication, and collaboration help us grow and succeed every day. Thank you for being part of our journey! Wishing everyone a joyful and restful Thanksgiving!hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/95_1730203822351.png"
-        ],
-        "emoji": [
-            "✨",
-            "🪔"
-        ],
-        "hashtags": [
-            "#happydiwalihashtag",
-            "#diwali2024hashtag",
-            "#festivaloflightshashtag",
-            "#diwalicelebrationhashtag",
-            "#itobuztechnoloies"
-        ],
-        "post_heading": "Happy Diwali from our team to yours!",
-        "post_content": "May this festival of lights bring you joy, prosperity, and new opportunities. Just like diyas light up the darkness, our innovative solutions are here to illuminate your digital journey.Let’s celebrate new beginnings and build something extraordinary together!hashtag",
-        "platform": "linkedin"
-    },
-    {
-        "image_paths": [
-            "./data/curated_data/curated_images/97_1730210049822.png"
-        ],
-        "emoji": [
-            "🎃",
-            "✨"
-        ],
-        "hashtags": [
-            "#halloweenvibeshashtag",
-            "#halloweenhashtag",
-            "#debugginghashtag",
-            "#webapphashtag",
-            "#webdevelopmenthashtag",
-            "#codeoptimizationhashtag",
-            "#itobuztechnologies"
-        ],
-        "post_heading": "Got scary bugs haunting your web app?",
-        "post_content": "Don’t worry! We’re here to debug and deliver a smooth, seamless experience.Say goodbye to those code nightmares! hashtag",
         "platform": "linkedin"
     },
     {
@@ -1175,8 +770,8 @@
             "./data/curated_data/curated_images/image_107.jpg"
         ],
         "emoji": [
-            "🚀",
-            "🌟"
+            "🌟",
+            "🚀"
         ],
         "hashtags": [
             "#CrossPlatform",
@@ -1345,11 +940,11 @@
             "./data/curated_data/curated_images/image_173.jpg"
         ],
         "emoji": [
-            "🌐",
             "⚡",
-            "🔄",
             "🌍",
-            "💰"
+            "💰",
+            "🌐",
+            "🔄"
         ],
         "hashtags": [
             "#webappdevelopment",
@@ -1413,8 +1008,8 @@
             "./data/curated_data/curated_images/image_275.jpg"
         ],
         "emoji": [
-            "✨",
-            "🌐"
+            "🌐",
+            "✨"
         ],
         "hashtags": [
             "#aitrends",
@@ -1534,8 +1129,8 @@
             "./data/curated_data/curated_images/image_301.jpg"
         ],
         "emoji": [
-            "✨",
-            "🚀"
+            "🚀",
+            "✨"
         ],
         "hashtags": [
             "#appdevelopmenttrends",
@@ -1629,12 +1224,12 @@
             "./data/curated_data/curated_images/image_359.jpg"
         ],
         "emoji": [
-            "🚫",
-            "📉",
             "📋",
-            "💡",
+            "💼",
+            "📉",
             "📈",
-            "💼"
+            "💡",
+            "🚫"
         ],
         "hashtags": [
             "#inventorymanagementsoftware",
@@ -1680,8 +1275,8 @@
             "./data/curated_data/curated_images/image_311.jpg"
         ],
         "emoji": [
-            "🚀",
-            "🌐"
+            "🌐",
+            "🚀"
         ],
         "hashtags": [
             "#5GTechnology",
@@ -1746,9 +1341,9 @@
             "./data/curated_data/curated_images/image_334.jpg"
         ],
         "emoji": [
-            "💻",
+            "🌐",
             "🌟",
-            "🌐"
+            "💻"
         ],
         "hashtags": [
             "#webdevelopment",
@@ -1842,8 +1437,8 @@
             "./data/curated_data/curated_images/image_288.jpg"
         ],
         "emoji": [
-            "✨",
-            "🚗"
+            "🚗",
+            "✨"
         ],
         "hashtags": [
             "#5GTechnology",
@@ -2044,8 +1639,8 @@
             "./data/curated_data/curated_images/image_33.jpg"
         ],
         "emoji": [
-            "✨",
-            "🚚"
+            "🚚",
+            "✨"
         ],
         "hashtags": [
             "#generativeai",
@@ -2200,8 +1795,8 @@
             "./data/curated_data/curated_images/image_279.jpg"
         ],
         "emoji": [
-            "🌈",
-            "🚀"
+            "🚀",
+            "🌈"
         ],
         "hashtags": [
             "#metaverse",
@@ -2293,8 +1888,8 @@
             "./data/curated_data/curated_images/image_24.jpg"
         ],
         "emoji": [
-            "👉",
-            "🚀"
+            "🚀",
+            "👉"
         ],
         "hashtags": [
             "#mobileappdevelopment",
@@ -2327,8 +1922,8 @@
             "./data/curated_data/curated_images/image_43.jpg"
         ],
         "emoji": [
-            "💼",
-            "🚀"
+            "🚀",
+            "💼"
         ],
         "hashtags": [
             "#enterpriseapps",
@@ -2455,9 +2050,9 @@
             "./data/curated_data/curated_images/image_14.jpg"
         ],
         "emoji": [
-            "✨",
             "💻",
-            "🌟"
+            "🌟",
+            "✨"
         ],
         "hashtags": [
             "#DigitalInnovation",
@@ -2596,11 +2191,11 @@
             "./data/curated_data/curated_images/image_283.jpg"
         ],
         "emoji": [
-            "🌐",
-            "📊",
-            "🚀",
             "🏀",
-            "🔍"
+            "📊",
+            "🔍",
+            "🌐",
+            "🚀"
         ],
         "hashtags": [
             "#AISportsRevolution",
@@ -2706,8 +2301,8 @@
             "./data/curated_data/curated_images/image_381.jpg"
         ],
         "emoji": [
-            "💡",
-            "🌐"
+            "🌐",
+            "💡"
         ],
         "hashtags": [
             "#softwaresolutions",
@@ -2751,8 +2346,8 @@
             "./data/curated_data/curated_images/image_4.jpg"
         ],
         "emoji": [
-            "💪",
-            "🚀"
+            "🚀",
+            "💪"
         ],
         "hashtags": [
             "#appdevelopment",
@@ -2821,9 +2416,9 @@
             "./data/curated_data/curated_images/image_364.jpg"
         ],
         "emoji": [
+            "🌐",
             "🚀",
-            "🔮",
-            "🌐"
+            "🔮"
         ],
         "hashtags": [
             "#AR",
@@ -2911,10 +2506,10 @@
         ],
         "emoji": [
             "🌍",
-            "🌱",
+            "💡",
             "✨",
             "🌿",
-            "💡"
+            "🌱"
         ],
         "hashtags": [
             "#renewableenergy",
@@ -2940,8 +2535,8 @@
         "emoji": [
             "🗣️",
             "🚀",
-            "🤖",
-            "🚀"
+            "💬",
+            "🤖"
         ],
         "hashtags": [
             "#voicetechnology",
@@ -2964,11 +2559,11 @@
             "./data/curated_data/curated_images/image_390.jpg"
         ],
         "emoji": [
+            "💼",
+            "📱",
             "🌟",
             "📲",
-            "🚀",
-            "📱",
-            "💼"
+            "🚀"
         ],
         "hashtags": [
             "#appdevelopmentagency",
@@ -2994,19 +2589,19 @@
             "./data/curated_data/curated_images/image_377.jpg"
         ],
         "emoji": [
-            "🌟",
-            "🤝",
-            "📊",
-            "👩‍🎓",
-            "🚀",
-            "✅",
-            "🎯",
-            "✨",
             "💻",
-            "📚",
+            "🎯",
+            "📊",
+            "🌟",
+            "🏫",
+            "🤝",
             "💡",
+            "✨",
+            "👩‍🎓",
             "🔍",
-            "🏫"
+            "📚",
+            "🚀",
+            "✅"
         ],
         "hashtags": [
             "#EdTechSolutions",
@@ -3028,9 +2623,9 @@
         ],
         "emoji": [
             "💡",
+            "🚛",
             "👉",
-            "📈",
-            "🚛"
+            "📈"
         ],
         "hashtags": [
             "#ItobuzTechnologies",
@@ -3059,8 +2654,8 @@
             "./data/curated_data/curated_images/post_DFfakZWNWgc_6.jpg"
         ],
         "emoji": [
-            "💪",
-            "🚀"
+            "🚀",
+            "💪"
         ],
         "hashtags": [
             "#appdevelopment",
@@ -3135,10 +2730,10 @@
             "./data/curated_data/curated_images/post_DE7OYHnKZLU_6.jpg"
         ],
         "emoji": [
-            "✨",
-            "🌟",
             "🇺🇸",
-            "💻"
+            "💻",
+            "🌟",
+            "✨"
         ],
         "hashtags": [
             "#technology",
@@ -3211,8 +2806,8 @@
             "./data/curated_data/curated_images/post_DEFZnukM30T_5.jpg"
         ],
         "emoji": [
-            "👉",
-            "🚀"
+            "🚀",
+            "👉"
         ],
         "hashtags": [
             "#mobileappdevelopment",
@@ -3241,10 +2836,10 @@
             "./data/curated_data/curated_images/post_DD_OxrPKqVL.jpg"
         ],
         "emoji": [
+            "🎅",
             "💡",
             "✨",
-            "❤️",
-            "🎅"
+            "❤️"
         ],
         "hashtags": [
             "#merrychristmas",
@@ -3298,8 +2893,8 @@
             "./data/curated_data/curated_images/post_DDhPqdft7qK_6.jpg"
         ],
         "emoji": [
-            "✨",
-            "🚚"
+            "🚚",
+            "✨"
         ],
         "hashtags": [
             "#generativeai",
@@ -3359,8 +2954,8 @@
             "./data/curated_data/curated_images/post_DC9LykON97x_6.jpg"
         ],
         "emoji": [
-            "💼",
-            "🚀"
+            "🚀",
+            "💼"
         ],
         "hashtags": [
             "#enterpriseapps",
@@ -3387,8 +2982,8 @@
             "./data/curated_data/curated_images/post_DC6o4ydAwdI.jpg"
         ],
         "emoji": [
-            "✨",
-            "🍂"
+            "🍂",
+            "✨"
         ],
         "hashtags": [
             "#thanksgiving",
@@ -3511,8 +3106,8 @@
             "./data/curated_data/curated_images/post_DBvFtrfpOqW.jpg"
         ],
         "emoji": [
-            "✨",
-            "🎃"
+            "🎃",
+            "✨"
         ],
         "hashtags": [
             "#halloweenvibes",
@@ -3705,9 +3300,9 @@
             "./data/curated_data/curated_images/post_C_0dYZAMgTV.jpg"
         ],
         "emoji": [
-            "👨‍💻",
             "🎉",
-            "👩‍💻"
+            "👩‍💻",
+            "👨‍💻"
         ],
         "hashtags": [
             "#internationalprogrammersday",
@@ -3784,8 +3379,8 @@
             "./data/curated_data/curated_images/post_C_BA4RKPHYd_5.jpg"
         ],
         "emoji": [
-            "🚀",
-            "🌟"
+            "🌟",
+            "🚀"
         ],
         "hashtags": [
             "#CrossPlatform",
@@ -4076,10 +3671,10 @@
             "./data/curated_data/curated_images/post_C7YW-x8RSSt_5.jpg"
         ],
         "emoji": [
-            "💰",
             "🌍",
+            "🔄",
             "⚡",
-            "🔄"
+            "💰"
         ],
         "hashtags": [
             "#webappdevelopment",
@@ -4531,8 +4126,8 @@
             "./data/curated_data/curated_images/post_C1uAX17skLV_4.jpg"
         ],
         "emoji": [
-            "✨",
-            "🌐"
+            "🌐",
+            "✨"
         ],
         "hashtags": [
             "#aitrends",
@@ -4581,11 +4176,11 @@
             "./data/curated_data/curated_images/post_C1KHezhr8yr_4.jpg"
         ],
         "emoji": [
-            "🌐",
-            "📊",
-            "🚀",
             "🏀",
-            "🔍"
+            "📊",
+            "🔍",
+            "🌐",
+            "🚀"
         ],
         "hashtags": [
             "#AISportsRevolution",
@@ -4605,8 +4200,8 @@
             "./data/curated_data/curated_images/post_C0346bbMSKC_5.jpg"
         ],
         "emoji": [
-            "✨",
-            "🚗"
+            "🚗",
+            "✨"
         ],
         "hashtags": [
             "#5gtechnology",
@@ -4678,8 +4273,8 @@
             "./data/curated_data/curated_images/post_C0CHUAVvyN-_4.jpg"
         ],
         "emoji": [
-            "✨",
-            "🚀"
+            "🚀",
+            "✨"
         ],
         "hashtags": [
             "#appdevelopments",
@@ -4704,8 +4299,8 @@
             "./data/curated_data/curated_images/post_Czd6qI0tJxU_5.jpg"
         ],
         "emoji": [
-            "🚀",
-            "🌐"
+            "🌐",
+            "🚀"
         ],
         "hashtags": [
             "#5g",
@@ -4826,9 +4421,9 @@
             "./data/curated_data/curated_images/post_CxvGIrAh6rN_5.jpg"
         ],
         "emoji": [
-            "💻",
+            "🌐",
             "🌟",
-            "🌐"
+            "💻"
         ],
         "hashtags": [
             "#webdevelopment",
@@ -4881,9 +4476,9 @@
             "./data/curated_data/curated_images/post_CwxOTwbBAZr_5.jpg"
         ],
         "emoji": [
-            "🤖",
+            "💬",
             "🚀",
-            "💬"
+            "🤖"
         ],
         "hashtags": [
             "#voicetechnology",
@@ -4934,12 +4529,12 @@
             "./data/curated_data/curated_images/post_CwP6RrONI8l_5.jpg"
         ],
         "emoji": [
-            "🚫",
-            "📉",
             "📋",
-            "💡",
+            "💼",
+            "📉",
             "📈",
-            "💼"
+            "💡",
+            "🚫"
         ],
         "hashtags": [
             "#inventorymanagementapp",
@@ -5021,18 +4616,18 @@
             "./data/curated_data/curated_images/post_Cu9demaPg7x_5.jpg"
         ],
         "emoji": [
-            "🌟",
-            "🤝",
-            "📊",
-            "👩‍🎓",
-            "✅",
-            "🎯",
-            "✨",
             "💻",
-            "📚",
+            "🎯",
+            "📊",
+            "🌟",
+            "🏫",
+            "🤝",
             "💡",
+            "✨",
+            "👩‍🎓",
             "🔍",
-            "🏫"
+            "📚",
+            "✅"
         ],
         "hashtags": [
             "#edtechsoftware",
@@ -5056,8 +4651,8 @@
             "./data/curated_data/curated_images/post_CurS3-FBhmx_4.jpg"
         ],
         "emoji": [
-            "💡",
-            "🌐"
+            "🌐",
+            "💡"
         ],
         "hashtags": [
             "#softwaresolutions",
@@ -5109,8 +4704,8 @@
         "emoji": [
             "📱",
             "📲",
-            "💼",
-            "🌟"
+            "🌟",
+            "💼"
         ],
         "hashtags": [
             "#appdevelopmentagency",
@@ -5162,11 +4757,11 @@
             "./data/curated_data/curated_images/post_Cs2-5SIyX-N_5.jpg"
         ],
         "emoji": [
-            "♻️",
-            "✨",
-            "💡",
+            "🌱",
             "🌍",
-            "🌱"
+            "💡",
+            "✨",
+            "♻️"
         ],
         "hashtags": [
             "#renewableenergy",
@@ -5196,8 +4791,8 @@
             "./data/curated_data/curated_images/post_Csk0tbIy30t_5.jpg"
         ],
         "emoji": [
-            "👇",
-            "🔥"
+            "🔥",
+            "👇"
         ],
         "hashtags": [
             "#HealthcareAppDevelopment",
