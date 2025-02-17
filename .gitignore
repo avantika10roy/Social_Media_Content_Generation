@@ -13,6 +13,7 @@ data/raw_data/instagram_raw_images/
 data/cleaned_data/facebook_cleaned_images/
 data/cleaned_data/linkedin_cleaned_images/
 data/cleaned_data/instagram_cleaned_images/
+data/preprocessed_data/preprocessed_images2/
 <<<<<<< HEAD
 data/preprocessed_data/linkedin_preprocessed_images/
 =======
