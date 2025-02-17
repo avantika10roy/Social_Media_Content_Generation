@@ -49,3 +49,38 @@ with open(Config.LOGO_INFO_OUTPUT_PATH, 'w') as output_file:
     json.dump(data, output_file, indent=4)
 
 print("Logo info has been added, images uploaded, and the new file has been saved.")
+# Load the JSON file
+with open(Config.LOGO_INFO_OUTPUT_PATH, 'r') as file:
+    data = json.load(file)
+
+# Process each post
+for post in data:
+    cleaned_logo_info = []
+    for logo_info in post.get("logo_info", []):
+        predictions = logo_info.get("predictions", [])
+        
+        if predictions:
+            first_prediction = predictions[0]
+            cleaned_logo_info.append({
+                "logo_presence": "yes",
+                "logo_x": first_prediction.get("x", 0),
+                "logo_y": first_prediction.get("y", 0),
+                "logo_width": first_prediction.get("width", 0),
+                "logo_height": first_prediction.get("height", 0)
+            })
+        else:
+            cleaned_logo_info.append({
+                "logo_presence": "no",
+                "logo_x": 0,
+                "logo_y": 0,
+                "logo_width": 0,
+                "logo_height": 0
+            })
+    
+    post["logo_info"] = cleaned_logo_info
+
+# Save the updated JSON file
+with open(Config.LOGO_INFO_OUTPUT_PATH, 'w') as output_file:
+    json.dump(data, output_file, indent=4)
+
+print("Logo info has been cleaned and updated successfully.")
