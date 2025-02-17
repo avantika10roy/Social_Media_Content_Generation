@@ -32,6 +32,8 @@ class LLMFineTuner:
 
             self.model         = AutoModelForCausalLM.from_pretrained(model_path)
             self.tokenizer     = AutoTokenizer.from_pretrained(tokenizer_path)
+            if self.tokenizer.pad_token is None:
+                self.tokenizer.pad_token = self.tokenizer.eos_token
             self.dataset       = dataset
             self.lora_config   = None
             self.training_args = None
@@ -84,6 +86,8 @@ class LLMFineTuner:
             self.logger.error(repr(TrainerDefinitionError), exc_info=True)
             return repr(TrainerDefinitionError)
 
+    def use_mps(self):
+        self.model.to("mps")
 
     def start_fine_tuning(self) -> AutoModelForCausalLM:
         """

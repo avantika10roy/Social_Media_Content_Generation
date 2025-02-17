@@ -29,7 +29,7 @@ class Config:
     # INSTAGRAM CONFIGURATIONS
     INSTAGRAM_USERNAME                    = "itobuztechnologies"
     INSTAGRAM_RAW_POST_DATA_PATH          = "./data/raw_data/instagram_raw_data.json"
-    INSTAGRAM_RAW_IMAGE_DATA_PATH         = "./data/raw_data/instagram_images"
+    INSTAGRAM_RAW_IMAGE_DATA_PATH         = "./data/raw_data/instagram_raw_images"
     INSTAGRAM_RAW_IMAGE_DATA_LINK         = "https://drive.google.com/drive/folders/1yt3LRxXKjp_U8U5sB5FFEAqLcFVhsElo?usp=sharing"
     INSTAGRAM_CLEANED_POST_DATA_PATH      = './data/cleaned_data/instagram_cleaned_data.json'
     INSTAGRAM_CLEANED_IMAGE_DATA_PATH     = './data/cleaned_data/instagram_cleaned_images'
@@ -54,6 +54,11 @@ class Config:
     
     RANDOM_SEED                           = 42
     
+    # BLIP IMAGE TO TEXT PATHS
+    BLIP_OUTPUT_PATH                      = './data/Blip_with_context'
+
+    # Logo information 
+    LOGO_INFO_OUTPUT_PATH                 = './data/logo_identification_result/output_with_logo_info_and_uploads.json'
 
     @staticmethod
     def setup_directories():
