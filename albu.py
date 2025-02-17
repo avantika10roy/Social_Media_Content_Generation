@@ -31,6 +31,7 @@ class PreProcessor:
             img_path = os.path.join(self.input_dir, img_name)
             image = cv2.imread(img_path)
             image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+            image = cv2.resize(image,(1024,1024))
 
             augmented_images = []
             for i in range(self.augmentations_per_image):
