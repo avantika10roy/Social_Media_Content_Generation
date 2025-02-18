@@ -2,13 +2,13 @@
     "task_type": "SEQ_2_SEQ_LM",
     "peft_type": "LORA",
     "auto_mapping": null,
-    "base_model_name_or_path": "src/base_models/flan_t5_base/model",
+    "base_model_name_or_path": "google/flan-t5-base",
     "revision": null,
     "inference_mode": false,
     "r": 8,
     "target_modules": [
-        "q",
-        "v"
+        "v",
+        "q"
     ],
     "exclude_modules": null,
     "lora_alpha": 32,

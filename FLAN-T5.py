@@ -234,7 +234,7 @@ def flan_t5_finetuner_main(logger: LoggerSetup) -> None:
                                   'per_device_train_batch_size'  : 2,
                                   'per_device_eval_batch_size'   : 2,
                                   'gradient_accumulation_steps'  : 8,
-                                  'num_train_epochs'             : 1,
+                                  'num_train_epochs'             : 20,
                                   'logging_dir'                  : 'logs/llm_finetune_logs/flan_t5_v1',
                                   'weight_decay'                 : 0.01,
                                   'bf16'                         : torch.cuda.is_bf16_supported(),

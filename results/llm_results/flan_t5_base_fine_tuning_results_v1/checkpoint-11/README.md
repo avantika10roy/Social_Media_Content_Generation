@@ -1,5 +1,5 @@
 ---
-base_model: src/base_models/flan_t5_base/model
+base_model: google/flan-t5-base
 library_name: peft
 ---
 
