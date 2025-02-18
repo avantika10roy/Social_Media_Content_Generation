@@ -1,7 +1,12 @@
+## ----- DONE BY PRIYAM PAL -----
+
+# DEPENDENCIES
+
 import os
 import torch
 from peft import PeftModel
-from transformers import T5Tokenizer, T5ForConditionalGeneration 
+from transformers import T5Tokenizer
+from transformers import T5ForConditionalGeneration 
 
 class FLAN_T5_Inference:
     
