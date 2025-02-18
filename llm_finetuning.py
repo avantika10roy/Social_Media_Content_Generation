@@ -60,7 +60,6 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
         tokenized_dataset = data.map(tokenize_function, batched=True)
         split_dataset = tokenized_dataset.train_test_split(test_size=0.2)
 
-
         fine_tuner = LLMFineTuner(model_path=model_path,
                                   tokenizer_path=tokenizer_path,
                                   dataset=split_dataset,
@@ -72,8 +71,8 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
             'warmup_steps' : 100,
             'logging_first_step':True,
             'logging_steps':5,
-            'per_device_train_batch_size' : 2,
-            'per_device_eval_batch_size' :2,
+            'per_device_train_batch_size' : 1,
+            'per_device_eval_batch_size' :1,
             'gradient_accumulation_steps':8,
             'num_train_epochs':10,
             'logging_dir' : 'logs/llm_finetune_logs/mistralv1',
@@ -95,7 +94,7 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
 
         fine_tuner.define_lora_config(**lora_args)
         fine_tuner.define_training_args(**training_args)
-        fine_tuner.use_mps()
+        fine_tuner.use_mps_mistral()
         fine_tuner.define_trainer()
         model = fine_tuner.start_fine_tuning()
 

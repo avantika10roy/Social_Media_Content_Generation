@@ -2,13 +2,13 @@
     {
         "image_paths":[
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/1_1738312196716.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/1_1738312196977.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/1_1738312196922.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/1_1738312196468.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/1_1738312196468.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/1_1738312196977.png"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcaa"
+            "\ud83d\udcaa",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#appdevelopmenthashtag",
@@ -88,16 +88,16 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635023231.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635022675.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635023102.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635022735.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635022735.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635023231.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635023102.png"
         ],
         "emoji":[
             "\ud83d\udcc8",
+            "\ud83d\ude9b",
             "\ud83d\udc49",
-            "\ud83d\udca1",
-            "\ud83d\ude9b"
+            "\ud83d\udca1"
         ],
         "hashtags":[
             "#softwaredevelopmenthashtag",
@@ -145,15 +145,15 @@
     },
     {
         "image_paths":[
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437527.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437522.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437904.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437605.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437527.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437904.png"
         ],
         "emoji":[
+            "\ud83c\udf1f",
             "\u2728",
-            "\ud83d\udcbb",
-            "\ud83c\udf1f"
+            "\ud83d\udcbb"
         ],
         "hashtags":[
             "#techtrendshashtag",
@@ -187,10 +187,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496816718.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496817340.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496817549.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496816186.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496817340.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496816186.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496816718.png"
         ],
         "emoji":[
 
@@ -225,10 +225,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682262966.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682263629.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682264512.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682264831.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682262966.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682264831.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682264512.png"
         ],
         "emoji":[
 
@@ -278,14 +278,14 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/19_1732882868948.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/19_1732882869496.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/19_1732882869469.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/19_1732882869324.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/19_1732882869496.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/19_1732882868948.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/19_1732882869324.png"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcbc"
+            "\ud83d\udcbc",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#enterpriseappshashtag",
@@ -334,10 +334,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263433266.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263433871.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263432895.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263433124.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263433871.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263433266.png"
         ],
         "emoji":[
 
@@ -377,116 +377,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/27_1729247371623.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/27_1729247371597.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/27_1729247371598.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/27_1729247372907.png"
-        ],
-        "emoji":[
-
-        ],
-        "hashtags":[
-            "#devopshashtag",
-            "#scalabilityhashtag",
-            "#automationhashtag",
-            "#techinnovationhashtag",
-            "#softwaredevelopmenthashtag",
-            "#cloudcomputinghashtag",
-            "#devopscommunityhashtag",
-            "#itobuztechnologies"
-        ],
-        "post_heading":"Curious about how DevOps can make a real difference?",
-        "post_content":"It\u2019s all about faster releases, better teamwork, top-notch quality, and scaling effortlessly. Imagine quicker updates, smoother collaboration, fewer bugs, and systems that grow with you.DevOps is here to help you achieve just that!Let\u2019s chat about how DevOps can work for you.Reach out and let\u2019s make it happen!hashtag",
-        "platform":"linkedin",
-        "tokenized_text":[
-            "faster",
-            "release",
-            "better",
-            "teamwork",
-            "topnotch",
-            "quality",
-            "scaling",
-            "effortlessly",
-            "Imagine",
-            "quicker",
-            "update",
-            "smoother",
-            "collaboration",
-            "fewer",
-            "bug",
-            "system",
-            "grow",
-            "youDevOps",
-            "help",
-            "achieve",
-            "thatLets",
-            "chat",
-            "DevOps",
-            "work",
-            "youReach",
-            "let",
-            "make",
-            "happenhashtag"
-        ]
-    },
-    {
-        "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/29_1728458998048.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/29_1728458999912.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/29_1728458999815.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/29_1728458998864.png"
-        ],
-        "emoji":[
-            "\ud83d\ude80"
-        ],
-        "hashtags":[
-            "#aiappdevelopmenthashtag",
-            "#mobileapphashtag",
-            "#smartappshashtag",
-            "#appdevelopmenttrendshashtag",
-            "#aitechnologyhashtag",
-            "#futureofappshashtag",
-            "#appdesignhashtag",
-            "#mobileinnovationhashtag",
-            "#aiapphashtag",
-            "#itobuztechnologies"
-        ],
-        "post_heading":"Transform your mobile app with cutting-edge AI!",
-        "post_content":"From streamlining customer support with smart chatbots to enhancing security and personalizing user experiences, discover how these 6 AI innovations can set your app apart.Dive into the future of app development and make every interaction smarter and more efficienthashtag",
-        "platform":"linkedin",
-        "tokenized_text":[
-            "streamlining",
-            "customer",
-            "support",
-            "smart",
-            "chatbots",
-            "enhancing",
-            "security",
-            "personalizing",
-            "user",
-            "experience",
-            "discover",
-            "AI",
-            "innovation",
-            "set",
-            "app",
-            "apartDive",
-            "future",
-            "app",
-            "development",
-            "make",
-            "every",
-            "interaction",
-            "smarter",
-            "efficienthashtag"
-        ]
-    },
-    {
-        "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/35_1727428838748.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/35_1727428838537.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/35_1727428837946.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/35_1727428837932.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/29_1727428837932.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/29_1727428837946.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/29_1727428838537.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/29_1727428838748.png"
         ],
         "emoji":[
 
@@ -519,10 +413,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1726836476720.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1726836477345.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1726836476705.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1726836476442.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/31_1726836476705.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/31_1726836476720.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/31_1726836477345.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/31_1726836476442.png"
         ],
         "emoji":[
             "\ud83c\udf1f"
@@ -573,10 +467,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1725604186741.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1725604185534.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1725604185076.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1725604185742.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/33_1725604185742.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/33_1725604185534.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/33_1725604186741.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/33_1725604185076.png"
         ],
         "emoji":[
             "\ud83c\udf1f"
@@ -618,57 +512,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/41_1722603743213.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/41_1722603743030.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/41_1722603743360.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/41_1722603742185.png"
-        ],
-        "emoji":[
-
-        ],
-        "hashtags":[
-            "#mobileappdevelopmenthashtag",
-            "#apptrends2024hashtag",
-            "#mobiletechhashtag",
-            "#techtrendshashtag",
-            "#appdesignhashtag",
-            "#softwaredevelopmenthashtag",
-            "#mobileapptrendshashtag",
-            "#itobuztechnologies"
-        ],
-        "post_heading":"Explore the leading trends shaping mobile app development in 2024!",
-        "post_content":"From cross-platform development to AR\/VR integration and Progressive Web Apps (PWAs), discover how these innovations are transforming user experiences and pushing app boundaries.Stay ahead with insights into the future of mobile technology!hashtag",
-        "platform":"linkedin",
-        "tokenized_text":[
-            "crossplatform",
-            "development",
-            "ARVR",
-            "integration",
-            "Progressive",
-            "Web",
-            "Apps",
-            "PWAs",
-            "discover",
-            "innovation",
-            "transforming",
-            "user",
-            "experience",
-            "pushing",
-            "app",
-            "boundariesStay",
-            "ahead",
-            "insight",
-            "future",
-            "mobile",
-            "technologyhashtag"
-        ]
-    },
-    {
-        "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/43_1721982010343.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/43_1721982010111.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/43_1721982010305.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/43_1721982010284.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/35_1721982010305.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/35_1721982010343.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/35_1721982010284.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/35_1721982010111.png"
         ],
         "emoji":[
             "\ud83d\ude80"
@@ -723,10 +570,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/45_1721380723696.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/45_1721380723645.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/45_1721380723655.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/45_1721380723481.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1721380723481.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1721380723655.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1721380723696.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1721380723645.png"
         ],
         "emoji":[
 
@@ -777,10 +624,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/47_1721048271030.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/47_1721048271403.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/47_1721048271355.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/47_1721048271200.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1721048271200.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1721048271030.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1721048271403.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1721048271355.png"
         ],
         "emoji":[
 
@@ -821,10 +668,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1720165548293.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1720165548491.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1720165548344.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1720165548528.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/41_1720165548528.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/41_1720165548491.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/41_1720165548344.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/41_1720165548293.png"
         ],
         "emoji":[
 
@@ -859,10 +706,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/53_1718347551239.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/53_1718347551827.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/53_1718347552270.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/53_1718347551246.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/43_1718347551239.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/43_1718347551246.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/43_1718347551827.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/43_1718347552270.png"
         ],
         "emoji":[
 
@@ -886,10 +733,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/59_1719140641165.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/59_1719038305932.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/59_1719150897408.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/59_1719039833308.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1719140641165.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1719039833308.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1719038305932.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1719150897408.png"
         ],
         "emoji":[
 
@@ -931,10 +778,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/75_1711101863951.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/75_1711101863651.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/75_1711101863812.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/75_1711101863415.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/61_1711101863951.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/61_1711101863415.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/61_1711101863812.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/61_1711101863651.png"
         ],
         "emoji":[
 
@@ -966,33 +813,7 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/81_1709642323839.png"
-        ],
-        "emoji":[
-
-        ],
-        "hashtags":[
-            "#rpahashtag",
-            "#automationhashtag",
-            "#technology"
-        ],
-        "post_heading":"Unlock the potential of Robotic Process Automation (RPA) with our comprehensive guide.",
-        "post_content":"Explore its benefits, industries using it, implementation challenges, and future prospectshashtag",
-        "platform":"linkedin",
-        "tokenized_text":[
-            "Explore",
-            "benefit",
-            "industry",
-            "using",
-            "implementation",
-            "challenge",
-            "future",
-            "prospectshashtag"
-        ]
-    },
-    {
-        "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/87_1709039250140.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/71_1709039250140.png"
         ],
         "emoji":[
 
@@ -1018,11 +839,11 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/89_1708691398290.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/89_1708691396630.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/89_1708691396358.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/89_1708691396573.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/89_1708691396894.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/73_1708691396894.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/73_1708691396358.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/73_1708691396573.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/73_1708691396630.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/73_1708691398290.png"
         ],
         "emoji":[
 
@@ -1056,11 +877,11 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/93_1732799288559.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/77_1732799288559.png"
         ],
         "emoji":[
-            "\u2728",
-            "\ud83c\udf42"
+            "\ud83c\udf42",
+            "\u2728"
         ],
         "hashtags":[
             "#thanksgivinghashtag",
@@ -1099,7 +920,7 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/95_1730203822351.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/79_1730203822351.png"
         ],
         "emoji":[
             "\u2728",
@@ -1144,7 +965,7 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/97_1730210049822.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/81_1730210049822.png"
         ],
         "emoji":[
             "\ud83c\udf83",
@@ -1490,8 +1311,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_107.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83c\udf1f"
+            "\ud83c\udf1f",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#CrossPlatform",
@@ -1780,11 +1601,11 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_173.jpg"
         ],
         "emoji":[
+            "\ud83d\udd04",
+            "\ud83d\udcb0",
             "\ud83c\udf0d",
             "\u26a1",
-            "\ud83d\udcb0",
-            "\ud83c\udf10",
-            "\ud83d\udd04"
+            "\ud83c\udf10"
         ],
         "hashtags":[
             "#webappdevelopment",
@@ -2125,8 +1946,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_301.jpg"
         ],
         "emoji":[
-            "\u2728",
-            "\ud83d\ude80"
+            "\ud83d\ude80",
+            "\u2728"
         ],
         "hashtags":[
             "#appdevelopmenttrends",
@@ -2294,12 +2115,12 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_359.jpg"
         ],
         "emoji":[
-            "\ud83d\udcc8",
-            "\ud83d\udcc9",
             "\ud83d\udccb",
-            "\ud83d\udeab",
+            "\ud83d\udcc8",
             "\ud83d\udcbc",
-            "\ud83d\udca1"
+            "\ud83d\udcc9",
+            "\ud83d\udca1",
+            "\ud83d\udeab"
         ],
         "hashtags":[
             "#inventorymanagementsoftware",
@@ -2496,9 +2317,9 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_334.jpg"
         ],
         "emoji":[
-            "\ud83d\udcbb",
+            "\ud83c\udf1f",
             "\ud83c\udf10",
-            "\ud83c\udf1f"
+            "\ud83d\udcbb"
         ],
         "hashtags":[
             "#webdevelopment",
@@ -3012,9 +2833,9 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_241.jpg"
         ],
         "emoji":[
-            "\ud83d\udde3\ufe0f",
+            "\ud83d\udcac",
             "\ud83c\udf10",
-            "\ud83d\udcac"
+            "\ud83d\udde3\ufe0f"
         ],
         "hashtags":[
             "#ai",
@@ -3044,8 +2865,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_33.jpg"
         ],
         "emoji":[
-            "\u2728",
-            "\ud83d\ude9a"
+            "\ud83d\ude9a",
+            "\u2728"
         ],
         "hashtags":[
             "#generativeai",
@@ -3499,8 +3320,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_24.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udc49"
+            "\ud83d\udc49",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#mobileappdevelopment",
@@ -3558,8 +3379,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_43.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcbc"
+            "\ud83d\udcbc",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#enterpriseapps",
@@ -3794,9 +3615,9 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_14.jpg"
         ],
         "emoji":[
+            "\ud83c\udf1f",
             "\u2728",
-            "\ud83d\udcbb",
-            "\ud83c\udf1f"
+            "\ud83d\udcbb"
         ],
         "hashtags":[
             "#DigitalInnovation",
@@ -3834,8 +3655,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_320.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udd10"
+            "\ud83d\udd10",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#blockchain",
@@ -4065,9 +3886,9 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_283.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcca",
             "\ud83c\udfc0",
+            "\ud83d\udcca",
+            "\ud83d\ude80",
             "\ud83d\udd0d",
             "\ud83c\udf10"
         ],
@@ -4368,8 +4189,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_4.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcaa"
+            "\ud83d\udcaa",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#appdevelopment",
@@ -4556,8 +4377,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_364.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
             "\ud83d\udd2e",
+            "\ud83d\ude80",
             "\ud83c\udf10"
         ],
         "hashtags":[
@@ -4708,10 +4529,10 @@
         ],
         "emoji":[
             "\ud83c\udf0d",
-            "\ud83c\udf31",
-            "\u2728",
             "\ud83c\udf3f",
-            "\ud83d\udca1"
+            "\ud83d\udca1",
+            "\ud83c\udf31",
+            "\u2728"
         ],
         "hashtags":[
             "#renewableenergy",
@@ -4747,10 +4568,10 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_349.jpg"
         ],
         "emoji":[
-            "\ud83d\udde3\ufe0f",
+            "\ud83d\udcac",
             "\ud83e\udd16",
             "\ud83d\ude80",
-            "\ud83d\udcac"
+            "\ud83d\udde3\ufe0f"
         ],
         "hashtags":[
             "#voicetechnology",
@@ -4786,10 +4607,10 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_390.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcf1",
             "\ud83d\udcbc",
             "\ud83d\udcf2",
+            "\ud83d\ude80",
+            "\ud83d\udcf1",
             "\ud83c\udf1f"
         ],
         "hashtags":[
@@ -4837,19 +4658,19 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_377.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
             "\ud83d\udcca",
-            "\ud83d\udc69\u200d\ud83c\udf93",
-            "\ud83c\udfeb",
-            "\ud83d\udcda",
-            "\u2728",
+            "\ud83d\ude80",
             "\ud83c\udfaf",
-            "\ud83d\udcbb",
             "\ud83e\udd1d",
             "\ud83d\udd0d",
-            "\u2705",
             "\ud83d\udca1",
-            "\ud83c\udf1f"
+            "\ud83d\udc69\u200d\ud83c\udf93",
+            "\ud83c\udf1f",
+            "\ud83d\udcda",
+            "\ud83c\udfeb",
+            "\u2705",
+            "\u2728",
+            "\ud83d\udcbb"
         ],
         "hashtags":[
             "#EdTechSolutions",
@@ -4916,9 +4737,9 @@
         ],
         "emoji":[
             "\ud83d\udcc8",
+            "\ud83d\ude9b",
             "\ud83d\udc49",
-            "\ud83d\udca1",
-            "\ud83d\ude9b"
+            "\ud83d\udca1"
         ],
         "hashtags":[
             "#ItobuzTechnologies",
@@ -4974,8 +4795,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFfakZWNWgc_6.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcaa"
+            "\ud83d\udcaa",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#appdevelopment",
@@ -5072,9 +4893,9 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFNT1nks7P2_5.jpg"
         ],
         "emoji":[
+            "\ud83d\udc49",
             "\ud83d\udcc8",
-            "\ud83d\udca1",
-            "\ud83d\udc49"
+            "\ud83d\udca1"
         ],
         "hashtags":[
             "#ItobuzTechnologies",
@@ -5130,10 +4951,10 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DE7OYHnKZLU_6.jpg"
         ],
         "emoji":[
-            "\u2728",
-            "\ud83d\udcbb",
+            "\ud83c\udf1f",
             "\ud83c\uddfa\ud83c\uddf8",
-            "\ud83c\udf1f"
+            "\u2728",
+            "\ud83d\udcbb"
         ],
         "hashtags":[
             "#technology",
@@ -5241,8 +5062,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DEFZnukM30T_5.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udc49"
+            "\ud83d\udc49",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#mobileappdevelopment",
@@ -5296,10 +5117,10 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DD_OxrPKqVL.jpg"
         ],
         "emoji":[
-            "\u2728",
+            "\u2764\ufe0f",
             "\ud83c\udf85",
-            "\ud83d\udca1",
-            "\u2764\ufe0f"
+            "\u2728",
+            "\ud83d\udca1"
         ],
         "hashtags":[
             "#merrychristmas",
@@ -5409,8 +5230,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DDhPqdft7qK_6.jpg"
         ],
         "emoji":[
-            "\u2728",
-            "\ud83d\ude9a"
+            "\ud83d\ude9a",
+            "\u2728"
         ],
         "hashtags":[
             "#generativeai",
@@ -5516,8 +5337,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DC9LykON97x_6.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcbc"
+            "\ud83d\udcbc",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#enterpriseapps",
@@ -5574,8 +5395,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DC6o4ydAwdI.jpg"
         ],
         "emoji":[
-            "\u2728",
-            "\ud83c\udf42"
+            "\ud83c\udf42",
+            "\u2728"
         ],
         "hashtags":[
             "#thanksgiving",
@@ -6157,9 +5978,9 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_0dYZAMgTV.jpg"
         ],
         "emoji":[
+            "\ud83d\udc69\u200d\ud83d\udcbb",
             "\ud83d\udc68\u200d\ud83d\udcbb",
-            "\ud83c\udf89",
-            "\ud83d\udc69\u200d\ud83d\udcbb"
+            "\ud83c\udf89"
         ],
         "hashtags":[
             "#internationalprogrammersday",
@@ -6290,8 +6111,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_BA4RKPHYd_5.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83c\udf1f"
+            "\ud83c\udf1f",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#CrossPlatform",
@@ -6870,8 +6691,8 @@
         "emoji":[
             "\ud83d\udcb0",
             "\ud83c\udf0d",
-            "\u26a1",
-            "\ud83d\udd04"
+            "\ud83d\udd04",
+            "\u26a1"
         ],
         "hashtags":[
             "#webappdevelopment",
@@ -7339,9 +7160,9 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C39xu0UMiCZ_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udde3\ufe0f",
+            "\ud83d\udcac",
             "\ud83c\udf10",
-            "\ud83d\udcac"
+            "\ud83d\udde3\ufe0f"
         ],
         "hashtags":[
             "#ai",
@@ -7539,8 +7360,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C2i_jQ9xkGh.jpg"
         ],
         "emoji":[
-            "\u2728",
-            "\ud83c\uddee\ud83c\uddf3"
+            "\ud83c\uddee\ud83c\uddf3",
+            "\u2728"
         ],
         "hashtags":[
             "#indiaproud",
@@ -7758,9 +7579,9 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1KHezhr8yr_4.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcca",
             "\ud83c\udfc0",
+            "\ud83d\udcca",
+            "\ud83d\ude80",
             "\ud83d\udd0d",
             "\ud83c\udf10"
         ],
@@ -7943,8 +7764,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C0CHUAVvyN-_4.jpg"
         ],
         "emoji":[
-            "\u2728",
-            "\ud83d\ude80"
+            "\ud83d\ude80",
+            "\u2728"
         ],
         "hashtags":[
             "#appdevelopments",
@@ -8074,8 +7895,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cy5yNRgBOxt_4.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udd10"
+            "\ud83d\udd10",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#blockchain",
@@ -8188,9 +8009,9 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CxvGIrAh6rN_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udcbb",
+            "\ud83c\udf1f",
             "\ud83c\udf10",
-            "\ud83c\udf1f"
+            "\ud83d\udcbb"
         ],
         "hashtags":[
             "#webdevelopment",
@@ -8267,9 +8088,9 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwxOTwbBAZr_5.jpg"
         ],
         "emoji":[
+            "\ud83d\udcac",
             "\ud83d\ude80",
-            "\ud83e\udd16",
-            "\ud83d\udcac"
+            "\ud83e\udd16"
         ],
         "hashtags":[
             "#voicetechnology",
@@ -8354,12 +8175,12 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwP6RrONI8l_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udcc8",
-            "\ud83d\udcc9",
             "\ud83d\udccb",
-            "\ud83d\udeab",
+            "\ud83d\udcc8",
             "\ud83d\udcbc",
-            "\ud83d\udca1"
+            "\ud83d\udcc9",
+            "\ud83d\udca1",
+            "\ud83d\udeab"
         ],
         "hashtags":[
             "#inventorymanagementapp",
@@ -8399,8 +8220,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CvzliTgBr_e_5.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udd2e"
+            "\ud83d\udd2e",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#AR",
@@ -8488,18 +8309,18 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cu9demaPg7x_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udc69\u200d\ud83c\udf93",
             "\ud83d\udcca",
-            "\ud83c\udfeb",
-            "\ud83d\udcda",
-            "\u2728",
             "\ud83c\udfaf",
-            "\ud83d\udcbb",
             "\ud83e\udd1d",
             "\ud83d\udd0d",
-            "\u2705",
             "\ud83d\udca1",
-            "\ud83c\udf1f"
+            "\ud83d\udc69\u200d\ud83c\udf93",
+            "\ud83c\udf1f",
+            "\ud83d\udcda",
+            "\ud83c\udfeb",
+            "\u2705",
+            "\u2728",
+            "\ud83d\udcbb"
         ],
         "hashtags":[
             "#edtechsoftware",
@@ -8668,8 +8489,8 @@
         "emoji":[
             "\ud83d\udcf1",
             "\ud83d\udcbc",
-            "\ud83d\udcf2",
-            "\ud83c\udf1f"
+            "\ud83c\udf1f",
+            "\ud83d\udcf2"
         ],
         "hashtags":[
             "#appdevelopmentagency",
@@ -8763,11 +8584,11 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cs2-5SIyX-N_5.jpg"
         ],
         "emoji":[
-            "\ud83c\udf0d",
             "\u267b\ufe0f",
-            "\u2728",
+            "\ud83c\udf0d",
+            "\ud83d\udca1",
             "\ud83c\udf31",
-            "\ud83d\udca1"
+            "\u2728"
         ],
         "hashtags":[
             "#renewableenergy",
@@ -8809,8 +8630,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Csk0tbIy30t_5.jpg"
         ],
         "emoji":[
-            "\ud83d\udc47",
-            "\ud83d\udd25"
+            "\ud83d\udd25",
+            "\ud83d\udc47"
         ],
         "hashtags":[
             "#HealthcareAppDevelopment",

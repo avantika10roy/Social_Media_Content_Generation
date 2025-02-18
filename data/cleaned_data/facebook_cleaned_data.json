@@ -361,8 +361,10 @@
             "\u26a1",
             "\ud83c\udf0d",
             "\ud83d\udcb0",
+            "\ud83c\udf0d",
             "\ud83c\udf10",
-            "\ud83d\udd04"
+            "\ud83d\udd04",
+            "\u26a1"
         ],
         "hashtags":[
             "#webappdevelopment",
@@ -873,8 +875,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_288.jpg"
         ],
         "emoji":[
-            "\ud83d\ude97",
-            "\u2728"
+            "\u2728",
+            "\ud83d\ude97"
         ],
         "hashtags":[
             "#5GTechnology",
@@ -1058,9 +1060,9 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_241.jpg"
         ],
         "emoji":[
-            "\ud83d\udde3\ufe0f",
             "\ud83c\udf10",
-            "\ud83d\udcac"
+            "\ud83d\udcac",
+            "\ud83d\udde3\ufe0f"
         ],
         "hashtags":[
             "#ai",
@@ -1828,8 +1830,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_4.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcaa"
+            "\ud83d\udcaa",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#appdevelopment",
@@ -1991,6 +1993,8 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_400.jpg"
         ],
         "emoji":[
+            "\ud83c\udf3f",
+            "\ud83d\udca1",
             "\ud83c\udf0d",
             "\ud83d\udca1",
             "\u2728",
@@ -2019,6 +2023,7 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_349.jpg"
         ],
         "emoji":[
+            "\ud83d\udcac",
             "\ud83d\udde3\ufe0f",
             "\ud83d\ude80",
             "\ud83d\udcac",

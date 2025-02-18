@@ -14,10 +14,12 @@ random.seed(seed)
 set_seed(seed=seed)
 torch.manual_seed(seed)
 torch.mps.manual_seed(seed)
+
+# The topic should be decriptive enough so that the model does not hallucinate
 prompt = """Generate a high-quality, engaging and professional social media post for a company called Itobuz in a descriptive format. Follow the example structure, fulfil the requirements and ensure clarity, creativity, context awareness, and audience engagement.
     Context:
     - Platform: Linkedin
-    - Topic: Republic Day
+    - Topic: AI trends exploration
     - Language: English
     - Word Limit: 250
 
@@ -39,7 +41,7 @@ base_model = AutoModelForCausalLM.from_pretrained('src/base_models/falcon1b/mode
 tokenizer = AutoTokenizer.from_pretrained('src/base_models/falcon1b/tokenizer')
 
 # Load LoRA adapters on top of the base model
-model = PeftModel.from_pretrained(base_model, 'results/llm_results/fine_tuning_by_sir/falcon_1b_base_lora')
+model = PeftModel.from_pretrained(base_model, 'results/llm_results/fine_tuning_results_v2/checkpoint-110')
 
 # Move to MPS (Mac) or CPU
 # device = "mps"  # Use "cpu" if you don’t have Metal enabled
@@ -48,7 +50,7 @@ model = PeftModel.from_pretrained(base_model, 'results/llm_results/fine_tuning_b
 # Function for inference
 def generate_text(prompt, max_length=100):
     inputs = tokenizer(prompt, return_tensors="pt")
-    output = model.generate(**inputs, max_new_tokens = 250, do_sample = True, top_p = 0.90, top_k = 40, temperature = 0.5)
+    output = model.generate(**inputs, max_new_tokens = 250, do_sample = True, top_p = 0.9, top_k = 40, temperature = 0.4, repetition_penalty=1.05)
     return tokenizer.decode(output[0], skip_special_tokens=True)
 
 # Example usage

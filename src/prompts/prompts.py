@@ -28,12 +28,12 @@ def llm_finetuning_prep(data_dict: dict) -> str :
     company_name = 'Itobuz'
     platform = data_dict.get('platform')
     heading = data_dict.get('post_heading')
-    content = data_dict.get('post_content')
+    content = data_dict.get('post_contents')
     hashtags = data_dict.get('hashtags')
     emojis = data_dict.get('emoji')
     emojis = ", ".join(emojis) if len(data_dict.get('emoji'))>0 else "No emoji needed"
     hashtags = ", ".join(hashtags)
-    raw_post_content = data_dict.get('raw_content')
+    raw_post_content = data_dict.get('raw_post_content')
     
     
     # genrating data format from the finetuning

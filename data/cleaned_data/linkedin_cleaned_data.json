@@ -7,8 +7,8 @@
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/1_1738312196468.png"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcaa"
+            "\ud83d\udcaa",
+            "\ud83d\ude80"
         ],
         "hashtags":[
             "#appdevelopment",
@@ -48,10 +48,13 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635023231.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635022675.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635023102.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635022735.png"
+        ],
+        "image_paths":[
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635023231.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/5_1737635023102.png"
         ],
         "emoji":[
             "\ud83d\udca1",
@@ -78,10 +81,10 @@
     },
     {
         "image_paths":[
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437527.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437522.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437904.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437605.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437527.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/7_1737113437904.png"
         ],
         "emoji":[
             "\ud83c\udf1f",
@@ -107,10 +110,14 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496816718.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496817340.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496817549.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496816186.png"
+        ],
+        "image_paths":[
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496816718.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496817340.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496816186.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/9_1736496816718.png"
         ],
         "emoji":[
 
@@ -131,10 +138,14 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682262966.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682263629.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682264512.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682264831.png"
+        ],
+        "image_paths":[
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682262966.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682264831.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/13_1734682264512.png"
         ],
         "emoji":[
 
@@ -158,10 +169,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/19_1732882868948.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/19_1732882869496.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/19_1732882869469.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/19_1732882869324.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/19_1732882869496.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/19_1732882868948.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/19_1732882869324.png"
         ],
         "emoji":[
             "\ud83d\ude80",
@@ -183,6 +194,12 @@
         "platform":"linkedin"
     },
     {
+        "image_paths":[
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263433871.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263432895.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263433124.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263433871.png"
+        ],
         "image_paths":[
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263433266.png",
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/23_1732263432895.png",
@@ -284,10 +301,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1726836476720.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1726836477345.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1726836476705.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1726836476442.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/31_1726836476705.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/31_1726836476720.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/31_1726836477345.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/31_1726836476442.png"
         ],
         "emoji":[
             "\ud83c\udf1f"
@@ -311,10 +328,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1725604186741.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1725604185534.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1725604185076.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1725604185742.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/33_1725604185742.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/33_1725604185534.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/33_1725604186741.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/33_1725604185076.png"
         ],
         "emoji":[
             "\ud83c\udf1f"
@@ -383,10 +400,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/45_1721380723696.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/45_1721380723645.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/45_1721380723655.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/45_1721380723481.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1721380723481.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1721380723655.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1721380723696.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/37_1721380723645.png"
         ],
         "emoji":[
 
@@ -407,10 +424,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/47_1721048271030.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/47_1721048271403.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/47_1721048271355.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/47_1721048271200.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1721048271200.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1721048271030.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1721048271403.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/39_1721048271355.png"
         ],
         "emoji":[
 
@@ -431,10 +448,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1720165548293.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1720165548491.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1720165548344.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1720165548528.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/41_1720165548528.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/41_1720165548491.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/41_1720165548344.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/41_1720165548293.png"
         ],
         "emoji":[
 
@@ -454,10 +471,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/53_1718347551239.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/53_1718347551827.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/53_1718347552270.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/53_1718347551246.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/43_1718347551239.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/43_1718347551246.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/43_1718347551827.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/43_1718347552270.png"
         ],
         "emoji":[
 
@@ -478,10 +495,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/59_1719140641165.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/59_1719038305932.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/59_1719150897408.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/59_1719039833308.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1719140641165.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1719039833308.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1719038305932.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/49_1719150897408.png"
         ],
         "emoji":[
 
@@ -501,10 +518,10 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/75_1711101863951.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/75_1711101863651.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/75_1711101863812.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/75_1711101863415.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/61_1711101863951.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/61_1711101863415.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/61_1711101863812.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/61_1711101863651.png"
         ],
         "emoji":[
 
@@ -554,11 +571,11 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/89_1708691398290.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/89_1708691396630.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/89_1708691396358.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/89_1708691396573.png",
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/89_1708691396894.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/73_1708691396894.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/73_1708691396358.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/73_1708691396573.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/73_1708691396630.png",
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/73_1708691398290.png"
         ],
         "emoji":[
 
@@ -575,7 +592,7 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/93_1732799288559.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/77_1732799288559.png"
         ],
         "emoji":[
             "\ud83c\udf42",
@@ -599,7 +616,7 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/95_1730203822351.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/79_1730203822351.png"
         ],
         "emoji":[
             "\ud83e\ude94",
@@ -618,7 +635,7 @@
     },
     {
         "image_paths":[
-            ".\/data\/cleaned_data\/linkedin_cleaned_images\/97_1730210049822.png"
+            ".\/data\/cleaned_data\/linkedin_cleaned_images\/81_1730210049822.png"
         ],
         "emoji":[
             "\ud83c\udf83",
