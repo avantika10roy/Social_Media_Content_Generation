@@ -1,5 +1,5 @@
 {
-  "best_metric": 12.685966491699219,
+  "best_metric": 0.20662562549114227,
   "best_model_checkpoint": "results/llm_results/flan_t5_base_fine_tuning_results_v1/checkpoint-11",
   "epoch": 0.9263157894736842,
   "eval_steps": 500,
@@ -10,31 +10,31 @@
   "log_history": [
     {
       "epoch": 0.08421052631578947,
-      "grad_norm": 8.397521018981934,
+      "grad_norm": 0.428925096988678,
       "learning_rate": 5.000000000000001e-07,
-      "loss": 10.3146,
+      "loss": 0.3778,
       "step": 1
     },
     {
       "epoch": 0.42105263157894735,
-      "grad_norm": 5.058825492858887,
+      "grad_norm": 0.414134681224823,
       "learning_rate": 2.5e-06,
-      "loss": 9.4511,
+      "loss": 0.3922,
       "step": 5
     },
     {
       "epoch": 0.8421052631578947,
-      "grad_norm": 7.26391077041626,
+      "grad_norm": 0.3626771867275238,
       "learning_rate": 5e-06,
-      "loss": 8.0914,
+      "loss": 0.3757,
       "step": 10
     },
     {
       "epoch": 0.9263157894736842,
-      "eval_loss": 12.685966491699219,
-      "eval_runtime": 3.2096,
-      "eval_samples_per_second": 14.955,
-      "eval_steps_per_second": 7.478,
+      "eval_loss": 0.20662562549114227,
+      "eval_runtime": 3.1217,
+      "eval_samples_per_second": 15.376,
+      "eval_steps_per_second": 7.688,
       "step": 11
     }
   ],

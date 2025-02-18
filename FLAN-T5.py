@@ -15,11 +15,13 @@ from src.prompts.prompts import llm_finetuning_prep
 from peft import LoraConfig
 from peft import get_peft_model
 from peft import prepare_model_for_kbit_training  
+
+from transformers import Trainer
 from transformers import set_seed
 from transformers import AutoTokenizer
 from transformers import TrainingArguments
 from transformers import AutoModelForSeq2SeqLM
-from transformers import Trainer
+
 
 # LOGGER SETUP
 FLAN_T5_LOGGER = LoggerSetup(logger_name="FLAN_T5.py", log_filename_prefix="flan_t5").get_logger()
@@ -195,10 +197,8 @@ def flan_t5_finetuner_main(logger: LoggerSetup) -> None:
             model.save_pretrained(model_path)
             tokenizer.save_pretrained(tokenizer_path)
 
-        # Ensure padding token is set
         tokenizer.pad_token    = tokenizer.pad_token or tokenizer.eos_token
 
-        # Load and prepare dataset
         with open(Config.MIXED_CURATED_DATA_PATH, "r", encoding = "utf-8") as file:
             data               = json.load(file)
 
