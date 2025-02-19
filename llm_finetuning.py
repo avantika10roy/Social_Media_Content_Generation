@@ -7,6 +7,7 @@ import torch
 from datasets import Dataset
 from config.config import Config
 from transformers import set_seed
+from huggingface_hub import login
 from src.utils.logger import LoggerSetup
 from src.utils.set_seed import set_global_seed
 from sklearn.model_selection import train_test_split
@@ -103,6 +104,8 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
     pass
 
 if __name__ == '__main__':
+    access_token = "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"
+    login(access_token)
     finetune_logger.info("Test Run")
     llm_fine_tune_main(logger=finetune_logger)
     finetune_logger.info("Test Run Successfully")
