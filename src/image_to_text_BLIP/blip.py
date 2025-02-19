@@ -46,7 +46,7 @@ def generate_caption(image_path):
         return "Caption not available (error)"
 
 # Path to the curated JSON file
-curated_json_path = Config.CURATED_POST_DATA_PATH
+curated_json_path = Config.AUGMENTED_LOGO_RESULT 
 
 # Load the JSON data
 try:
@@ -63,28 +63,25 @@ image_counter = 0
 # Process each item in the JSON
 start_time = time.time()
 for item in data:
-    captions = []
-    for image_path in item["image_paths"]:
-        try:
-            # Generate caption for the image
-            caption = generate_caption(image_path)
-            captions.append(caption)
+    try:
+        image_path = item["image_path"]  # Get the image path as a string
+        caption = generate_caption(image_path)  # Generate caption for the image
+        
+        # Add the caption under the key "context"
+        item["context"] = caption
+
+        # Increment the counter
+        image_counter += 1
+        
+        # Print progress after every 10 images
+        if image_counter % 10 == 0:
+            current_time = time.time()
+            time_diff = current_time - start_time
+            print(f"{image_counter} done, Running for {time_diff:.2f} sec")
             
-            # Increment the counter
-            image_counter += 1
-            
-            # Print progress after every 10 images
-            if image_counter % 10 == 0:
-                current_time = time.time()
-                time_diff = current_time - start_time
-                print(f"{image_counter} done, Running for {time_diff:.2f} sec")
-                
-        except Exception as e:
-            print(f"Error processing image {image_path}: {e}")
-            captions.append("Caption not available (error)")
-    
-    # Add the captions to the JSON under the key "contexts"
-    item["contexts"] = captions
+    except Exception as e:
+        print(f"Error processing image {image_path}: {e}")
+        item["context"] = "Caption not available (error)"
 
 # Create a new folder named "Blip_with_context" under the "data" folder
 output_folder = Config.BLIP_OUTPUT_PATH
