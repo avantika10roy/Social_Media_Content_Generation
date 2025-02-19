@@ -10,6 +10,9 @@ from peft import PeftConfig
 from transformers import T5Tokenizer
 from transformers import T5ForConditionalGeneration
 
+import warnings
+warnings.filterwarnings(action = 'ignore')
+
 
 class T5LoRAInference:
     
@@ -91,7 +94,7 @@ class T5LoRAInference:
         try:
             base_model         = T5ForConditionalGeneration.from_pretrained(self.config.base_model_name_or_path)
             
-            self.model         = PeftModel.from_pretrained(base_model, model_path, local_files_only=True)
+            self.model         = PeftModel.from_pretrained(base_model, model_path, local_files_only = True)
             self.model.to(self.device)
             self.model.eval()
         
@@ -210,14 +213,14 @@ class T5LoRAInference:
             
             with torch.no_grad():
                 outputs      = self.model.generate(**inputs,
-                                                   max_length              = 512,   
-                                                   min_length              = 100,
-                                                   temperature             = 0.7,   
-                                                   top_p                   = 0.92,
-                                                   do_sample               = True,
-                                                   no_repeat_ngram_size    = 3,     
-                                                   repetition_penalty      = 1.2,
-                                                   early_stopping          = True,
+                                                   max_length              = 2048,      # Maximum length of the generated sequence.
+                                                   min_length              = 1000,      # Minimum length of the generated sequence to avoid very short outputs.
+                                                   temperature             = 0.5,       # Controls randomness; lower values make output more deterministic.
+                                                   top_p                   = 0.92,      # Nucleus sampling: limits sampling to top tokens whose cumulative probability exceeds `top_p`.
+                                                   do_sample               = True,      # Enables sampling instead of greedy/beam search for more diverse outputs.
+                                                   no_repeat_ngram_size    = 5,         # Prevents repetition of n-grams to reduce redundancy.
+                                                   repetition_penalty      = 1.2,       # Penalizes repeated tokens to encourage diversity
+                                                   early_stopping          = False,     # Stops generation once EOS token is predicted or max/min lengths are met.
                                                    eos_token_id            = self.tokenizer.eos_token_id
                                                    )
             
