@@ -38,7 +38,6 @@ class CustomDatasetForLLMFineTuning(Dataset):
         self.max_len   = max_length
         with open(json_file_path, 'r', encoding="utf-8") as file:
             self.json_data = json.load(file)
-            self.json_data = self.json_data[:10]
 
     def __len__(self):
         return len(self.json_data)
