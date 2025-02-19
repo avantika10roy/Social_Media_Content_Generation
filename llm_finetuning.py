@@ -95,7 +95,7 @@ def llm_fine_tune_main(logger:LoggerSetup) -> None:
 
         fine_tuner.define_lora_config(**lora_args)
         fine_tuner.define_training_args(**training_args)
-        fine_tuner.use_mps_mistral()
+        fine_tuner.use_mps()
         fine_tuner.define_trainer()
         model = fine_tuner.start_fine_tuning()
 

@@ -1,192 +1,291 @@
-import os
+## ----- DONE BY PRIYAM PAL -----
+
+# DEPENDENCIES
+import os 
 import json
 import torch
-from tqdm import tqdm
 from datasets import Dataset
-from transformers import (
-    T5Tokenizer, 
-    T5ForConditionalGeneration, 
-    Trainer, 
-    TrainingArguments, 
-    DataCollatorForSeq2Seq
-)
+from sklearn.model_selection import train_test_split
 
-class FLANT5Trainer:
+from config.config import Config
+from src.utils.logger import LoggerSetup
+from src.utils.set_seed import set_global_seed
+from src.prompts.prompts import llm_finetuning_prep
+
+from peft import LoraConfig
+from peft import get_peft_model
+from peft import prepare_model_for_kbit_training  
+
+from transformers import Trainer
+from transformers import set_seed
+from transformers import AutoTokenizer
+from transformers import TrainingArguments
+from transformers import AutoModelForSeq2SeqLM
+
+
+# LOGGER SETUP
+FLAN_T5_LOGGER = LoggerSetup(logger_name="FLAN_T5.py", log_filename_prefix="flan_t5").get_logger()
+
+class FLAN_T5_FineTuner:
     """
-    A class to train and generate social media posts using the Flan-T5 Small model.
-
-    Attributes:
-        model_name (str): Name of the pre-trained model.
-        tokenizer (T5Tokenizer): Tokenizer for processing text.
-        model (T5ForConditionalGeneration): Fine-tuned Flan-T5 model.
-        device (torch.device): Device for computation (MPS for MacBook M1/M2).
+    A class to fine-tune a LLM using PEFT techniques
+    and save the model in .gguf format for faster inference.
     """
 
-    def __init__(self, model_name="google/flan-t5-small"):
+    def __init__(self, model_path: str, tokenizer_path: str, dataset: Dataset, finetune_logger: LoggerSetup, **kwargs) -> None:
         """
-        Initializes the Flan-T5 trainer with tokenizer and model.
-        Detects MPS (Apple Silicon GPU) if available.
+        Initialize the Fine Tuner.
+
+        Arguments:
+        -----------
+            model_path     : Path to the directory of saved model or address of the model on Huggingface.
+            tokenizer_path : Path to the directory of saved tokenizer or address of the tokenizer on Huggingface.
+            dataset        : The dataset provided for fine-tuning.
+            finetune_logger: Logger instance for tracking operations.
         """
-        self.model_name = model_name
-        self.tokenizer = T5Tokenizer.from_pretrained(model_name, legacy=False)
-        self.device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
-        self.model = T5ForConditionalGeneration.from_pretrained(model_name).to(self.device)
-
-    def load_and_preprocess_data(self, dataset_path):
-        """
-        Loads and preprocesses JSON dataset.
-
-        Args:
-            dataset_path (str): Path to the JSON dataset.
-
-        Returns:
-            Dataset: Preprocessed dataset ready for training.
-        """
-        if not os.path.exists(dataset_path):
-            raise FileNotFoundError(f"Dataset file not found: {dataset_path}")
-
-        # Load dataset
-        with open(dataset_path, "r", encoding="utf-8") as f:
-            raw_data = json.load(f)
-
-        # Ensure `image_paths` is always a list
-        for entry in raw_data:
-            if isinstance(entry.get("image_paths"), str):
-                entry["image_paths"] = []
-
-        # Format dataset
-        formatted_data = [
-            {
-                "input_text": f"Generate a social media post with the following details:\n"
-                              f"Platform: {entry['platform']}\n"
-                              f"Post Heading: {entry['post_heading']}\n"
-                              f"Post Content: {entry['post_content']}\n"
-                              f"Hashtags: {', '.join(entry['hashtags'])}\n"
-                              f"Emojis: {', '.join(entry['emoji'])}",
-                "output_text": f"Post Heading: {entry['post_heading']}\n"
-                               f"Post Content: {entry['post_content']}\n"
-                               f"Hashtags: {', '.join(entry['hashtags'])}\n"
-                               f"Emojis: {', '.join(entry['emoji'])}"
-            }
-            for entry in tqdm(raw_data, desc="Formatting dataset")
-        ]
-
-        return Dataset.from_list(formatted_data)
-
-    def tokenize_data(self, dataset):
-        """
-        Tokenizes dataset for training.
-
-        Args:
-            dataset (Dataset): Preprocessed dataset.
-
-        Returns:
-            Dataset: Tokenized dataset ready for training.
-        """
-        def preprocess_function(examples):
-            inputs = self.tokenizer(
-                examples["input_text"], 
-                padding="max_length", 
-                truncation=True, 
-                max_length=512
-            )
-            labels = self.tokenizer(
-                examples["output_text"], 
-                padding="max_length", 
-                truncation=True, 
-                max_length=128
-            ).input_ids
-
-            # Replace padding token ID with -100 for loss computation
-            labels = [[label if label != self.tokenizer.pad_token_id else -100 for label in example] for example in labels]
+        try:
+            self.device          = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
             
-            inputs["labels"] = torch.tensor(labels)
+            model_kwargs         = {
+                "device_map": "auto" if self.device == "cuda" else None,
+                "torch_dtype": torch.float16 if self.device == "cuda" else torch.float32
+            }
+            
+            self.model           = AutoModelForSeq2SeqLM.from_pretrained(model_path, **model_kwargs)
+            
+            if self.device in ["mps", "cpu"]:
+                self.model       = self.model.to(self.device)
+
+            self.tokenizer       = AutoTokenizer.from_pretrained(tokenizer_path)
+
+            if self.tokenizer.pad_token is None:
+                self.tokenizer.pad_token = self.tokenizer.eos_token
+
+            self.dataset         = dataset
+            self.lora_config     = None
+            self.training_args   = None
+            self.trainer         = None
+            self.logger          = finetune_logger
+
+        except Exception as LLMFineTunerInitializationError:
+            if self.logger:
+                self.logger.error(repr(LLMFineTunerInitializationError), exc_info = True)
+            
+            raise
+
+    def set_model(self, model) -> None:
+        """
+        Set the model for fine-tuning.
+        
+        Arguments:
+        -----------
+            model: The model to be used for fine-tuning
+        """
+        try:
+            self.model            = model
+            
+            if self.logger:
+                self.logger.info("Model set successfully")
+        
+        except Exception as ModelSetupError:
+            if self.logger:
+                self.logger.error(repr(ModelSetupError), exc_info = True)
+            
+            raise
+
+    def define_lora_config(self, **kwargs) -> None:
+        """
+        Defines the LoRA config.
+        If not used, it will not cause any problems.
+        """
+        try:
+            self.lora_config      = LoraConfig(**kwargs)
+            self.model            = get_peft_model(self.model, self.lora_config)
+            
+            if self.logger:
+                self.logger.info("LoRA config defined successfully")
+
+        except Exception as LoraConfigDefinitionError:
+            if self.logger:
+                self.logger.error(repr(LoraConfigDefinitionError), exc_info=True)
+            
+            raise
+
+    def define_training_args(self, **kwargs) -> None:
+        """
+        Defines the training arguments.
+        """
+        try:
+            if 'device_map' in kwargs:
+                del kwargs['device_map']
+            
+            self.training_args    = TrainingArguments(**kwargs)
+            if self.logger:
+                self.logger.info("Training arguments defined successfully")
+
+        except Exception as TrainingArgumentDefinitionError:
+            if self.logger:
+                self.logger.error(repr(TrainingArgumentDefinitionError), exc_info=True)
+            
+            raise
+
+    def define_trainer(self) -> None:
+        """
+        Defines the trainer used during fine-tuning.
+        """
+        try:
+            if not all([self.model, self.tokenizer, self.training_args, self.dataset]):
+                raise ValueError("Model, tokenizer, training arguments, and dataset must be set before defining trainer")
+
+            train_dataset         = self.dataset["train"] if "train" in self.dataset else self.dataset
+            eval_dataset          = self.dataset["test"] if "test" in self.dataset else None
+
+            self.trainer          = Trainer(model=self.model,args=self.training_args,train_dataset=train_dataset,eval_dataset=eval_dataset,tokenizer=self.tokenizer)
+            
+            if self.logger:
+                self.logger.info("Trainer defined successfully")
+        
+        except Exception as TrainerDefinitionError:
+            if self.logger:
+                self.logger.error(repr(TrainerDefinitionError), exc_info=True)
+            
+            raise
+
+    def start_fine_tuning(self) -> AutoModelForSeq2SeqLM:
+        """
+        Starts the fine-tuning process.
+        """
+        try:
+            if not self.trainer:
+                raise ValueError("Trainer must be defined before starting fine-tuning")
+                
+            self.trainer.train()
+            if self.logger:
+                self.logger.info("Fine-tuning completed successfully")
+            
+            return self.model
+
+        except Exception as FineTuningStartError:
+            if self.logger:
+                self.logger.error(repr(FineTuningStartError), exc_info=True)
+            
+            raise
+
+def flan_t5_finetuner_main(logger: LoggerSetup) -> None:
+    """
+    Main function to run the fine tuner for FLAN-T5-Large.
+    """
+    
+    set_global_seed(logger=logger, seed=42)
+    
+    try:
+        model_path             = 'src/base_models/flan_t5_base/model'
+        tokenizer_path         = 'src/base_models/flan_t5_base/tokenizer'
+
+        if os.path.exists(model_path) and os.path.exists(tokenizer_path):
+            FLAN_T5_LOGGER.info("Loading existing model and tokenizer...")
+            model              = AutoModelForSeq2SeqLM.from_pretrained(model_path)
+            tokenizer          = AutoTokenizer.from_pretrained(tokenizer_path)
+        else:
+            FLAN_T5_LOGGER.info("Downloading model and tokenizer from Hugging Face...")
+            model              = AutoModelForSeq2SeqLM.from_pretrained('google/flan-t5-base')
+            tokenizer          = AutoTokenizer.from_pretrained('google/flan-t5-base')
+
+            os.makedirs(model_path, exist_ok=True)
+            os.makedirs(tokenizer_path, exist_ok=True)
+            
+            model.save_pretrained(model_path)
+            tokenizer.save_pretrained(tokenizer_path)
+
+        tokenizer.pad_token    = tokenizer.pad_token or tokenizer.eos_token
+
+        with open(Config.MIXED_CURATED_DATA_PATH, "r", encoding = "utf-8") as file:
+            data               = json.load(file)
+
+        for item in data:
+            item.pop('image_paths', None)
+
+        data_list              = [llm_finetuning_prep(item) for item in data]
+        dataset                = Dataset.from_dict({'texts': data_list})
+
+        def tokenize_function(examples):
+            inputs             = tokenizer(examples["texts"], 
+                                           padding        = "max_length", 
+                                           truncation     = True, 
+                                           max_length     = 128, 
+                                           return_tensors = 'pt')
+            
+            inputs["labels"]   = inputs["input_ids"].clone().detach()
+            
             return inputs
+        
+        tokenized_dataset      = dataset.map(tokenize_function, batched = True)
+        split_dataset          = tokenized_dataset.train_test_split(test_size = 0.2)
 
-        return dataset.map(preprocess_function, batched=True, remove_columns=["input_text", "output_text"])
+        output_dir = 'results/llm_results/flan_t5_base_fine_tuning_results_v1'
+        
+        os.makedirs(output_dir, exist_ok = True)
+        
+        training_args          = {'output_dir'                   : output_dir,
+                                  'learning_rate'                : 5e-5,
+                                  'warmup_steps'                 : 100,
+                                  'logging_first_step'           : True,
+                                  'logging_steps'                : 5,
+                                  'per_device_train_batch_size'  : 2,
+                                  'per_device_eval_batch_size'   : 2,
+                                  'gradient_accumulation_steps'  : 8,
+                                  'num_train_epochs'             : 20,
+                                  'logging_dir'                  : 'logs/llm_finetune_logs/flan_t5_v1',
+                                  'weight_decay'                 : 0.01,
+                                  'bf16'                         : torch.cuda.is_bf16_supported(),
+                                  'fp16'                         : torch.cuda.is_available(),
+                                  'evaluation_strategy'          : "epoch",
+                                  'save_strategy'                : "epoch",
+                                  'load_best_model_at_end'       : True,
+                                  }
 
-    def train(self, dataset_path, batch_size=8, epochs=3):
-        """
-        Trains the Flan-T5 model on the provided dataset.
+        lora_config            = LoraConfig(r              = 8,
+                                            lora_alpha     = 32,
+                                            target_modules = ["q", "v"],  
+                                            lora_dropout   = 0.05,
+                                            bias           = "none",
+                                            task_type      = "SEQ_2_SEQ_LM"
+                                            )
 
-        Args:
-            dataset_path (str): Path to the JSON dataset.
-            batch_size (int, optional): Training batch size. Defaults to 8.
-            epochs (int, optional): Number of training epochs. Defaults to 3.
-        """
-        dataset = self.load_and_preprocess_data(dataset_path)
-        tokenized_dataset = self.tokenize_data(dataset)
+        fine_tuner             = FLAN_T5_FineTuner(model_path       = model_path,
+                                                   tokenizer_path   = tokenizer_path,
+                                                   dataset          = split_dataset,
+                                                   finetune_logger  = FLAN_T5_LOGGER
+                                                   )
 
-        training_args = TrainingArguments(
-            output_dir="./flan_t5_trained",
-            evaluation_strategy="no",
-            per_device_train_batch_size=batch_size,
-            learning_rate=5e-5,
-            weight_decay=0.01,
-            save_total_limit=2,
-            save_strategy="epoch",
-            num_train_epochs=epochs,
-            logging_dir="./logs",
-            logging_steps=10,
-            report_to="none",
-        )
+        model                  = prepare_model_for_kbit_training(model)
+        model                  = get_peft_model(model, lora_config)
+        
+        fine_tuner.set_model(model)
+        fine_tuner.define_training_args(**training_args)
+        fine_tuner.define_trainer()
+        fine_tuner.start_fine_tuning()
 
-        trainer = Trainer(
-            model=self.model,
-            args=training_args,
-            train_dataset=tokenized_dataset,
-            tokenizer=self.tokenizer,
-            data_collator=DataCollatorForSeq2Seq(self.tokenizer, model=self.model),
-        )
+        model.save_pretrained(output_dir)
+        tokenizer.save_pretrained(output_dir)
+        
+        lora_dict              = lora_config.to_dict()
 
-        trainer.train()
+        for key, value in lora_dict.items():
+            if isinstance(value, set):
+                lora_dict[key] = list(value)
+        
+        config_path = os.path.join(output_dir, "adapter_config.json")
+        with open(config_path, "w") as f:
+            json.dump(lora_dict, f, indent=4)
 
-        # Save the fine-tuned model
-        self.model.save_pretrained("./flan_t5_trained")
-        self.tokenizer.save_pretrained("./flan_t5_trained")
+        FLAN_T5_LOGGER.info(f"Model, tokenizer, and config saved to {output_dir}")
 
-    def generate_post(self, topic, temperature=0.9, top_p=0.95, do_sample=True, num_return_sequences=1, repetition_penalty=1.2):
-        """
-        Generates a social media post based on a given topic.
+    except Exception as MainError:
+        FLAN_T5_LOGGER.error(f"Fine-tuning failed: {repr(MainError)}", exc_info=True)
+        raise
 
-        Args:
-            topic (str): Topic for the social media post.
-            temperature (float, optional): Controls randomness. Defaults to 0.9.
-            top_p (float, optional): Nucleus sampling. Defaults to 0.95.
-            do_sample (bool, optional): Enables sampling. Defaults to True.
-            num_return_sequences (int, optional): Number of posts to generate. Defaults to 1.
-            repetition_penalty (float, optional): Controls repetition. Defaults to 1.2.
-
-        Returns:
-            list: List of generated social media posts.
-        """
-        prompt = f"Generate a social media post about {topic} with a heading, emojis, and relevant hashtags."
-        input_ids = self.tokenizer(prompt, return_tensors="pt").input_ids.to(self.device)
-
-        output_ids = self.model.generate(
-            input_ids,
-            max_length=150,
-            temperature=temperature,
-            top_p=top_p,
-            do_sample=do_sample,
-            num_return_sequences=num_return_sequences,
-            repetition_penalty=repetition_penalty
-        )
-
-        return [self.tokenizer.decode(output, skip_special_tokens=True) for output in output_ids]
-
-# Usage example
-if __name__ == "__main__":
-    trainer = FLANT5Trainer()
-
-    # Train the model
-    dataset_path = "./data/mixed_curated/mixed_curated.json"
-    trainer.train(dataset_path, batch_size=8, epochs=3)
-
-    # Generate social media posts
-    topic = "Artificial Intelligence in Marketing"
-    generated_posts = trainer.generate_post(topic, temperature=0.7, top_p=0.9, num_return_sequences=3)
-
-    print("### Generated Posts ###")
-    for i, post in enumerate(generated_posts, 1):
-        print(f"\nPost {i}: {post}")
+if __name__ == '__main__':
+    FLAN_T5_LOGGER.info("Starting Fine-Tuning Process...")
+    flan_t5_finetuner_main(logger = FLAN_T5_LOGGER)
+    FLAN_T5_LOGGER.info("Fine-Tuning Completed Successfully!")

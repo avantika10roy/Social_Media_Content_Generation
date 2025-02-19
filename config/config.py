@@ -59,6 +59,9 @@ class Config:
     AUGMENTED_IMAGES_PATH                 = './data/augmented_data/augmented_images'
     AUGMENTED_DATA_PATH                   = "./data/augmented_data/augmented_data.json"
     AUGMENTED_LOGO_PATH                   = "./data/augmented_data/logo_data.json"
+
+    # LOGO IDENTIFICATION OUTPUT
+    AUGMENTED_LOGO_RESULT                 = "./data/logo_identification_result/output_with_logo_info_and_uploads.json"
     
 
     LOGO_PATH                             = "data/logo.jpg"
