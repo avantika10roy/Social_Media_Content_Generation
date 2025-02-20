@@ -1,8 +1,8 @@
 # ------Doane by Manu Bhaskar --------
 
 # ------ Dependencies --------
-import io
 import os
+import time
 import json
 import torch
 import numpy as np
@@ -15,6 +15,7 @@ from typing import Optional, Callable
 from src.utils.set_seed import set_seed
 from src.utils.logger import LoggerSetup
 from peft import LoraConfig, get_peft_model
+from src.utils.set_seed import set_global_seed
 from torch.utils.data import Dataset, DataLoader
 from src.prompts.prompts import llm_finetuning_prep
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -46,7 +47,6 @@ class CustomDatasetForLLMFineTuning(Dataset):
         if torch.is_tensor(idx):
             idx = idx.tolist()
         
-        # self.json_data = np.array(self.json_data)
         sample = self.json_data[idx]
         data       = self.transform(sample)
         input      = self.tokenizer(data, 
@@ -55,7 +55,7 @@ class CustomDatasetForLLMFineTuning(Dataset):
                                     return_tensors = 'pt', 
                                     max_length     = self.max_len)
         labels = input["input_ids"].clone().detach()
-        shifted_lables = torch.cat((labels[:, 1:], torch.tensor([[-100]], dtype=labels.dtype)), dim=-1)
+        shifted_lables = torch.cat((labels[:, 1:], torch.tensor([[11]], dtype=labels.dtype)), dim=-1)
         input["labels"] = shifted_lables
         return {key: val.squeeze(0) for key, val in input.items()}
 
@@ -87,6 +87,7 @@ class LLMTuner:
                                             lora_dropout=lora_dropout,
                                             task_type=task_type)
             self.model         = get_peft_model(self.model, self.lora_config)
+            self.model         = self.model.to(self.device)
             self.optimizer = AdamW(self.model.parameters(), lr=self.lr)
             self.logger.info("Lora setup completed.")
         except Exception as LoraSetupError:
@@ -98,6 +99,7 @@ class LLMTuner:
         outputs = self.model(**inputs)
         loss = outputs.loss / self.accumulation_steps
         loss.backward()
+        torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=1.0)
         return loss.item()
     
     def save_model(self, path:str):
@@ -119,7 +121,7 @@ class LLMFineTuning:
             self.results_dir = results_dir
 
             if (not os.path.isdir(model_path)) or (not os.path.isdir(tokenizer_path)):
-                self.model = AutoModelForCausalLM.from_pretrained(self.model_name, device_map=self.device)
+                self.model = AutoModelForCausalLM.from_pretrained(self.model_name, device_map="cpu")
                 self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
 
                 self.tokenizer.pad_token = self.tokenizer.eos_token
@@ -128,7 +130,7 @@ class LLMFineTuning:
                 self.model.save_pretrained(model_path)
                 self.tokenizer.save_pretrained(tokenizer_path)
             else:
-                self.model = AutoModelForCausalLM.from_pretrained(self.model_path, device_map=self.device)
+                self.model = AutoModelForCausalLM.from_pretrained(self.model_path, device_map="cpu")
                 self.tokenizer = AutoTokenizer.from_pretrained(self.tokenizer_path)
 
                 self.tokenizer.pad_token = self.tokenizer.eos_token
@@ -147,7 +149,7 @@ class LLMFineTuning:
                                                          transform=llm_finetuning_prep,
                                                          max_length=256)
 
-            self.dataloader = DataLoader(dataset=self.dataset, batch_size=batch_size, shuffle=False)
+            self.train_loader = DataLoader(dataset=self.dataset, batch_size=batch_size, shuffle=False)
 
             self.tuner = LLMTuner(model=self.model,
                                   tokenizer=self.tokenizer,
@@ -157,11 +159,11 @@ class LLMFineTuning:
                                   gradient_accumulation_steps=self.accumulation_steps)
             
             if setup_lora:
-                self.tuner.lora_model_setup(r=4,
-                                            lora_alpha=8,
+                self.tuner.lora_model_setup(r=8,
+                                            lora_alpha=16,
                                             target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
                                             bias="none",
-                                            lora_dropout=0.0,
+                                            lora_dropout=0.1,
                                             task_type="CAUSAL_LM")
         
         except Exception as SetupError:
@@ -176,9 +178,8 @@ class LLMFineTuning:
             total_loss = 0
             self.tuner.optimizer.zero_grad()
 
-            buffer = io.StringIO()
-            
-            for batch in tqdm(self.dataloader, desc="Training Progress", file=buffer):
+            start_time = time.time()
+            for batch in tqdm(self.train_loader, desc="Training Progress"):
                 loss = self.tuner.train_step(batch=batch)
                 total_loss+=loss
                 step_counter += 1
@@ -186,12 +187,20 @@ class LLMFineTuning:
                 if step_counter % self.accumulation_steps == 0:
                     self.tuner.optimizer.step()
                     self.tuner.optimizer.zero_grad()
+            end_time = time.time()
 
-            self.logger.info(buffer.getvalue())
             avg_loss = total_loss/len(self.dataloader)
-            self.logger.info(f"Epoch {epoch+1}/{self.epochs}, Total Loss : {total_loss}, Average Loss: {avg_loss:.4f}")
+            self.logger.info(f"Epoch {epoch+1}/{self.epochs}, Total Loss : {total_loss}, Average Loss: {avg_loss:.4f}, Time Taken: {end_time-start_time}")
             
             self.tuner.save_model(self.results_dir)
+
+    # def evaluate(self):
+    #     self.tuner.model.train()
+    #     total_loss = 0
+
+    #     with torch.no_grad():
+    #         for batch in val
+    #     pass
         
 
 
@@ -199,6 +208,7 @@ class LLMFineTuning:
 if __name__ == "__main__":
     finetune_logger = LoggerSetup(logger_name="llm_fine_tuner_pipeline.py", log_filename_prefix="llm_fine_tuner_pipeline").get_logger()
     finetune_logger.info("Logger Successfully Initialized")
+    set_global_seed(logger=finetune_logger, seed=42)
     fine_tuning = LLMFineTuning(model_path='src/base_models/falcon1b/model',
                                 tokenizer_path='src/base_models/falcon1b/tokenizer',
                                 device="cpu",

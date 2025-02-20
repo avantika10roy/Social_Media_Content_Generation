@@ -13,29 +13,28 @@ class LLMInference:
     A class that makes inference based on the given model name
     Currently only supports Mistral-7B-Instruct and Falcon-1B-Instruct
     """
-    MODEL_PATH = './base_models/falcon1b/model'
-    TOKENIZER_PATH = './base_models/falcon1b/tokenizer'
-    LORAPATH = '../results/llm_results/fine_tuning_results_v1/checkpoint-115'
+    MODEL_PATH = 'base_models/falcon1b/model'
+    TOKENIZER_PATH = 'base_models/falcon1b/tokenizer'
+    LORAPATH = 'results/llm_results/pipeline_finetuning_v9'
     def __init__(self, model_name:str, prompt_info:dict):
         self.base_model = AutoModelForCausalLM.from_pretrained(self.MODEL_PATH)
         self.tokenizer = AutoTokenizer.from_pretrained(self.TOKENIZER_PATH)
+        self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
 
-        self.model = PeftModel.from_pretrained(self.MODEL_PATH, self.LORAPATH)
+        self.model = PeftModel.from_pretrained(self.base_model, self.LORAPATH)
         
-        # self.prompt = llm_prompt(**prompt_info)
 
     
-    def generate(self):
+    def generate(self, prompt):
 
-        inputs = self.tokenizer(self.prompt, return_tensors='pt')
-        output = self.model.generate(**inputs, max_new_tokens = 500)
+        inputs = self.tokenizer(prompt, return_tensors='pt')
+        output = self.model.generate(**inputs, max_new_tokens = 250, do_sample = True, top_p = 0.95, top_k = 40, temperature = 0.3, no_repeat_ngram_size=3, repetition_penalty=1.2)
 
         generated_text = self.tokenizer.decode(output[0], skip_special_tokens=True)
-        print(generated_text)
         
-        pass
+        return generated_text
 
-    pass
+    
 
 if __name__ == '__main__':
     # prompt_info = {'platform':'facebook','topic':'Republic Day'}
