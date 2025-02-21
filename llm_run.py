@@ -19,10 +19,10 @@ set_global_seed(logger=finetune_logger, seed=42)
 
 # The topic should be decriptive enough so that the model does not hallucinate
 prompt = llm_prompt(platform="facebook", 
-                    topic="Republic Day Greetings for year 2025", 
+                    topic="Republic Day Greeting", 
                     company_name="Itobuz Private Limited", 
-                    extra_details="None",
-                    occasion="None")
+                    extra_details="The year should not be included",
+                    occasion="No Occasion")
 
 infer = LLMInference(model_path='src/base_models/falcon1b/model',
                      tokenizer_path='src/base_models/falcon1b/tokenizer', 
