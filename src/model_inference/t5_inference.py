@@ -1,5 +1,7 @@
 ## ----- DONE BY PRIYAM PAL -----
 
+## ----- INFERENCE OF FINE-TUNED T5-BASE MODEL -----
+
 # DEPENDENCIES
 
 import re
@@ -9,6 +11,7 @@ from peft import PeftModel
 from peft import PeftConfig
 from transformers import T5Tokenizer
 from transformers import T5ForConditionalGeneration
+from src.prompts.llm_prompt_template import generate_prompt
 
 import warnings
 warnings.filterwarnings(action = 'ignore')
@@ -40,7 +43,7 @@ class T5LoRAInference:
         ----------
             model_path                 {str}               : Path to the directory containing the adapter files
             
-            device           {torch.device, optional}      : Device to run inference on. If None, uses MPS if available,
+            device             {torch.device, optional}    : Device to run inference on. If None, uses MPS if available,
                                                              then CUDA if available, otherwise CPU
         
         Raises:
@@ -101,70 +104,70 @@ class T5LoRAInference:
         except Exception as e:
             raise RuntimeError(f"Failed to load model: {str(e)}")
     
-    def create_prompt(self, platform: str, topic: str, brief: str, extras: str, word_limit: str, target_audience: str, tone: str) -> str:
-        """
-        Create a prompt for generating social media content using chain of thought approach.
+    # def create_prompt(self, platform: str, topic: str, brief: str, extras: str, word_limit: str, target_audience: str, tone: str) -> str:
+    #     """
+    #     Create a prompt for generating social media content using chain of thought approach.
         
-        Arguments:
-        ----------
-            platform                    {str}            : Social media platform (e.g., "Facebook", "LinkedIn", "Instagram")
+    #     Arguments:
+    #     ----------
+    #         platform                    {str}            : Social media platform (e.g., "Facebook", "LinkedIn", "Instagram")
             
-            topic                       {str}            : Main topic of the post
+    #         topic                       {str}            : Main topic of the post
             
-            brief                       {str}            : Brief description or key points to include
+    #         brief                       {str}            : Brief description or key points to include
             
-            extras                 {str, optional}       : Any additional information to consider
+    #         extras                 {str, optional}       : Any additional information to consider
             
-            word_limit             {int, optional}       : Maximum word count for the post
+    #         word_limit             {int, optional}       : Maximum word count for the post
             
-            target_audience        {str, optional}       : Target audience for the post
+    #         target_audience        {str, optional}       : Target audience for the post
             
-            tone                   {str, optional}       : Desired tone of the post
+    #         tone                   {str, optional}       : Desired tone of the post
         
-        Returns:
-        --------
-            post                         {str}           : Formatted prompt for the model
+    #     Returns:
+    #     --------
+    #         post                         {str}           : Formatted prompt for the model
         
-        """
+    #     """
         
-        prompt = f"""
-        Task: Create a {platform} post about {topic}.
+    #     prompt = f"""
+    #     Task: Create a {platform} post about {topic}.
 
-        Let me think through this step by step:
+    #     Let me think through this step by step:
 
-            1. Platform considerations:
-                - Platform: {platform}
-                - Ideal post length: Within {word_limit} words
-                - Format needed: Post heading, post content, 5 hashtags, at least 2 emojis
+    #         1. Platform considerations:
+    #             - Platform: {platform}
+    #             - Ideal post length: Within {word_limit} words
+    #             - Format needed: Post heading, post content, 5 hashtags, at least 2 emojis
 
-            2. Content planning:
-                - Main topic: {topic}
-                - Key points from brief: {brief}
-                - Target audience: {target_audience}
-                - Tone to use: {tone}
-        """
+    #         2. Content planning:
+    #             - Main topic: {topic}
+    #             - Key points from brief: {brief}
+    #             - Target audience: {target_audience}
+    #             - Tone to use: {tone}
+    #     """
                 
-        if extras:
-            prompt += f"""- Additional considerations: {extras}"""
+    #     if extras:
+    #         prompt += f"""- Additional considerations: {extras}"""
                     
-        prompt += f"""
-            3. Content structure:
-                - Start with an attention-grabbing heading
-                - Follow with informative and engaging content
-                - End with 5 relevant hashtags
-                - Include at least 2 appropriate emojis
-                - Ensure the total post stays within {word_limit} words
+    #     prompt += f"""
+    #         3. Content structure:
+    #             - Start with an attention-grabbing heading
+    #             - Follow with informative and engaging content
+    #             - End with 5 relevant hashtags
+    #             - Include at least 2 appropriate emojis
+    #             - Ensure the total post stays within {word_limit} words
 
-            Now, create a {platform} post about {topic} for {target_audience} audience in a {tone} tone that includes:
-                - A compelling heading
-                - Engaging content
-                - 5 relevant hashtags
-                - At least 2 emojis
+    #         Now, create a {platform} post about {topic} for {target_audience} audience in a {tone} tone that includes:
+    #             - A compelling heading
+    #             - Engaging content
+    #             - 5 relevant hashtags
+    #             - At least 2 emojis
                 
-            Final Post:
-        """
+    #         Final Post:
+    #     """
         
-        return prompt.strip()
+    #     return prompt.strip()
     
     def generate_post(self, platform: str, topic: str, brief: str, extras: str, word_limit: str, target_audience: str, tone: str) -> str:
         """
@@ -194,27 +197,36 @@ class T5LoRAInference:
         -------
             RuntimeError: If generation fails at the runtime
         """
-        prompt              = self.create_prompt(platform         = platform,
-                                                 topic            = topic,
-                                                 brief            = brief,
-                                                 extras           = extras,
-                                                 word_limit       = word_limit,
-                                                 target_audience  = target_audience,
-                                                 tone             = tone
-                                                 )
+        
+        # prompt              = self.create_prompt(platform         = platform,
+        #                                          topic            = topic,
+        #                                          brief            = brief,
+        #                                          extras           = extras,
+        #                                          word_limit       = word_limit,
+        #                                          target_audience  = target_audience,
+        #                                          tone             = tone
+        #                                          )
+        
+        prompt              = generate_prompt(occasion          = "Republic Day",
+                                              brief             = "Celebrate the spirit of patriotism",
+                                              platform          = "LinkedIn",
+                                              target_audience   = "professionals",
+                                              tone              = "inspirational",
+                                              extra_details     = ""
+                                              )
         
         try:
-            inputs           = self.tokenizer(prompt, 
-                                              return_tensors  = "pt", 
-                                              padding         = True, 
-                                              truncation      = True,
-                                              max_length      = 512 
-                                              ).to(self.device)
+            inputs          = self.tokenizer(prompt, 
+                                             return_tensors  = "pt", 
+                                             padding         = True, 
+                                             truncation      = True,
+                                             max_length      = 512 
+                                             ).to(self.device)
             
             with torch.no_grad():
                 outputs      = self.model.generate(**inputs,
-                                                   max_length              = 2048,      # Maximum length of the generated sequence.
-                                                   min_length              = 1000,      # Minimum length of the generated sequence to avoid very short outputs.
+                                                   max_length              = 1024,      # Maximum length of the generated sequence.
+                                                   min_length              = 100,       # Minimum length of the generated sequence to avoid very short outputs.
                                                    temperature             = 0.5,       # Controls randomness; lower values make output more deterministic.
                                                    top_p                   = 0.92,      # Nucleus sampling: limits sampling to top tokens whose cumulative probability exceeds `top_p`.
                                                    do_sample               = True,      # Enables sampling instead of greedy/beam search for more diverse outputs.
@@ -235,9 +247,9 @@ class T5LoRAInference:
             return generated_text
             
             # return final_post
-        
-        
             
+            
+             
         except Exception as e:
             raise RuntimeError(f"Generation failed: {str(e)}")
     
