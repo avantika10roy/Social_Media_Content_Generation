@@ -16,12 +16,12 @@ class LLMInference:
     MODEL_PATH = 'base_models/falcon1b/model'
     TOKENIZER_PATH = 'base_models/falcon1b/tokenizer'
     LORAPATH = 'results/llm_results/pipeline_finetuning_v9'
-    def __init__(self, model_name:str, prompt_info:dict):
-        self.base_model = AutoModelForCausalLM.from_pretrained(self.MODEL_PATH)
-        self.tokenizer = AutoTokenizer.from_pretrained(self.TOKENIZER_PATH)
+    def __init__(self, model_path, tokenizer_path, lora_path):
+        self.base_model = AutoModelForCausalLM.from_pretrained(model_path)
+        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
         self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
 
-        self.model = PeftModel.from_pretrained(self.base_model, self.LORAPATH)
+        self.model = PeftModel.from_pretrained(self.base_model, lora_path)
         
 
     
