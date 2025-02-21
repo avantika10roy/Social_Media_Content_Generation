@@ -1,24 +1,31 @@
     
 
 # -------- Done By Manu --------------
-def llm_prompt(platform:str, topic:str, company_name:str, lang:str = 'English', word_lim:int = 250) -> str :
-    LLM_PROMPT = f"""Generate a high-quality, engaging and professional social media post for a {company_name} in a descriptive format. Follow the example structure and ensure clarity, creativity, context awareness, and audience engagement.
+def llm_prompt(platform:str, topic:str, company_name:str, extra_details:str="None", occasion:str="None", lang:str = 'English', word_lim:int = 250) -> str :
+    LLM_PROMPT = f"""Instruction:
+    Generate a high-quality, engaging and professional social media post for a company called "{company_name}" in a descriptive format.
+    Follow the example structure, fulfil the requirements and ensure clarity, creativity, context awareness, and audience engagement.
+    
     Context:
-    - Platform: {platform}  
+    - Platform: {platform}
     - Topic: {topic}
-    - Language: {lang}  
+    - Occasion: {occasion}
+    - Extra Details: {extra_details}
+    - Language: {lang}
     - Word Limit: {word_lim}
 
     Requirements:
     - Craft a compelling opening that grabs attention.  
     - Highlight key details about the business or occasion.  
-    - Maintain a consistent and engaging tone throughout.  
+    - Maintain a consistent and engaging tone throughout. 
+    - Any hashtag provided in the extra details must be used.
+    - If no hashtag is provided in extra details then number of generated hastags should not be more than five.
+    - Usage of emoji sould depend on the platform.
     - Tone should be determined by the platform.
+    - Try not to put any placeholders.
     - Use persuasive language and storytelling where applicable.  
-    - Include a strong call to action (CTA) to encourage engagement.  
-
-
-    Now, generate a social media post using the provided context."""
+    - Include a strong call to action (CTA) to encourage engagement.
+    - Generated post should be ready to be posted online."""
 
     return LLM_PROMPT
 
