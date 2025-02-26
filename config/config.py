@@ -25,11 +25,13 @@ class Config:
     LINKEDIN_RAW_IMAGE_DATA_LINK          = 'https://drive.google.com/drive/folders/1-PwFzDBfRFHWtadLEXubp-Kl2h8UquqG?usp=sharing'
     LINKEDIN_CLEANED_POST_DATA_PATH       = './data/cleaned_data/linkedin_cleaned_data.json'
     LINKEDIN_CLEANED_IMAGE_DATA_PATH      = './data/cleaned_data/linkedin_cleaned_images'
+    LINKEDIN_PREPROCESSED_IMAGE_DATA_PATH = './data/preprocessed_data/linkedin_preprocessed_images'
+
     
     # INSTAGRAM CONFIGURATIONS
     INSTAGRAM_USERNAME                    = "itobuztechnologies"
     INSTAGRAM_RAW_POST_DATA_PATH          = "./data/raw_data/instagram_raw_data.json"
-    INSTAGRAM_RAW_IMAGE_DATA_PATH         = "./data/raw_data/instagram_images"
+    INSTAGRAM_RAW_IMAGE_DATA_PATH         = "./data/raw_data/instagram_raw_images"
     INSTAGRAM_RAW_IMAGE_DATA_LINK         = "https://drive.google.com/drive/folders/1yt3LRxXKjp_U8U5sB5FFEAqLcFVhsElo?usp=sharing"
     INSTAGRAM_CLEANED_POST_DATA_PATH      = './data/cleaned_data/instagram_cleaned_data.json'
     INSTAGRAM_CLEANED_IMAGE_DATA_PATH     = './data/cleaned_data/instagram_cleaned_images'
@@ -52,8 +54,24 @@ class Config:
     PREPROCESSED_POST_DATA_PATH           = './data/preprocessed_data/preprocessed_data.json'
     PREPROCESSED_IMAGE_DATA_PATH          = "./data/preprocessed_data/preprocessed_images"
     
+    # AUGMENTED DATA PATHS
+    AUGMENTED_NEW_DATA_PATH               = './data/augmented_data/new_data.json'
+    AUGMENTED_IMAGES_PATH                 = './data/augmented_data/augmented_images'
+    AUGMENTED_DATA_PATH                   = "./data/augmented_data/augmented_data.json"
+    AUGMENTED_LOGO_PATH                   = "./data/augmented_data/logo_data.json"
+
+    # LOGO IDENTIFICATION OUTPUT
+    AUGMENTED_LOGO_RESULT                 = "./data/logo_identification_result/output_with_logo_info_and_uploads.json"
+    
+
+    LOGO_PATH                             = "data/logo.jpg"
     RANDOM_SEED                           = 42
     
+    # BLIP IMAGE TO TEXT PATHS
+    BLIP_OUTPUT_PATH                      = './data/Blip_with_context'
+
+    # Logo information 
+    LOGO_INFO_OUTPUT_PATH                 = './data/logo_identification_result/output_with_logo_info_and_uploads.json'
 
     @staticmethod
     def setup_directories():

@@ -23,8 +23,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFfakZWNWgc_6.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udcaa"
+            "\ud83d\udcaa",
+            "\ud83d\ude80"
         ],
         "platform":"instagram"
     },
@@ -69,8 +69,13 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DFNT1nks7P2_5.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
             "\ud83d\udc49",
             "\ud83d\udca1",
+=======
+            "\ud83d\udca1",
+            "\ud83d\udc49",
+>>>>>>> main
             "\ud83d\udcc8"
         ],
         "platform":"instagram"
@@ -99,10 +104,17 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DE7OYHnKZLU_6.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
             "\ud83c\udf1f",
             "\u2728",
             "\ud83c\uddfa\ud83c\uddf8",
             "\ud83d\udcbb"
+=======
+            "\ud83c\uddfa\ud83c\uddf8",
+            "\ud83d\udcbb",
+            "\ud83c\udf1f",
+            "\u2728"
+>>>>>>> main
         ],
         "platform":"instagram"
     },
@@ -183,8 +195,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DEFZnukM30T_5.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udc49"
+            "\ud83d\udc49",
+            "\ud83d\ude80"
         ],
         "platform":"instagram"
     },
@@ -208,10 +220,17 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_DD_OxrPKqVL.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
             "\ud83d\udca1",
             "\u2728",
             "\u2764\ufe0f",
             "\ud83c\udf85"
+=======
+            "\ud83c\udf85",
+            "\ud83d\udca1",
+            "\u2728",
+            "\u2764\ufe0f"
+>>>>>>> main
         ],
         "platform":"instagram"
     },
@@ -680,9 +699,15 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_0dYZAMgTV.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
             "\ud83d\udc68\u200d\ud83d\udcbb",
             "\ud83d\udc69\u200d\ud83d\udcbb",
             "\ud83c\udf89"
+=======
+            "\ud83c\udf89",
+            "\ud83d\udc69\u200d\ud83d\udcbb",
+            "\ud83d\udc68\u200d\ud83d\udcbb"
+>>>>>>> main
         ],
         "platform":"instagram"
     },
@@ -767,8 +792,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C_BA4RKPHYd_5.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83c\udf1f"
+            "\ud83c\udf1f",
+            "\ud83d\ude80"
         ],
         "platform":"instagram"
     },
@@ -1074,10 +1099,17 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C7YW-x8RSSt_5.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
             "\ud83d\udcb0",
             "\ud83d\udd04",
             "\ud83c\udf0d",
             "\u26a1"
+=======
+            "\ud83c\udf0d",
+            "\ud83d\udd04",
+            "\u26a1",
+            "\ud83d\udcb0"
+>>>>>>> main
         ],
         "platform":"instagram"
     },
@@ -1346,9 +1378,9 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C39xu0UMiCZ_5.jpg"
         ],
         "emoji":[
+            "\ud83d\udde3\ufe0f",
             "\ud83c\udf10",
-            "\ud83d\udcac",
-            "\ud83d\udde3\ufe0f"
+            "\ud83d\udcac"
         ],
         "platform":"instagram"
     },
@@ -1582,8 +1614,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1cBbQniN0k_4.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83c\udf08"
+            "\ud83c\udf08",
+            "\ud83d\ude80"
         ],
         "platform":"instagram"
     },
@@ -1602,11 +1634,19 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_C1KHezhr8yr_4.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
             "\ud83c\udf10",
             "\ud83d\ude80",
             "\ud83d\udcca",
             "\ud83d\udd0d",
             "\ud83c\udfc0"
+=======
+            "\ud83c\udfc0",
+            "\ud83d\udcca",
+            "\ud83d\udd0d",
+            "\ud83c\udf10",
+            "\ud83d\ude80"
+>>>>>>> main
         ],
         "platform":"instagram"
     },
@@ -1782,8 +1822,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cy5yNRgBOxt_4.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udd10"
+            "\ud83d\udd10",
+            "\ud83d\ude80"
         ],
         "platform":"instagram"
     },
@@ -1915,8 +1955,12 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwxOTwbBAZr_5.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
             "\ud83d\udcac",
+            "\ud83d\ude80",
+<<<<<<< HEAD
+            "\ud83d\udcac",
+=======
+>>>>>>> main
             "\ud83e\udd16"
         ],
         "platform":"instagram"
@@ -1970,12 +2014,21 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CwP6RrONI8l_5.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
             "\ud83d\udcc8",
             "\ud83d\udcc9",
             "\ud83d\udcbc",
             "\ud83d\udccb",
             "\ud83d\udeab",
             "\ud83d\udca1"
+=======
+            "\ud83d\udccb",
+            "\ud83d\udcbc",
+            "\ud83d\udcc9",
+            "\ud83d\udcc8",
+            "\ud83d\udca1",
+            "\ud83d\udeab"
+>>>>>>> main
         ],
         "platform":"instagram"
     },
@@ -2057,6 +2110,7 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cu9demaPg7x_5.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
             "\ud83c\udfaf",
             "\ud83c\udf1f",
             "\u2728",
@@ -2069,6 +2123,20 @@
             "\ud83d\udcca",
             "\ud83d\udd0d",
             "\ud83d\udc69\u200d\ud83c\udf93"
+=======
+            "\ud83d\udcbb",
+            "\ud83c\udfaf",
+            "\ud83d\udcca",
+            "\ud83c\udf1f",
+            "\ud83c\udfeb",
+            "\ud83e\udd1d",
+            "\ud83d\udca1",
+            "\u2728",
+            "\ud83d\udc69\u200d\ud83c\udf93",
+            "\ud83d\udd0d",
+            "\ud83d\udcda",
+            "\u2705"
+>>>>>>> main
         ],
         "platform":"instagram"
     },
@@ -2117,8 +2185,8 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CuWdKhTMylu_4.jpg"
         ],
         "emoji":[
-            "\ud83d\ude80",
-            "\ud83d\udca1"
+            "\ud83d\udca1",
+            "\ud83d\ude80"
         ],
         "platform":"instagram"
     },
@@ -2143,10 +2211,17 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_CteWSzVv7pa_5.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
             "\ud83d\udcbc",
             "\ud83c\udf1f",
             "\ud83d\udcf1",
             "\ud83d\udcf2"
+=======
+            "\ud83d\udcf1",
+            "\ud83d\udcf2",
+            "\ud83c\udf1f",
+            "\ud83d\udcbc"
+>>>>>>> main
         ],
         "platform":"instagram"
     },
@@ -2205,10 +2280,17 @@
             ".\/data\/cleaned_data\/instagram_cleaned_images\/post_Cs2-5SIyX-N_5.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
             "\ud83c\udf0d",
             "\u2728",
             "\ud83d\udca1",
             "\ud83c\udf31",
+=======
+            "\ud83c\udf31",
+            "\ud83c\udf0d",
+            "\ud83d\udca1",
+            "\u2728",
+>>>>>>> main
             "\u267b\ufe0f"
         ],
         "platform":"instagram"

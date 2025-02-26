@@ -3,6 +3,7 @@
 # ---- Dependencies -----
 
 import pandas
+import torch
 import transformers
 from datasets import Dataset
 from peft import LoraConfig, get_peft_model
@@ -32,6 +33,8 @@ class LLMFineTuner:
 
             self.model         = AutoModelForCausalLM.from_pretrained(model_path)
             self.tokenizer     = AutoTokenizer.from_pretrained(tokenizer_path)
+            if self.tokenizer.pad_token is None:
+                self.tokenizer.pad_token = self.tokenizer.eos_token
             self.dataset       = dataset
             self.lora_config   = None
             self.training_args = None
@@ -84,6 +87,13 @@ class LLMFineTuner:
             self.logger.error(repr(TrainerDefinitionError), exc_info=True)
             return repr(TrainerDefinitionError)
 
+    def use_mps(self):
+        self.model.to("mps")
+    
+    def use_mps_mistral(self):
+        for name, param in self.model.named_parameters():
+            if ("q_proj" in name) or ("k_proj" in name) or ("v_proj" in name) or ("o_proj" in name):# or ("gate_proj" in name) or ("up_proj" in name) or ("down_proj" in name):
+                param.data = param.data.to("mps")
 
     def start_fine_tuning(self) -> AutoModelForCausalLM:
         """

@@ -4,13 +4,17 @@ emoji
 requests
 pandas
 beautifulsoup4
+numpy==1.26.4
+torch==2.2.2
 
 opencv-python
 torchvision
 selenium
 webdriver-manager
 
-transformers
-peft
-datasets
-pillow
+transformers==4.47.1
+peft==0.14.0
+datasets==3.2.0
+pillow==11.0.0
+tensorboardX==2.6.2.2
+tensorboard==2.19.0

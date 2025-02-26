@@ -13,8 +13,11 @@ data/raw_data/instagram_raw_images/
 data/cleaned_data/facebook_cleaned_images/
 data/cleaned_data/linkedin_cleaned_images/
 data/cleaned_data/instagram_cleaned_images/
+data/preprocessed_data/preprocessed_images2/
+data/preprocessed_data/linkedin_preprocessed_images/
 src/base_models/
 data/preprocessed_data/preprocessed_images
 curated_new_cleaned_images/
 data/raw_data/logo_image/
 curated_new_cleaned_images_2/
+data/
