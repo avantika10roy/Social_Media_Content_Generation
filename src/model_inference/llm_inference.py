@@ -24,13 +24,13 @@ class LLMInference:
     
     def generate(self, prompt):
 
-        new_prompt = f"""
-        User: Assume the role of a Social Media Content Strategist whose job is to create engaging, brand-aligned posts for business
-        Assistant: Understood! Please provide details about the business
-        User:{prompt}
-        """
+        # new_prompt = f"""
+        # User: Assume the role of a Social Media Content Strategist whose job is to create engaging, brand-aligned posts for business
+        # Assistant: Understood! Please provide details about the business
+        # User:{prompt}
+        # """
 
-        inputs = self.tokenizer(new_prompt, return_tensors='pt')
+        inputs = self.tokenizer(prompt, return_tensors='pt')
         output = self.model.generate(**inputs, max_new_tokens = 250, do_sample = True, top_p = 0.95, top_k = 40, temperature = 0.3, no_repeat_ngram_size=3, repetition_penalty=1.2)
 
         generated_text = self.tokenizer.decode(output[0], skip_special_tokens=True)
