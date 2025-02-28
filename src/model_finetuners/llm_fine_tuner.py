@@ -134,7 +134,7 @@ class LLMTrainer:
                                             task_type      = task_type)
             self.model         = get_peft_model(self.model, self.lora_config)
             self.model         = self.model.to(self.device)
-            self.optimizer = AdamW(self.model.parameters(), lr=self.lr, weight_decay=0.01)
+            self.optimizer     = AdamW(self.model.parameters(), lr=self.lr, weight_decay=0.01)
             self.logger.info("Lora setup completed.")
         except Exception as LoraSetupError:
             self.logger.error(repr(LoraSetupError), exc_info=True)

@@ -2,8 +2,7 @@
 
 # -------- Dependencies ----------
 import re
-import pandas
-import transformers
+import torch
 from datasets import Dataset
 from peft import LoraConfig, get_peft_model, PeftModel
 from transformers import AutoTokenizer, AutoModelForCausalLM, QuantoConfig
@@ -17,28 +16,35 @@ class LLMInference:
         self.base_model = AutoModelForCausalLM.from_pretrained(model_path)
         self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_path)
         self.tokenizer.pad_token_id = self.tokenizer.eos_token_id
-
         self.model = PeftModel.from_pretrained(self.base_model, lora_path)
-        
 
-    
     def generate(self, prompt):
 
-        # new_prompt = f"""
-        # User: Assume the role of a Social Media Content Strategist whose job is to create engaging, brand-aligned posts for business
-        # Assistant: Understood! Please provide details about the business
-        # User:{prompt}
-        # """
+        self.model.eval()
 
         inputs = self.tokenizer(prompt, return_tensors='pt')
-        output = self.model.generate(**inputs, max_new_tokens = 250, do_sample = True, top_p = 0.95, top_k = 40, temperature = 0.3, no_repeat_ngram_size=3, repetition_penalty=1.2)
+
+        with torch.no_grad():
+            output = self.model.generate(**inputs, 
+                                         min_new_tokens       = 100,
+                                         max_new_tokens       = 250, 
+                                         do_sample            = True, 
+                                         top_p                = 0.9, 
+                                         top_k                = 40, 
+                                         temperature          = 0.25, 
+                                         no_repeat_ngram_size = 3, 
+                                         repetition_penalty   = 1.2,
+                                         pad_token_id         = self.tokenizer.eos_token_id,
+                                         eos_token_id         = self.tokenizer.eos_token_id)
 
         generated_text = self.tokenizer.decode(output[0], skip_special_tokens=True)
 
-        # print(generated_text)
+        match          = re.search(r"--\s*(.*)", generated_text, re.DOTALL)
 
-        clean_text = re.search(r"<\|assistant\|>\s*(.*)", generated_text, re.DOTALL).group(1).strip()
+        if match:
+            clean_text = match.group(1).strip()
+        else:
+            clean_text = generated_text
         
         return clean_text
 
-    
