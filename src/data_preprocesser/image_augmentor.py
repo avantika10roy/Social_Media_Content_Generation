@@ -6,7 +6,6 @@ import cv2
 import numpy as np
 import pandas as pd
 import albumentations as A
-from collections import Counter
 from ..utils.logger import LoggerSetup
 from ..utils.color_themes import get_color_themes
 from sklearn.cluster import MiniBatchKMeans
@@ -29,7 +28,7 @@ class PreProcessor:
             A.Resize(*self.img_size)
         ])
     
-    def convert_to_separate_rows(self, df: pd.DataFrame):
+    def convert_to_separate_rows(self, df: pd.DataFrame) -> pd.DataFrame:
         ''' 
         Converts the data to separate rows based on the image paths.
         Arguments:
@@ -76,7 +75,7 @@ class PreProcessor:
         return separated_df
     
     
-    def image_augmentation(self, df: pd.DataFrame, save_dir: str, num_augmented_copies: int=3):
+    def image_augmentation(self, df: pd.DataFrame, save_dir: str, num_augmented_copies: int=3) -> pd.DataFrame:
         '''
         Performs Image Augmentation.
         Arguments:
@@ -154,7 +153,7 @@ class PreProcessor:
         return pd.DataFrame(augmented_data)
     
 
-    def extract_color(self, image_path):
+    def extract_color(self, image_path : str) -> str:
         '''Extracts dominant colors using clustering.'''
         try:
             image           = cv2.imread(image_path)
@@ -177,7 +176,7 @@ class PreProcessor:
             preprocessor_log.error(f"Error extracting color from {image_path}: {repr(e)}")
             return "unknown"
 
-    def get_dominant_colors(self, df: pd.DataFrame):
+    def get_dominant_colors(self, df: pd.DataFrame) -> pd.DataFrame:
         """
         Extract dominant colors for each image in the DataFrame and add a 'color_theme' column.
         """
@@ -186,7 +185,7 @@ class PreProcessor:
         preprocessor_log.info("Successfully extracted dominant colors.")
         return df
     
-    def determine_layout(self, image_path):
+    def determine_layout(self, image_path: str) -> str:
         """
             Function to check layout of images
 
@@ -211,7 +210,7 @@ class PreProcessor:
             preprocessor_log.error(f"Error determining layout for {image_path}: {repr(e)}")
             return "unknown"
     
-    def get_layout(self, df):
+    def get_layout(self, df: pd.DataFrame) -> pd.DataFrame: # DONE BY AVANTIKA
        ''' Extracts layout of the image.'''
        preprocessor_log.info("Determining Layout.")
        df['image_layout'] =  df['image_path'].apply(self.determine_layout)
@@ -219,7 +218,7 @@ class PreProcessor:
        return df
     
 
-    def run_preprocessor(self, df: pd.DataFrame, save_dir: str):
+    def run_preprocessor(self, df: pd.DataFrame, save_dir: str) -> pd.DataFrame:
         '''
         Runs the data preprocessor.
         Arguments:
