@@ -62,16 +62,25 @@ class Config:
 
     # LOGO IDENTIFICATION OUTPUT
     AUGMENTED_LOGO_RESULT                 = "./data/logo_identification_result/output_with_logo_info_and_uploads.json"
-    
-
     LOGO_PATH                             = "data/logo.jpg"
+    
+    LOGO_INFO_OUTPUT_PATH                 = './data/logo_identification_result/output_with_logo_info_and_uploads.json'
+    
     RANDOM_SEED                           = 42
     
     # BLIP IMAGE TO TEXT PATHS
     BLIP_OUTPUT_PATH                      = './data/Blip_with_context'
+    
+    # MONGODB CREDENTIALS
+    MONGO_DB_URI                          = "mongodb+srv://priyam:mongodb@data.drfg2.mongodb.net/?retryWrites=true&w=majority&appName=data"
+    
+    LLM_RESPONSE_JSON_FILE_PATH           = "./data/llm_response.json"
+    
+    # FAST API
+    TEXT_GENERATION_API                   = "http://192.168.68.134:8000/generate_text"
+    IMAGE_GENERATION_API                  = "https://mature-usually-impala.ngrok-free.app/generate"
 
-    # Logo information 
-    LOGO_INFO_OUTPUT_PATH                 = './data/logo_identification_result/output_with_logo_info_and_uploads.json'
+    
 
     @staticmethod
     def setup_directories():
