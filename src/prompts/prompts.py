@@ -1,23 +1,36 @@
     
 
 # -------- Done By Manu --------------
-def llm_prompt(platform:str, topic:str, company_name:str, target_audience:str="Followers", extra_details:str="", occasion:str="", tone:str="Formal", lang:str = 'English', word_lim:int = 250) -> str :
-    LLM_PROMPT = f"""
+def llm_prompt(platform:str, brief:str, company_name:str, target_audience:str="Followers", extra_details:str="", occasion:str=None, topic:str=None,tone:str="Formal", lang:str = 'English', word_lim:int = 250) -> str :
+    HEADING = f"""
     ### Generate a high-quality, engaging and **platform-optimized** social media post for a company called "{company_name}" in a descriptive format.
     ### The company name **must remain exactly as given** and should never be changed or abbreviated.
-    ### The post should, align with the company's audience, fulfil the requirements and ensure clarity, creativity, **context awareness**, and audience engagement.
+    ### The post should, align with the company's audience, fulfil the requirements and ensure clarity, creativity, **context awareness**, and audience engagement."""
     
+    if topic is None:
+        CONTEXT = f"""
     ### Context:
     - Platform: {platform}
-    - Topic: {topic}
-    - Occasion: {occasion}
-    - Extra Details: **{extra_details}**
+    - Occasion: **{occasion}**
+    - Brief: {brief}
+    - Extra Details: {extra_details}
     - Language: {lang}
     - Word Limit: {word_lim}
     - Tone: {tone}
-    - Target Audience: {target_audience}
+    - Target Audience: {target_audience}"""
+    else:
+        CONTEXT = f"""
+    ### Context:
+    - Platform: {platform}
+    - Topic: **{topic}**
+    - Brief: {brief}
+    - Extra Details: {extra_details}
+    - Language: {lang}
+    - Word Limit: {word_lim}
+    - Tone: {tone}
+    - Target Audience: {target_audience}"""
 
-    ### Writing Requirements:
+    REQUIREMENTS = """### Writing Requirements:
     - Opening should be compelling and must grab attention.  
     - Key details about the business or occasion must be highlighted.  
     - A consistent and engaging tone throughout MUST be maintained.  
@@ -32,6 +45,10 @@ def llm_prompt(platform:str, topic:str, company_name:str, target_audience:str="F
     ### Response:
     - // Your response will go here. Replace it with your crafted content.
     """
+
+    print(CONTEXT)
+
+    LLM_PROMPT = HEADING + CONTEXT + REQUIREMENTS
 
     return LLM_PROMPT
 
