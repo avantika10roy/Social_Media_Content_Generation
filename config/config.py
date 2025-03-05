@@ -69,6 +69,7 @@ class Config:
     
     # BLIP IMAGE TO TEXT PATHS
     BLIP_OUTPUT_PATH                      = './data/Blip_with_context'
+    BLIP_IMAGE_CONTEXT_DATA               = './data/Blip_with_context/blip_image_context.json'
 
     # Logo information 
     LOGO_INFO_OUTPUT_PATH                 = './data/logo_identification_result/output_with_logo_info_and_uploads.json'

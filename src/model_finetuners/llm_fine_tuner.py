@@ -2,14 +2,13 @@
 
 # ---- Dependencies -----
 
-import pandas
 import torch
-import transformers
 from datasets import Dataset
+from torch.optim import AdamW
 from peft import LoraConfig, get_peft_model
 from src.utils.logger import LoggerSetup
-from transformers import TrainingArguments, Trainer, set_seed # use set_seed during the calling of the class in beginning of the script
-from transformers import AutoTokenizer, AutoModelForCausalLM, QuantoConfig
+from transformers import TrainingArguments, Trainer
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 
 class LLMFineTuner:
@@ -106,3 +105,49 @@ class LLMFineTuner:
         except Exception as FineTuningStartError:
             self.logger.error(repr(FineTuningStartError), exc_info=True)
             return repr(FineTuningStartError)
+        
+
+
+class LLMTrainer:
+    def __init__(self, model:AutoModelForCausalLM, tokenizer:AutoTokenizer, device:str, logger:LoggerSetup, lr:int=5e-5, gradient_accumulation_steps:int=1):
+        try:
+            self.model              = model
+            self.tokenizer          = tokenizer
+            self.device             = device
+            self.logger             = logger
+            self.lr                 = lr
+            self.accumulation_steps = gradient_accumulation_steps
+
+        except Exception as InitializationError:
+            self.logger             = logger
+            self.logger.error(repr(InitializationError), exc_info=True)
+            return repr(InitializationError)
+        
+    def lora_model_setup(self, r:int, lora_alpha: int, target_modules: list, bias: str, lora_dropout:int, task_type:str):
+        try:
+            self.logger.info("Setting up lora adapters.")
+            self.lora_config   = LoraConfig(r=r, 
+                                            lora_alpha     = lora_alpha, 
+                                            target_modules = target_modules, 
+                                            bias           = bias, 
+                                            lora_dropout   = lora_dropout,
+                                            task_type      = task_type)
+            self.model         = get_peft_model(self.model, self.lora_config)
+            self.model         = self.model.to(self.device)
+            self.optimizer     = AdamW(self.model.parameters(), lr=self.lr, weight_decay=0.01)
+            self.logger.info("Lora setup completed.")
+        except Exception as LoraSetupError:
+            self.logger.error(repr(LoraSetupError), exc_info=True)
+            return repr(LoraSetupError)
+
+    def train_step(self, batch):
+        inputs                 = {key: batch[key].to(self.device) for key in batch}
+        outputs                = self.model(**inputs)
+        loss                   = outputs.loss / self.accumulation_steps
+        loss.backward()
+        torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=1.0)
+        return loss.item()
+    
+    def save_model(self, path:str):
+        self.model.save_pretrained(path)
+        self.tokenizer.save_pretrained(path)
