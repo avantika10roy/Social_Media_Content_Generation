@@ -21,11 +21,12 @@ inference_logger.info("Logger Successfully Initialized")
 set_global_seed(logger=inference_logger, seed=42)
 
 # The topic should be decriptive enough so that the model does not hallucinate
-prompt = llm_prompt(platform="Instagram", 
-                    topic="Holiday Greetings", 
+prompt = llm_prompt(platform="Facebook", 
+                    # topic="Holiday Greetings", 
                     company_name="Itobuz Private Limited",
                     extra_details="No year should be included in Hashtags",
                     occasion="Republic Day",
+                    brief= "Well Wishes for the day",
                     target_audience="Followers")
 
 infer = LLMInference(model_path='src/base_models/falcon1b/model',
