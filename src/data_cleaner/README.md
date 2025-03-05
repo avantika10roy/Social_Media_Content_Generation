@@ -40,9 +40,9 @@ cleaned_data = cleaner.clean_text(df["post_contents"])
 The image_cleaner.py module handles image processing tasks such as filtering irrelevant images and copying valid ones to structured directories.
 
 #### Features
-Filters images based on specified keywords.
-Removes invalid image formats (e.g., GIFs mistakenly saved as JPGs or PNGs).
-Copies relevant images to a structured directory.
+- Filters images based on specified keywords.
+- Removes invalid image formats (e.g., GIFs mistakenly saved as JPGs or PNGs).
+- Copies relevant images to a structured directory.
 
 #### Dependencies
 - `pandas`

@@ -37,10 +37,10 @@ print(data)
 The Instagram Scraper fetches posts, downloads images, and extracts metadata from a public profile using the Instaloader library.
 
 #### Features
-Uses Instaloader for efficient data extraction.
-Downloads images and saves metadata.
-Handles profile access errors.
-Stores extracted data in JSON format.
+- Uses Instaloader for efficient data extraction.
+- Downloads images and saves metadata.
+- Handles profile access errors.
+- Stores extracted data in JSON format.
 
 #### Dependencies
 - `instaloader`
@@ -61,9 +61,9 @@ scraper.scrape()
 The Facebook Scraper fetches posts from a Facebook page using the Apify API.
 
 #### Features
-Uses Apify API for structured data extraction.
-Saves posts and image URLs.
-Converts data into structured JSON and CSV formats.
+- Uses Apify API for structured data extraction.
+- Saves posts and image URLs.
+- Converts data into structured JSON and CSV formats.
 
 #### Dependencies
 - `apify-client`
