@@ -35,13 +35,13 @@ def main():
         linkedin_scraper.setup_driver(Config.CHROME_DRIVER_PATH)
 
         main_logger.info("Starting LinkedIn scraping process...")
-        df               = linkedin_scraper.linkedin_scraper()
+        linkedin_data         = linkedin_scraper.linkedin_scraper()
         
-        DataSaver.data_saver(df, Config.LINKEDIN_RAW_POST_DATA_PATH)
+        DataSaver.data_saver(linkedin_data, Config.LINKEDIN_RAW_POST_DATA_PATH)
         main_logger.info(f"LinkedIn Raw Data saved to {Config.LINKEDIN_RAW_POST_DATA_PATH}")
 
-        if not df.empty:
-            main_logger.info(f"Total posts scraped: {len(df)}")
+        if not linkedin_data.empty:
+            main_logger.info(f"Total posts scraped: {len(linkedin_data)}")
 
         else:
             main_logger.warning("No data was scraped.")
@@ -51,22 +51,23 @@ def main():
         sys.exit(1)
         
         
-    # # ----- INSTAGRAM SCRAPER -----    
-    # try:
-    #     main_logger.info("Initailizing the Instagram Scraper")
-    #     instagram_scraper = InstagramDataScraper()
+    # ----- INSTAGRAM SCRAPER -----    
+    try:
+        main_logger.info("Initailizing the Instagram Scraper")
+        instagram_scraper = InstagramDataScraper()
         
-    #     main_logger.info("Starting Instagram Scraping Process...")
-    #     instagram_scraper.instagram_scraper()
+        main_logger.info("Starting Instagram Scraping Process...")
+        instagram_scraper.instagram_scraper()
         
 
-    # except Exception as e:
-    #     main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
-    #     sys.exit(1)
+    except Exception as e:
+        main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
+        sys.exit(1)
 
-    #except Exception as e:
-    #    main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
-    #    sys.exit(1)
+    except Exception as e:
+       main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
+       sys.exit(1)
+    
     # ----- FACEBOOK SCRAPER -----
     try:
         main_logger.info("Initializing Facebook Scraper...")
