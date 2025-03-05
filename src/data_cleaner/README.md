@@ -8,7 +8,7 @@ The `src/data_cleaner` module is responsible for cleaning and preprocessing scra
 
 ---
 
-## Modules
+## Cleaners
 
 ### 1. Text Cleaner
 #### Description
