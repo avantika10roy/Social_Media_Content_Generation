@@ -1,15 +1,13 @@
 ## ----- DONE BY PRIYAM PAL AND SUBHAS MUKHERJEE -----
+#-----------------Refactored by Avantika Roy------------------
 
 # DEPENDENCIES
 import os
+import sys
 import time
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
-
-from ..utils.logger import LoggerSetup
-from config.config import Config
-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -18,8 +16,14 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+# Add the parent directory to the system path for imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+from config.config import Config
+from src.utils.logger import LoggerSetup
+
+
 # LOGGING SETUP
-scraper_logger = LoggerSetup(logger_name = "linkedin_web_scraper.py", log_filename_prefix = "linkedin").get_logger()
+linkedin_logger = LoggerSetup(logger_name = "linkedin_web_scraper.py", log_filename_prefix = "linkedin").get_logger()
 
 class LinkedinScraper:
     """
@@ -55,10 +59,10 @@ class LinkedinScraper:
             self.driver      = None
             self.wait        = None
             
-            scraper_logger.info("LinkedIn Scraper Class Initiated")
+            linkedin_logger.info("LinkedIn Scraper Class Initiated")
             
         except Exception as e:
-            scraper_logger.error(f"An Error Occured: {repr(e)}")
+            linkedin_logger.error(f"An Error Occured: {repr(e)}")
 
     def setup_driver(self, chromedriver_path: str) -> None: 
         """
@@ -88,10 +92,10 @@ class LinkedinScraper:
         
             self.wait       = WebDriverWait(self.driver, 10)
             
-            scraper_logger.info("WebDriver Initialized")
+            linkedin_logger.info("WebDriver Initialized")
             
         except Exception as e:
-            scraper_logger.error(f"An Error Occured: {repr(e)}")
+            linkedin_logger.error(f"An Error Occured: {repr(e)}")
 
     
     def linkedin_scraper(self) -> pd.DataFrame:
@@ -115,15 +119,15 @@ class LinkedinScraper:
                 df            = pd.DataFrame(posts_data)
                 df            = df.drop_duplicates()
 
-                scraper_logger.info("Scraping complete. Data saved to linkedin_raw_data.json")
-                scraper_logger.info(f"Total posts scraped: {len(df)}")
+                linkedin_logger.info("Scraping complete. Data saved to linkedin_raw_data.json")
+                linkedin_logger.info(f"Total posts scraped: {len(df)}")
                 return df
             else:
-                scraper_logger.info("No posts found. Please check the selectors and scroll logic.")
+                linkedin_logger.info("No posts found. Please check the selectors and scroll logic.")
                 return pd.DataFrame()
             
         except Exception as e:
-            scraper_logger.error(f"An Error Occured: {repr(e)}")
+            linkedin_logger.error(f"An Error Occured: {repr(e)}")
                 
         finally:
             if self.driver:
@@ -156,10 +160,10 @@ class LinkedinScraper:
         
             self.wait.until(EC.presence_of_element_located((By.CLASS_NAME, "feed-shared-update-v2")))
             
-            scraper_logger.info("Login Successful")
+            linkedin_logger.info("Login Successful")
             
         except Exception as e:
-            scraper_logger.error(f"An Error Occured: {repr(e)}")
+            linkedin_logger.error(f"An Error Occured: {repr(e)}")
 
     def _scroll_down(self) -> None:
         
@@ -257,12 +261,12 @@ class LinkedinScraper:
                                   '8fz8rainn3wh49ad6ef9gotj1'
                                   ]
             
-            scraper_logger.info("Image is Valid")
+            linkedin_logger.info("Image is Valid")
         
             return not any(indicator in src for indicator in invalid_indicators)
         
         except Exception as e:
-            scraper_logger.error(f"Error Occured capturing image: {repr(e)}")
+            linkedin_logger.error(f"Error Occured capturing image: {repr(e)}")
     
     def download_image(self, image_url, post_id):
         """
@@ -297,17 +301,17 @@ class LinkedinScraper:
                     for chunk in response.iter_content(1024):
                         file.write(chunk)
                 
-                scraper_logger.info(f"Downloaded: {image_name}")
+                linkedin_logger.info(f"Downloaded: {image_name}")
                 
                 return image_path
             
             else:
-                scraper_logger.warning(f"Failed to download image from {image_url}")
+                linkedin_logger.warning(f"Failed to download image from {image_url}")
             
                 return None
         except Exception as e:
             
-            scraper_logger.error(f"Error downloading image: {e}")
+            linkedin_logger.error(f"Error downloading image: {e}")
             
             return None
 
@@ -374,11 +378,11 @@ class LinkedinScraper:
                         scraped_data.append(post_data)
 
                 except Exception as e:
-                    scraper_logger.error(f"Error extracting post: {e}")
+                    linkedin_logger.error(f"Error extracting post: {e}")
                     continue
 
-            scraper_logger.info(f"Total unique posts found: {len(scraped_data)}")
+            linkedin_logger.info(f"Total unique posts found: {len(scraped_data)}")
             return scraped_data
         
         except Exception as e:
-            scraper_logger.error(f"Error Occured in Scraping: {str(e)}")
+            linkedin_logger.error(f"Error Occured in Scraping: {str(e)}")
