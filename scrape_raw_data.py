@@ -1,104 +1,77 @@
-## ----- DONE BY PRIYAM PAL -----
+#-------------------Priyam Pal and Anjisnu Roy-----------------
+#-----------------Refactored by Avantika Roy------------------
 
 # DEPENDENCIES
-
 import os
 import sys
+from datetime import datetime
+
+# Add the parent directory to the system path for imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+
+# Import scraper modules
 from config.config import Config
-from src.utils.data_saver import DataSaver
 from src.utils.logger import LoggerSetup
+from src.utils.data_saver import DataSaver
 from src.scraper.linkedin_scraper import LinkedinScraper
 from src.scraper.instagram_scraper import InstagramDataScraper
-from src.scraper.facebook_scraper import FacebookScraper,FacebookDataProcessor
+from src.scraper.facebook_scraper import FacebookScraper, FacebookDataProcessor
 
+# Initialize logger
+logger = LoggerSetup(logger_name="scraper_run", log_filename_prefix="scraper_main").get_logger()
 
-# LOGGING SETUP
-main_logger              = LoggerSetup(logger_name = "scraper_run.py", log_filename_prefix = "scraper_main").get_logger()
+def run_linkedin_scraper():
+    """Run the LinkedIn scraper"""
+    config = Config()
+    logger.info("Starting LinkedIn scraper...")
+    
+    scraper = LinkedinScraper(
+        username=config.LINKEDIN_USERNAME,
+        password=config.LINKEDIN_PASSWORD,
+        profile_url=config.LINKEDIN_PROFILE_URL
+    )
+    scraper.setup_driver(config.CHROME_DRIVER_PATH)
+    df = scraper.linkedin_scraper()
+    
+    if not df.empty:
+        DataSaver.data_saver(df, config.LINKEDIN_RAW_POST_DATA_PATH)
+        logger.info(f"LinkedIn Raw Data saved to {config.LINKEDIN_RAW_POST_DATA_PATH}")
+        logger.info(f"Total posts scraped: {len(df)}")
+    else:
+        logger.warning("No data was scraped from LinkedIn.")
+
+def run_instagram_scraper():
+    """Run the Instagram scraper"""
+    logger.info("Starting Instagram scraper...")
+    scraper = InstagramDataScraper()
+    scraper.scrape()
+    logger.info("Instagram scraping completed")
+
+def run_facebook_scraper():
+    """Run the Facebook scraper"""
+    config = Config()
+    logger.info("Starting Facebook scraper...")
+    
+    scraper = FacebookScraper(api_token=config.FACEBOOK_API, page_url=config.FACEBOOK_PAGE_URL, dataset_file= "facebook_data.json")
+    scraper.scrape_data()
+    
+    processor = FacebookDataProcessor(
+        dataset_file="facebook_data.json",
+        csv_file="facebook_posts.csv",
+        output_json=config.FACEBOOK_RAW_POST_DATA_PATH
+    )
+    processor.process_data()
+    processor.download_images()
+    processor.format_json()
+    
+    logger.info(f"Facebook Raw Data saved to {config.FACEBOOK_RAW_POST_DATA_PATH}")
 
 def main():
-    """
-    Main function to run the All Platform scraper.
-    Handles the setup, execution, and error handling of the scraping process.
-    
-    """
-    
-    # ----- LINKEDIN SCRAPER -----
-    
-    try:
-        main_logger.info("Initializing LinkedIn scraper...")
-        linkedin_scraper = LinkedinScraper(username     = Config.LINKEDIN_USERNAME, 
-                                           password     = Config.LINKEDIN_PASSWORD, 
-                                           profile_url  = Config.LINKEDIN_PROFILE_URL
-                                           )
-
-        main_logger.info("Setting up Chrome driver...")
-        linkedin_scraper.setup_driver(Config.CHROME_DRIVER_PATH)
-
-        main_logger.info("Starting LinkedIn scraping process...")
-        df               = linkedin_scraper.linkedin_scraper()
-        
-        DataSaver.data_saver(df, Config.LINKEDIN_RAW_POST_DATA_PATH)
-        main_logger.info(f"LinkedIn Raw Data saved to {Config.LINKEDIN_RAW_POST_DATA_PATH}")
-
-        if not df.empty:
-            main_logger.info(f"Total posts scraped: {len(df)}")
-
-        else:
-            main_logger.warning("No data was scraped.")
-
-    except Exception as e:
-        main_logger.error(f"Error Occured in Scraping Instagram Data: {str(e)}", exc_info = True)
-        sys.exit(1)
-        
-        
-    # # ----- INSTAGRAM SCRAPER -----    
-    # try:
-    #     main_logger.info("Initailizing the Instagram Scraper")
-    #     instagram_scraper = InstagramDataScraper()
-        
-    #     main_logger.info("Starting Instagram Scraping Process...")
-    #     instagram_scraper.instagram_scraper()
-        
-
-    # except Exception as e:
-    #     main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
-    #     sys.exit(1)
-
-    #except Exception as e:
-    #    main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
-    #    sys.exit(1)
-    # ----- FACEBOOK SCRAPER -----
-    try:
-        main_logger.info("Initializing Facebook Scraper...")
-        facebook_scraper = FacebookScraper(api_token=Config.FACEBOOK_API, 
-                                           page_url=Config.FACEBOOK_PAGE_URL)
-        
-        main_logger.info("Starting Facebook scraping process...")
-        facebook_scraper.scrape_data()
-
-        main_logger.info("Initializing Facebook Data Processor...")
-        processor = FacebookDataProcessor(dataset_file="facebook_data.json", 
-                                          csv_file="facebook_posts.csv", 
-                                          output_json=Config.FACEBOOK_RAW_POST_DATA_PATH)
-        
-        main_logger.info("Processing Facebook scraped data...")
-        processor.process_data()
-        processor.download_images()
-        processor.format_json()
-
-        main_logger.info(f"Facebook Raw Data saved to {Config.FACEBOOK_RAW_POST_DATA_PATH}")
-
-    except Exception as e:
-        main_logger.error(f"Error in Facebook Scraper: {repr(e)}", exc_info=True)
-        sys.exit(1)
-
-
-    # except Exception as e:
-    #     main_logger.error(f"Error Occured in Scraping Instagram Data: {repr(e)}", exc_info = True)
-    #     sys.exit(1)
-
+    """Main function to run all scrapers"""
+    logger.info("Running all scrapers...")
+    #run_linkedin_scraper()
+    #run_instagram_scraper()
+    run_facebook_scraper()
 
 if __name__ == "__main__":
-    main_logger.info("Starting script execution...")
     main()
-    main_logger.info("Script execution completed.")
