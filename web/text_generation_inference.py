@@ -90,6 +90,9 @@ class SocialMediaPostGenerator:
     - The first sentence must grab attention.
     - The tone, vocabulary, and style must reflect the brand’s voice.
     - Clearly convey insights about **brief** in a structured manner.
+    - Don't add any irrelevant information by your own.
+    - Don't hallucinate during the post generation.
+    - Don't change {company_name} during the post generation.
     - Encourage reactions, comments, or discussions.
     - Don't give summary. Just the give main content.
     - Complete the post within {word_lim}.
