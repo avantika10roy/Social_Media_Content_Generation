@@ -41,14 +41,13 @@ The AI-Powered Social Media Content Generation System is a cutting-edge solution
   - RESTful API
   - Intuitive frontend interface
   - Real-time preview
-  - Batch processing support
 
 ## 🛠️ Technology Stack
 
 ### Core Technologies
 - Python 3.10+
 - PyTorch
-- Hugging Face Transformers
+- Transformers
 - Diffusers
 - FastAPI
 - Streamlit
@@ -242,16 +241,14 @@ uvicorn api.app:app --reload --host 0.0.0.0 --port 8000
 | Metric | Target | Current |
 |--------|---------|---------|
 | Response Time | <30s | 25s |
-| Platform Support | 3+ | 4 |
+| Platform Support | 3 | 3 |
 
 ## 📚 Documentation
 
 Comprehensive documentation is available in the `/docs` directory:
 
 - 📖 [System Architecture](docs/architecture.md)
-- 🔧 [API Reference](docs/api.md)
 - 👥 [User Guide](docs/user_guide.md)
-- 🎓 [Fine-tuning Guide](docs/fine-tuning.md)
 
 ## 🗺️ Future Roadmap
 
