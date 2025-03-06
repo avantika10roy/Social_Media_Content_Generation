@@ -73,11 +73,6 @@ Before you begin using the AI-Powered Social Media Content Generation System, en
 2. **Chromedriver**: Required for Selenium-based web scraping. It can be installed using the following command (depending on your OS):
    - For **Windows**: Download from [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
    - For **Linux/macOS**: Install via a package manager or download the appropriate version from the above link.
-
-### Libraries:
-Install the following Python libraries by running the command:
-```bash
-pip install -r requirements.txt
 ```
 
 ## 🚀 Installation
