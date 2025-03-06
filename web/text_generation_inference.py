@@ -33,13 +33,13 @@ class SocialMediaPostGenerator:
 
 
     def load_model(self, model_path: str):
-        if not os.path.exists(model_path):
-            raise FileNotFoundError(f"Model path '{model_path}' does not exist.")
+        # if not os.path.exists(model_path):
+        #     raise FileNotFoundError(f"Model path '{model_path}' does not exist.")
         if (not os.path.isdir(model_path)):
             base_model             = AutoModelForCausalLM.from_pretrained('tiiuae/Falcon3-1B-Instruct', device_map="cpu")
             tokenizer              = AutoTokenizer.from_pretrained('tiiuae/Falcon3-1B-Instruct')
 
-            tokenizer.pad_token_id = self.tokenizer.eos_token_id
+            tokenizer.pad_token_id = tokenizer.eos_token_id
 
             base_model.save_pretrained(model_path)
             tokenizer.save_pretrained(model_path)
@@ -55,7 +55,7 @@ class SocialMediaPostGenerator:
 
         if (not hasattr(base_model, "peft_config")):
             logging.info("Applying LoRA adapter...")
-            model                  = PeftModel.from_pretrained(base_model, './models/llm/adapter_2')
+            model                  = PeftModel.from_pretrained(base_model, 'models/llm/adapter_2')
         
         else:
             model                  = base_model
@@ -175,7 +175,7 @@ class SocialMediaPostGenerator:
         
         self.model.eval()
 
-        inputs = self.tokenizer(prompt, return_tensors='pt')
+        inputs = self.tokenizer(prompt, return_tensors='pt').to(self.device)
 
         with torch.no_grad():
             output = self.model.generate(**inputs,
@@ -203,4 +203,4 @@ class SocialMediaPostGenerator:
 # Initialize Model
 MODEL_PATH = "./models/llm/base_model"
 
-text_generator  = SocialMediaPostGenerator(MODEL_PATH, device='cpu')
+text_generator  = SocialMediaPostGenerator(MODEL_PATH, device='mps')
