@@ -10,29 +10,60 @@ Transform your ideas into stunning visuals with our AI-powered image generation 
 * Navigate to the **Generate Image** option in the left sidebar
 * Click to open the image creation workspace with all controls and options
 
+
 #### Step 2: Craft Your Perfect Prompt
 * Enter a detailed description of your desired image
 * Include key elements, style preferences, mood, and color schemes
 * Be specific about what should be featured prominently in your image
 * Example: "A serene mountain landscape at sunset with snow-capped peaks reflecting in a crystal-clear lake, warm golden light, photorealistic style"
 
-#### Step 3: Provide Suitable Negetive Prompt
-- Enter a suitable Negetive Prompt
-- Include elements those should not present in image
-- Example: : "cloudy sky, dark colors, overexposed, low resolution"
+#### Step 3: Select the Negetive Prompt:
+- Choose the most suitable negetive prompts from from drop-down manu.
 
-#### Step 4: Customize Your Creation
-* **Select Image Quality**: Choose from standard, high-definition, or ultra HD
-* **Choose Aspect Ratio**: Select the perfect dimensions for your needs (square, landscape, portrait)
-* **Apply Style Options**: Pick artistic styles that align with your vision (watercolor, digital art, photorealistic)
-* **Adjust Advanced Settings**: Fine-tune lighting, composition, and detail level (when available)
+#### Step 4: Select the text position:
+- select the text position on image from the drop-down manu.
 
-#### Step 5: Generate Your Masterpiece
+
+#### Step 5: Customize Your Creation
+* **Select Image Size**: Choose the desire image size from the drop down manu 
+
+#### Step 6:Enter the Generation Steps:  
+- Enter the number of steps to refine the random noise into a high quality image. 
+
+#### step 7:Set the Text Influence(1-5):
+
+- Lower values (e.g., 1.00-2.00): Stronger adherence to the prompt but may look less natural.
+- higher values (e.g., 2.00-5.00): More creative and diverse outputs but might deviate from the prompt.
+
+#### Step 8: Generate Your Masterpiece
 * Review all settings one final time
 * Click the **Generate Image** button to begin the creation process
 * Watch as our AI transforms your description into visual reality
 
-#### Step 6: Refine & Download
+#### Step 7: Adding Custom Text to Images:
+
+* **Set Text Positions**:
+    *  **Heading**: A short, bold title for the image.
+    * **Subheading**: A smaller title to support the main  heading.
+    * **Paragraph**: A longer text block for additional details.
+
+* **Enter Your Text**:
+    * **Heading**: A short, bold title for the image.
+    * **Subheading**: A smaller title to support the main heading.
+    *   **Paragraph**: A longer text block for additional details.
+
+* **Adjust Font & Style (Optional)**:
+
+    You may also customize:
+
+    * Font Size (small, medium, large)
+    * Font Color (black, white, red, etc.)
+    * Font Style (bold, italic, underline)
+
+
+ 
+
+#### Step 8: Refine & Download
 * Examine your newly created image
 * Use the download icon (📥) to save your creation
 * Regenerate with adjusted parameters if needed
@@ -41,11 +72,11 @@ Transform your ideas into stunning visuals with our AI-powered image generation 
 ## 🌟 Advanced Techniques for Exceptional Results
 
 #### The Art of Effective Prompting
-* **Be Descriptively Rich**: Include details about lighting, perspective, mood, and subject
+* **Be Descriptively Rich**: Include details about lighting, perspective, mood, and subject.
+* **Choosing Negetive Prompt**:Choose the suitable negetive prompt
 * **Reference Visual Styles**: Mention artists or movements that inspire your desired look
 * **Focus on Priorities**: Indicate what elements should be emphasized in the image
 * **Consider Composition**: Describe foreground, background, and spatial relationships
-* **Suitable Negetive Prompt**: Suitable Negetive Prompt ensures absence of unwanted objects.
 
 #### Using Style Combinations
 * Blend multiple artistic approaches for unique visual signatures
@@ -53,6 +84,7 @@ Transform your ideas into stunning visuals with our AI-powered image generation 
 * Layer different aesthetic influences for brand-specific imagery
 
 #### Iterative Perfection
+* Set the Preferable Generation Steps
 * Small adjustments to your prompt can yield significantly different results
 * Save variations to compare different approaches
 * Use generated images as stepping stones toward your perfect visual
@@ -64,6 +96,7 @@ Transform your ideas into stunning visuals with our AI-powered image generation 
 * **Brand Alignment**: Include your brand colors and aesthetic preferences for consistent outputs
 * **Technical Specificity**: Use photography and design terminology for more precise control
 * **Batch Creation**: Generate multiple variations of similar concepts for comprehensive options
+* **Text Influence**:Set the suitable value effect on generated images.
 
 ## 🔍 Troubleshooting Common Challenges
 
@@ -75,16 +108,3 @@ Transform your ideas into stunning visuals with our AI-powered image generation 
 ---
 
 *Unleash your creative vision with our AI image generator – where imagination becomes reality.*
-# 📖 Image Generation User Guide
-
-This guide explains how to use the AI-powered image generation feature.
-
-## 🚀 Steps to Generate an Image
-1. Navigate to **Generate Image** in the sidebar.
-2. Provide details about the image.
-3. Select customization options.
-4. Click 'Generate' to create the image.
-
-## 🔹 Tips for Best Results
-- Use **clear descriptions** for better outputs.
-- Choose a style that matches your brand identity.
