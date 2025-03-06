@@ -169,6 +169,15 @@ with main_content:
         if st.button("Generate Image"):
             
             missing_fields = []
+            
+            if not prompt:
+                missing_fields.append("Prompt")
+                
+            if not negative_prompt:
+                missing_fields.append("Negative Prompt")
+                
+            if not logo_presence:
+                missing_fields.append("Logo Presence")
 
             if missing_fields:
                 st.warning(f"Please fill in the required fields: {', '.join(missing_fields)}")      
@@ -197,7 +206,9 @@ with main_content:
                     
 
                 start_time                           = time.time()
+                
                 response                             = requests.get(Config.IMAGE_GENERATION_API, params = payload)
+                
                 end_time                             = time.time()
 
                 if response.status_code == 200:
