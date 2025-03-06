@@ -123,12 +123,6 @@ Social_Media_Content_Generation/
 │   ├── extracted_features_data             
 │   │   ├── blip_output.json               # Extracted features using BLIP along with original features saved here
 |   |   └── clip_output.json               # Extracted features using CLIP along with original features saved here
-│   ├── raw_data
-│   |   ├── facebook_raw_data.json         # Raw Scraped facebook data
-│   |   ├── instagram_raw_data.json        # Raw scraped instagram data
-│   |   └── linkedin_raw_data.json         # Raw scraped linkedin data
-|   ├── Blip_with_context
-|   |   └── blip_image_context.json        # Extracts context of the image from the image using BLIP
 |   ├── logo_identification_result
 |   |   └── output_with_logo_info_and_uploads.json       # Adds logo position in image
 |   ├── mixed_curated
@@ -136,6 +130,10 @@ Social_Media_Content_Generation/
 |   ├── preprocessed_data
 |   |   ├── preprocessed_data.json         # Combines all preprocessed features in json format
 |   |   └── preprocessed_data2.json
+│   ├── raw_data
+│   |   ├── facebook_raw_data.json         # Raw Scraped facebook data
+│   |   ├── instagram_raw_data.json        # Raw scraped instagram data
+│   |   └── linkedin_raw_data.json         # Raw scraped linkedin data
 |   └── logo.jpg
 ├── data_processor.py                       
 ├── docs                                   # A centralized folder for keeping all project related documents for future purpose
@@ -161,18 +159,20 @@ Social_Media_Content_Generation/
 ├── scrape_raw_data.py                     # Run file for data collection by scraper module
 ├── setup.sh                               # Project environment setup 
 ├── src                                    # All source codes 
-|   ├── data_cleaner                       # Centralized module for data cleaning for whole project
-|   │   ├── __init__.py 
-|   │   ├── data_cleaner.py
-|   │   ├── data_preprocessing.py
-|   │   └── linkedIn_preprocessor.py
 |   ├── custom_dataset                     # Custom dataset for LLM
 |   │   └── llm_dataset.py
+|   ├── data_cleaner                       # Centralized module for data cleaning for whole project
+|   │   ├── README.md                      # Clean and preprocess scraped social media content
+|   │   ├── __init__.py 
+|   │   ├── image_cleaner.py
+|   │   └── text_cleaner.py
 |   ├── data_curator                       # Centralized module for data curation for whole project
+|   │   ├── README.md                      # Merge, refine, and structure cleaned social media data
 |   │   ├── __init__.py
 |   │   ├── data_curation.py
 |   │   └── mix_curator.py
 |   ├── data_preprocessor                  # Centralized module for data preprocessing for whole project
+|   │   ├── README.md                      # Transform, augment, and standardize both text and image data
 |   │   ├── __init__.py
 |   │   ├── image_augmentor.py
 |   │   ├── llm_finetune_data_preprocessor.py
