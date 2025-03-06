@@ -36,7 +36,8 @@ class SocialMediaPostGenerator:
         # if not os.path.exists(model_path):
         #     raise FileNotFoundError(f"Model path '{model_path}' does not exist.")
         if (not os.path.isdir(model_path)):
-            base_model             = AutoModelForCausalLM.from_pretrained('tiiuae/Falcon3-1B-Instruct', device_map="cpu")
+            base_model             = AutoModelForCausalLM.from_pretrained(pretrained_model_name_or_path = 'tiiuae/Falcon3-1B-Instruct',
+                                                                          torch_dtype                   = torch.float16 if self.device == 'cuda' else torch.float32)
             tokenizer              = AutoTokenizer.from_pretrained('tiiuae/Falcon3-1B-Instruct')
 
             tokenizer.pad_token_id = tokenizer.eos_token_id
