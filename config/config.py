@@ -62,9 +62,10 @@ class Config:
 
     # LOGO IDENTIFICATION OUTPUT
     AUGMENTED_LOGO_RESULT                 = "./data/logo_identification_result/output_with_logo_info_and_uploads.json"
-    
-
     LOGO_PATH                             = "data/logo.jpg"
+    
+    LOGO_INFO_OUTPUT_PATH                 = './data/logo_identification_result/output_with_logo_info_and_uploads.json'
+    
     RANDOM_SEED                           = 42
     
     # BLIP IMAGE TO TEXT PATHS
