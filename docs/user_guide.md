@@ -1,5 +1,3 @@
-# Comprehensive User Guide
-
 <div align="center">
   <h1>AI-Powered Social Media Content Generation System</h1>
   <p>Integrated Text & Image Generation for Your Social Media Needs</p>
