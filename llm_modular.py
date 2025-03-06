@@ -124,7 +124,8 @@ if __name__ == "__main__":
                                 device="cpu",
                                 logger=finetune_logger,
                                 epochs=2,
-                                results_dir="results/llm_results/pipeline_finetuning_v10/"
+                                results_dir="results/llm_results/pipeline_finetuning_v10/",
+                                model_name='tiiuae/Falcon3-1B-Instruct'
                                 )
     fine_tuning.setup(batch_size=2,
                       data_file_path=Config.MIXED_CURATED_DATA_PATH)
