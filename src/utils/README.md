@@ -5,7 +5,7 @@ The `src/utils` module provides utility functions and helper classes for logging
 
 ---
 
-## Modules
+## Utilities
 
 ### 1. Logger
 #### Description
