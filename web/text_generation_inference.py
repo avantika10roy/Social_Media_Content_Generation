@@ -134,7 +134,7 @@ class SocialMediaPostGenerator:
         text = re.sub(r'(#+)\1+', '', text)
         
         # Remove single hashtags not followed by text
-        text = re.sub(r'#(\s|$)', ' ', text)
+        cleaned_text = re.sub(r'#(?=\s|$|[^\w])', '', text)
         
         # Remove continuous delimiters (like ..., ---, etc.) but keep single dots and commas after text
         text = re.sub(r'([*\-_=+|])\1*', '', text)  # Remove continuous occurrences of *, -, _, =, +, |
