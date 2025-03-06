@@ -75,6 +75,7 @@ class Config:
     MONGO_DB_URI                          = "mongodb+srv://priyam:mongodb@data.drfg2.mongodb.net/?retryWrites=true&w=majority&appName=data"
     
     LLM_RESPONSE_JSON_FILE_PATH           = "./data/llm_response.json"
+    IMAGE_RESPONSE_JSON_FILE_PATH         = "./data/image_response.json"
     
     # FAST API
     TEXT_GENERATION_API                   = "http://192.168.68.134:8000/generate_text"
