@@ -58,8 +58,13 @@
         ],
         "emoji":[
             "\ud83d\udca1",
+<<<<<<< HEAD
+            "\ud83d\udc49",
+            "\ud83d\ude9b",
+=======
             "\ud83d\ude9b",
             "\ud83d\udc49",
+>>>>>>> main
             "\ud83d\udcc8"
         ],
         "hashtags":[
@@ -89,9 +94,13 @@
         "emoji":[
             "\ud83c\udf1f",
             "\u2728",
+<<<<<<< HEAD
+            "\ud83d\udcbb"
+=======
             "\ud83d\udcbb",
             "\ud83c\udf1f",
             "\u2728"
+>>>>>>> main
         ],
         "hashtags":[
             "#techtrends",
@@ -638,8 +647,8 @@
             ".\/data\/cleaned_data\/linkedin_cleaned_images\/81_1730210049822.png"
         ],
         "emoji":[
-            "\ud83c\udf83",
-            "\u2728"
+            "\u2728",
+            "\ud83c\udf83"
         ],
         "hashtags":[
             "#halloweenvibes",

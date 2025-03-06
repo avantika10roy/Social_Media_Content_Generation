@@ -15,9 +15,15 @@ BrandSync AI's cutting-edge image generation technology transforms your ideas in
 - **Detail Control**: Specify important elements and focal points
 - **Brand Consistency**: Maintain your visual identity across all generated images
 
-#### 3. Technical Specifications
-- **High-Resolution Output**: Generate images up to 4K resolution
-- **Multiple Format Support**: Download in JPG, PNG, SVG, and more
+#### 4.Customize Texts on Image:
+- **Heading**: A short, bold title for the image.
+- **Subheading**: A smaller title to support the main heading.
+- **Paragraph**: A longer text block for additional details.
+
+
+#### 5. Technical Specifications
+- **Customise Image Size Output**: Generate images in various size image
+- **Format Support**: Download in JPG format.
 - **Quick Processing**: Receive your images in seconds
 
 ## 🛠️ How to Use BrandSync AI
@@ -30,21 +36,30 @@ Access the **Generate Image** page from your BrandSync AI dashboard.
 - Include details about style, mood, colors, and composition
 - Use clear language that the AI can interpret accurately
 
-#### 3. Provide suitable Negetive Prompt
+#### 3. Choose suitable Negetive Prompt
 - Be specific about the negetive prompt.
 - Suitable Negetive Prompt Improves consistency in results
 
-#### 4. Select Your Parameters
-- **Image Quality**: Choose from standard, high, or ultra-high definition
-- **Aspect Ratio**: Select dimensions that fit your needs (1:1, 16:9, 4:3, etc.)
-- **Style Presets**: Apply pre-configured styles or create your own
+#### 4. Provide Generation Steps:
+- Enter the image generation step (number of steps to denoise the image and generate image )
 
-#### 5. Generate and Refine
+#### 5. Set Text Influence:
+-  Controls how strongly the model follows  input prompt.
+
+#### 6. Set the Image Size:
+- Set the image size.
+
+#### 7. Select the Text Charactatestics on Image:
+- Heading: A short, bold title for the image.
+- Subheading: A smaller title to support the main heading.
+- Paragraph: A longer text block for additional details.
+
+#### 8. Generate and Refine
 - Click the **Generate Image** button to create your visual
 - Review the result and make adjustments to your prompt if needed
 - Regenerate with tweaked parameters for different variations
 
-#### 6. Download and Use
+#### 9. Download and Use
 - Save your image in your preferred format
 - Use the download button (📥) to export to your device
 - Apply your generated image directly to your projects
@@ -52,7 +67,7 @@ Access the **Generate Image** page from your BrandSync AI dashboard.
 ## 💡 Pro Tips
 
 - **Be Specific**: The more details you provide, the better the results
-- **Negetive Prompt**: The more specified negetive prompt you provide presence of unwanted things will be minimized.
+- **Negetive Prompt**: The more specified negetive prompt chosen  presence of unwanted things will be minimized.
 - **Use References**: Mention existing styles or images for inspiration
 - **Iterate Quickly**: Generate multiple versions to find the perfect match
 - **Combine Approaches**: Mix different styles for unique results
@@ -70,4 +85,3 @@ Our support team is ready to assist you with any questions about the image gener
 ---
 
 *Transform your vision into reality with BrandSync AI – where creativity meets technology.*
-

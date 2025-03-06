@@ -70,18 +70,18 @@ class Config:
     
     # BLIP IMAGE TO TEXT PATHS
     BLIP_OUTPUT_PATH                      = './data/Blip_with_context'
-    
-    # MONGODB CREDENTIALS
-    MONGO_DB_URI                          = "mongodb+srv://priyam:mongodb@data.drfg2.mongodb.net/?retryWrites=true&w=majority&appName=data"
-    
-    LLM_RESPONSE_JSON_FILE_PATH           = "./data/llm_response.json"
-    IMAGE_RESPONSE_JSON_FILE_PATH         = "./data/image_response.json"
-    
-    # FAST API
-    TEXT_GENERATION_API                   = "http://192.168.68.134:8000/generate_text"
-    IMAGE_GENERATION_API                  = "https://mature-usually-impala.ngrok-free.app/generate"
+    BLIP_IMAGE_CONTEXT_DATA               = './data/Blip_with_context/blip_image_context.json'
 
+    # Logo information 
+    LOGO_INFO_OUTPUT_PATH                 = './data/logo_identification_result/output_with_logo_info_and_uploads.json'
     
+    # FAST-API
+    TEXT_GENERATION_API                   = "http://192.168.68.148:8000/generate_text"
+    IMAGE_GENERATION_API                  = "https://mature-usually-impala.ngrok-free.app/generate"
+    
+    # RESPONSES PATH
+    LLM_RESPONSE_JSON_FILE_PATH           = ".data/llm_response.json"
+    IMAGE_RESPONSE_JSON_FILE_PATH         = ".data/image_response.json"
 
     @staticmethod
     def setup_directories():

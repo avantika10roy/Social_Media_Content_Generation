@@ -1,5 +1,4 @@
-import numpy as np
-import random
+
 import time
 import torch
 import pandas
@@ -12,17 +11,23 @@ from src.utils.logger import LoggerSetup
 from src.prompts.prompts import llm_prompt
 from src.model_inference.llm_inference import LLMInference
 
+import gc
 
-finetune_logger = LoggerSetup(logger_name="llm_inference.py", log_filename_prefix="llm_inference").get_logger()
-finetune_logger.info("Logger Successfully Initialized")
-set_global_seed(logger=finetune_logger, seed=42)
+gc.collect()
+torch.set_num_threads(1)
+
+inference_logger = LoggerSetup(logger_name="llm_inference.py", log_filename_prefix="llm_inference").get_logger()
+inference_logger.info("Logger Successfully Initialized")
+set_global_seed(logger=inference_logger, seed=42)
 
 # The topic should be decriptive enough so that the model does not hallucinate
-prompt = llm_prompt(platform="facebook", 
-                    topic="Republic Day Greeting", 
-                    company_name="Itobuz Private Limited", 
-                    extra_details="The year should not be included",
-                    occasion="No Occasion")
+prompt = llm_prompt(platform="Facebook", 
+                    # topic="Holiday Greetings", 
+                    company_name="Itobuz Private Limited",
+                    extra_details="No year should be included in Hashtags",
+                    occasion="Republic Day",
+                    brief= "Well Wishes for the day",
+                    target_audience="Followers")
 
 infer = LLMInference(model_path='src/base_models/falcon1b/model',
                      tokenizer_path='src/base_models/falcon1b/tokenizer', 
@@ -33,5 +38,5 @@ infer = LLMInference(model_path='src/base_models/falcon1b/model',
 start = time.time()
 result = infer.generate(prompt=prompt)
 end = time.time()
-print(result)
-print(f"\nTime Taken:{end-start}")
+inference_logger.info(result)
+inference_logger.info(f"\nTime Taken:{end-start}")

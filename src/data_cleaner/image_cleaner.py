@@ -14,17 +14,18 @@ class ImageCleaner:
         """
         Initialize the ImageCleaner class.
         
-        Parameters:
+        Arguments:
         keywords (list): List of keywords to filter out posts. Default keywords provided.
         """
         image_cleaner_log.info("Initialized ImageCleaner")
-        self.keywords = keywords or ['celebrated', 'celebration', 'throwback', 'lunch', 'unforgettable', 'dinner', 'anniversary', 'outing', 'enjoyed']
+        self.default_keywords = ['celebrated', 'celebration', 'throwback', 'lunch', 'unforgettable', 'dinner', 'anniversary', 'outing', 'enjoyed']
+        self.keywords = keywords or self.default_keywords
     
-    def is_gif_image(self, image_path: str):
+    def is_gif_image(self, image_path: str) -> bool:
         """
         Check if the given image file is actually a GIF saved as a JPG or PNG
         
-        Parameters:
+        Arguments:
         image_path (str): Path to the image file.
         
         Returns:
@@ -38,11 +39,11 @@ class ImageCleaner:
             image_cleaner_log.error(f"Error checking image format {image_path}: {repr(e)}")
         return False
     
-    def copy_images(self, data: pd.DataFrame, destination_folder: str):
+    def copy_images(self, data: pd.DataFrame, destination_folder: str) -> pd.DataFrame:
         """
         Copy images from their paths to the specified destination folder and update image paths in the DataFrame.
         
-        Parameters:
+        Arguments:
         data (DataFrame): Post data.
         destination_folder (str): The destination folder where images will be copied.
         
@@ -97,7 +98,7 @@ class ImageCleaner:
         """
         Filter images and copy only the cleaned images to the respective platform folder.
         
-        Parameters:
+        Arguments:
         data (DataFrame): Data containing posts and image paths.
         platform (str): The platform name (linkedin, facebook, instagram).
         

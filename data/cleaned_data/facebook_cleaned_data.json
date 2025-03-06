@@ -358,11 +358,17 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_173.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
+            "\ud83c\udf10",
+            "\ud83c\udf0d",
+            "\ud83d\udcb0",
+=======
             "\u26a1",
             "\ud83c\udf0d",
             "\ud83d\udcb0",
             "\ud83c\udf0d",
             "\ud83c\udf10",
+>>>>>>> main
             "\ud83d\udd04",
             "\u26a1"
         ],
@@ -656,12 +662,21 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_359.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
+            "\ud83d\udcc8",
+            "\ud83d\udcc9",
+            "\ud83d\udcbc",
+            "\ud83d\udccb",
+            "\ud83d\udeab",
+            "\ud83d\udca1"
+=======
             "\ud83d\udccb",
             "\ud83d\udcbc",
             "\ud83d\udcc9",
             "\ud83d\udcc8",
             "\ud83d\udca1",
             "\ud83d\udeab"
+>>>>>>> main
         ],
         "hashtags":[
             "#inventorymanagementsoftware",
@@ -1524,9 +1539,15 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_14.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
+            "\ud83c\udf1f",
+            "\u2728",
+            "\ud83d\udcbb"
+=======
             "\ud83d\udcbb",
             "\ud83c\udf1f",
             "\u2728"
+>>>>>>> main
         ],
         "hashtags":[
             "#DigitalInnovation",
@@ -1671,11 +1692,19 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_283.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
+            "\ud83c\udf10",
+            "\ud83d\ude80",
+            "\ud83d\udcca",
+            "\ud83d\udd0d",
+            "\ud83c\udfc0"
+=======
             "\ud83c\udfc0",
             "\ud83d\udcca",
             "\ud83d\udd0d",
             "\ud83c\udf10",
             "\ud83d\ude80"
+>>>>>>> main
         ],
         "hashtags":[
             "#AISportsRevolution",
@@ -1993,12 +2022,19 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_400.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
+            "\ud83c\udf0d",
+            "\ud83c\udf3f",
+            "\u2728",
+            "\ud83d\udca1",
+=======
             "\ud83c\udf3f",
             "\ud83d\udca1",
             "\ud83c\udf0d",
             "\ud83d\udca1",
             "\u2728",
             "\ud83c\udf3f",
+>>>>>>> main
             "\ud83c\udf31"
         ],
         "hashtags":[
@@ -2023,11 +2059,18 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_349.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
+            "\ud83d\ude80",
+            "\ud83d\udcac",
+            "\ud83e\udd16",
+            "\ud83d\udde3\ufe0f"
+=======
             "\ud83d\udcac",
             "\ud83d\udde3\ufe0f",
             "\ud83d\ude80",
             "\ud83d\udcac",
             "\ud83e\udd16"
+>>>>>>> main
         ],
         "hashtags":[
             "#voicetechnology",
@@ -2050,11 +2093,19 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_390.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
+            "\ud83d\udcf1",
+            "\ud83d\udcf2",
+            "\ud83d\ude80",
+            "\ud83c\udf1f",
+            "\ud83d\udcbc"
+=======
             "\ud83d\udcbc",
             "\ud83d\udcf1",
             "\ud83c\udf1f",
             "\ud83d\udcf2",
             "\ud83d\ude80"
+>>>>>>> main
         ],
         "hashtags":[
             "#appdevelopmentagency",
@@ -2080,6 +2131,21 @@
             ".\/data\/cleaned_data\/facebook_cleaned_images\/image_377.jpg"
         ],
         "emoji":[
+<<<<<<< HEAD
+            "\ud83c\udfaf",
+            "\ud83d\ude80",
+            "\ud83c\udf1f",
+            "\u2728",
+            "\ud83c\udfeb",
+            "\ud83d\udca1",
+            "\ud83d\udcbb",
+            "\ud83e\udd1d",
+            "\u2705",
+            "\ud83d\udcda",
+            "\ud83d\udcca",
+            "\ud83d\udd0d",
+            "\ud83d\udc69\u200d\ud83c\udf93"
+=======
             "\ud83d\udcbb",
             "\ud83c\udfaf",
             "\ud83d\udcca",
@@ -2093,6 +2159,7 @@
             "\ud83d\udcda",
             "\ud83d\ude80",
             "\u2705"
+>>>>>>> main
         ],
         "hashtags":[
             "#EdTechSolutions",
@@ -2114,8 +2181,13 @@
         ],
         "emoji":[
             "\ud83d\udca1",
+<<<<<<< HEAD
+            "\ud83d\udc49",
+            "\ud83d\ude9b",
+=======
             "\ud83d\ude9b",
             "\ud83d\udc49",
+>>>>>>> main
             "\ud83d\udcc8"
         ],
         "hashtags":[
