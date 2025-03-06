@@ -250,7 +250,7 @@ Comprehensive documentation is available in the `/docs` directory:
 
 - 📖 [System Architecture](docs/architecture.md)
 - 🔧 [API Reference](docs/api.md)
-- 👥 [User Guide](docs/user-guide.md)
+- 👥 [User Guide](docs/user_guide.md)
 - 🎓 [Fine-tuning Guide](docs/fine-tuning.md)
 
 ## 🗺️ Future Roadmap

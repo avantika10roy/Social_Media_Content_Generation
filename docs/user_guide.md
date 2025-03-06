@@ -195,9 +195,9 @@ For further assistance, please consult the provided documentation or contact our
 - **Generation Steps:** The number of iterations the model uses to refine its output.
 
 ### Additional Resources
-- **[Project README](README.md):** Overall project overview and technical specifications.
-- **[Text Generation User Guide](text_generation_user_guide.md)**
-- **[Image Generation User Guide](image_generation_user_guide.md)**
+- **[Project README](../README.md):** Overall project overview and technical specifications.
+- **[Text Generation User Guide](../web/pages/text_generation_user_guide.md)**
+- **[Image Generation User Guide](../web/pages/image_generation_user_guide.md)**
 - **API Documentation:** Detailed reference available in the `/docs` directory.
 
 ---
