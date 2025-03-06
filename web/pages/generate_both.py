@@ -282,7 +282,7 @@ with st.expander("Text Generation Section", expanded = False):
                     json.dump(data, f, indent = 4, ensure_ascii = False)
             
 
-    st.write(st.session_state.generated_text)
+    st.text(st.session_state.generated_text)
         
     text_button_download, text_button_copy, text_button_regenerate, space = st.columns([1.7, 1.7, 1.7, 8])
     
@@ -345,13 +345,13 @@ with st.expander("Image Generation Section", expanded = False):
                                                     placeholder = "A futuristic city at night...")
             
             negative_prompt_options = ["blurry", "low resolution", "distorted", "uncanny valley", "unnatural lighting",  
-                                    "grainy", "noisy", "compression artifacts", "pixelated", "watermark",  "text overlay", 
-                                    "extra limbs", "extra fingers", "deformed hands", "asymmetrical features",  "overexposed", 
-                                    "underexposed", "washed out colors", "oversaturated", "harsh shadows",  "bad framing", 
-                                    "unbalanced composition", "distracting background", "awkward perspective",  
-                                    "unnatural depth of field", "glitched", "warped faces", "misaligned eyes", 
-                                    "mutated anatomy"
-                                    ]
+                                       "grainy", "noisy", "compression artifacts", "pixelated", "watermark",  "text overlay", 
+                                       "extra limbs", "extra fingers", "deformed hands", "asymmetrical features",  "overexposed", 
+                                       "underexposed", "washed out colors", "oversaturated", "harsh shadows",  "bad framing", 
+                                       "unbalanced composition", "distracting background", "awkward perspective",  
+                                       "unnatural depth of field", "glitched", "warped faces", "misaligned eyes", 
+                                       "mutated anatomy"
+                                       ]
             
             negative_prompt         = st.multiselect(label = "**Select your Negative Prompt Options** :red[*]", options = negative_prompt_options)
             
