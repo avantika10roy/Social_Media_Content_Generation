@@ -30,7 +30,7 @@ class LLMFineTuning:
             self.results_dir    = results_dir
 
             if (not os.path.isdir(model_path)) or (not os.path.isdir(tokenizer_path)):
-                self.model                  = AutoModelForCausalLM.from_pretrained(self.model_name, device_map="cpu")
+                self.model                  = AutoModelForCausalLM.from_pretrained(self.model_name)
                 self.tokenizer              = AutoTokenizer.from_pretrained(self.model_name)
 
                 self.tokenizer.pad_token    = self.tokenizer.eos_token
@@ -39,7 +39,7 @@ class LLMFineTuning:
                 self.model.save_pretrained(model_path)
                 self.tokenizer.save_pretrained(tokenizer_path)
             else:
-                self.model                  = AutoModelForCausalLM.from_pretrained(self.model_path, device_map="cpu")
+                self.model                  = AutoModelForCausalLM.from_pretrained(self.model_path)
                 self.tokenizer              = AutoTokenizer.from_pretrained(self.tokenizer_path)
 
                 self.tokenizer.pad_token    = self.tokenizer.eos_token
@@ -119,12 +119,13 @@ if __name__ == "__main__":
     finetune_logger = LoggerSetup(logger_name="llm_fine_tuner_pipeline.py", log_filename_prefix="llm_fine_tuner_pipeline").get_logger()
     finetune_logger.info("Logger Successfully Initialized")
     set_global_seed(logger=finetune_logger, seed=42)
-    fine_tuning = LLMFineTuning(model_path='src/base_models/falcon1b/model',
-                                tokenizer_path='src/base_models/falcon1b/tokenizer',
+    fine_tuning = LLMFineTuning(model_path='src/base_models/falcon3b',
+                                tokenizer_path='src/base_models/falcon3b',
                                 device="cpu",
                                 logger=finetune_logger,
                                 epochs=2,
-                                results_dir="results/llm_results/pipeline_finetuning_v10/"
+                                results_dir="results/llm_results/falcon3_finetuned/",
+                                model_name='tiiuae/Falcon3-3B-Instruct'
                                 )
     fine_tuning.setup(batch_size=2,
                       data_file_path=Config.MIXED_CURATED_DATA_PATH)

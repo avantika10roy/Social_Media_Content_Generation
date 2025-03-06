@@ -53,7 +53,7 @@ def llm_prompt(platform:str, brief:str, company_name:str, target_audience:str="F
     return LLM_PROMPT
 
 def llm_finetuning_prep(data_dict: dict) -> str :
-    
+
     # parsing dictionary for formatting
     company_name = 'Itobuz'
     platform = data_dict.get('platform')
@@ -64,17 +64,13 @@ def llm_finetuning_prep(data_dict: dict) -> str :
     emojis = ", ".join(emojis) if len(data_dict.get('emoji'))>0 else "No emoji needed"
     hashtags = ", ".join(hashtags)
     raw_post_content = data_dict.get('raw_post_content')
-    
-    
-    # genrating data format from the finetuning
-    DATA_FORMAT = f""" 
-    - Company Name : {company_name}
-    - Platform: {platform}
-    - Heading : {heading} 
-    - Content : {content}
-    - emojis : {emojis}
-    - hashtags : {hashtags}
-    - Response: {raw_post_content}"""
 
-    return DATA_FORMAT
+    context = f"""-Platform:{platform}\n-Topic:{heading}\n-Language:English"""
+
+    question = f"""Generate a social media post for a company called "{company_name}". """
+
+    prompt_template = f"""<|user|>\nContext:\n{context}\n\n{question}<|assistant|>\n{raw_post_content}<|endoftext|>"""
+
+
+    return prompt_template
 # -------------------------------------
