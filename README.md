@@ -73,7 +73,7 @@ Before you begin using the AI-Powered Social Media Content Generation System, en
 2. **Chromedriver**: Required for Selenium-based web scraping. It can be installed using the following command (depending on your OS):
    - For **Windows**: Download from [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
    - For **Linux/macOS**: Install via a package manager or download the appropriate version from the above link.
-```
+
 
 ## 🚀 Installation
 
@@ -230,8 +230,11 @@ Yet to be done
 ### API Usage
 
 ```bash
+# Go to the web folder
+cd web/
+
 # Start the API server
-uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
+uvicorn api.app:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ## 📊 Performance Metrics
@@ -240,7 +243,6 @@ uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
 |--------|---------|---------|
 | Response Time | <30s | 25s |
 | Platform Support | 3+ | 4 |
-| Brand Adherence | 95% | 97% |
 
 ## 📚 Documentation
 
@@ -249,26 +251,19 @@ Comprehensive documentation is available in the `/docs` directory:
 - 📖 [System Architecture](docs/architecture.md)
 - 🔧 [API Reference](docs/api.md)
 - 👥 [User Guide](docs/user-guide.md)
-- ⚙️ [Installation Guide](docs/installation.md)
 - 🎓 [Fine-tuning Guide](docs/fine-tuning.md)
 
 ## 🗺️ Future Roadmap
 
 ### Phase 1: Scalability
 - [ ] Multi-user support
-- [ ] Batch processing
 - [ ] Platform expansion
 
 ### Phase 2: Advanced Features
-- [ ] A/B testing system
 - [ ] Analytics dashboard
-- [ ] Automated scheduling
-- [ ] Content calendar
 
 ### Phase 3: Integrations
 - [ ] Direct social media posting
-- [ ] CRM integration
-- [ ] CMS integration
 
 
 ## 📄 License
