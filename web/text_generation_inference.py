@@ -35,20 +35,34 @@ class SocialMediaPostGenerator:
     def load_model(self, model_path: str):
         if not os.path.exists(model_path):
             raise FileNotFoundError(f"Model path '{model_path}' does not exist.")
+        if (not os.path.isdir(model_path)):
+            base_model             = AutoModelForCausalLM.from_pretrained('tiiuae/Falcon3-1B-Instruct', device_map="cpu")
+            tokenizer              = AutoTokenizer.from_pretrained('tiiuae/Falcon3-1B-Instruct')
 
-        logging.info(f"Loading model from {model_path}...")
-        # model = Llama(model_path = model_path,
-        #               n_ctx=1024)
-        base_model = AutoModelForCausalLM.from_pretrained(model_path)
-        tokenizer = AutoTokenizer.from_pretrained(model_path)
-        tokenizer.pad_token_id = tokenizer.eos_token_id
+            tokenizer.pad_token_id = self.tokenizer.eos_token_id
+
+            base_model.save_pretrained(model_path)
+            tokenizer.save_pretrained(model_path)
+
+        else:
+            logging.info(f"Loading tokenizer from {model_path}...")
+            tokenizer              = AutoTokenizer.from_pretrained(model_path)
+
+            logging.info(f"Loading model from {model_path}...")
+            base_model             = AutoModelForCausalLM.from_pretrained(pretrained_model_name_or_path = model_path,
+                                                                          torch_dtype                   = torch.float16 if self.device == 'cuda' else torch.float32)
+            tokenizer.pad_token_id = tokenizer.eos_token_id
+
         if (not hasattr(base_model, "peft_config")):
             logging.info("Applying LoRA adapter...")
-            model = PeftModel.from_pretrained(base_model, 'models/adapter_2')
+            model                  = PeftModel.from_pretrained(base_model, './models/llm/adapter_2')
         
         else:
-            model = base_model
+            model                  = base_model
             logging.info("LoRA adapter already applied.")
+
+        model.to(self.device)
+        model.eval()
 
         return model, tokenizer
     
@@ -76,6 +90,9 @@ class SocialMediaPostGenerator:
     - The first sentence must grab attention.
     - The tone, vocabulary, and style must reflect the brand’s voice.
     - Clearly convey insights about **brief** in a structured manner.
+    - Don't add any irrelevant information by your own.
+    - Don't hallucinate during the post generation.
+    - Don't change {company_name} during the post generation.
     - Encourage reactions, comments, or discussions.
     - Don't give summary. Just the give main content.
     - Complete the post within {word_lim}.
@@ -121,6 +138,9 @@ class SocialMediaPostGenerator:
         return match.group(1).strip() if match else text
     
     def replace_continuous_dots(self, text):
+        # Remove <assistant> from the text
+        text = re.sub(r'<\|assistant\|>', '', text)
+
         # Remove markdown formatting (like triple backticks)
         text = re.sub(r'`{3}.*?`{3}', '', text, flags=re.DOTALL)  # Remove code blocks
         text = re.sub(r'\*{1,2}(\S.*?)\*{1,2}', r'\1', text)  # Remove italic and bold markdown (**text**, *text*)
@@ -134,7 +154,7 @@ class SocialMediaPostGenerator:
         text = re.sub(r'(#+)\1+', '', text)
         
         # Remove single hashtags not followed by text
-        cleaned_text = re.sub(r'#(?=\s|$|[^\w])', '', text)
+        text = re.sub(r'#(?=\s|$|[^\w])', '', text)
         
         # Remove continuous delimiters (like ..., ---, etc.) but keep single dots and commas after text
         text = re.sub(r'([*\-_=+|])\1*', '', text)  # Remove continuous occurrences of *, -, _, =, +, |
@@ -181,6 +201,6 @@ class SocialMediaPostGenerator:
         return clean_text
 
 # Initialize Model
-MODEL_PATH = "./models/"
+MODEL_PATH = "./models/llm/base_model"
 
 text_generator  = SocialMediaPostGenerator(MODEL_PATH, device='cpu')
