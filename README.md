@@ -59,8 +59,25 @@ The AI-Powered Social Media Content Generation System is a cutting-edge solution
 - **Image Generation**: Stable Diffusion XL (SDXL)
 
 ## 📋 Prerequisites
+
+Before you begin using the AI-Powered Social Media Content Generation System, ensure that your environment is properly set up. You will need to install the following tools and libraries:
+
+### System Requirements:
+- **Python**: Python 3.10 or later
+- **Operating System**: Linux, macOS, or Windows (All platforms supported)
+
+### Software Requirements:
+1. **Python** (3.10+): This project is built with Python 3.10 or newer. You can download Python from the official website:
+   - [Python Download](https://www.python.org/downloads/)
+
+2. **Chromedriver**: Required for Selenium-based web scraping. It can be installed using the following command (depending on your OS):
+   - For **Windows**: Download from [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+   - For **Linux/macOS**: Install via a package manager or download the appropriate version from the above link.
+
+### Libraries:
+Install the following Python libraries by running the command:
 ```bash
-yet to be done
+pip install -r requirements.txt
 ```
 
 ## 🚀 Installation
@@ -93,6 +110,8 @@ Social_Media_Content_Generation/
 ├── config                                 # Centralized Configuration module for the whole project
 │   ├── __init__.py
 │   └── config.py
+├── credentials
+|   └── client_secret.json
 ├── data                                   # All type of data in each stage has been saved here
 │   ├── cleaned_data
 │   │   ├── facebook_cleaned_data.json     # Cleaned facebook data 
@@ -101,20 +120,40 @@ Social_Media_Content_Generation/
 │   ├── curated_data                       
 │   │   └── final_data.json                # After merging data from all platforms, saved here in one unified place
 │   ├── extracted_features_data             
-│   │   └── blip_output.json               # Extracted features along with original features saved here
-│   └── raw_data
-│       ├── facebook_raw_data.json         # Raw Scraped facebook data
-│       ├── instagram_raw_data.json        # Raw scraped instagram data
-│       └── linkedin_raw_data.json         # Raw scraped linkedin data
-├── data_cleaning.py                       
+│   │   ├── blip_output.json               # Extracted features along with original features saved here
+|   |   └── clip_output.json
+│   ├── raw_data
+│   |   ├── facebook_raw_data.json         # Raw Scraped facebook data
+│   |   ├── instagram_raw_data.json        # Raw scraped instagram data
+│   |   └── linkedin_raw_data.json         # Raw scraped linkedin data
+|   ├── Blip_with_context
+|   |   └── blip_image_context.json
+|   ├── logo_identification_result
+|   |   └── output_with_logo_info_and_uploads.json
+|   ├── mixed_curated
+|   |   └── mixed_curated.json
+|   ├── preprocessed_data
+|   |   ├── preprocessed_data.json
+|   |   └── preprocessed_data2.json
+|   └── logo.jpg
+├── data_processor.py                       
 ├── docs                                   # A centralized folder for keeping all project related documents for future purpose
 │   ├── project_flowchart.png
 │   └── workflow.png
 ├── logs                                   # Log files saved here for all the tasks
 │   
 ├── notebooks                              # Containing all jupyter notebooks for experimentation
-│   └── Final_Project.ipynb
+|   ├── FLAN-T5.ipynb
+│   └── LLM_Experiments.ipynb
 ├── requirements.txt                       # Required pythoon dependencies
+├── results
+|   ├── evaluation_results
+|   |   └── falcon3_1b_instruct_eval.json
+|   └── llm_results
+|   |   ├── fine_tuning_results_v1/checkpoint-115
+|   |   ├── flan_t5_base_fine_tuning_results_v1
+|   |   ├── pipeline_finetuning_v9
+|   |   └── __init__.py
 ├── run.py                                 # 
 ├── scrape_raw_data.py                     # Run file for data collection by scraper module
 ├── setup.sh                               # Project environment setup 
