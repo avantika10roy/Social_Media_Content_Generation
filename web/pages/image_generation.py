@@ -5,6 +5,7 @@
 import io
 import os
 import sys
+import json
 import time
 import base64
 import requests
@@ -145,6 +146,12 @@ with main_content:
         
         mask_position           = st.selectbox(label = "**Text Position**", options = ["left", "right"])
         
+        logo_presence           = st.selectbox(label = "**Logo Presence** :red[*]", options = ["No", "Yes"])
+        
+        if logo_presence == "Yes":
+            
+            logo_area           = st.selectbox(label = "**Logo Position**", options = ["Top-Left", "Top-Right", "Bottom-Left", "Bottom-Right"]) 
+        
         image_size              = st.selectbox(label = "**Image Size**", options = ["1024x1024", "768x768", "512x512", "1024x768", "768x1024", "768x512", "512x768"])
         
         inference_steps         = st.number_input(label = "**Generation Steps**",min_value = 10, max_value = 100, step = 10)
@@ -162,6 +169,15 @@ with main_content:
         if st.button("Generate Image"):
             
             missing_fields = []
+            
+            if not prompt:
+                missing_fields.append("Prompt")
+                
+            if not negative_prompt:
+                missing_fields.append("Negative Prompt")
+                
+            if not logo_presence:
+                missing_fields.append("Logo Presence")
 
             if missing_fields:
                 st.warning(f"Please fill in the required fields: {', '.join(missing_fields)}")      
@@ -189,13 +205,38 @@ with main_content:
                                                         } 
                     
 
-
+                start_time                           = time.time()
+                
                 response                             = requests.get(Config.IMAGE_GENERATION_API, params = payload)
+                
+                end_time                             = time.time()
 
                 if response.status_code == 200:
 
                     st.session_state.image_bytes     = BytesIO(response.content)
                     st.session_state.generated_image = Image.open(st.session_state.image_bytes)
+                    
+                    ## ----- SAVING PAYLOAD AND RESPONSES INTO A JSON FILE -----
+                
+                    os.makedirs(os.path.dirname(Config.IMAGE_RESPONSE_JSON_FILE_PATH), exist_ok = True)
+                    
+                    if os.path.exists(Config.IMAGE_RESPONSE_JSON_FILE_PATH):
+                        with open(Config.IMAGE_RESPONSE_JSON_FILE_PATH, "r") as f:
+                            try:
+                                data = json.load(f)
+                            
+                            except json.JSONDecodeError:
+                                data = []
+                    else:
+                        data         = []
+                    
+                    new_entry        = {"input": payload, 'time_taken':end_time-start_time}
+
+                    data.append(new_entry)
+
+                    with open(Config.IMAGE_RESPONSE_JSON_FILE_PATH, "w", encoding = "utf-8") as f:
+                        json.dump(data, f, indent = 4, ensure_ascii = False)
+
             
             # st.session_state.generated_image = Image.open("/Users/it012303/Project/social_media_content_generation/data/MainAfter.jpg")
         
@@ -207,7 +248,7 @@ with main_content:
                 st.markdown("<h5 class='subtitle'>Edit Options</h5>", unsafe_allow_html = True)
                 
                 # Title Inputs
-                title                = st.text_input("Title:", value = "title", placeholder = "Elegant Timepieces")
+                title                = st.text_input("Title:", placeholder = "Elegant Timepieces")
                 title_font           = st.selectbox("Title Font:", font_options, index = 0)
                 title_size           = st.number_input("Title Font Size", value = 60)
                 title_x              = st.number_input("Title X Position:", min_value = 0, max_value = 1000, value = 30)
@@ -215,7 +256,7 @@ with main_content:
                 title_font_color     = st.color_picker(label = "Title Font Color", value = "#000000")
                 title_wrap           = st.slider("Title Wrap Offset", min_value = 1, max_value = 1000, value = 400)
                 
-                subtitle             = st.text_input("Subtitle:", value = "subtitle", placeholder = "Experience the Art of Watchmaking")
+                subtitle             = st.text_input("Subtitle:", placeholder = "Experience the Art of Watchmaking")
                 subtitle_font        = st.selectbox("Subtitle Font:", font_options, index = 0)
                 subtitle_size        = st.number_input("Subtitle Font Size", value = 30)
                 subtitle_x           = st.number_input("Subtitle X Position:", min_value = 0, max_value = 1000, value = 30)
@@ -223,7 +264,7 @@ with main_content:
                 subtitle_font_color  = st.color_picker(label = "Subtitle Font Color", value = "#000000")
                 subtitle_wrap         = st.slider("Subtitle Wrap Offset", min_value = 1, max_value = 1000, value = 400)
                 
-                paragraph            = st.text_area("Paragraph:", value = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", placeholder = "Our watches are crafted with precision, blending innovation and tradition. Explore timeless elegance.")
+                paragraph            = st.text_area("Paragraph:", placeholder = "Our watches are crafted with precision, blending innovation and tradition. Explore timeless elegance.")
                 paragraph_font       = st.selectbox("Paragraph Font:", font_options, index = 0)
                 paragraph_size       = st.number_input("Paragraph Font Size", value = 20)
                 paragraph_x          = st.number_input("Paragraph X Position:", min_value = 0, max_value = 1000, value = 30)
@@ -234,13 +275,28 @@ with main_content:
             
             text_image               = st.session_state.generated_image.copy()
             scaling_fac              = 1.2
-            logo                     = Image.open("/Users/it012303/Project/social_media_content_generation/data/itobuz-logo.png").convert('RGBA')
+            
+            BASE_DIR                 = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            IMAGE_LOGO_PATH          = os.path.join(BASE_DIR, "assets", "itobuz-logo.png")
+            
+            logo                     = Image.open(IMAGE_LOGO_PATH).convert('RGBA')
             resized_logo             = logo.resize((int(150 * scaling_fac),int(40 * scaling_fac)))
             
-            logo_aplpha = resized_logo.split()[3]
-            logo_position            = (30,30)
+            logo_alpha               = resized_logo.split()[3]
             
-            text_image.paste(resized_logo, logo_position, mask = logo_aplpha)
+            if logo_area == "Top-Left":
+                logo_position        = (30,30)
+                
+            elif logo_area == "Top-Right":
+                logo_position        = (820,30)
+                
+            elif logo_area == "Bottom-Left":
+                logo_position        = (30,950)
+                
+            elif logo_area == "Bottom-Right":
+                logo_position        = (820,950)
+            
+            text_image.paste(resized_logo, logo_position, mask = logo_alpha)
             
             draw                     = ImageDraw.Draw(text_image)
 

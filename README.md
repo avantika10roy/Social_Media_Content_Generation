@@ -41,14 +41,13 @@ The AI-Powered Social Media Content Generation System is a cutting-edge solution
   - RESTful API
   - Intuitive frontend interface
   - Real-time preview
-  - Batch processing support
 
 ## 🛠️ Technology Stack
 
 ### Core Technologies
 - Python 3.10+
 - PyTorch
-- Hugging Face Transformers
+- Transformers
 - Diffusers
 - FastAPI
 - Streamlit
@@ -59,9 +58,21 @@ The AI-Powered Social Media Content Generation System is a cutting-edge solution
 - **Image Generation**: Stable Diffusion XL (SDXL)
 
 ## 📋 Prerequisites
-```bash
-yet to be done
-```
+
+Before you begin using the AI-Powered Social Media Content Generation System, ensure that your environment is properly set up. You will need to install the following tools and libraries:
+
+### System Requirements:
+- **Python**: Python 3.10 or later
+- **Operating System**: Linux, macOS, or Windows (All platforms supported)
+
+### Software Requirements:
+1. **Python** (3.10+): This project is built with Python 3.10 or newer. You can download Python from the official website:
+   - [Python Download](https://www.python.org/downloads/)
+
+2. **Chromedriver**: Required for Selenium-based web scraping. It can be installed using the following command (depending on your OS):
+   - For **Windows**: Download from [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads)
+   - For **Linux/macOS**: Install via a package manager or download the appropriate version from the above link.
+
 
 ## 🚀 Installation
 
@@ -89,10 +100,13 @@ pip install -r requirements.txt
 Social_Media_Content_Generation/
 ├── LICENSE                                # MIT License for the project
 ├── README.md                              # Executive summary of the project and results
-├── changelog.txt                          # Contains the description of the chnages from the starting and done by whom
+├── base_model_downoader.py                # Downloads SDXL Base Model
+├── changelog.txt                          # Contains the description of the changes from the starting and done by whom
 ├── config                                 # Centralized Configuration module for the whole project
 │   ├── __init__.py
 │   └── config.py
+├── credentials
+|   └── client_secret.json
 ├── data                                   # All type of data in each stage has been saved here
 │   ├── cleaned_data
 │   │   ├── facebook_cleaned_data.json     # Cleaned facebook data 
@@ -101,61 +115,108 @@ Social_Media_Content_Generation/
 │   ├── curated_data                       
 │   │   └── final_data.json                # After merging data from all platforms, saved here in one unified place
 │   ├── extracted_features_data             
-│   │   └── blip_output.json               # Extracted features along with original features saved here
-│   └── raw_data
-│       ├── facebook_raw_data.json         # Raw Scraped facebook data
-│       ├── instagram_raw_data.json        # Raw scraped instagram data
-│       └── linkedin_raw_data.json         # Raw scraped linkedin data
-├── data_cleaning.py                       
+│   │   ├── blip_output.json               # Extracted features using BLIP along with original features saved here
+|   |   └── clip_output.json               # Extracted features using CLIP along with original features saved here
+|   ├── logo_identification_result
+|   |   └── output_with_logo_info_and_uploads.json       # Adds logo position in image
+|   ├── mixed_curated
+|   |   └── mixed_curated.json             # Adds raw post content
+|   ├── preprocessed_data
+|   |   ├── preprocessed_data.json         # Combines all preprocessed features in json format
+|   |   └── preprocessed_data2.json
+│   ├── raw_data
+│   |   ├── facebook_raw_data.json         # Raw Scraped facebook data
+│   |   ├── instagram_raw_data.json        # Raw scraped instagram data
+│   |   └── linkedin_raw_data.json         # Raw scraped linkedin data
+|   └── logo.jpg
+├── data_processor.py                       
 ├── docs                                   # A centralized folder for keeping all project related documents for future purpose
 │   ├── project_flowchart.png
 │   └── workflow.png
 ├── logs                                   # Log files saved here for all the tasks
-│   
+├── llm_evaluation.py                      # Evaluate the performance of LLM
+├── llm_modular.py                         # Modular LLM finetuning code
+├── llm_run.py                             # LLM Inference
 ├── notebooks                              # Containing all jupyter notebooks for experimentation
-│   └── Final_Project.ipynb
-├── requirements.txt                       # Required pythoon dependencies
+|   ├── FLAN-T5.ipynb
+│   └── LLM_Experiments.ipynb
+├── requirements.txt                       # Required python dependencies
+├── results
+|   ├── evaluation_results                 # Results of evaluation
+|   |   └── falcon3_1b_instruct_eval.json
+|   └── llm_results
+|   |   ├── fine_tuning_results_v1/checkpoint-115
+|   |   ├── flan_t5_base_fine_tuning_results_v1
+|   |   ├── pipeline_finetuning_v9
+|   |   └── __init__.py
 ├── run.py                                 # 
 ├── scrape_raw_data.py                     # Run file for data collection by scraper module
 ├── setup.sh                               # Project environment setup 
-└── src                                    # All source codes 
-    ├── api                                # API related codes here
-    │   └── __init__.py
-    ├── base_models                        # Base models for image generation, text generation and feature extraction saved here
-    │   └── __init__.py  
-    ├── data_cleaner                       # Centralized module for data cleaning for whole project
-    │   ├── __init__.py 
-    │   ├── data_cleaner.py
-    │   ├── data_preprocessing.py
-    │   └── linkedIn_preprocessor.py
-    ├── data_curator                       # Centralized module for data curation for whole project
-    │   └── __init__.py
-    ├── data_preprocesser                  # Centralized module for data preprocessing for whole project
-    │   ├── __init__.py
-    │   └── text_preprocessing.py
-    ├── feature_engineering                # Centralized module for feature engineering for whole project
-    │   └── blip_feature_extraction.py
-    ├── frontend                           # Centralized module for frontend management
-    │   └── __init__.py
-    ├── model_finetuners                   # Model fine-tuning functionalities
-    │   └── __init__.py 
-    ├── model_inference                    # Model inference functionalities
-    │   └── __init__.py
-    ├── models                             # Model utilities
-    │   ├── __init__.py
-    │   ├── model_loader.py
-    │   └── model_saver.py
-    ├── scraper                            # Centralized scraper module 
-    │   ├── __init__.py
-    │   ├── facebook_scraper.py
-    │   ├── instagram_scraper.py
-    │   └── linkedin_scraper.py
-    ├── scripts                            # 
-    │   └── example.sh 
-    └── utils                              # Unified utility module for any other utilities than model related tasks
-        ├── __init__.py
-        ├── data_saver.py
-        └── logger.py                    
+├── src                                    # All source codes 
+|   ├── custom_dataset                     # Custom dataset for LLM
+|   │   └── llm_dataset.py
+|   ├── data_cleaner                       # Centralized module for data cleaning for whole project
+|   │   ├── README.md                      # Clean and preprocess scraped social media content
+|   │   ├── __init__.py 
+|   │   ├── image_cleaner.py
+|   │   └── text_cleaner.py
+|   ├── data_curator                       # Centralized module for data curation for whole project
+|   │   ├── README.md                      # Merge, refine, and structure cleaned social media data
+|   │   ├── __init__.py
+|   │   ├── data_curation.py
+|   │   └── mix_curator.py
+|   ├── data_preprocessor                  # Centralized module for data preprocessing for whole project
+|   │   ├── README.md                      # Transform, augment, and standardize both text and image data
+|   │   ├── __init__.py
+|   │   ├── image_augmentor.py
+|   │   ├── llm_finetune_data_preprocessor.py
+|   │   └── text_preprocessing.py
+|   ├── feature_engineering                # Centralized module for feature engineering for whole project
+|   │   ├── blip_feature_extraction.py
+|   │   └── clip_feature_extraction.py
+|   ├── frontend                           # Centralized module for frontend management
+|   │   └── __init__.py
+|   ├── identify_logo                           
+|   │   └── logo_identification.py
+|   ├── model_finetuners                   # Model fine-tuning functionalities
+|   │   ├── __init__.py
+|   │   ├── flan_t5_finetuner.py
+|   │   ├── llm_fine_tuner.py
+|   │   └── t5_lora_finetuning.py
+|   ├── model_inference                    # Model inference functionalities
+|   │   ├── __init__.py
+|   │   ├── flan_t5_inference.py
+|   │   ├── llm_inference.py
+|   │   └── t5_inference.py
+|   ├── prompts                            # Storing prompts that generate good results
+|   │   └── __init__.py
+|   │   ├── prompts.py
+|   ├── scraper                            # Centralized scraper module 
+|   │   ├── __init__.py
+|   │   ├── facebook_scraper.py
+|   │   ├── instagram_scraper.py
+|   │   └── linkedin_scraper.py
+|   ├── scripts                            # 
+|   │   └── example.sh 
+|   └── utils                              # Unified utility module for any other utilities than model related tasks
+|       ├── __init__.py
+|       ├── color_themes.py
+|       ├── data_saver.py
+|       ├── download_from_drive.py
+|       ├── set_seed.py
+|       └── logger.py 
+├── T5_run.py 
+└── web_app
+    ├── assets
+    |   └── logo.png
+    ├── pages
+    ├── __init__.py
+    ├── app.py
+    ├── image_generation_inference.py
+    ├── pydantic_inputs.py
+    ├── pydantic_outputs.py
+    ├── social_media_content_generator.py
+    └── text_generation_inference.py
 ```
 
 ## 💻 Usage
@@ -168,8 +229,11 @@ Yet to be done
 ### API Usage
 
 ```bash
+# Go to the web folder
+cd web/
+
 # Start the API server
-uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
+uvicorn api.app:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ## 📊 Performance Metrics
@@ -177,36 +241,26 @@ uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
 | Metric | Target | Current |
 |--------|---------|---------|
 | Response Time | <30s | 25s |
-| Platform Support | 3+ | 4 |
-| Brand Adherence | 95% | 97% |
+| Platform Support | 3 | 3 |
 
 ## 📚 Documentation
 
 Comprehensive documentation is available in the `/docs` directory:
 
 - 📖 [System Architecture](docs/architecture.md)
-- 🔧 [API Reference](docs/api.md)
-- 👥 [User Guide](docs/user-guide.md)
-- ⚙️ [Installation Guide](docs/installation.md)
-- 🎓 [Fine-tuning Guide](docs/fine-tuning.md)
+- 👥 [User Guide](docs/user_guide.md)
 
 ## 🗺️ Future Roadmap
 
 ### Phase 1: Scalability
 - [ ] Multi-user support
-- [ ] Batch processing
 - [ ] Platform expansion
 
 ### Phase 2: Advanced Features
-- [ ] A/B testing system
 - [ ] Analytics dashboard
-- [ ] Automated scheduling
-- [ ] Content calendar
 
 ### Phase 3: Integrations
 - [ ] Direct social media posting
-- [ ] CRM integration
-- [ ] CMS integration
 
 
 ## 📄 License

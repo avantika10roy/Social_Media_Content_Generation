@@ -266,7 +266,7 @@ with st.container():
     
     with text_area_space:
         
-        st.write(st.session_state.generated_text, unsafe_allow_html = False)
+        st.text(st.session_state.generated_text)
         
     text_button_download, text_button_copy, text_button_regenerate, space = st.columns([1, 1, 1, 10])
     

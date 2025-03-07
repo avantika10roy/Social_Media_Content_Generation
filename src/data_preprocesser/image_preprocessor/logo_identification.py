@@ -5,7 +5,7 @@ import io
 import json
 from PIL import Image
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../")))
 from config.config import Config
 
 def upload_image(img_path, api_key):

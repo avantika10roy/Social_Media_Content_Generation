@@ -11,8 +11,8 @@ model = BlipModel.from_pretrained("Salesforce/blip-image-captioning-base").to(de
 caption_model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base").to(device)
 
 
-json_path = os.path.join(os.path.dirname(__file__), "../../data/raw_data/linkedin_raw_data.json")
-image_base_path = os.path.join(os.path.dirname(__file__), "../../data/raw_data/linkedin_raw_images")
+json_path = os.path.join(os.path.dirname(__file__), "../../../data/raw_data/linkedin_raw_data.json")
+image_base_path = os.path.join(os.path.dirname(__file__), "../../../data/raw_data/linkedin_raw_images")
 
 
 try:
@@ -103,7 +103,7 @@ for item in data:
             item["combined_features"].append(combined_features)
 
 # Saving
-output_json_path = os.path.join(os.path.dirname(__file__), "../../data/extracted_features_data/blip_output.json")
+output_json_path = os.path.join(os.path.dirname(__file__), "../../../data/extracted_features_data/blip_output.json")
 
 try:
     with open(output_json_path, "w") as f:
