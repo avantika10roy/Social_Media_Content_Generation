@@ -153,7 +153,7 @@ uvicorn api.app:app --reload --host 0.0.0.0 --port 8000
 
 | Metric | Target | Current |
 |--------|---------|---------|
-| Response Time | <30s | 25s |
+| Response Time | <30s | 60s |
 | Platform Support | 3 | 3 |
 
 ## 📚 Documentation
