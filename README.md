@@ -112,30 +112,21 @@ Social_Media_Content_Generation/
 |   ├── mixed_curated                      # Adds raw post content
 |   ├── preprocessed_data                  # Combines all preprocessed features in json format
 │   ├── raw_data                           # All raw Scraped data      
-|   └── logo.jpg
-├── data_processor.py                       
+|   └── logo.jpg       
 ├── docs                                   # A centralized folder for keeping all project related documents for future purpose
 ├── notebooks                              # Containing all jupyter notebooks for experimentation
 ├── requirements.txt                       # Required python dependencies
 ├── results
 |   ├── evaluation_results                 # Results of evaluation
 |   |   └── falcon3_1b_instruct_eval.json
-|   └── llm_results
-|   |   ├── fine_tuning_results_v1/checkpoint-115
-|   |   ├── flan_t5_base_fine_tuning_results_v1
-|   |   ├── pipeline_finetuning_v9
-|   |   └── __init__.py
-├── run.py                                 # 
+|   └── llm_results                        # Fine-tuned models here
 ├── scrape_raw_data.py                     # Run file for data collection by scraper module
 ├── setup.sh                               # Project environment setup 
 ├── src                                    # All source codes 
 |   ├── custom_dataset                     # Custom dataset for LLM
 |   ├── data_cleaner                       # Centralized module for data cleaning for whole project
-|   │   ├── README.md                      # Clean and preprocess scraped social media content
 |   ├── data_curator                       # Centralized module for data curation for whole project
-|   │   ├── README.md                      # Merge, refine, and structure cleaned social media data
 |   ├── data_preprocessor                  # Centralized module for data preprocessing for whole project
-|   │   ├── README.md                      # Transform, augment, and standardize both text and image data
 |   ├── feature_engineering                # Centralized module for feature engineering for whole project
 |   ├── identify_logo                      # Identifies the presence of logo in the images
 |   ├── model_finetuners                   # Model fine-tuning functionalities
