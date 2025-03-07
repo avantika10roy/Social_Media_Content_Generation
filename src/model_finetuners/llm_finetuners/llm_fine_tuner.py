@@ -178,4 +178,4 @@ if __name__ == "__main__":
     fine_tuning.setup(batch_size=2,
                       data_file_path=Config.MIXED_CURATED_DATA_PATH)
     fine_tuning.train()
-    ### Run ```python -m src.model_finetuners.llm_fine_tuner``` from Root Directory
+    ### Run ```python -m src.model_finetuners.llm_finetuners.llm_fine_tuner``` from Root Directory
