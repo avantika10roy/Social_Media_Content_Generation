@@ -86,11 +86,13 @@ class ImageGeneratorAPI:
             except Exception as e:
                 return {"error": str(e)}
     
-    def run(self, port=8000):
+    def run(self, port=8000, ngrok_domain="mature-usually-impala.ngrok-free.app", ngrok_token="2tqo0d1Td4cMJoyl7RchbBtX69P_3QzTn9LQBYq8VF1MrFnd4"):
         """Run the FastAPI server with ngrok."""
-        public_url = ngrok.connect(port).public_url
+        os.system(f"ngrok config add-authtoken {ngrok_token}")  # Add ngrok authentication token
+        public_url = ngrok.connect(port, domain=ngrok_domain).public_url
         print(f"🚀 API is live at: {public_url}")
         uvicorn.run(self.app, host="0.0.0.0", port=port)
+
 
 # Run the API
 if __name__ == "__main__":
