@@ -54,9 +54,9 @@ The AI-Powered Social Media Content Generation System is a cutting-edge solution
 - Streamlit
 
 ### AI Models
-- **Text Generation**: LLAMA-7B
+- **Text Generation**: FALCON3-1B-Instruct
 - **Caption Generation**: BLIP
-- **Image Generation**: Stable Diffusion XL (SDXL)
+- **Image Generation**: Kandinsky 2-2-Decoder-Inpaint
 
 ## 📋 Prerequisites
 
@@ -104,43 +104,19 @@ Social_Media_Content_Generation/
 ├── base_model_downoader.py                # Downloads SDXL Base Model
 ├── changelog.txt                          # Contains the description of the changes from the starting and done by whom
 ├── config                                 # Centralized Configuration module for the whole project
-│   ├── __init__.py
-│   └── config.py
 ├── credentials
-|   └── client_secret.json
 ├── data                                   # All type of data in each stage has been saved here
-│   ├── cleaned_data
-│   │   ├── facebook_cleaned_data.json     # Cleaned facebook data 
-│   │   ├── instagram_cleaned_data.json    # Cleaned instagram data
-│   │   └── linkedin_cleaned_data.json     # Cleaned linkedin data
-│   ├── curated_data                       
-│   │   └── final_data.json                # After merging data from all platforms, saved here in one unified place
-│   ├── extracted_features_data             
-│   │   ├── blip_output.json               # Extracted features using BLIP along with original features saved here
-|   |   └── clip_output.json               # Extracted features using CLIP along with original features saved here
-|   ├── logo_identification_result
-|   |   └── output_with_logo_info_and_uploads.json       # Adds logo position in image
-|   ├── mixed_curated
-|   |   └── mixed_curated.json             # Adds raw post content
-|   ├── preprocessed_data
-|   |   ├── preprocessed_data.json         # Combines all preprocessed features in json format
-|   |   └── preprocessed_data2.json
-│   ├── raw_data
-│   |   ├── facebook_raw_data.json         # Raw Scraped facebook data
-│   |   ├── instagram_raw_data.json        # Raw scraped instagram data
-│   |   └── linkedin_raw_data.json         # Raw scraped linkedin data
+│   ├── cleaned_data                       # All cleaned data in JSON format
+│   ├── curated_data                       # After merging data from all platforms, saved here in one unified place             
+│   ├── extracted_features_data            # Extracted features using BLIP and CLIP along with original features
+|   ├── logo_identification_result         # Adds logo position in image 
+|   ├── mixed_curated                      # Adds raw post content
+|   ├── preprocessed_data                  # Combines all preprocessed features in json format
+│   ├── raw_data                           # All raw Scraped data      
 |   └── logo.jpg
 ├── data_processor.py                       
 ├── docs                                   # A centralized folder for keeping all project related documents for future purpose
-│   ├── project_flowchart.png
-│   └── workflow.png
-├── logs                                   # Log files saved here for all the tasks
-├── llm_evaluation.py                      # Evaluate the performance of LLM
-├── llm_modular.py                         # Modular LLM finetuning code
-├── llm_run.py                             # LLM Inference
 ├── notebooks                              # Containing all jupyter notebooks for experimentation
-|   ├── FLAN-T5.ipynb
-│   └── LLM_Experiments.ipynb
 ├── requirements.txt                       # Required python dependencies
 ├── results
 |   ├── evaluation_results                 # Results of evaluation
@@ -155,79 +131,25 @@ Social_Media_Content_Generation/
 ├── setup.sh                               # Project environment setup 
 ├── src                                    # All source codes 
 |   ├── custom_dataset                     # Custom dataset for LLM
-|   │   └── llm_dataset.py
 |   ├── data_cleaner                       # Centralized module for data cleaning for whole project
 |   │   ├── README.md                      # Clean and preprocess scraped social media content
-|   │   ├── __init__.py 
-|   │   ├── image_cleaner.py
-|   │   └── text_cleaner.py
 |   ├── data_curator                       # Centralized module for data curation for whole project
 |   │   ├── README.md                      # Merge, refine, and structure cleaned social media data
-|   │   ├── __init__.py
-|   │   ├── data_curation.py
-|   │   └── mix_curator.py
 |   ├── data_preprocessor                  # Centralized module for data preprocessing for whole project
 |   │   ├── README.md                      # Transform, augment, and standardize both text and image data
-|   │   ├── __init__.py
-|   │   ├── image_augmentor.py
-|   │   ├── llm_finetune_data_preprocessor.py
-|   │   └── text_preprocessing.py
 |   ├── feature_engineering                # Centralized module for feature engineering for whole project
-|   │   ├── blip_feature_extraction.py
-|   │   └── clip_feature_extraction.py
-|   ├── frontend                           # Centralized module for frontend management
-|   │   └── __init__.py
-|   ├── identify_logo                           
-|   │   └── logo_identification.py
+|   ├── identify_logo                      # Identifies the presence of logo in the images
 |   ├── model_finetuners                   # Model fine-tuning functionalities
-|   │   ├── __init__.py
-|   │   ├── flan_t5_finetuner.py
-|   │   ├── llm_fine_tuner.py
-|   │   └── t5_lora_finetuning.py
 |   ├── model_inference                    # Model inference functionalities
-|   │   ├── __init__.py
-|   │   ├── flan_t5_inference.py
-|   │   ├── llm_inference.py
-|   │   └── t5_inference.py
 |   ├── prompts                            # Storing prompts that generate good results
-|   │   └── __init__.py
-|   │   ├── prompts.py
 |   ├── scraper                            # Centralized scraper module 
-|   │   ├── __init__.py
-|   │   ├── facebook_scraper.py
-|   │   ├── instagram_scraper.py
-|   │   └── linkedin_scraper.py
-|   ├── scripts                            # 
-|   │   └── example.sh 
 |   └── utils                              # Unified utility module for any other utilities than model related tasks
-|       ├── __init__.py
-|       ├── color_themes.py
-|       ├── data_saver.py
-|       ├── download_from_drive.py
-|       ├── set_seed.py
-|       └── logger.py 
-├── T5_run.py 
 └── web_app
     ├── assets
-    |   └── logo.png
-    ├── pages
-    ├── __init__.py
-    ├── app.py
-    ├── image_generation_inference.py
-    ├── pydantic_inputs.py
-    ├── pydantic_outputs.py
-    ├── social_media_content_generator.py
-    └── text_generation_inference.py
+    └── pages
 ```
 
-## 💻 Usage
-
-### Model Fine-tuning
-```bash 
-Yet to be done
-```
-
-### API Usage
+## 💻 API Usage
 
 ```bash
 # Start the API server
@@ -248,27 +170,20 @@ Comprehensive documentation is available in the `/docs` directory:
 
 - 📖 [System Architecture](docs/architecture.md)
 - 🔧 [API Reference](docs/api.md)
-- 👥 [User Guide](docs/user-guide.md)
-- ⚙️ [Installation Guide](docs/installation.md)
 - 🎓 [Fine-tuning Guide](docs/fine-tuning.md)
 
 ## 🗺️ Future Roadmap
 
 ### Phase 1: Scalability
 - [ ] Multi-user support
-- [ ] Batch processing
 - [ ] Platform expansion
 
 ### Phase 2: Advanced Features
-- [ ] A/B testing system
 - [ ] Analytics dashboard
 - [ ] Automated scheduling
-- [ ] Content calendar
 
 ### Phase 3: Integrations
 - [ ] Direct social media posting
-- [ ] CRM integration
-- [ ] CMS integration
 
 
 ## 📄 License
@@ -279,8 +194,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - AI-ML-2024 Internship Program Team
 - Open-source AI Model Providers:
-  - Meta
-  - Salesforce
+  - FALCON3 by Technology Innovation Institute(TII) (Abu Dhabi)
+  - Kandinsky by Accubits
 
 ---
 
