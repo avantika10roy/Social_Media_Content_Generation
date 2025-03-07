@@ -169,7 +169,7 @@ uvicorn api.app:app --reload --host 0.0.0.0 --port 8000
 
 Comprehensive documentation is available in the `/docs` directory:
 
-- 📖 [System Architecture](docs/architecture.md)
+- 📖 [System Architecture](docs/AI_Powered_Social_Media_Content_Generation_System.pdf)
 - 👥 [User Guide](docs/user_guide.md)
 
 ## 🗺️ Future Roadmap
