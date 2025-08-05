@@ -1,6 +1,3 @@
-    
-
-# -------- Done By Manu --------------
 def llm_prompt(platform:str, brief:str, company_name:str, target_audience:str="Followers", extra_details:str="", occasion:str=None, topic:str=None,tone:str="Formal", lang:str = 'English', word_lim:int = 250) -> str :
     HEADING = f"""
     ### Generate a high-quality, engaging and **platform-optimized** social media post for a company called "{company_name}" in a descriptive format.
