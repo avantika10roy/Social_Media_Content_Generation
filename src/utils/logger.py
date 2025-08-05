@@ -1,5 +1,3 @@
-## ----- DONE BY PRIYAM PAL -----
-
 # DEPENDENCIES
 
 import logging
@@ -83,3 +81,4 @@ class LoggerSetup:
         """
         
         logger.debug(message)
+
