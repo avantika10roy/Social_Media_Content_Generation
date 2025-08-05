@@ -1,6 +1,3 @@
-# ---------Done by Anjisnu Roy and Arnab Chatterjee-----------
-#-----------------Refactored by Avantika Roy------------------
-
 # DEPENDENCIES
 import os
 import sys
