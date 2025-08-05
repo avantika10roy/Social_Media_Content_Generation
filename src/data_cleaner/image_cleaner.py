@@ -1,5 +1,3 @@
-# -------- DONE BY JIT ---------
-
 # DEPENDENCIES
 import os
 import shutil
