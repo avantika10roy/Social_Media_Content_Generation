@@ -1,5 +1,3 @@
-## ----- DONE BY PRIYAM PAL -----
-
 import os
 from pathlib import Path
 
