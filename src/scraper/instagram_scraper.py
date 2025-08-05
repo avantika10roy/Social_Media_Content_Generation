@@ -1,6 +1,3 @@
-#-----------------Done by Jit Nandi and Soumik Sengupta-----------------
-#-----------------Refactored by Avantika Roy------------------
-
 # DEPENDENCIES
 import os
 import sys
