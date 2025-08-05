@@ -1,5 +1,3 @@
-# ---------- DONE BY SOUMIK ----------
-
 # DEPENDENCIES
 import os
 import re
