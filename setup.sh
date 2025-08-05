@@ -1,5 +1,3 @@
-## ----- DONE BY PRIYAM PAL -----
-
 #!/bin/bash
 
 # Exit on error
