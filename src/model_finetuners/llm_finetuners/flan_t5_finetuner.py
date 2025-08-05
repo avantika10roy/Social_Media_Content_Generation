@@ -1,5 +1,3 @@
-## ----- DONE BY PRIYAM PAL -----
-
 # DEPENDENCIES
 
 import torch
