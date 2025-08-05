@@ -1,5 +1,3 @@
-# -------- DONE BY ARNAB CHATERJEE AND SUBHAS MUKHERJEE -------
-
 # DEPENDENCIES
 
 import torch
