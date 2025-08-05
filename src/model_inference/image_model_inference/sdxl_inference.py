@@ -1,5 +1,3 @@
-## ----- DONE BY SUBHAS MUKHERJEE -----
-
 # Dependencies
 import re
 import os
