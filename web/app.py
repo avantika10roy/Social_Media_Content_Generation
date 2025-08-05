@@ -1,5 +1,3 @@
-## ----- DONE BY PRIYAM PAL -----
-
 import streamlit as st
 
 pg = st.navigation([
