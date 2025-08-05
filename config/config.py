@@ -16,13 +16,13 @@ class Config:
     CLIENT_SECRET_CREDENTIALS             = "./credentials/client_secret.json"
     
     # LINKEDIN CONFIGURATIONS
-    LINKEDIN_USERNAME                     = "jit@itobuz.com"
-    LINKEDIN_PASSWORD                     = "Abcd@1234"
-    LINKEDIN_PROFILE_URL                  = "https://www.linkedin.com/company/itobuz-technologies-pvt-ltd/posts/?feedView=all"
+    LINKEDIN_USERNAME                     = "username@xxx.com"
+    LINKEDIN_PASSWORD                     = "xxxxxxx"
+    LINKEDIN_PROFILE_URL                  = "https://www.linkedin.com/company/xxxx"
     LINKEDIN_LOGIN_PAGE_LINK              = "https://www.linkedin.com/login"
     LINKEDIN_RAW_POST_DATA_PATH           = './data/raw_data/linkedin_raw_data.json'
     LINKEDIN_RAW_IMAGE_DATA_PATH          = './data/raw_data/linkedin_raw_images'
-    LINKEDIN_RAW_IMAGE_DATA_LINK          = 'https://drive.google.com/drive/folders/1-PwFzDBfRFHWtadLEXubp-Kl2h8UquqG?usp=sharing'
+    LINKEDIN_RAW_IMAGE_DATA_LINK          = 'https://drive.google.com/drive/folders/xxxx'
     LINKEDIN_CLEANED_POST_DATA_PATH       = './data/cleaned_data/linkedin_cleaned_data.json'
     LINKEDIN_CLEANED_IMAGE_DATA_PATH      = './data/cleaned_data/linkedin_cleaned_images'
     LINKEDIN_PREPROCESSED_IMAGE_DATA_PATH = './data/preprocessed_data/linkedin_preprocessed_images'
@@ -32,16 +32,16 @@ class Config:
     INSTAGRAM_USERNAME                    = "itobuztechnologies"
     INSTAGRAM_RAW_POST_DATA_PATH          = "./data/raw_data/instagram_raw_data.json"
     INSTAGRAM_RAW_IMAGE_DATA_PATH         = "./data/raw_data/instagram_raw_images"
-    INSTAGRAM_RAW_IMAGE_DATA_LINK         = "https://drive.google.com/drive/folders/1yt3LRxXKjp_U8U5sB5FFEAqLcFVhsElo?usp=sharing"
+    INSTAGRAM_RAW_IMAGE_DATA_LINK         = "https://drive.google.com/drive/folders/xxxx"
     INSTAGRAM_CLEANED_POST_DATA_PATH      = './data/cleaned_data/instagram_cleaned_data.json'
     INSTAGRAM_CLEANED_IMAGE_DATA_PATH     = './data/cleaned_data/instagram_cleaned_images'
     
     # FACEBOOK CONFIGURATIONS
-    FACEBOOK_API                          = 'apify_api_yZXdrMa7P6SXvEKcdOpLwen6xmtQzX3Dr7t1'
+    FACEBOOK_API                          = 'apify_api_'
     FACEBOOK_USERNAME                     = "/itobuz"
     FACEBOOK_RAW_POST_DATA_PATH           = "./data/raw_data/facebook_raw_data.json"
     FACEBOOK_RAW_IMAGE_DATA_PATH          = "./data/raw_data/facebook_raw_images"
-    FACEBOOK_RAW_IMAGE_DATA_LINK          = "https://drive.google.com/drive/folders/19PqGEF74OJWERR1B9k4Oc6-hXzuhJZ4Y?usp=sharing"
+    FACEBOOK_RAW_IMAGE_DATA_LINK          = "https://drive.google.com/drive/folders/xxxx"
     FACEBOOK_CLEANED_POST_DATA_PATH       = './data/cleaned_data/facebook_cleaned_data.json' 
     FACEBOOK_CLEANED_IMAGE_DATA_PATH      = './data/cleaned_data/facebook_cleaned_images'
     
@@ -76,8 +76,8 @@ class Config:
     LOGO_INFO_OUTPUT_PATH                 = './data/logo_identification_result/output_with_logo_info_and_uploads.json'
     
     # FAST-API
-    TEXT_GENERATION_API                   = "http://192.168.68.148:8000/generate_text"
-    IMAGE_GENERATION_API                  = "https://mature-usually-impala.ngrok-free.app/generate"
+    TEXT_GENERATION_API                   = "http://192.168.68.148:8000/xxx"
+    IMAGE_GENERATION_API                  = "https://mature-usually-impala.ngrok-freexx"
     
     # RESPONSES PATH
     LLM_RESPONSE_JSON_FILE_PATH           = ".data/llm_response.json"
