@@ -1,6 +1,3 @@
-# ------- Done By manu Bhaskar ---------
-
-
 # ----- Dependencies -------
 import json
 import torch
