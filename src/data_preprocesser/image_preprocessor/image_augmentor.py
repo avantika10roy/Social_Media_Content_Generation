@@ -1,5 +1,3 @@
-# ________ DONE BY JIT________
-
 # DEPENDENCIES
 import os
 import cv2
@@ -210,7 +208,7 @@ class PreProcessor:
             preprocessor_log.error(f"Error determining layout for {image_path}: {repr(e)}")
             return "unknown"
     
-    def get_layout(self, df: pd.DataFrame) -> pd.DataFrame: # DONE BY AVANTIKA
+    def get_layout(self, df: pd.DataFrame) -> pd.DataFrame:
        ''' Extracts layout of the image.'''
        preprocessor_log.info("Determining Layout.")
        df['image_layout'] =  df['image_path'].apply(self.determine_layout)
